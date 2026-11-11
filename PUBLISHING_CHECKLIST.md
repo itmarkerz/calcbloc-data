@@ -31,7 +31,7 @@ Accounts used: the GitHub organization `itmarkerz` (repositories `calcbloc-data`
 3. On GitHub, create a release: tag `v<version>` (the `version` in `.zenodo.json`, e.g. `v2026.11.11`), title "CalcBloc Tax Tables <version>", body from the README "At a glance" line.
 4. Wait a few minutes; the release appears on the Zenodo GitHub page with a DOI. Copy the **concept DOI** (the one that "represents all versions", e.g. `10.5281/zenodo.1234567`).
 5. Put it in `package.json` → `calcblocData.doi`, run `npm run build && npm test`, and commit: the README gains the DOI badge and citation, CITATION.cff gains the `doi` field.
-6. Optional: on the Zenodo record, add the owner as an additional creator (with ORCID) if the dataset should credit a person as well as CalcBloc; to make it permanent, add that creator to `zenodoJson()` in `scripts/lib/docs.mjs`.
+6. Optional: on the Zenodo record, add the owner as an additional creator (with ORCID) if the dataset should credit a person as well as itmarkerz technologies; to make it permanent, add that creator to `zenodoJson()` in `scripts/lib/docs.mjs`.
 
 **Verify:** the Zenodo record shows resource type **Dataset**, licence **Creative Commons Attribution 4.0 International**, the title and description from `.zenodo.json` (Zenodo uses `.zenodo.json` in preference to CITATION.cff), version, keywords and related identifiers; https://doi.org/<DOI> resolves; the DOI badge in the README links to the record. Later releases must create new versions under the same concept DOI.
 

@@ -139,25 +139,25 @@ A new tax year or a corrected figure is therefore one change: sync, build, test,
 
 ## Licence and credit
 
-The data is licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/): you may copy, share and adapt it, including commercially, as long as you give credit. Please credit it as:
+The data is © 2026 itmarkerz technologies and licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/): you may copy, share and adapt it, including commercially, as long as you give credit. Please credit it as:
 
 > Data by CalcBloc (calcbloc.com/data)
 
-with a link to [calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-data&utm_medium=readme&utm_campaign=itmarkerz-oss) or to the country page in the `page_url` column. The full licence text is in [LICENSE](LICENSE). The code in `scripts/` and `test/` is released under the [MIT licence](LICENSE-CODE).
+with a link to [calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-data&utm_medium=readme&utm_campaign=itmarkerz-oss) or to the country page in the `page_url` column. The full licence text is in [LICENSE](LICENSE). The code in `scripts/` and `test/` is © 2026 itmarkerz technologies, released under the [MIT licence](LICENSE-CODE).
 
 The tax rates and thresholds themselves are set by the governments listed in `source_url`; the licence covers CalcBloc's compilation, structure and notes. The tables are reference data, not tax advice: check the official source before relying on a figure for a filing or payroll run.
 
 ## Citation
 
-CalcBloc (2026). *CalcBloc Tax Tables: 2026 income tax and social security data for 29 countries* (Version 2026.11.11) [Data set]. https://github.com/itmarkerz/calcbloc-data
+itmarkerz technologies (2026). *CalcBloc Tax Tables: 2026 income tax and social security data for 29 countries* (Version 2026.11.11) [Data set]. https://github.com/itmarkerz/calcbloc-data
 
 ```bibtex
 @misc{calcbloc_tax_tables_2026_11_11,
-  author    = {{CalcBloc}},
+  author    = {{itmarkerz technologies}},
   title     = {CalcBloc Tax Tables: 2026 income tax and social security data for 29 countries},
   year      = {2026},
   version   = {2026.11.11},
-  publisher = {GitHub},
+  publisher = {itmarkerz technologies},
   url       = {https://github.com/itmarkerz/calcbloc-data},
   note      = {Data by CalcBloc (calcbloc.com/data). Licensed under CC BY 4.0.}
 }

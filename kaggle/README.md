@@ -77,7 +77,7 @@ Belgium is not included yet: held until the 2026 federal income-tax scale is con
 
 ## Licence and credit
 
-Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit **"Data by CalcBloc (calcbloc.com/data)"** with a link to [https://calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss). The figures are reference data, not tax advice; check the official source before relying on them.
+© 2026 itmarkerz technologies, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit **"Data by CalcBloc (calcbloc.com/data)"** with a link to [https://calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss). The figures are reference data, not tax advice; check the official source before relying on them.
 
 The same tables are available from the free CalcBloc API: [https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)
 

@@ -86,7 +86,7 @@ export function generate(root = ROOT) {
     homepage: `${SITE}/data`,
     keywords: KEYWORDS,
     licenses: [{ name: LICENCE.id, path: LICENCE.url, title: LICENCE.title }],
-    contributors: [{ title: "CalcBloc", path: SITE, email: "hello@calcbloc.com", role: "author" }],
+    contributors: [{ title: "itmarkerz technologies", path: "https://itmarkerz.co.in", email: "hello@calcbloc.com", role: "author" }],
     sources: [
       { title: "CalcBloc tax tables (compiled from official government sources; see source_url on each row)", path: `${SITE}/data` },
       { title: "CalcBloc API", path: `${SITE}/developers` },

@@ -215,6 +215,12 @@ test("generated documents state the manifest's figures", () => {
   assert.equal(zen.license, "cc-by-4.0");
   assert.ok(zen.title.includes(`${n} countries`));
   assert.match(read("CITATION.cff"), /^cff-version: 1\.2\.0$/m);
+  // itmarkerz technologies is the copyright holder and author; the credit line stays "Data by CalcBloc".
+  assert.deepEqual(zen.creators, [{ name: "itmarkerz technologies" }]);
+  assert.match(read("CITATION.cff"), /^authors:\n {2}- name: "itmarkerz technologies"$/m);
+  assert.match(read("LICENSE"), /^Copyright \(c\) \d{4} itmarkerz technologies\./);
+  assert.match(read("LICENSE-CODE"), /^Copyright \(c\) \d{4} itmarkerz technologies$/m);
+  assert.ok(zen.notes.includes("Data by CalcBloc (calcbloc.com/data)"));
   const row = read("listings/public-apis.md").match(/^\| \[CalcBloc\]\([^)]+\) \| ([^|]+) \|/m);
   assert.ok(row, "public-apis row present");
   assert.ok(row[1].trim().length <= 100, "public-apis description is at most 100 characters");

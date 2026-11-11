@@ -10,7 +10,10 @@ const fmt = (n) => n.toLocaleString("en-US");
 const byName = (a, b) => a.name.localeCompare(b.name, "en");
 const mdCell = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 
-/** The company that builds and maintains CalcBloc (publisher credit only; licence and copyright stay with CalcBloc). */
+/**
+ * The company that builds and maintains CalcBloc: copyright holder, licensor and author of the dataset and code.
+ * CalcBloc stays the product name, and the required credit line stays CREDIT ("Data by CalcBloc ...").
+ */
 const PUBLISHER = { name: "itmarkerz technologies", url: "https://itmarkerz.co.in", github: "https://github.com/itmarkerz" };
 const PUBLISHER_DESCRIPTION = "a web and mobile app development company in Kerala, India";
 
@@ -110,17 +113,17 @@ const COVERAGE_HEAD = "| Country | Tax year(s) | Currency | Regions | Rows (curr
 
 function citationText(ctx) {
   const doi = ctx.doi ? ` https://doi.org/${ctx.doi}` : ` ${ctx.ghUrl}`;
-  return `CalcBloc (${ctx.generatedAt.slice(0, 4)}). *${ctx.title}* (Version ${ctx.version}) [Data set].${doi}`;
+  return `${PUBLISHER.name} (${ctx.generatedAt.slice(0, 4)}). *${ctx.title}* (Version ${ctx.version}) [Data set].${doi}`;
 }
 
 function bibtex(ctx) {
   return [
     `@misc{calcbloc_tax_tables_${ctx.version.replace(/\./g, "_")},`,
-    `  author    = {{CalcBloc}},`,
+    `  author    = {{${PUBLISHER.name}}},`,
     `  title     = {${ctx.title}},`,
     `  year      = {${ctx.generatedAt.slice(0, 4)}},`,
     `  version   = {${ctx.version}},`,
-    `  publisher = {${ctx.doi ? "Zenodo" : "GitHub"}},`,
+    `  publisher = {${ctx.doi ? "Zenodo" : PUBLISHER.name}},`,
     ctx.doi ? `  doi       = {${ctx.doi}},` : null,
     `  url       = {${ctx.doi ? `https://doi.org/${ctx.doi}` : ctx.ghUrl}},`,
     `  note      = {${CREDIT}. Licensed under ${LICENCE.name}.}`,
@@ -251,11 +254,11 @@ A new tax year or a corrected figure is therefore one change: sync, build, test,
 
 ## Licence and credit
 
-The data is licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](${LICENCE.url}): you may copy, share and adapt it, including commercially, as long as you give credit. Please credit it as:
+The data is © ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name} and licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](${LICENCE.url}): you may copy, share and adapt it, including commercially, as long as you give credit. Please credit it as:
 
 > ${CREDIT}
 
-with a link to [calcbloc.com/data](${rd("/data")}) or to the country page in the \`page_url\` column. The full licence text is in [LICENSE](LICENSE). The code in \`scripts/\` and \`test/\` is released under the [MIT licence](LICENSE-CODE).
+with a link to [calcbloc.com/data](${rd("/data")}) or to the country page in the \`page_url\` column. The full licence text is in [LICENSE](LICENSE). The code in \`scripts/\` and \`test/\` is © ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}, released under the [MIT licence](LICENSE-CODE).
 
 The tax rates and thresholds themselves are set by the governments listed in \`source_url\`; the licence covers CalcBloc's compilation, structure and notes. The tables are reference data, not tax advice: check the official source before relying on a figure for a filing or payroll run.
 
@@ -408,8 +411,8 @@ type: dataset
 title: ${q(ctx.title)}
 abstract: ${q(`Income tax brackets, allowances and social security contribution rates for ${ctx.countries} countries (${ctx.tables} national and regional tables, ${ctx.rows} rows) for the ${ctx.yearList} tax years, compiled from official government sources. Every row carries its official source URL, retrieval date and review status.`)}
 authors:
-  - name: "CalcBloc"
-    website: "${SITE}"
+  - name: "${PUBLISHER.name}"
+    website: "${PUBLISHER.url}"
     email: "hello@calcbloc.com"
 version: ${q(ctx.version)}
 date-released: ${q(ctx.generatedAt)}
@@ -428,7 +431,7 @@ function zenodoParagraphs(ctx, link) {
     `This version contains ${fmt(ctx.tables)} tables (${fmt(ctx.nationalTables)} national, ${fmt(ctx.regionalTables)} regional) with ${fmt(ctx.rows)} rows drawn from ${fmt(ctx.sources)} official sources; the latest figure was verified on ${ctx.lastVerified}. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.`,
     `Countries: ${listJoin(ctx.countryNames)}.${ctx.pending.length ? ` Pending (not included until complete): ${listJoin(ctx.pending.map((p) => p.name))}.` : ""}`,
     `Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).`,
-    `Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${link(utm(`${SITE}/developers`, "listing"), `${SITE}/developers`)}). The tables are reference data, not tax advice.`,
+    `© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}. Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${link(utm(`${SITE}/developers`, "listing"), `${SITE}/developers`)}). The tables are reference data, not tax advice.`,
     `CalcBloc is built and maintained by ${PUBLISHER.name} (${link(utm(PUBLISHER.url, "listing"), PUBLISHER.url)}), ${PUBLISHER_DESCRIPTION}.`,
   ];
 }
@@ -444,7 +447,7 @@ export function zenodoJson(ctx) {
     description: zenodoParagraphs(ctx, link)
       .map((p) => `<p>${esc(p).replace(/\u0000(\d+)\u0000/g, (_, i) => links[Number(i)])}</p>`)
       .join(""),
-    creators: [{ name: "CalcBloc" }],
+    creators: [{ name: PUBLISHER.name }],
     license: "cc-by-4.0",
     access_right: "open",
     version: ctx.version,
@@ -468,7 +471,7 @@ export function zenodoReadme(ctx) {
 The Zenodo GitHub integration reads [\`.zenodo.json\`](../.zenodo.json) when a GitHub release is published; its \`description\` is the HTML version of the text below. Use this file to review the wording, or paste it if the record is created by hand.
 
 **Title:** ${ctx.title}
-**Upload type:** Dataset · **Licence:** Creative Commons Attribution 4.0 International · **Version:** ${ctx.version} · **Creator:** CalcBloc
+**Upload type:** Dataset · **Licence:** Creative Commons Attribution 4.0 International · **Version:** ${ctx.version} · **Creator:** ${PUBLISHER.name}
 
 ## Description
 
@@ -556,7 +559,7 @@ ${STATUS_VALUES.map(([v, d]) => `- \`${v}\`: ${d}`).join("\n")}
 
 ## Licence and credit
 
-Licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a link to [${SITE}/data](${utm(`${SITE}/data`, "listing")}). The figures are reference data, not tax advice; check the official source before relying on them.
+© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}, licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a link to [${SITE}/data](${utm(`${SITE}/data`, "listing")}). The figures are reference data, not tax advice; check the official source before relying on them.
 
 The same tables are available from the free CalcBloc API: [${SITE}/developers](${utm(`${SITE}/developers`, "listing")})
 

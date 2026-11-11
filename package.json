@@ -4,6 +4,7 @@
   "private": true,
   "description": "CalcBloc tax tables: income tax brackets and social security contribution rates from official sources, as CSV and JSON (CC BY 4.0).",
   "homepage": "https://calcbloc.com/data",
+  "author": "itmarkerz technologies (https://itmarkerz.co.in)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itmarkerz/calcbloc-data.git"
