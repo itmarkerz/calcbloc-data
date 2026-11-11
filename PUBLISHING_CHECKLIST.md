@@ -84,7 +84,9 @@ The name `calcbloc` was free on PyPI on 2026-11-11. Trusted publishing (no long-
 6. Token alternative (if not using trusted publishing): `python -m build`, `python -m twine check dist/*`, `python -m twine upload dist/*` with username `__token__` and an API token; after the first upload replace an account-wide token with a project-scoped one.
 7. Then set `calcblocData.packages.python.published` to `true` in this repository's `package.json`, `npm run build`, commit (the README switches from "coming soon" to the install command).
 
-**Verify:** https://pypi.org/project/calcbloc/ shows the README, version, licence metadata (code MIT, bundled data CC BY 4.0), project URLs; in a fresh virtual environment `pip install calcbloc` works and the package imports and reports the expected version and data date.
+The PyPI long description is generated at build time by `hatch_build.py` (a hatchling metadata hook) from README.md, with the README's calcbloc.com and itmarkerz.co.in links retagged `utm_medium=pypi` (GitHub keeps `utm_medium=readme`). Nothing to run by hand: `python -m build` applies it; check `PKG-INFO` in the sdist if in doubt.
+
+**Verify:** https://pypi.org/project/calcbloc/ shows the README (its calcbloc.com links carry `utm_medium=pypi`), version, licence metadata (code MIT, bundled data CC BY 4.0), project URLs; in a fresh virtual environment `pip install calcbloc` works and the package imports and reports the expected version and data date.
 
 ## 7. npm: `calcbloc` (repository `itmarkerz/calcbloc-js`)
 
@@ -92,12 +94,12 @@ The name `calcbloc` was free on npm on 2026-11-11.
 
 1. npm account; enable 2FA for authorisation and writes: `npm profile enable-2fa auth-and-writes` (or on npmjs.com → Account → Two-Factor Authentication).
 2. `npm login`, then `npm whoami` shows the account.
-3. In the package repository: `npm view calcbloc` (expect a 404 before the first publish), run its tests, `npm pack --dry-run` and read the file list (only the built files, data, README, LICENSE).
+3. In the package repository: `npm view calcbloc` (expect a 404 before the first publish), run its tests, `npm pack --dry-run` and read the file list (only the built files, data, README, LICENSE). `prepack` swaps in the npm README (links retagged `utm_medium=npm` by `scripts/npm-readme.mjs`) and `postpack` restores the GitHub README; after a pack, `git status` in that repository must be clean.
 4. First publish: `npm publish --access public` and enter the one-time password when asked. Unscoped packages are public anyway; the flag is harmless.
 5. Optional, after the first publish: npmjs.com → package → Settings → **Trusted Publisher** → GitHub Actions (organization `itmarkerz`, repository `calcbloc-js`, workflow file), so later releases publish from CI with provenance and no token; then disallow token publishing in the package settings.
 6. Then set `calcblocData.packages.node.published` to `true` in this repository's `package.json`, `npm run build`, commit.
 
-**Verify:** https://www.npmjs.com/package/calcbloc shows the README, version, licence and repository link; in an empty folder `npm install calcbloc` works and both `import` (ESM) and, if offered, `require` (CJS) load it, with TypeScript types resolved.
+**Verify:** https://www.npmjs.com/package/calcbloc shows the README (its calcbloc.com links carry `utm_medium=npm`), version, licence and repository link; in an empty folder `npm install calcbloc` works and both `import` (ESM) and, if offered, `require` (CJS) load it, with TypeScript types resolved.
 
 ## 8. Packagist: `calcbloc/calcbloc` (repository `itmarkerz/calcbloc-php`)
 
@@ -107,8 +109,9 @@ The package name `calcbloc/calcbloc` was free on Packagist on 2026-11-11; the ve
 2. Tag a release in `itmarkerz/calcbloc-php` (for example `v1.0.0`) and push the tag.
 3. Sign in at https://packagist.org (with GitHub, using an account that can see the `itmarkerz` organization), choose **Submit**, enter `https://github.com/itmarkerz/calcbloc-php` and confirm.
 4. Automatic updates: with GitHub sign-in, Packagist offers to set up the GitHub hook itself (the Packagist GitHub app or OAuth app needs access to the `itmarkerz` organization). Otherwise add a webhook in the repository settings: payload URL `https://packagist.org/api/github?username=<packagist-user>`, content type `application/json`, secret = your Packagist API token (Profile → Show API Token), event "Just the push event".
-5. Optional: add a second maintainer on the Packagist package page so the package does not depend on one account.
-6. Then set `calcblocData.packages.php.published` to `true` in this repository's `package.json`, `npm run build`, commit.
+5. Packagist renders the README straight from the GitHub repository, so its links keep `utm_medium=readme` (no separate Packagist variant is possible); `homepage` and `support.docs` in composer.json carry `utm_medium=package`.
+6. Optional: add a second maintainer on the Packagist package page so the package does not depend on one account.
+7. Then set `calcblocData.packages.php.published` to `true` in this repository's `package.json`, `npm run build`, commit.
 
 **Verify:** https://packagist.org/packages/calcbloc/calcbloc lists the tagged version and no "not auto-updated" warning; pushing a new tag shows up within minutes; in an empty folder `composer require calcbloc/calcbloc` installs it and a short script using the autoloader loads a table.
 
