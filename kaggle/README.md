@@ -82,3 +82,7 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please
 The same tables are available from the free CalcBloc API: https://calcbloc.com/developers
 
 Version 2026.11.11. Updated from the calcbloc.com code base with every data update; see https://github.com/itmarkerz/calcbloc-data for the change history.
+
+## About
+
+[CalcBloc](https://calcbloc.com) is built and maintained by [itmarkerz technologies](https://itmarkerz.co.in), a web and mobile app development company in Kerala, India.

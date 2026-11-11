@@ -10,6 +10,10 @@ const fmt = (n) => n.toLocaleString("en-US");
 const byName = (a, b) => a.name.localeCompare(b.name, "en");
 const mdCell = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 
+/** The company that builds and maintains CalcBloc (publisher credit only; licence and copyright stay with CalcBloc). */
+const PUBLISHER = { name: "itmarkerz technologies", url: "https://itmarkerz.co.in", github: "https://github.com/itmarkerz" };
+const PUBLISHER_DESCRIPTION = "a web and mobile app development company in Kerala, India";
+
 /** Shared context: totals, links and phrases used by several documents. */
 export function context(loaded, stats, config) {
   const repo = config.githubRepo;
@@ -134,6 +138,8 @@ Free, machine-readable **income tax tables** and **social security contribution 
 
 Every row states its official source URL, the date it was retrieved and a review status, so each figure can be traced back to the government page it came from. The data is the same that powers the tax-table pages and calculators on [calcbloc.com](${SITE}) and the [CalcBloc API](${SITE}/developers).
 
+CalcBloc is a product of [${PUBLISHER.name}](${PUBLISHER.url}).
+
 **At a glance:** ${fmt(ctx.countries)} countries · ${fmt(ctx.tables)} tables (${fmt(ctx.nationalTables)} national, ${fmt(ctx.regionalTables)} regional) · ${fmt(ctx.rows)} rows · ${fmt(ctx.sources)} official sources · last verified ${ctx.lastVerified} · CSV and JSON · ${LICENCE.name}
 
 ## What the tables contain
@@ -252,6 +258,10 @@ Citation metadata is also in [CITATION.cff](CITATION.cff); GitHub shows it under
 - API documentation: [calcbloc.com/developers](${SITE}/developers)
 - OpenAPI description: [calcbloc.com/api/openapi.json](${SITE}/api/openapi.json)
 - Questions and corrections: open an issue in this repository or write to hello@calcbloc.com
+
+## About
+
+[CalcBloc](${SITE}) is built and maintained by [${PUBLISHER.name}](${PUBLISHER.url}), ${PUBLISHER_DESCRIPTION}. The tables behind this dataset are documented at [calcbloc.com/data](${SITE}/data), and the API at [calcbloc.com/developers](${SITE}/developers). The CalcBloc packages for Python, JavaScript, PHP, R and Google Sheets, and the CalcBloc MCP server, are in the [itmarkerz GitHub organization](${PUBLISHER.github}).
 `;
 }
 
@@ -401,6 +411,7 @@ function zenodoParagraphs(ctx) {
     `Countries: ${listJoin(ctx.countryNames)}.${ctx.pending.length ? ` Pending (not included until complete): ${listJoin(ctx.pending.map((p) => p.name))}.` : ""}`,
     `Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).`,
     `Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${SITE}/developers). The tables are reference data, not tax advice.`,
+    `CalcBloc is built and maintained by ${PUBLISHER.name} (${PUBLISHER.url}), ${PUBLISHER_DESCRIPTION}.`,
   ];
 }
 
@@ -419,7 +430,7 @@ export function zenodoJson(ctx) {
     version: ctx.version,
     language: "eng",
     keywords: KEYWORDS,
-    notes: `Please credit: ${CREDIT}. Generated from ${ctx.ghUrl} (tables/manifest.json, ${ctx.generatedAt}).`,
+    notes: `Please credit: ${CREDIT}. CalcBloc is a product of ${PUBLISHER.name} (${PUBLISHER.url}). Generated from ${ctx.ghUrl} (tables/manifest.json, ${ctx.generatedAt}).`,
     related_identifiers: [
       { identifier: `${SITE}/data`, relation: "isDocumentedBy", resource_type: "other" },
       { identifier: `${SITE}/developers`, relation: "isDocumentedBy", resource_type: "other" },
@@ -530,6 +541,10 @@ Licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a
 The same tables are available from the free CalcBloc API: ${SITE}/developers
 
 Version ${ctx.version}. Updated from the calcbloc.com code base with every data update; see ${ctx.ghUrl} for the change history.
+
+## About
+
+[CalcBloc](${SITE}) is built and maintained by [${PUBLISHER.name}](${PUBLISHER.url}), ${PUBLISHER_DESCRIPTION}.
 `;
 }
 

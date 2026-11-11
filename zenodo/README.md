@@ -19,6 +19,8 @@ Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON fil
 
 Licence: CC BY 4.0. Credit: "Data by CalcBloc (calcbloc.com/data)". The same tables are served by the CalcBloc API (https://calcbloc.com/developers). The tables are reference data, not tax advice.
 
+CalcBloc is built and maintained by itmarkerz technologies (https://itmarkerz.co.in), a web and mobile app development company in Kerala, India.
+
 ## Keywords
 
 income tax, tax brackets, tax tables, tax rates, social security contributions, payroll tax, employer contributions, personal allowance, public finance, open data

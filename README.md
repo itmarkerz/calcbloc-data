@@ -8,6 +8,8 @@ Free, machine-readable **income tax tables** and **social security contribution 
 
 Every row states its official source URL, the date it was retrieved and a review status, so each figure can be traced back to the government page it came from. The data is the same that powers the tax-table pages and calculators on [calcbloc.com](https://calcbloc.com) and the [CalcBloc API](https://calcbloc.com/developers).
 
+CalcBloc is a product of [itmarkerz technologies](https://itmarkerz.co.in).
+
 **At a glance:** 29 countries · 213 tables (30 national, 183 regional) · 7,329 rows · 728 official sources · last verified 2026-11-11 · CSV and JSON · CC BY 4.0
 
 ## What the tables contain
@@ -169,3 +171,7 @@ Citation metadata is also in [CITATION.cff](CITATION.cff); GitHub shows it under
 - API documentation: [calcbloc.com/developers](https://calcbloc.com/developers)
 - OpenAPI description: [calcbloc.com/api/openapi.json](https://calcbloc.com/api/openapi.json)
 - Questions and corrections: open an issue in this repository or write to hello@calcbloc.com
+
+## About
+
+[CalcBloc](https://calcbloc.com) is built and maintained by [itmarkerz technologies](https://itmarkerz.co.in), a web and mobile app development company in Kerala, India. The tables behind this dataset are documented at [calcbloc.com/data](https://calcbloc.com/data), and the API at [calcbloc.com/developers](https://calcbloc.com/developers). The CalcBloc packages for Python, JavaScript, PHP, R and Google Sheets, and the CalcBloc MCP server, are in the [itmarkerz GitHub organization](https://github.com/itmarkerz).
