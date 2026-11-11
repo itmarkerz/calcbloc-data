@@ -17,9 +17,9 @@ Countries: Australia, Austria, Canada, Czechia, Denmark, Finland, France, German
 
 Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).
 
-Licence: CC BY 4.0. Credit: "Data by CalcBloc (calcbloc.com/data)". The same tables are served by the CalcBloc API (https://calcbloc.com/developers). The tables are reference data, not tax advice.
+Licence: CC BY 4.0. Credit: "Data by CalcBloc (calcbloc.com/data)". The same tables are served by the CalcBloc API ([https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)). The tables are reference data, not tax advice.
 
-CalcBloc is built and maintained by itmarkerz technologies (https://itmarkerz.co.in), a web and mobile app development company in Kerala, India.
+CalcBloc is built and maintained by itmarkerz technologies ([https://itmarkerz.co.in](https://itmarkerz.co.in/?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)), a web and mobile app development company in Kerala, India.
 
 ## Keywords
 

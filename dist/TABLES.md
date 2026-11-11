@@ -4,11 +4,11 @@ Version 2026.11.11 · 213 tables · 7,329 rows. One entry per table file in this
 
 ## Australia
 
-Currency AUD · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/australia/tax-tables)
+Currency AUD · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/australia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026-27 | 88 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/australia/tax-tables/2026-27) | [CSV](csv/australia/2026-27.csv) · [JSON](json/australia/2026-27.json) |
+| National | 2026-27 | 88 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/australia/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/australia/2026-27.csv) · [JSON](json/australia/2026-27.json) |
 
 **Official sources (23):**
 
@@ -38,11 +38,11 @@ Currency AUD · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 
 ## Austria
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/austria/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/austria/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 95 | 0 | verified | 2026-11-10 | [page](https://calcbloc.com/austria/tax-tables/2026) | [CSV](csv/austria/2026.csv) · [JSON](json/austria/2026.json) |
+| National | 2026 | 95 | 0 | verified | 2026-11-10 | [page](https://calcbloc.com/austria/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/austria/2026.csv) · [JSON](json/austria/2026.json) |
 
 **Official sources (17):**
 
@@ -66,24 +66,24 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Canada
 
-Currency CAD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/canada/tax-tables)
+Currency CAD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/canada/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 95 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/canada/tax-tables/2026) | [CSV](csv/canada/2026.csv) · [JSON](json/canada/2026.json) |
-| Ontario | 2026 | 38 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/ontario) | [CSV](csv/canada/2026/on.csv) · [JSON](json/canada/2026/on.json) |
-| Quebec | 2026 | 20 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/quebec) | [CSV](csv/canada/2026/qc.csv) · [JSON](json/canada/2026/qc.json) |
-| British Columbia | 2026 | 20 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/british-columbia) | [CSV](csv/canada/2026/bc.csv) · [JSON](json/canada/2026/bc.json) |
-| Alberta | 2026 | 11 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/alberta) | [CSV](csv/canada/2026/ab.csv) · [JSON](json/canada/2026/ab.json) |
-| Manitoba | 2026 | 14 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/manitoba) | [CSV](csv/canada/2026/mb.csv) · [JSON](json/canada/2026/mb.json) |
-| New Brunswick | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/new-brunswick) | [CSV](csv/canada/2026/nb.csv) · [JSON](json/canada/2026/nb.json) |
-| Newfoundland and Labrador | 2026 | 13 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/newfoundland-and-labrador) | [CSV](csv/canada/2026/nl.csv) · [JSON](json/canada/2026/nl.json) |
-| Nova Scotia | 2026 | 8 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/nova-scotia) | [CSV](csv/canada/2026/ns.csv) · [JSON](json/canada/2026/ns.json) |
-| Prince Edward Island | 2026 | 9 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/prince-edward-island) | [CSV](csv/canada/2026/pe.csv) · [JSON](json/canada/2026/pe.json) |
-| Saskatchewan | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/saskatchewan) | [CSV](csv/canada/2026/sk.csv) · [JSON](json/canada/2026/sk.json) |
-| Northwest Territories | 2026 | 8 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/canada/tax-tables/2026/northwest-territories) | [CSV](csv/canada/2026/nt.csv) · [JSON](json/canada/2026/nt.json) |
-| Nunavut | 2026 | 8 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/canada/tax-tables/2026/nunavut) | [CSV](csv/canada/2026/nu.csv) · [JSON](json/canada/2026/nu.json) |
-| Yukon | 2026 | 12 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/yukon) | [CSV](csv/canada/2026/yt.csv) · [JSON](json/canada/2026/yt.json) |
+| National | 2026 | 95 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/canada/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026.csv) · [JSON](json/canada/2026.json) |
+| Ontario | 2026 | 38 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/ontario?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/on.csv) · [JSON](json/canada/2026/on.json) |
+| Quebec | 2026 | 20 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/quebec?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/qc.csv) · [JSON](json/canada/2026/qc.json) |
+| British Columbia | 2026 | 20 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/british-columbia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/bc.csv) · [JSON](json/canada/2026/bc.json) |
+| Alberta | 2026 | 11 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/alberta?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/ab.csv) · [JSON](json/canada/2026/ab.json) |
+| Manitoba | 2026 | 14 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/manitoba?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/mb.csv) · [JSON](json/canada/2026/mb.json) |
+| New Brunswick | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/new-brunswick?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nb.csv) · [JSON](json/canada/2026/nb.json) |
+| Newfoundland and Labrador | 2026 | 13 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/newfoundland-and-labrador?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nl.csv) · [JSON](json/canada/2026/nl.json) |
+| Nova Scotia | 2026 | 8 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/nova-scotia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/ns.csv) · [JSON](json/canada/2026/ns.json) |
+| Prince Edward Island | 2026 | 9 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/prince-edward-island?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/pe.csv) · [JSON](json/canada/2026/pe.json) |
+| Saskatchewan | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/saskatchewan?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/sk.csv) · [JSON](json/canada/2026/sk.json) |
+| Northwest Territories | 2026 | 8 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/canada/tax-tables/2026/northwest-territories?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nt.csv) · [JSON](json/canada/2026/nt.json) |
+| Nunavut | 2026 | 8 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/canada/tax-tables/2026/nunavut?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nu.csv) · [JSON](json/canada/2026/nu.json) |
+| Yukon | 2026 | 12 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/yukon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/yt.csv) · [JSON](json/canada/2026/yt.json) |
 
 **Official sources (20):**
 
@@ -110,11 +110,11 @@ Currency CAD · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Czechia
 
-Currency CZK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/czechia/tax-tables)
+Currency CZK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/czechia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 104 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/czechia/tax-tables/2026) | [CSV](csv/czechia/2026.csv) · [JSON](json/czechia/2026.json) |
+| National | 2026 | 104 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/czechia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/czechia/2026.csv) · [JSON](json/czechia/2026.json) |
 
 **Official sources (15):**
 
@@ -136,16 +136,16 @@ Currency CZK · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Denmark
 
-Currency DKK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/denmark/tax-tables)
+Currency DKK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/denmark/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 87 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026) | [CSV](csv/denmark/2026.csv) · [JSON](json/denmark/2026.json) |
-| Region Hovedstaden | 2026 | 87 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/hovedstaden) | [CSV](csv/denmark/2026/hovedstaden.csv) · [JSON](json/denmark/2026/hovedstaden.json) |
-| Region Sjælland | 2026 | 51 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/sjaelland) | [CSV](csv/denmark/2026/sjaelland.csv) · [JSON](json/denmark/2026/sjaelland.json) |
-| Region Syddanmark | 2026 | 66 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/syddanmark) | [CSV](csv/denmark/2026/syddanmark.csv) · [JSON](json/denmark/2026/syddanmark.json) |
-| Region Midtjylland | 2026 | 57 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/midtjylland) | [CSV](csv/denmark/2026/midtjylland.csv) · [JSON](json/denmark/2026/midtjylland.json) |
-| Region Nordjylland | 2026 | 33 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/nordjylland) | [CSV](csv/denmark/2026/nordjylland.csv) · [JSON](json/denmark/2026/nordjylland.json) |
+| National | 2026 | 87 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/denmark/2026.csv) · [JSON](json/denmark/2026.json) |
+| Region Hovedstaden | 2026 | 87 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/hovedstaden?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/denmark/2026/hovedstaden.csv) · [JSON](json/denmark/2026/hovedstaden.json) |
+| Region Sjælland | 2026 | 51 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/sjaelland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/denmark/2026/sjaelland.csv) · [JSON](json/denmark/2026/sjaelland.json) |
+| Region Syddanmark | 2026 | 66 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/syddanmark?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/denmark/2026/syddanmark.csv) · [JSON](json/denmark/2026/syddanmark.json) |
+| Region Midtjylland | 2026 | 57 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/midtjylland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/denmark/2026/midtjylland.csv) · [JSON](json/denmark/2026/midtjylland.json) |
+| Region Nordjylland | 2026 | 33 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/denmark/tax-tables/2026/nordjylland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/denmark/2026/nordjylland.csv) · [JSON](json/denmark/2026/nordjylland.json) |
 
 **Official sources (15):**
 
@@ -167,30 +167,30 @@ Currency DKK · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Finland
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/finland/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/finland/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 124 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026) | [CSV](csv/finland/2026.csv) · [JSON](json/finland/2026.json) |
-| Uusimaa | 2026 | 84 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/uusimaa) | [CSV](csv/finland/2026/uusimaa.csv) · [JSON](json/finland/2026/uusimaa.json) |
-| Southwest Finland | 2026 | 87 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/southwest-finland) | [CSV](csv/finland/2026/southwest-finland.csv) · [JSON](json/finland/2026/southwest-finland.json) |
-| Satakunta | 2026 | 54 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/satakunta) | [CSV](csv/finland/2026/satakunta.csv) · [JSON](json/finland/2026/satakunta.json) |
-| Kanta-Häme | 2026 | 39 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/kanta-hame) | [CSV](csv/finland/2026/kanta-hame.csv) · [JSON](json/finland/2026/kanta-hame.json) |
-| Pirkanmaa | 2026 | 75 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/pirkanmaa) | [CSV](csv/finland/2026/pirkanmaa.csv) · [JSON](json/finland/2026/pirkanmaa.json) |
-| Päijät-Häme | 2026 | 36 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/paijat-hame) | [CSV](csv/finland/2026/paijat-hame.csv) · [JSON](json/finland/2026/paijat-hame.json) |
-| Kymenlaakso | 2026 | 24 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/kymenlaakso) | [CSV](csv/finland/2026/kymenlaakso.csv) · [JSON](json/finland/2026/kymenlaakso.json) |
-| South Karelia | 2026 | 33 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/south-karelia) | [CSV](csv/finland/2026/south-karelia.csv) · [JSON](json/finland/2026/south-karelia.json) |
-| South Savo | 2026 | 39 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/south-savo) | [CSV](csv/finland/2026/south-savo.csv) · [JSON](json/finland/2026/south-savo.json) |
-| North Savo | 2026 | 63 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/north-savo) | [CSV](csv/finland/2026/north-savo.csv) · [JSON](json/finland/2026/north-savo.json) |
-| North Karelia | 2026 | 45 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/north-karelia) | [CSV](csv/finland/2026/north-karelia.csv) · [JSON](json/finland/2026/north-karelia.json) |
-| Central Finland | 2026 | 72 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/central-finland) | [CSV](csv/finland/2026/central-finland.csv) · [JSON](json/finland/2026/central-finland.json) |
-| South Ostrobothnia | 2026 | 60 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/south-ostrobothnia) | [CSV](csv/finland/2026/south-ostrobothnia.csv) · [JSON](json/finland/2026/south-ostrobothnia.json) |
-| Ostrobothnia | 2026 | 48 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/ostrobothnia) | [CSV](csv/finland/2026/ostrobothnia.csv) · [JSON](json/finland/2026/ostrobothnia.json) |
-| Central Ostrobothnia | 2026 | 30 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/central-ostrobothnia) | [CSV](csv/finland/2026/central-ostrobothnia.csv) · [JSON](json/finland/2026/central-ostrobothnia.json) |
-| North Ostrobothnia | 2026 | 96 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/north-ostrobothnia) | [CSV](csv/finland/2026/north-ostrobothnia.csv) · [JSON](json/finland/2026/north-ostrobothnia.json) |
-| Kainuu | 2026 | 30 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/kainuu) | [CSV](csv/finland/2026/kainuu.csv) · [JSON](json/finland/2026/kainuu.json) |
-| Lapland | 2026 | 69 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/lapland) | [CSV](csv/finland/2026/lapland.csv) · [JSON](json/finland/2026/lapland.json) |
-| Åland | 2026 | 54 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/aland) | [CSV](csv/finland/2026/aland.csv) · [JSON](json/finland/2026/aland.json) |
+| National | 2026 | 124 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026.csv) · [JSON](json/finland/2026.json) |
+| Uusimaa | 2026 | 84 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/uusimaa?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/uusimaa.csv) · [JSON](json/finland/2026/uusimaa.json) |
+| Southwest Finland | 2026 | 87 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/southwest-finland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/southwest-finland.csv) · [JSON](json/finland/2026/southwest-finland.json) |
+| Satakunta | 2026 | 54 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/satakunta?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/satakunta.csv) · [JSON](json/finland/2026/satakunta.json) |
+| Kanta-Häme | 2026 | 39 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/kanta-hame?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/kanta-hame.csv) · [JSON](json/finland/2026/kanta-hame.json) |
+| Pirkanmaa | 2026 | 75 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/pirkanmaa?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/pirkanmaa.csv) · [JSON](json/finland/2026/pirkanmaa.json) |
+| Päijät-Häme | 2026 | 36 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/paijat-hame?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/paijat-hame.csv) · [JSON](json/finland/2026/paijat-hame.json) |
+| Kymenlaakso | 2026 | 24 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/kymenlaakso?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/kymenlaakso.csv) · [JSON](json/finland/2026/kymenlaakso.json) |
+| South Karelia | 2026 | 33 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/south-karelia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/south-karelia.csv) · [JSON](json/finland/2026/south-karelia.json) |
+| South Savo | 2026 | 39 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/south-savo?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/south-savo.csv) · [JSON](json/finland/2026/south-savo.json) |
+| North Savo | 2026 | 63 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/north-savo?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/north-savo.csv) · [JSON](json/finland/2026/north-savo.json) |
+| North Karelia | 2026 | 45 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/north-karelia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/north-karelia.csv) · [JSON](json/finland/2026/north-karelia.json) |
+| Central Finland | 2026 | 72 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/central-finland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/central-finland.csv) · [JSON](json/finland/2026/central-finland.json) |
+| South Ostrobothnia | 2026 | 60 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/south-ostrobothnia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/south-ostrobothnia.csv) · [JSON](json/finland/2026/south-ostrobothnia.json) |
+| Ostrobothnia | 2026 | 48 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/ostrobothnia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/ostrobothnia.csv) · [JSON](json/finland/2026/ostrobothnia.json) |
+| Central Ostrobothnia | 2026 | 30 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/central-ostrobothnia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/central-ostrobothnia.csv) · [JSON](json/finland/2026/central-ostrobothnia.json) |
+| North Ostrobothnia | 2026 | 96 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/north-ostrobothnia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/north-ostrobothnia.csv) · [JSON](json/finland/2026/north-ostrobothnia.json) |
+| Kainuu | 2026 | 30 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/kainuu?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/kainuu.csv) · [JSON](json/finland/2026/kainuu.json) |
+| Lapland | 2026 | 69 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/lapland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/lapland.csv) · [JSON](json/finland/2026/lapland.json) |
+| Åland | 2026 | 54 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/finland/tax-tables/2026/aland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/finland/2026/aland.csv) · [JSON](json/finland/2026/aland.json) |
 
 **Official sources (17):**
 
@@ -214,11 +214,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## France
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/france/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/france/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 158 | 36 | unverified | 2026-11-09 | [page](https://calcbloc.com/france/tax-tables/2026) | [CSV](csv/france/2026.csv) · [JSON](json/france/2026.json) |
+| National | 2026 | 158 | 36 | unverified | 2026-11-09 | [page](https://calcbloc.com/france/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/france/2026.csv) · [JSON](json/france/2026.json) |
 
 **Official sources (29):**
 
@@ -254,11 +254,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Germany
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/germany/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/germany/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 85 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/germany/tax-tables/2026) | [CSV](csv/germany/2026.csv) · [JSON](json/germany/2026.json) |
+| National | 2026 | 85 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/germany/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/germany/2026.csv) · [JSON](json/germany/2026.json) |
 
 **Official sources (20):**
 
@@ -285,11 +285,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Greece
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/greece/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/greece/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 139 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/greece/tax-tables/2026) | [CSV](csv/greece/2026.csv) · [JSON](json/greece/2026.json) |
+| National | 2026 | 139 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/greece/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/greece/2026.csv) · [JSON](json/greece/2026.json) |
 
 **Official sources (12):**
 
@@ -308,11 +308,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Hungary
 
-Currency HUF · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/hungary/tax-tables)
+Currency HUF · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/hungary/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 75 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/hungary/tax-tables/2026) | [CSV](csv/hungary/2026.csv) · [JSON](json/hungary/2026.json) |
+| National | 2026 | 75 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/hungary/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/hungary/2026.csv) · [JSON](json/hungary/2026.json) |
 
 **Official sources (18):**
 
@@ -337,11 +337,11 @@ Currency HUF · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## India
 
-Currency INR · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/india/tax-tables)
+Currency INR · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/india/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026-27 | 190 | 29 | unverified | 2026-11-11 | [page](https://calcbloc.com/india/tax-tables/2026-27) | [CSV](csv/india/2026-27.csv) · [JSON](json/india/2026-27.json) |
+| National | 2026-27 | 190 | 29 | unverified | 2026-11-11 | [page](https://calcbloc.com/india/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/india/2026-27.csv) · [JSON](json/india/2026-27.json) |
 
 **Official sources (42):**
 
@@ -390,11 +390,11 @@ Currency INR · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 
 ## Ireland
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/ireland/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/ireland/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 50 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/ireland/tax-tables/2026) | [CSV](csv/ireland/2026.csv) · [JSON](json/ireland/2026.json) |
+| National | 2026 | 50 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/ireland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/ireland/2026.csv) · [JSON](json/ireland/2026.json) |
 
 **Official sources (7):**
 
@@ -408,32 +408,32 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Italy
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/italy/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/italy/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 101 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026) | [CSV](csv/italy/2026.csv) · [JSON](json/italy/2026.json) |
-| Abruzzo | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/abruzzo) | [CSV](csv/italy/2026/abr.csv) · [JSON](json/italy/2026/abr.json) |
-| Basilicata | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/basilicata) | [CSV](csv/italy/2026/bas.csv) · [JSON](json/italy/2026/bas.json) |
-| Autonomous Province of Bolzano | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/bolzano) | [CSV](csv/italy/2026/bz.csv) · [JSON](json/italy/2026/bz.json) |
-| Calabria | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/calabria) | [CSV](csv/italy/2026/cal.csv) · [JSON](json/italy/2026/cal.json) |
-| Campania | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/campania) | [CSV](csv/italy/2026/cam.csv) · [JSON](json/italy/2026/cam.json) |
-| Emilia-Romagna | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/emilia-romagna) | [CSV](csv/italy/2026/emr.csv) · [JSON](json/italy/2026/emr.json) |
-| Friuli Venezia Giulia | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/friuli-venezia-giulia) | [CSV](csv/italy/2026/fvg.csv) · [JSON](json/italy/2026/fvg.json) |
-| Lazio | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/lazio) | [CSV](csv/italy/2026/laz.csv) · [JSON](json/italy/2026/laz.json) |
-| Liguria | 2026 | 12 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/liguria) | [CSV](csv/italy/2026/lig.csv) · [JSON](json/italy/2026/lig.json) |
-| Lombardy | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/lombardy) | [CSV](csv/italy/2026/lom.csv) · [JSON](json/italy/2026/lom.json) |
-| Marche | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/marche) | [CSV](csv/italy/2026/mar.csv) · [JSON](json/italy/2026/mar.json) |
-| Molise | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/molise) | [CSV](csv/italy/2026/mol.csv) · [JSON](json/italy/2026/mol.json) |
-| Piedmont | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/piedmont) | [CSV](csv/italy/2026/pie.csv) · [JSON](json/italy/2026/pie.json) |
-| Apulia (Puglia) | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/apulia) | [CSV](csv/italy/2026/pug.csv) · [JSON](json/italy/2026/pug.json) |
-| Sardinia | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/sardinia) | [CSV](csv/italy/2026/sar.csv) · [JSON](json/italy/2026/sar.json) |
-| Sicily | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/sicily) | [CSV](csv/italy/2026/sic.csv) · [JSON](json/italy/2026/sic.json) |
-| Tuscany | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/tuscany) | [CSV](csv/italy/2026/tos.csv) · [JSON](json/italy/2026/tos.json) |
-| Autonomous Province of Trento | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/trento) | [CSV](csv/italy/2026/tn.csv) · [JSON](json/italy/2026/tn.json) |
-| Umbria | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/umbria) | [CSV](csv/italy/2026/umb.csv) · [JSON](json/italy/2026/umb.json) |
-| Aosta Valley | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/aosta-valley) | [CSV](csv/italy/2026/vda.csv) · [JSON](json/italy/2026/vda.json) |
-| Veneto | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/veneto) | [CSV](csv/italy/2026/ven.csv) · [JSON](json/italy/2026/ven.json) |
+| National | 2026 | 101 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026.csv) · [JSON](json/italy/2026.json) |
+| Abruzzo | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/abruzzo?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/abr.csv) · [JSON](json/italy/2026/abr.json) |
+| Basilicata | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/basilicata?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/bas.csv) · [JSON](json/italy/2026/bas.json) |
+| Autonomous Province of Bolzano | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/bolzano?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/bz.csv) · [JSON](json/italy/2026/bz.json) |
+| Calabria | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/calabria?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/cal.csv) · [JSON](json/italy/2026/cal.json) |
+| Campania | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/campania?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/cam.csv) · [JSON](json/italy/2026/cam.json) |
+| Emilia-Romagna | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/emilia-romagna?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/emr.csv) · [JSON](json/italy/2026/emr.json) |
+| Friuli Venezia Giulia | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/friuli-venezia-giulia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/fvg.csv) · [JSON](json/italy/2026/fvg.json) |
+| Lazio | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/lazio?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/laz.csv) · [JSON](json/italy/2026/laz.json) |
+| Liguria | 2026 | 12 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/liguria?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/lig.csv) · [JSON](json/italy/2026/lig.json) |
+| Lombardy | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/lombardy?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/lom.csv) · [JSON](json/italy/2026/lom.json) |
+| Marche | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/marche?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/mar.csv) · [JSON](json/italy/2026/mar.json) |
+| Molise | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/molise?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/mol.csv) · [JSON](json/italy/2026/mol.json) |
+| Piedmont | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/piedmont?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/pie.csv) · [JSON](json/italy/2026/pie.json) |
+| Apulia (Puglia) | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/apulia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/pug.csv) · [JSON](json/italy/2026/pug.json) |
+| Sardinia | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/sardinia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/sar.csv) · [JSON](json/italy/2026/sar.json) |
+| Sicily | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/sicily?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/sic.csv) · [JSON](json/italy/2026/sic.json) |
+| Tuscany | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/tuscany?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/tos.csv) · [JSON](json/italy/2026/tos.json) |
+| Autonomous Province of Trento | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/trento?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/tn.csv) · [JSON](json/italy/2026/tn.json) |
+| Umbria | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/umbria?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/umb.csv) · [JSON](json/italy/2026/umb.json) |
+| Aosta Valley | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/aosta-valley?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/vda.csv) · [JSON](json/italy/2026/vda.json) |
+| Veneto | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/italy/tax-tables/2026/veneto?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/italy/2026/ven.csv) · [JSON](json/italy/2026/ven.json) |
 
 **Official sources (62):**
 
@@ -502,11 +502,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Luxembourg
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/luxembourg/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/luxembourg/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 126 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/luxembourg/tax-tables/2026) | [CSV](csv/luxembourg/2026.csv) · [JSON](json/luxembourg/2026.json) |
+| National | 2026 | 126 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/luxembourg/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/luxembourg/2026.csv) · [JSON](json/luxembourg/2026.json) |
 
 **Official sources (12):**
 
@@ -525,11 +525,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Netherlands
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/netherlands/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/netherlands/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 61 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/netherlands/tax-tables/2026) | [CSV](csv/netherlands/2026.csv) · [JSON](json/netherlands/2026.json) |
+| National | 2026 | 61 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/netherlands/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/netherlands/2026.csv) · [JSON](json/netherlands/2026.json) |
 
 **Official sources (11):**
 
@@ -547,11 +547,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## New Zealand
 
-Currency NZD · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/new-zealand/tax-tables)
+Currency NZD · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/new-zealand/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026-27 | 55 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/new-zealand/tax-tables/2026-27) | [CSV](csv/new-zealand/2026-27.csv) · [JSON](json/new-zealand/2026-27.json) |
+| National | 2026-27 | 55 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/new-zealand/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/new-zealand/2026-27.csv) · [JSON](json/new-zealand/2026-27.json) |
 
 **Official sources (9):**
 
@@ -567,11 +567,11 @@ Currency NZD · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 
 ## Norway
 
-Currency NOK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/norway/tax-tables)
+Currency NOK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/norway/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 98 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/norway/tax-tables/2026) | [CSV](csv/norway/2026.csv) · [JSON](json/norway/2026.json) |
+| National | 2026 | 98 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/norway/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/norway/2026.csv) · [JSON](json/norway/2026.json) |
 
 **Official sources (19):**
 
@@ -597,11 +597,11 @@ Currency NOK · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Poland
 
-Currency PLN · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/poland/tax-tables)
+Currency PLN · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/poland/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 93 | 0 | verified | 2026-11-10 | [page](https://calcbloc.com/poland/tax-tables/2026) | [CSV](csv/poland/2026.csv) · [JSON](json/poland/2026.json) |
+| National | 2026 | 93 | 0 | verified | 2026-11-10 | [page](https://calcbloc.com/poland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/poland/2026.csv) · [JSON](json/poland/2026.json) |
 
 **Official sources (15):**
 
@@ -623,13 +623,13 @@ Currency PLN · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Portugal
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/portugal/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/portugal/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 76 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/portugal/tax-tables/2026) | [CSV](csv/portugal/2026.csv) · [JSON](json/portugal/2026.json) |
-| Madeira | 2026 | 16 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/portugal/tax-tables/2026/madeira) | [CSV](csv/portugal/2026/ma.csv) · [JSON](json/portugal/2026/ma.json) |
-| Azores | 2026 | 18 | 2 | unverified | 2026-11-09 | [page](https://calcbloc.com/portugal/tax-tables/2026/azores) | [CSV](csv/portugal/2026/ac.csv) · [JSON](json/portugal/2026/ac.json) |
+| National | 2026 | 76 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/portugal/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/portugal/2026.csv) · [JSON](json/portugal/2026.json) |
+| Madeira | 2026 | 16 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/portugal/tax-tables/2026/madeira?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/portugal/2026/ma.csv) · [JSON](json/portugal/2026/ma.json) |
+| Azores | 2026 | 18 | 2 | unverified | 2026-11-09 | [page](https://calcbloc.com/portugal/tax-tables/2026/azores?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/portugal/2026/ac.csv) · [JSON](json/portugal/2026/ac.json) |
 
 **Official sources (26):**
 
@@ -662,11 +662,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Romania
 
-Currency RON · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/romania/tax-tables)
+Currency RON · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/romania/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 127 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/romania/tax-tables/2026) | [CSV](csv/romania/2026.csv) · [JSON](json/romania/2026.json) |
+| National | 2026 | 127 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/romania/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/romania/2026.csv) · [JSON](json/romania/2026.json) |
 
 **Official sources (7):**
 
@@ -680,11 +680,11 @@ Currency RON · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Singapore
 
-Currency SGD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/singapore/tax-tables)
+Currency SGD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/singapore/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 94 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/singapore/tax-tables/2026) | [CSV](csv/singapore/2026.csv) · [JSON](json/singapore/2026.json) |
+| National | 2026 | 94 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/singapore/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/singapore/2026.csv) · [JSON](json/singapore/2026.json) |
 
 **Official sources (16):**
 
@@ -707,11 +707,11 @@ Currency SGD · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Slovakia
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/slovakia/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/slovakia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 89 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/slovakia/tax-tables/2026) | [CSV](csv/slovakia/2026.csv) · [JSON](json/slovakia/2026.json) |
+| National | 2026 | 89 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/slovakia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/slovakia/2026.csv) · [JSON](json/slovakia/2026.json) |
 
 **Official sources (15):**
 
@@ -733,11 +733,11 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Slovenia
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/slovenia/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/slovenia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 112 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/slovenia/tax-tables/2026) | [CSV](csv/slovenia/2026.csv) · [JSON](json/slovenia/2026.json) |
+| National | 2026 | 112 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/slovenia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/slovenia/2026.csv) · [JSON](json/slovenia/2026.json) |
 
 **Official sources (11):**
 
@@ -755,32 +755,32 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Spain
 
-Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/spain/tax-tables)
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/spain/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 90 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026) | [CSV](csv/spain/2026.csv) · [JSON](json/spain/2026.json) |
-| Comunidad de Madrid | 2026 | 13 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/spain/tax-tables/2026/madrid) | [CSV](csv/spain/2026/md.csv) · [JSON](json/spain/2026/md.json) |
-| Cataluña | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/cataluna) | [CSV](csv/spain/2026/ct.csv) · [JSON](json/spain/2026/ct.json) |
-| Andalucía | 2026 | 13 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/spain/tax-tables/2026/andalucia) | [CSV](csv/spain/2026/an.csv) · [JSON](json/spain/2026/an.json) |
-| Comunitat Valenciana | 2026 | 19 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/spain/tax-tables/2026/comunitat-valenciana) | [CSV](csv/spain/2026/vc.csv) · [JSON](json/spain/2026/vc.json) |
-| Galicia | 2026 | 13 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/galicia) | [CSV](csv/spain/2026/ga.csv) · [JSON](json/spain/2026/ga.json) |
-| Castilla y León | 2026 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/castilla-y-leon) | [CSV](csv/spain/2026/cl.csv) · [JSON](json/spain/2026/cl.json) |
-| Aragón | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/aragon) | [CSV](csv/spain/2026/ar.csv) · [JSON](json/spain/2026/ar.json) |
-| Canarias | 2026 | 15 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/canarias) | [CSV](csv/spain/2026/cn.csv) · [JSON](json/spain/2026/cn.json) |
-| Castilla-La Mancha | 2026 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/castilla-la-mancha) | [CSV](csv/spain/2026/cm.csv) · [JSON](json/spain/2026/cm.json) |
-| Región de Murcia | 2026 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/murcia) | [CSV](csv/spain/2026/mc.csv) · [JSON](json/spain/2026/mc.json) |
-| Asturias | 2026 | 16 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/asturias) | [CSV](csv/spain/2026/as.csv) · [JSON](json/spain/2026/as.json) |
-| Illes Balears | 2026 | 17 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/illes-balears) | [CSV](csv/spain/2026/ib.csv) · [JSON](json/spain/2026/ib.json) |
-| Extremadura | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/extremadura) | [CSV](csv/spain/2026/ex.csv) · [JSON](json/spain/2026/ex.json) |
-| Cantabria | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/cantabria) | [CSV](csv/spain/2026/cb.csv) · [JSON](json/spain/2026/cb.json) |
-| La Rioja | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/la-rioja) | [CSV](csv/spain/2026/ri.csv) · [JSON](json/spain/2026/ri.json) |
-| Ceuta | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/ceuta) | [CSV](csv/spain/2026/ce.csv) · [JSON](json/spain/2026/ce.json) |
-| Melilla | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/melilla) | [CSV](csv/spain/2026/ml.csv) · [JSON](json/spain/2026/ml.json) |
-| Bizkaia | 2026 | 59 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/bizkaia) | [CSV](csv/spain/2026/bi.csv) · [JSON](json/spain/2026/bi.json) |
-| Gipuzkoa | 2026 | 59 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/gipuzkoa) | [CSV](csv/spain/2026/gi.csv) · [JSON](json/spain/2026/gi.json) |
-| Álava | 2026 | 60 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/alava) | [CSV](csv/spain/2026/al.csv) · [JSON](json/spain/2026/al.json) |
-| Navarra | 2026 | 35 | 2 | unverified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/navarra) | [CSV](csv/spain/2026/nc.csv) · [JSON](json/spain/2026/nc.json) |
+| National | 2026 | 90 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026.csv) · [JSON](json/spain/2026.json) |
+| Comunidad de Madrid | 2026 | 13 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/spain/tax-tables/2026/madrid?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/md.csv) · [JSON](json/spain/2026/md.json) |
+| Cataluña | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/cataluna?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ct.csv) · [JSON](json/spain/2026/ct.json) |
+| Andalucía | 2026 | 13 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/spain/tax-tables/2026/andalucia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/an.csv) · [JSON](json/spain/2026/an.json) |
+| Comunitat Valenciana | 2026 | 19 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/spain/tax-tables/2026/comunitat-valenciana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/vc.csv) · [JSON](json/spain/2026/vc.json) |
+| Galicia | 2026 | 13 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/galicia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ga.csv) · [JSON](json/spain/2026/ga.json) |
+| Castilla y León | 2026 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/castilla-y-leon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/cl.csv) · [JSON](json/spain/2026/cl.json) |
+| Aragón | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/aragon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ar.csv) · [JSON](json/spain/2026/ar.json) |
+| Canarias | 2026 | 15 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/canarias?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/cn.csv) · [JSON](json/spain/2026/cn.json) |
+| Castilla-La Mancha | 2026 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/castilla-la-mancha?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/cm.csv) · [JSON](json/spain/2026/cm.json) |
+| Región de Murcia | 2026 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/murcia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/mc.csv) · [JSON](json/spain/2026/mc.json) |
+| Asturias | 2026 | 16 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/asturias?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/as.csv) · [JSON](json/spain/2026/as.json) |
+| Illes Balears | 2026 | 17 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/illes-balears?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ib.csv) · [JSON](json/spain/2026/ib.json) |
+| Extremadura | 2026 | 10 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/extremadura?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ex.csv) · [JSON](json/spain/2026/ex.json) |
+| Cantabria | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/cantabria?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/cb.csv) · [JSON](json/spain/2026/cb.json) |
+| La Rioja | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/la-rioja?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ri.csv) · [JSON](json/spain/2026/ri.json) |
+| Ceuta | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/ceuta?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ce.csv) · [JSON](json/spain/2026/ce.json) |
+| Melilla | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/melilla?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/ml.csv) · [JSON](json/spain/2026/ml.json) |
+| Bizkaia | 2026 | 59 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/bizkaia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/bi.csv) · [JSON](json/spain/2026/bi.json) |
+| Gipuzkoa | 2026 | 59 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/gipuzkoa?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/gi.csv) · [JSON](json/spain/2026/gi.json) |
+| Álava | 2026 | 60 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/spain/tax-tables/2026/alava?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/al.csv) · [JSON](json/spain/2026/al.json) |
+| Navarra | 2026 | 35 | 2 | unverified | 2026-11-09 | [page](https://calcbloc.com/spain/tax-tables/2026/navarra?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/spain/2026/nc.csv) · [JSON](json/spain/2026/nc.json) |
 
 **Official sources (25):**
 
@@ -812,32 +812,32 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Sweden
 
-Currency SEK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/sweden/tax-tables)
+Currency SEK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/sweden/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 140 | 0 | verified | 2026-11-10 | [page](https://calcbloc.com/sweden/tax-tables/2026) | [CSV](csv/sweden/2026.csv) · [JSON](json/sweden/2026.json) |
-| Stockholm County | 2026 | 32 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/stockholm) | [CSV](csv/sweden/2026/ab.csv) · [JSON](json/sweden/2026/ab.json) |
-| Uppsala County | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/uppsala) | [CSV](csv/sweden/2026/c.csv) · [JSON](json/sweden/2026/c.json) |
-| Södermanland County | 2026 | 15 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/sodermanland) | [CSV](csv/sweden/2026/d.csv) · [JSON](json/sweden/2026/d.json) |
-| Östergötland County | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/ostergotland) | [CSV](csv/sweden/2026/e.csv) · [JSON](json/sweden/2026/e.json) |
-| Jönköping County | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/jonkoping) | [CSV](csv/sweden/2026/f.csv) · [JSON](json/sweden/2026/f.json) |
-| Kronoberg County | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/kronoberg) | [CSV](csv/sweden/2026/g.csv) · [JSON](json/sweden/2026/g.json) |
-| Kalmar County | 2026 | 18 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/kalmar) | [CSV](csv/sweden/2026/h.csv) · [JSON](json/sweden/2026/h.json) |
-| Gotland County | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/gotland) | [CSV](csv/sweden/2026/i.csv) · [JSON](json/sweden/2026/i.json) |
-| Blekinge County | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/blekinge) | [CSV](csv/sweden/2026/k.csv) · [JSON](json/sweden/2026/k.json) |
-| Skåne County | 2026 | 39 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/skane) | [CSV](csv/sweden/2026/m.csv) · [JSON](json/sweden/2026/m.json) |
-| Halland County | 2026 | 12 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/halland) | [CSV](csv/sweden/2026/n.csv) · [JSON](json/sweden/2026/n.json) |
-| Västra Götaland County | 2026 | 55 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vastra-gotaland) | [CSV](csv/sweden/2026/o.csv) · [JSON](json/sweden/2026/o.json) |
-| Värmland County | 2026 | 22 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/varmland) | [CSV](csv/sweden/2026/s.csv) · [JSON](json/sweden/2026/s.json) |
-| Örebro County | 2026 | 18 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/orebro) | [CSV](csv/sweden/2026/t.csv) · [JSON](json/sweden/2026/t.json) |
-| Västmanland County | 2026 | 16 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vastmanland) | [CSV](csv/sweden/2026/u.csv) · [JSON](json/sweden/2026/u.json) |
-| Dalarna County | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/dalarna) | [CSV](csv/sweden/2026/w.csv) · [JSON](json/sweden/2026/w.json) |
-| Gävleborg County | 2026 | 16 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/gavleborg) | [CSV](csv/sweden/2026/x.csv) · [JSON](json/sweden/2026/x.json) |
-| Västernorrland County | 2026 | 13 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vasternorrland) | [CSV](csv/sweden/2026/y.csv) · [JSON](json/sweden/2026/y.json) |
-| Jämtland County | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/jamtland) | [CSV](csv/sweden/2026/z.csv) · [JSON](json/sweden/2026/z.json) |
-| Västerbotten County | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vasterbotten) | [CSV](csv/sweden/2026/ac.csv) · [JSON](json/sweden/2026/ac.json) |
-| Norrbotten County | 2026 | 20 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/norrbotten) | [CSV](csv/sweden/2026/bd.csv) · [JSON](json/sweden/2026/bd.json) |
+| National | 2026 | 140 | 0 | verified | 2026-11-10 | [page](https://calcbloc.com/sweden/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026.csv) · [JSON](json/sweden/2026.json) |
+| Stockholm County | 2026 | 32 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/stockholm?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/ab.csv) · [JSON](json/sweden/2026/ab.json) |
+| Uppsala County | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/uppsala?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/c.csv) · [JSON](json/sweden/2026/c.json) |
+| Södermanland County | 2026 | 15 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/sodermanland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/d.csv) · [JSON](json/sweden/2026/d.json) |
+| Östergötland County | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/ostergotland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/e.csv) · [JSON](json/sweden/2026/e.json) |
+| Jönköping County | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/jonkoping?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/f.csv) · [JSON](json/sweden/2026/f.json) |
+| Kronoberg County | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/kronoberg?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/g.csv) · [JSON](json/sweden/2026/g.json) |
+| Kalmar County | 2026 | 18 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/kalmar?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/h.csv) · [JSON](json/sweden/2026/h.json) |
+| Gotland County | 2026 | 7 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/gotland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/i.csv) · [JSON](json/sweden/2026/i.json) |
+| Blekinge County | 2026 | 11 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/blekinge?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/k.csv) · [JSON](json/sweden/2026/k.json) |
+| Skåne County | 2026 | 39 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/skane?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/m.csv) · [JSON](json/sweden/2026/m.json) |
+| Halland County | 2026 | 12 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/halland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/n.csv) · [JSON](json/sweden/2026/n.json) |
+| Västra Götaland County | 2026 | 55 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vastra-gotaland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/o.csv) · [JSON](json/sweden/2026/o.json) |
+| Värmland County | 2026 | 22 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/varmland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/s.csv) · [JSON](json/sweden/2026/s.json) |
+| Örebro County | 2026 | 18 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/orebro?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/t.csv) · [JSON](json/sweden/2026/t.json) |
+| Västmanland County | 2026 | 16 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vastmanland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/u.csv) · [JSON](json/sweden/2026/u.json) |
+| Dalarna County | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/dalarna?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/w.csv) · [JSON](json/sweden/2026/w.json) |
+| Gävleborg County | 2026 | 16 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/gavleborg?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/x.csv) · [JSON](json/sweden/2026/x.json) |
+| Västernorrland County | 2026 | 13 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vasternorrland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/y.csv) · [JSON](json/sweden/2026/y.json) |
+| Jämtland County | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/jamtland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/z.csv) · [JSON](json/sweden/2026/z.json) |
+| Västerbotten County | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/vasterbotten?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/ac.csv) · [JSON](json/sweden/2026/ac.json) |
+| Norrbotten County | 2026 | 20 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/sweden/tax-tables/2026/norrbotten?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/sweden/2026/bd.csv) · [JSON](json/sweden/2026/bd.json) |
 
 **Official sources (16):**
 
@@ -860,37 +860,37 @@ Currency SEK · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## Switzerland
 
-Currency CHF · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/switzerland/tax-tables)
+Currency CHF · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/switzerland/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 148 | 2 | unverified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026) | [CSV](csv/switzerland/2026.csv) · [JSON](json/switzerland/2026.json) |
-| Zürich | 2026 | 32 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/zurich) | [CSV](csv/switzerland/2026/zh.csv) · [JSON](json/switzerland/2026/zh.json) |
-| Bern | 2026 | 34 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/bern) | [CSV](csv/switzerland/2026/be.csv) · [JSON](json/switzerland/2026/be.json) |
-| Lucerne | 2026 | 31 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/lucerne) | [CSV](csv/switzerland/2026/lu.csv) · [JSON](json/switzerland/2026/lu.json) |
-| Uri | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/uri) | [CSV](csv/switzerland/2026/ur.csv) · [JSON](json/switzerland/2026/ur.json) |
-| Schwyz | 2026 | 27 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/schwyz) | [CSV](csv/switzerland/2026/sz.csv) · [JSON](json/switzerland/2026/sz.json) |
-| Obwalden | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/obwalden) | [CSV](csv/switzerland/2026/ow.csv) · [JSON](json/switzerland/2026/ow.json) |
-| Nidwalden | 2026 | 26 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/nidwalden) | [CSV](csv/switzerland/2026/nw.csv) · [JSON](json/switzerland/2026/nw.json) |
-| Glarus | 2026 | 18 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/glarus) | [CSV](csv/switzerland/2026/gl.csv) · [JSON](json/switzerland/2026/gl.json) |
-| Zug | 2026 | 36 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/zug) | [CSV](csv/switzerland/2026/zg.csv) · [JSON](json/switzerland/2026/zg.json) |
-| Fribourg | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/fribourg) | [CSV](csv/switzerland/2026/fr.csv) · [JSON](json/switzerland/2026/fr.json) |
-| Solothurn | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/solothurn) | [CSV](csv/switzerland/2026/so.csv) · [JSON](json/switzerland/2026/so.json) |
-| Basel-Stadt | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/basel-stadt) | [CSV](csv/switzerland/2026/bs.csv) · [JSON](json/switzerland/2026/bs.json) |
-| Basel-Landschaft | 2026 | 14 | 5 | unverified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/basel-landschaft) | [CSV](csv/switzerland/2026/bl.csv) · [JSON](json/switzerland/2026/bl.json) |
-| Schaffhausen | 2026 | 23 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/schaffhausen) | [CSV](csv/switzerland/2026/sh.csv) · [JSON](json/switzerland/2026/sh.json) |
-| Appenzell Ausserrhoden | 2026 | 32 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/appenzell-ausserrhoden) | [CSV](csv/switzerland/2026/ar.csv) · [JSON](json/switzerland/2026/ar.json) |
-| Appenzell Innerrhoden | 2026 | 22 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/appenzell-innerrhoden) | [CSV](csv/switzerland/2026/ai.csv) · [JSON](json/switzerland/2026/ai.json) |
-| St. Gallen | 2026 | 15 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/st-gallen) | [CSV](csv/switzerland/2026/sg.csv) · [JSON](json/switzerland/2026/sg.json) |
-| Graubünden | 2026 | 27 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/graubunden) | [CSV](csv/switzerland/2026/gr.csv) · [JSON](json/switzerland/2026/gr.json) |
-| Aargau | 2026 | 22 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/aargau) | [CSV](csv/switzerland/2026/ag.csv) · [JSON](json/switzerland/2026/ag.json) |
-| Thurgau | 2026 | 17 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/thurgau) | [CSV](csv/switzerland/2026/tg.csv) · [JSON](json/switzerland/2026/tg.json) |
-| Ticino | 2026 | 38 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/ticino) | [CSV](csv/switzerland/2026/ti.csv) · [JSON](json/switzerland/2026/ti.json) |
-| Vaud | 2026 | 26 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/vaud) | [CSV](csv/switzerland/2026/vd.csv) · [JSON](json/switzerland/2026/vd.json) |
-| Valais | 2026 | 31 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/valais) | [CSV](csv/switzerland/2026/vs.csv) · [JSON](json/switzerland/2026/vs.json) |
-| Neuchâtel | 2026 | 33 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/neuchatel) | [CSV](csv/switzerland/2026/ne.csv) · [JSON](json/switzerland/2026/ne.json) |
-| Geneva | 2026 | 27 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/geneva) | [CSV](csv/switzerland/2026/ge.csv) · [JSON](json/switzerland/2026/ge.json) |
-| Jura | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/jura) | [CSV](csv/switzerland/2026/ju.csv) · [JSON](json/switzerland/2026/ju.json) |
+| National | 2026 | 148 | 2 | unverified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026.csv) · [JSON](json/switzerland/2026.json) |
+| Zürich | 2026 | 32 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/zurich?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/zh.csv) · [JSON](json/switzerland/2026/zh.json) |
+| Bern | 2026 | 34 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/bern?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/be.csv) · [JSON](json/switzerland/2026/be.json) |
+| Lucerne | 2026 | 31 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/lucerne?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/lu.csv) · [JSON](json/switzerland/2026/lu.json) |
+| Uri | 2026 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/uri?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ur.csv) · [JSON](json/switzerland/2026/ur.json) |
+| Schwyz | 2026 | 27 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/schwyz?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/sz.csv) · [JSON](json/switzerland/2026/sz.json) |
+| Obwalden | 2026 | 8 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/obwalden?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ow.csv) · [JSON](json/switzerland/2026/ow.json) |
+| Nidwalden | 2026 | 26 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/nidwalden?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/nw.csv) · [JSON](json/switzerland/2026/nw.json) |
+| Glarus | 2026 | 18 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/glarus?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/gl.csv) · [JSON](json/switzerland/2026/gl.json) |
+| Zug | 2026 | 36 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/zug?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/zg.csv) · [JSON](json/switzerland/2026/zg.json) |
+| Fribourg | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/fribourg?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/fr.csv) · [JSON](json/switzerland/2026/fr.json) |
+| Solothurn | 2026 | 19 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/solothurn?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/so.csv) · [JSON](json/switzerland/2026/so.json) |
+| Basel-Stadt | 2026 | 14 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/basel-stadt?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/bs.csv) · [JSON](json/switzerland/2026/bs.json) |
+| Basel-Landschaft | 2026 | 14 | 5 | unverified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/basel-landschaft?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/bl.csv) · [JSON](json/switzerland/2026/bl.json) |
+| Schaffhausen | 2026 | 23 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/schaffhausen?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/sh.csv) · [JSON](json/switzerland/2026/sh.json) |
+| Appenzell Ausserrhoden | 2026 | 32 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/appenzell-ausserrhoden?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ar.csv) · [JSON](json/switzerland/2026/ar.json) |
+| Appenzell Innerrhoden | 2026 | 22 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/appenzell-innerrhoden?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ai.csv) · [JSON](json/switzerland/2026/ai.json) |
+| St. Gallen | 2026 | 15 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/st-gallen?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/sg.csv) · [JSON](json/switzerland/2026/sg.json) |
+| Graubünden | 2026 | 27 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/graubunden?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/gr.csv) · [JSON](json/switzerland/2026/gr.json) |
+| Aargau | 2026 | 22 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/aargau?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ag.csv) · [JSON](json/switzerland/2026/ag.json) |
+| Thurgau | 2026 | 17 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/thurgau?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/tg.csv) · [JSON](json/switzerland/2026/tg.json) |
+| Ticino | 2026 | 38 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/ticino?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ti.csv) · [JSON](json/switzerland/2026/ti.json) |
+| Vaud | 2026 | 26 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/vaud?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/vd.csv) · [JSON](json/switzerland/2026/vd.json) |
+| Valais | 2026 | 31 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/valais?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/vs.csv) · [JSON](json/switzerland/2026/vs.json) |
+| Neuchâtel | 2026 | 33 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/neuchatel?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ne.csv) · [JSON](json/switzerland/2026/ne.json) |
+| Geneva | 2026 | 27 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/geneva?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ge.csv) · [JSON](json/switzerland/2026/ge.json) |
+| Jura | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/switzerland/tax-tables/2026/jura?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/switzerland/2026/ju.csv) · [JSON](json/switzerland/2026/ju.json) |
 
 **Official sources (47):**
 
@@ -944,11 +944,11 @@ Currency CHF · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## United Arab Emirates
 
-Currency AED · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/uae/tax-tables)
+Currency AED · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/uae/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 56 | 4 | unverified | 2026-11-09 | [page](https://calcbloc.com/uae/tax-tables/2026) | [CSV](csv/uae/2026.csv) · [JSON](json/uae/2026.json) |
+| National | 2026 | 56 | 4 | unverified | 2026-11-09 | [page](https://calcbloc.com/uae/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uae/2026.csv) · [JSON](json/uae/2026.json) |
 
 **Official sources (15):**
 
@@ -970,16 +970,16 @@ Currency AED · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 ## United Kingdom
 
-Currency GBP · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/uk/tax-tables)
+Currency GBP · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/uk/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026-27 | 78 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2026-27) | [CSV](csv/uk/2026-27.csv) · [JSON](json/uk/2026-27.json) |
-| Scotland | 2026-27 | 9 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/uk/tax-tables/2026-27/scotland) | [CSV](csv/uk/2026-27/scotland.csv) · [JSON](json/uk/2026-27/scotland.json) |
-| Wales | 2026-27 | 6 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/uk/tax-tables/2026-27/wales) | [CSV](csv/uk/2026-27/wales.csv) · [JSON](json/uk/2026-27/wales.json) |
-| National | 2025-26 | 76 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26) | [CSV](csv/uk/2025-26.csv) · [JSON](json/uk/2025-26.json) |
-| Scotland | 2025-26 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26/scotland) | [CSV](csv/uk/2025-26/scotland.csv) · [JSON](json/uk/2025-26/scotland.json) |
-| Wales | 2025-26 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26/wales) | [CSV](csv/uk/2025-26/wales.csv) · [JSON](json/uk/2025-26/wales.json) |
+| National | 2026-27 | 78 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27.csv) · [JSON](json/uk/2026-27.json) |
+| Scotland | 2026-27 | 9 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/uk/tax-tables/2026-27/scotland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27/scotland.csv) · [JSON](json/uk/2026-27/scotland.json) |
+| Wales | 2026-27 | 6 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/uk/tax-tables/2026-27/wales?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27/wales.csv) · [JSON](json/uk/2026-27/wales.json) |
+| National | 2025-26 | 76 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2025-26.csv) · [JSON](json/uk/2025-26.json) |
+| Scotland | 2025-26 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26/scotland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2025-26/scotland.csv) · [JSON](json/uk/2025-26/scotland.json) |
+| Wales | 2025-26 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26/wales?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2025-26/wales.csv) · [JSON](json/uk/2025-26/wales.json) |
 
 **Official sources (9):**
 
@@ -995,62 +995,62 @@ Currency GBP · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 
 ## United States
 
-Currency USD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/us/tax-tables)
+Currency USD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/us/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 70 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026) | [CSV](csv/us/2026.csv) · [JSON](json/us/2026.json) |
-| Alabama | 2026 | 24 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/alabama) | [CSV](csv/us/2026/al.csv) · [JSON](json/us/2026/al.json) |
-| Alaska | 2026 | 8 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/alaska) | [CSV](csv/us/2026/ak.csv) · [JSON](json/us/2026/ak.json) |
-| Arizona | 2026 | 11 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/arizona) | [CSV](csv/us/2026/az.csv) · [JSON](json/us/2026/az.json) |
-| Arkansas | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/arkansas) | [CSV](csv/us/2026/ar.csv) · [JSON](json/us/2026/ar.json) |
-| California | 2026 | 47 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/california) | [CSV](csv/us/2026/ca.csv) · [JSON](json/us/2026/ca.json) |
-| Colorado | 2026 | 15 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/colorado) | [CSV](csv/us/2026/co.csv) · [JSON](json/us/2026/co.json) |
-| Connecticut | 2026 | 41 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/connecticut) | [CSV](csv/us/2026/ct.csv) · [JSON](json/us/2026/ct.json) |
-| Delaware | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/delaware) | [CSV](csv/us/2026/de.csv) · [JSON](json/us/2026/de.json) |
-| District of Columbia | 2026 | 20 | 15 | unverified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/district-of-columbia) | [CSV](csv/us/2026/dc.csv) · [JSON](json/us/2026/dc.json) |
-| Florida | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/florida) | [CSV](csv/us/2026/fl.csv) · [JSON](json/us/2026/fl.json) |
-| Georgia | 2026 | 14 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/georgia) | [CSV](csv/us/2026/ga.csv) · [JSON](json/us/2026/ga.json) |
-| Hawaii | 2026 | 50 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/hawaii) | [CSV](csv/us/2026/hi.csv) · [JSON](json/us/2026/hi.json) |
-| Idaho | 2026 | 11 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/idaho) | [CSV](csv/us/2026/id.csv) · [JSON](json/us/2026/id.json) |
-| Illinois | 2026 | 11 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/illinois) | [CSV](csv/us/2026/il.csv) · [JSON](json/us/2026/il.json) |
-| Indiana | 2026 | 105 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/indiana) | [CSV](csv/us/2026/in.csv) · [JSON](json/us/2026/in.json) |
-| Iowa | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/iowa) | [CSV](csv/us/2026/ia.csv) · [JSON](json/us/2026/ia.json) |
-| Kansas | 2026 | 21 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/kansas) | [CSV](csv/us/2026/ks.csv) · [JSON](json/us/2026/ks.json) |
-| Kentucky | 2026 | 12 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/kentucky) | [CSV](csv/us/2026/ky.csv) · [JSON](json/us/2026/ky.json) |
-| Louisiana | 2026 | 14 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/louisiana) | [CSV](csv/us/2026/la.csv) · [JSON](json/us/2026/la.json) |
-| Maine | 2026 | 26 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/maine) | [CSV](csv/us/2026/me.csv) · [JSON](json/us/2026/me.json) |
-| Maryland | 2026 | 68 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/maryland) | [CSV](csv/us/2026/md.csv) · [JSON](json/us/2026/md.json) |
-| Massachusetts | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/massachusetts) | [CSV](csv/us/2026/ma.csv) · [JSON](json/us/2026/ma.json) |
-| Michigan | 2026 | 14 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/michigan) | [CSV](csv/us/2026/mi.csv) · [JSON](json/us/2026/mi.json) |
-| Minnesota | 2026 | 31 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/minnesota) | [CSV](csv/us/2026/mn.csv) · [JSON](json/us/2026/mn.json) |
-| Mississippi | 2026 | 18 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/mississippi) | [CSV](csv/us/2026/ms.csv) · [JSON](json/us/2026/ms.json) |
-| Missouri | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/missouri) | [CSV](csv/us/2026/mo.csv) · [JSON](json/us/2026/mo.json) |
-| Montana | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/montana) | [CSV](csv/us/2026/mt.csv) · [JSON](json/us/2026/mt.json) |
-| Nebraska | 2026 | 21 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/nebraska) | [CSV](csv/us/2026/ne.csv) · [JSON](json/us/2026/ne.json) |
-| Nevada | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/nevada) | [CSV](csv/us/2026/nv.csv) · [JSON](json/us/2026/nv.json) |
-| New Hampshire | 2026 | 6 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-hampshire) | [CSV](csv/us/2026/nh.csv) · [JSON](json/us/2026/nh.json) |
-| New Jersey | 2026 | 33 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-jersey) | [CSV](csv/us/2026/nj.csv) · [JSON](json/us/2026/nj.json) |
-| New Mexico | 2026 | 26 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/new-mexico) | [CSV](csv/us/2026/nm.csv) · [JSON](json/us/2026/nm.json) |
-| New York | 2026 | 50 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-york) | [CSV](csv/us/2026/ny.csv) · [JSON](json/us/2026/ny.json) |
-| North Carolina | 2026 | 15 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/north-carolina) | [CSV](csv/us/2026/nc.csv) · [JSON](json/us/2026/nc.json) |
-| North Dakota | 2026 | 19 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/north-dakota) | [CSV](csv/us/2026/nd.csv) · [JSON](json/us/2026/nd.json) |
-| Ohio | 2026 | 47 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/ohio) | [CSV](csv/us/2026/oh.csv) · [JSON](json/us/2026/oh.json) |
-| Oklahoma | 2026 | 24 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/oklahoma) | [CSV](csv/us/2026/ok.csv) · [JSON](json/us/2026/ok.json) |
-| Oregon | 2026 | 30 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/us/tax-tables/2026/oregon) | [CSV](csv/us/2026/or.csv) · [JSON](json/us/2026/or.json) |
-| Pennsylvania | 2026 | 28 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/pennsylvania) | [CSV](csv/us/2026/pa.csv) · [JSON](json/us/2026/pa.json) |
-| Rhode Island | 2026 | 19 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/rhode-island) | [CSV](csv/us/2026/ri.csv) · [JSON](json/us/2026/ri.json) |
-| South Carolina | 2026 | 14 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/south-carolina) | [CSV](csv/us/2026/sc.csv) · [JSON](json/us/2026/sc.json) |
-| South Dakota | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/south-dakota) | [CSV](csv/us/2026/sd.csv) · [JSON](json/us/2026/sd.json) |
-| Tennessee | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/tennessee) | [CSV](csv/us/2026/tn.csv) · [JSON](json/us/2026/tn.json) |
-| Texas | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/texas) | [CSV](csv/us/2026/tx.csv) · [JSON](json/us/2026/tx.json) |
-| Utah | 2026 | 9 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/utah) | [CSV](csv/us/2026/ut.csv) · [JSON](json/us/2026/ut.json) |
-| Vermont | 2026 | 9 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/vermont) | [CSV](csv/us/2026/vt.csv) · [JSON](json/us/2026/vt.json) |
-| Virginia | 2026 | 17 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/virginia) | [CSV](csv/us/2026/va.csv) · [JSON](json/us/2026/va.json) |
-| Washington | 2026 | 9 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/washington) | [CSV](csv/us/2026/wa.csv) · [JSON](json/us/2026/wa.json) |
-| West Virginia | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/west-virginia) | [CSV](csv/us/2026/wv.csv) · [JSON](json/us/2026/wv.json) |
-| Wisconsin | 2026 | 32 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/wisconsin) | [CSV](csv/us/2026/wi.csv) · [JSON](json/us/2026/wi.json) |
-| Wyoming | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/wyoming) | [CSV](csv/us/2026/wy.csv) · [JSON](json/us/2026/wy.json) |
+| National | 2026 | 70 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026.csv) · [JSON](json/us/2026.json) |
+| Alabama | 2026 | 24 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/alabama?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/al.csv) · [JSON](json/us/2026/al.json) |
+| Alaska | 2026 | 8 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/alaska?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ak.csv) · [JSON](json/us/2026/ak.json) |
+| Arizona | 2026 | 11 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/arizona?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/az.csv) · [JSON](json/us/2026/az.json) |
+| Arkansas | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/arkansas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ar.csv) · [JSON](json/us/2026/ar.json) |
+| California | 2026 | 47 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/california?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ca.csv) · [JSON](json/us/2026/ca.json) |
+| Colorado | 2026 | 15 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/colorado?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/co.csv) · [JSON](json/us/2026/co.json) |
+| Connecticut | 2026 | 41 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/connecticut?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ct.csv) · [JSON](json/us/2026/ct.json) |
+| Delaware | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/delaware?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/de.csv) · [JSON](json/us/2026/de.json) |
+| District of Columbia | 2026 | 20 | 15 | unverified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/district-of-columbia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/dc.csv) · [JSON](json/us/2026/dc.json) |
+| Florida | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/florida?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/fl.csv) · [JSON](json/us/2026/fl.json) |
+| Georgia | 2026 | 14 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/georgia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ga.csv) · [JSON](json/us/2026/ga.json) |
+| Hawaii | 2026 | 50 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/hawaii?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/hi.csv) · [JSON](json/us/2026/hi.json) |
+| Idaho | 2026 | 11 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/idaho?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/id.csv) · [JSON](json/us/2026/id.json) |
+| Illinois | 2026 | 11 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/illinois?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/il.csv) · [JSON](json/us/2026/il.json) |
+| Indiana | 2026 | 105 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/indiana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/in.csv) · [JSON](json/us/2026/in.json) |
+| Iowa | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/iowa?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ia.csv) · [JSON](json/us/2026/ia.json) |
+| Kansas | 2026 | 21 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/kansas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ks.csv) · [JSON](json/us/2026/ks.json) |
+| Kentucky | 2026 | 12 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/kentucky?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ky.csv) · [JSON](json/us/2026/ky.json) |
+| Louisiana | 2026 | 14 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/louisiana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/la.csv) · [JSON](json/us/2026/la.json) |
+| Maine | 2026 | 26 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/maine?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/me.csv) · [JSON](json/us/2026/me.json) |
+| Maryland | 2026 | 68 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/maryland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/md.csv) · [JSON](json/us/2026/md.json) |
+| Massachusetts | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/massachusetts?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ma.csv) · [JSON](json/us/2026/ma.json) |
+| Michigan | 2026 | 14 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/michigan?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mi.csv) · [JSON](json/us/2026/mi.json) |
+| Minnesota | 2026 | 31 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/minnesota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mn.csv) · [JSON](json/us/2026/mn.json) |
+| Mississippi | 2026 | 18 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/mississippi?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ms.csv) · [JSON](json/us/2026/ms.json) |
+| Missouri | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/missouri?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mo.csv) · [JSON](json/us/2026/mo.json) |
+| Montana | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/montana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mt.csv) · [JSON](json/us/2026/mt.json) |
+| Nebraska | 2026 | 21 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/nebraska?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ne.csv) · [JSON](json/us/2026/ne.json) |
+| Nevada | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/nevada?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nv.csv) · [JSON](json/us/2026/nv.json) |
+| New Hampshire | 2026 | 6 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-hampshire?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nh.csv) · [JSON](json/us/2026/nh.json) |
+| New Jersey | 2026 | 33 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-jersey?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nj.csv) · [JSON](json/us/2026/nj.json) |
+| New Mexico | 2026 | 26 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/new-mexico?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nm.csv) · [JSON](json/us/2026/nm.json) |
+| New York | 2026 | 50 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-york?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ny.csv) · [JSON](json/us/2026/ny.json) |
+| North Carolina | 2026 | 15 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/north-carolina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nc.csv) · [JSON](json/us/2026/nc.json) |
+| North Dakota | 2026 | 19 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/north-dakota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nd.csv) · [JSON](json/us/2026/nd.json) |
+| Ohio | 2026 | 47 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/ohio?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/oh.csv) · [JSON](json/us/2026/oh.json) |
+| Oklahoma | 2026 | 24 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/oklahoma?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ok.csv) · [JSON](json/us/2026/ok.json) |
+| Oregon | 2026 | 30 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/us/tax-tables/2026/oregon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/or.csv) · [JSON](json/us/2026/or.json) |
+| Pennsylvania | 2026 | 28 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/pennsylvania?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/pa.csv) · [JSON](json/us/2026/pa.json) |
+| Rhode Island | 2026 | 19 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/rhode-island?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ri.csv) · [JSON](json/us/2026/ri.json) |
+| South Carolina | 2026 | 14 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/south-carolina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/sc.csv) · [JSON](json/us/2026/sc.json) |
+| South Dakota | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/south-dakota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/sd.csv) · [JSON](json/us/2026/sd.json) |
+| Tennessee | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/tennessee?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/tn.csv) · [JSON](json/us/2026/tn.json) |
+| Texas | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/texas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/tx.csv) · [JSON](json/us/2026/tx.json) |
+| Utah | 2026 | 9 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/utah?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ut.csv) · [JSON](json/us/2026/ut.json) |
+| Vermont | 2026 | 9 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/vermont?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/vt.csv) · [JSON](json/us/2026/vt.json) |
+| Virginia | 2026 | 17 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/virginia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/va.csv) · [JSON](json/us/2026/va.json) |
+| Washington | 2026 | 9 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/washington?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wa.csv) · [JSON](json/us/2026/wa.json) |
+| West Virginia | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/west-virginia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wv.csv) · [JSON](json/us/2026/wv.json) |
+| Wisconsin | 2026 | 32 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/wisconsin?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wi.csv) · [JSON](json/us/2026/wi.json) |
+| Wyoming | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/wyoming?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wy.csv) · [JSON](json/us/2026/wy.json) |
 
 **Official sources (178):**
 

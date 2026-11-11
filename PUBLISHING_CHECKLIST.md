@@ -66,7 +66,7 @@ Decide first: the **Auth** value is `apiKey` in [listings/public-apis.md](listin
 2. Definition: import the OpenAPI document from https://calcbloc.com/api/openapi.json, or add the endpoints by hand.
 3. Base URL: `https://calcbloc.com` when importing the OpenAPI document (its paths start with `/api/v1`); `https://calcbloc.com/api/v1` when entering paths by hand.
 4. Gateway / security: copy the **X-RapidAPI-Proxy-Secret** value and store it on the server if option (b) is chosen; configure the header for option (a).
-5. Hub listing: long description, logo (https://calcbloc.com/icon-512.png), website https://calcbloc.com/developers, terms https://calcbloc.com/developers/terms.
+5. Hub listing: long description, logo (https://calcbloc.com/icon-512.png), website https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss, terms https://calcbloc.com/developers/terms?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss.
 6. Monetize: create a free **BASIC** plan with a hard daily limit no higher than what the server allows for RapidAPI traffic. Add paid plans only once commercial terms exist.
 7. Make the API public.
 

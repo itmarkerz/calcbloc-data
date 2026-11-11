@@ -22,7 +22,7 @@ The CalcBloc API returns **official tax tables** and **payroll calculations** fr
 - **Compare** (`/compare`): the same salary in two countries.
 - **Countries** (`/countries`): supported countries, regions, tax years and parameters.
 
-Rates are decimals (0.2 = 20%), amounts are in the country's currency, and every response includes an attribution block. Free use requires a visible "Data by CalcBloc" link to calcbloc.com wherever the figures are shown (terms: https://calcbloc.com/developers/terms).
+Rates are decimals (0.2 = 20%), amounts are in the country's currency, and every response includes an attribution block. Free use requires a visible "Data by CalcBloc" link to calcbloc.com wherever the figures are shown (terms: https://calcbloc.com/developers/terms?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss).
 
 ## Category
 
@@ -54,8 +54,8 @@ Suggested: a free BASIC plan only, mirroring the direct free tier (5,000 request
 
 ## Links
 
-- Documentation: https://calcbloc.com/developers
-- Terms: https://calcbloc.com/developers/terms
-- Free key (direct use): https://calcbloc.com/developers/keys
+- Documentation: https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss
+- Terms: https://calcbloc.com/developers/terms?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss
+- Free key (direct use): https://calcbloc.com/developers/keys?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss
 - Open data (CSV/JSON, CC BY 4.0): https://github.com/itmarkerz/calcbloc-data
 - Logo: https://calcbloc.com/icon-512.png

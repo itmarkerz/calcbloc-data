@@ -4,7 +4,7 @@
 
 ## About this dataset
 
-Free, machine-readable **income tax tables** and **social security contribution rates** for 29 countries, compiled by [CalcBloc](https://calcbloc.com) from official government sources for the 2026 and 2026-27 tax years. Each table lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions with their own rates.
+Free, machine-readable **income tax tables** and **social security contribution rates** for 29 countries, compiled by [CalcBloc](https://calcbloc.com/?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) from official government sources for the 2026 and 2026-27 tax years. Each table lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions with their own rates.
 
 Every row carries the official **source URL**, the date it was **retrieved** and a review **status**, so each figure can be traced to the government page it came from.
 
@@ -31,35 +31,35 @@ Per-table CSV and JSON files and a Frictionless `datapackage.json` are in the Gi
 
 | Country | Tax year(s) | Regions | Last verified | calcbloc.com |
 |---|---|---:|---|---|
-| Australia | 2026-27 | – | 2026-11-09 | [2026-27 tables](https://calcbloc.com/australia/tax-tables/2026-27) |
-| Austria | 2026 | – | 2026-11-10 | [2026 tables](https://calcbloc.com/austria/tax-tables/2026) |
-| Canada | 2026 | 13 | 2026-11-09 | [2026 tables](https://calcbloc.com/canada/tax-tables/2026) |
-| Czechia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/czechia/tax-tables/2026) |
-| Denmark | 2026 | 5 | 2026-11-09 | [2026 tables](https://calcbloc.com/denmark/tax-tables/2026) |
-| Finland | 2026 | 19 | 2026-11-11 | [2026 tables](https://calcbloc.com/finland/tax-tables/2026) |
-| France | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/france/tax-tables/2026) |
-| Germany | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/germany/tax-tables/2026) |
-| Greece | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/greece/tax-tables/2026) |
-| Hungary | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/hungary/tax-tables/2026) |
-| India | 2026-27 | – | 2026-11-11 | [2026-27 tables](https://calcbloc.com/india/tax-tables/2026-27) |
-| Ireland | 2026 | – | 2026-11-06 | [2026 tables](https://calcbloc.com/ireland/tax-tables/2026) |
-| Italy | 2026 | 21 | 2026-11-09 | [2026 tables](https://calcbloc.com/italy/tax-tables/2026) |
-| Luxembourg | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/luxembourg/tax-tables/2026) |
-| Netherlands | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/netherlands/tax-tables/2026) |
-| New Zealand | 2026-27 | – | 2026-11-09 | [2026-27 tables](https://calcbloc.com/new-zealand/tax-tables/2026-27) |
-| Norway | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/norway/tax-tables/2026) |
-| Poland | 2026 | – | 2026-11-10 | [2026 tables](https://calcbloc.com/poland/tax-tables/2026) |
-| Portugal | 2026 | 2 | 2026-11-09 | [2026 tables](https://calcbloc.com/portugal/tax-tables/2026) |
-| Romania | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/romania/tax-tables/2026) |
-| Singapore | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/singapore/tax-tables/2026) |
-| Slovakia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/slovakia/tax-tables/2026) |
-| Slovenia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/slovenia/tax-tables/2026) |
-| Spain | 2026 | 21 | 2026-11-09 | [2026 tables](https://calcbloc.com/spain/tax-tables/2026) |
-| Sweden | 2026 | 21 | 2026-11-10 | [2026 tables](https://calcbloc.com/sweden/tax-tables/2026) |
-| Switzerland | 2026 | 26 | 2026-11-09 | [2026 tables](https://calcbloc.com/switzerland/tax-tables/2026) |
-| United Arab Emirates | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/uae/tax-tables/2026) |
-| United Kingdom | 2026-27, 2025-26 | 2 | 2026-11-09 | [2026-27 tables](https://calcbloc.com/uk/tax-tables/2026-27) |
-| United States | 2026 | 51 | 2026-11-09 | [2026 tables](https://calcbloc.com/us/tax-tables/2026) |
+| Australia | 2026-27 | – | 2026-11-09 | [2026-27 tables](https://calcbloc.com/australia/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Austria | 2026 | – | 2026-11-10 | [2026 tables](https://calcbloc.com/austria/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Canada | 2026 | 13 | 2026-11-09 | [2026 tables](https://calcbloc.com/canada/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Czechia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/czechia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Denmark | 2026 | 5 | 2026-11-09 | [2026 tables](https://calcbloc.com/denmark/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Finland | 2026 | 19 | 2026-11-11 | [2026 tables](https://calcbloc.com/finland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| France | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/france/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Germany | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/germany/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Greece | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/greece/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Hungary | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/hungary/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| India | 2026-27 | – | 2026-11-11 | [2026-27 tables](https://calcbloc.com/india/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Ireland | 2026 | – | 2026-11-06 | [2026 tables](https://calcbloc.com/ireland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Italy | 2026 | 21 | 2026-11-09 | [2026 tables](https://calcbloc.com/italy/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Luxembourg | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/luxembourg/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Netherlands | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/netherlands/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| New Zealand | 2026-27 | – | 2026-11-09 | [2026-27 tables](https://calcbloc.com/new-zealand/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Norway | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/norway/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Poland | 2026 | – | 2026-11-10 | [2026 tables](https://calcbloc.com/poland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Portugal | 2026 | 2 | 2026-11-09 | [2026 tables](https://calcbloc.com/portugal/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Romania | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/romania/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Singapore | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/singapore/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Slovakia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/slovakia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Slovenia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/slovenia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Spain | 2026 | 21 | 2026-11-09 | [2026 tables](https://calcbloc.com/spain/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Sweden | 2026 | 21 | 2026-11-10 | [2026 tables](https://calcbloc.com/sweden/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| Switzerland | 2026 | 26 | 2026-11-09 | [2026 tables](https://calcbloc.com/switzerland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| United Arab Emirates | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/uae/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| United Kingdom | 2026-27, 2025-26 | 2 | 2026-11-09 | [2026-27 tables](https://calcbloc.com/uk/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
+| United States | 2026 | 51 | 2026-11-09 | [2026 tables](https://calcbloc.com/us/tax-tables/2026?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) |
 
 Belgium is not included yet: held until the 2026 federal income-tax scale is confirmed against the official FPS Finance publication. It will be added as soon as its tables are complete.
 
@@ -77,12 +77,12 @@ Belgium is not included yet: held until the 2026 federal income-tax scale is con
 
 ## Licence and credit
 
-Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit **"Data by CalcBloc (calcbloc.com/data)"** with a link to https://calcbloc.com/data. The figures are reference data, not tax advice; check the official source before relying on them.
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit **"Data by CalcBloc (calcbloc.com/data)"** with a link to [https://calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss). The figures are reference data, not tax advice; check the official source before relying on them.
 
-The same tables are available from the free CalcBloc API: https://calcbloc.com/developers
+The same tables are available from the free CalcBloc API: [https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)
 
 Version 2026.11.11. Updated from the calcbloc.com code base with every data update; see https://github.com/itmarkerz/calcbloc-data for the change history.
 
 ## About
 
-[CalcBloc](https://calcbloc.com) is built and maintained by [itmarkerz technologies](https://itmarkerz.co.in), a web and mobile app development company in Kerala, India.
+[CalcBloc](https://calcbloc.com/?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) is built and maintained by [itmarkerz technologies](https://itmarkerz.co.in/?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss), a web and mobile app development company in Kerala, India.

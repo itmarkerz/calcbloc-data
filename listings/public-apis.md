@@ -7,7 +7,7 @@ Entry for [public-apis/public-apis](https://github.com/public-apis/public-apis),
 ## Row
 
 ```markdown
-| [CalcBloc](https://calcbloc.com/developers) | Official income tax brackets and social security rates for 29 countries, plus take-home pay | `apiKey` | Yes | Yes | |
+| [CalcBloc](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) | Official income tax brackets and social security rates for 29 countries, plus take-home pay | `apiKey` | Yes | Yes | |
 ```
 
 Place it in `README.md` under `### Finance`, in alphabetical order (as of 2026-11-11: after **BriefTape**, before **CardBinCheck**).

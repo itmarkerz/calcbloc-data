@@ -203,7 +203,7 @@ test("generated documents state the manifest's figures", () => {
   const readme = read("README.md");
   const n = manifest.countries.length;
   assert.match(readme, new RegExp(`^# CalcBloc Tax Tables — .* for ${n} countries$`, "m"), "README H1 country count");
-  for (const c of manifest.countries) assert.ok(readme.includes(`](${c.pageUrl})`), `README links ${c.pageUrl}`);
+  for (const c of manifest.countries) assert.ok(readme.includes(`](${c.pageUrl}?utm_source=calcbloc-data&utm_medium=readme&utm_campaign=itmarkerz-oss)`), `README links ${c.pageUrl}`);
   for (const p of manifest.pending) {
     assert.ok(readme.includes(p.name), `README mentions pending ${p.name}`);
     assert.ok(!readme.includes(`/${p.country}/tax-tables/`), `README links pending ${p.country}`);

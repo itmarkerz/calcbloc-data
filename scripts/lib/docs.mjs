@@ -14,6 +14,23 @@ const mdCell = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " 
 const PUBLISHER = { name: "itmarkerz technologies", url: "https://itmarkerz.co.in", github: "https://github.com/itmarkerz" };
 const PUBLISHER_DESCRIPTION = "a web and mobile app development company in Kerala, India";
 
+/**
+ * Referral tag for human-facing calcbloc.com and itmarkerz.co.in links, so analytics can tell which repository and
+ * which surface (readme, docs, listing) sent a visit. API URLs, the OpenAPI URL, download links and citation/machine
+ * metadata (CITATION.cff, the .zenodo.json fields other than the description, datapackage.json, the tables'
+ * page_url values) stay plain.
+ */
+const UTM_SOURCE = "calcbloc-data";
+const UTM_CAMPAIGN = "itmarkerz-oss";
+export function utm(url, medium) {
+  const m = /^(https:\/\/(?:www\.)?(?:calcbloc\.com|itmarkerz\.co\.in))([^?#]*)(\?[^#]*)?(#.*)?$/.exec(url);
+  if (!m || /[?&]utm_source=/.test(url)) return url;
+  const [, origin, path, query, hash] = m;
+  const tag = `utm_source=${UTM_SOURCE}&utm_medium=${medium}&utm_campaign=${UTM_CAMPAIGN}`;
+  return `${origin}${path || "/"}${query ? `${query}&` : "?"}${tag}${hash ?? ""}`;
+}
+const rd = (path) => utm(`${SITE}${path}`, "readme");
+
 /** Shared context: totals, links and phrases used by several documents. */
 export function context(loaded, stats, config) {
   const repo = config.githubRepo;
@@ -84,7 +101,7 @@ function coverageRows(ctx, { absolute }) {
       const t = ctx.tableList.find((x) => x.entry === c && x.year === c.current_year && !x.region);
       const years = c.years.join(", ");
       const regions = c.regions.length ? fmt(c.regions.length) : "–";
-      return `| [${c.name}](${SITE}/${c.country}/tax-tables) | ${years} | ${c.currency} | ${regions} | ${fmt(c.rowCount)} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${c.pageUrl}) | [CSV](${link(t.csvPath)}) · [JSON](${link(t.jsonPath)}) |`;
+      return `| [${c.name}](${rd(`/${c.country}/tax-tables`)}) | ${years} | ${c.currency} | ${regions} | ${fmt(c.rowCount)} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${utm(c.pageUrl, "readme")}) | [CSV](${link(t.csvPath)}) · [JSON](${link(t.jsonPath)}) |`;
     })
     .join("\n");
 }
@@ -134,11 +151,11 @@ export function readme(ctx) {
 
 ${badges}
 
-Free, machine-readable **income tax tables** and **social security contribution rates** for ${ctx.countries} countries, compiled by [CalcBloc](${SITE}) from official government sources. Each table covers one country and tax year (the ${ctx.yearList} tax years) and lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures, with regional tables for states, provinces and cantons where they set their own rates.
+Free, machine-readable **income tax tables** and **social security contribution rates** for ${ctx.countries} countries, compiled by [CalcBloc](${rd("")}) from official government sources. Each table covers one country and tax year (the ${ctx.yearList} tax years) and lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures, with regional tables for states, provinces and cantons where they set their own rates.
 
-Every row states its official source URL, the date it was retrieved and a review status, so each figure can be traced back to the government page it came from. The data is the same that powers the tax-table pages and calculators on [calcbloc.com](${SITE}) and the [CalcBloc API](${SITE}/developers).
+Every row states its official source URL, the date it was retrieved and a review status, so each figure can be traced back to the government page it came from. The data is the same that powers the tax-table pages and calculators on [calcbloc.com](${rd("")}) and the [CalcBloc API](${rd("/developers")}).
 
-CalcBloc is a product of [${PUBLISHER.name}](${PUBLISHER.url}).
+CalcBloc is a product of [${PUBLISHER.name}](${utm(PUBLISHER.url, "readme")}).
 
 **At a glance:** ${fmt(ctx.countries)} countries · ${fmt(ctx.tables)} tables (${fmt(ctx.nationalTables)} national, ${fmt(ctx.regionalTables)} regional) · ${fmt(ctx.rows)} rows · ${fmt(ctx.sources)} official sources · last verified ${ctx.lastVerified} · CSV and JSON · ${LICENCE.name}
 
@@ -199,14 +216,14 @@ const table = await res.json();
 console.log(table.country_name, table.tax_year, table.last_verified, table.rows.length, "rows");
 \`\`\`
 
-**Call the API** for the same tables without downloading anything. The tax-table endpoint needs no key (50 requests a day per IP address; a [free key](${SITE}/developers/keys) raises that to 5,000):
+**Call the API** for the same tables without downloading anything. The tax-table endpoint needs no key (50 requests a day per IP address; a [free key](${rd("/developers/keys")}) raises that to 5,000):
 
 \`\`\`sh
 curl ${SITE}/api/v1/tax-tables/${ex.country}/${ex.current_year}
 ${reg ? `curl "${SITE}/api/v1/tax-tables/${reg.country}/${reg.current_year}?region=${regEx.code}&format=csv"` : `curl "${SITE}/api/v1/tax-tables/${ex.country}/${ex.current_year}?format=csv"`}
 \`\`\`
 
-The API also calculates take-home pay and employer cost. Documentation: [calcbloc.com/developers](${SITE}/developers) · OpenAPI 3.1 description: [calcbloc.com/api/openapi.json](${SITE}/api/openapi.json).
+The API also calculates take-home pay and employer cost. Documentation: [calcbloc.com/developers](${rd("/developers")}) · OpenAPI 3.1 description: [calcbloc.com/api/openapi.json](${SITE}/api/openapi.json).
 
 **Use it from code** with the CalcBloc packages, built from the same tables:
 
@@ -230,7 +247,7 @@ The tables are maintained in the calcbloc.com code base, where every figure is e
 2. \`npm run build\` ([\`scripts/build.mjs\`](scripts/build.mjs)) regenerates \`dist/\`, this README, the dataset cards and the citation files from \`tables/\`.
 3. \`npm test\` checks that every row has a source URL and retrieval date, that the CSV and JSON files hold the same rows, and that the files match the manifest.
 
-A new tax year or a corrected figure is therefore one change: sync, build, test, commit. The per-row \`retrieved_at\` dates and the git history show what changed and when; the [calcbloc.com data changelog](${SITE}/data/changelog) lists updates to the underlying datasets. Requires Node.js 22 or later; there are no dependencies to install.
+A new tax year or a corrected figure is therefore one change: sync, build, test, commit. The per-row \`retrieved_at\` dates and the git history show what changed and when; the [calcbloc.com data changelog](${rd("/data/changelog")}) lists updates to the underlying datasets. Requires Node.js 22 or later; there are no dependencies to install.
 
 ## Licence and credit
 
@@ -238,7 +255,7 @@ The data is licensed under the [Creative Commons Attribution 4.0 International l
 
 > ${CREDIT}
 
-with a link to [calcbloc.com/data](${SITE}/data) or to the country page in the \`page_url\` column. The full licence text is in [LICENSE](LICENSE). The code in \`scripts/\` and \`test/\` is released under the [MIT licence](LICENSE-CODE).
+with a link to [calcbloc.com/data](${rd("/data")}) or to the country page in the \`page_url\` column. The full licence text is in [LICENSE](LICENSE). The code in \`scripts/\` and \`test/\` is released under the [MIT licence](LICENSE-CODE).
 
 The tax rates and thresholds themselves are set by the governments listed in \`source_url\`; the licence covers CalcBloc's compilation, structure and notes. The tables are reference data, not tax advice: check the official source before relying on a figure for a filing or payroll run.
 
@@ -254,14 +271,14 @@ Citation metadata is also in [CITATION.cff](CITATION.cff); GitHub shows it under
 
 ## Links
 
-- Data hub and per-dataset sources: [calcbloc.com/data](${SITE}/data)
-- API documentation: [calcbloc.com/developers](${SITE}/developers)
+- Data hub and per-dataset sources: [calcbloc.com/data](${rd("/data")})
+- API documentation: [calcbloc.com/developers](${rd("/developers")})
 - OpenAPI description: [calcbloc.com/api/openapi.json](${SITE}/api/openapi.json)
 - Questions and corrections: open an issue in this repository or write to hello@calcbloc.com
 
 ## About
 
-[CalcBloc](${SITE}) is built and maintained by [${PUBLISHER.name}](${PUBLISHER.url}), ${PUBLISHER_DESCRIPTION}. The tables behind this dataset are documented at [calcbloc.com/data](${SITE}/data), and the API at [calcbloc.com/developers](${SITE}/developers). The CalcBloc packages for Python, JavaScript, PHP, R and Google Sheets, and the CalcBloc MCP server, are in the [itmarkerz GitHub organization](${PUBLISHER.github}).
+[CalcBloc](${rd("")}) is built and maintained by [${PUBLISHER.name}](${utm(PUBLISHER.url, "readme")}), ${PUBLISHER_DESCRIPTION}. The tables behind this dataset are documented at [calcbloc.com/data](${rd("/data")}), and the API at [calcbloc.com/developers](${rd("/developers")}). The CalcBloc packages for Python, JavaScript, PHP, R and Google Sheets, and the CalcBloc MCP server, are in the [itmarkerz GitHub organization](${PUBLISHER.github}).
 `;
 }
 
@@ -349,12 +366,12 @@ export function tablesMd(ctx, summaries) {
   ];
   for (const c of ctx.countriesByName) {
     const ts = ctx.tableList.filter((t) => t.entry === c);
-    out.push(`## ${c.name}`, ``, `Currency ${c.currency} · current tax year ${c.current_year} · [tax tables on calcbloc.com](${SITE}/${c.country}/tax-tables)`, ``);
+    out.push(`## ${c.name}`, ``, `Currency ${c.currency} · current tax year ${c.current_year} · [tax tables on calcbloc.com](${utm(`${SITE}/${c.country}/tax-tables`, "docs")})`, ``);
     out.push(`| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |`, `|---|---|---:|---:|---|---|---|---|`);
     for (const t of ts) {
       const s = summaries.get(t);
       out.push(
-        `| ${t.region ? mdCell(t.region.name) : "National"} | ${t.year} | ${fmt(s.row_count)} | ${fmt(s.under_review_rows)} | ${s.table_status} | ${s.last_verified} | [page](${s.page_url}) | [CSV](${s.csv_path}) · [JSON](${s.json_path}) |`,
+        `| ${t.region ? mdCell(t.region.name) : "National"} | ${t.year} | ${fmt(s.row_count)} | ${fmt(s.under_review_rows)} | ${s.table_status} | ${s.last_verified} | [page](${utm(s.page_url, "docs")}) | [CSV](${s.csv_path}) · [JSON](${s.json_path}) |`,
       );
     }
     const titles = new Map();
@@ -404,25 +421,28 @@ ${KEYWORDS.map((k) => `  - ${q(k)}`).join("\n")}
 `;
 }
 
-function zenodoParagraphs(ctx) {
+/** `link(url, text)` formats a link for the target (HTML for .zenodo.json, Markdown for zenodo/README.md). */
+function zenodoParagraphs(ctx, link) {
   return [
     `Free, machine-readable income tax tables and social security contribution rates for ${ctx.countries} countries, compiled by CalcBloc (calcbloc.com) from official government sources. Each table covers one country and tax year (the ${ctx.yearList} tax years) and lists the tax brackets, personal allowances and credits, employee and employer social security contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions that set their own rates.`,
     `This version contains ${fmt(ctx.tables)} tables (${fmt(ctx.nationalTables)} national, ${fmt(ctx.regionalTables)} regional) with ${fmt(ctx.rows)} rows drawn from ${fmt(ctx.sources)} official sources; the latest figure was verified on ${ctx.lastVerified}. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.`,
     `Countries: ${listJoin(ctx.countryNames)}.${ctx.pending.length ? ` Pending (not included until complete): ${listJoin(ctx.pending.map((p) => p.name))}.` : ""}`,
     `Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).`,
-    `Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${SITE}/developers). The tables are reference data, not tax advice.`,
-    `CalcBloc is built and maintained by ${PUBLISHER.name} (${PUBLISHER.url}), ${PUBLISHER_DESCRIPTION}.`,
+    `Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${link(utm(`${SITE}/developers`, "listing"), `${SITE}/developers`)}). The tables are reference data, not tax advice.`,
+    `CalcBloc is built and maintained by ${PUBLISHER.name} (${link(utm(PUBLISHER.url, "listing"), PUBLISHER.url)}), ${PUBLISHER_DESCRIPTION}.`,
   ];
 }
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 export function zenodoJson(ctx) {
+  const links = [];
+  const link = (url, text) => `\u0000${links.push(`<a href="${esc(url)}">${esc(text)}</a>`) - 1}\u0000`;
   const meta = {
     title: ctx.title,
     upload_type: "dataset",
-    description: zenodoParagraphs(ctx)
-      .map((p) => `<p>${esc(p)}</p>`)
+    description: zenodoParagraphs(ctx, link)
+      .map((p) => `<p>${esc(p).replace(/\u0000(\d+)\u0000/g, (_, i) => links[Number(i)])}</p>`)
       .join(""),
     creators: [{ name: "CalcBloc" }],
     license: "cc-by-4.0",
@@ -452,7 +472,7 @@ The Zenodo GitHub integration reads [\`.zenodo.json\`](../.zenodo.json) when a G
 
 ## Description
 
-${zenodoParagraphs(ctx).join("\n\n")}
+${zenodoParagraphs(ctx, (url, text) => `[${text}](${url})`).join("\n\n")}
 
 ## Keywords
 
@@ -495,7 +515,7 @@ export function kaggleCard(ctx) {
   const pending = pendingLine(ctx);
   return `## About this dataset
 
-Free, machine-readable **income tax tables** and **social security contribution rates** for ${ctx.countries} countries, compiled by [CalcBloc](${SITE}) from official government sources for the ${ctx.yearList} tax years. Each table lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions with their own rates.
+Free, machine-readable **income tax tables** and **social security contribution rates** for ${ctx.countries} countries, compiled by [CalcBloc](${utm(SITE, "listing")}) from official government sources for the ${ctx.yearList} tax years. Each table lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions with their own rates.
 
 Every row carries the official **source URL**, the date it was **retrieved** and a review **status**, so each figure can be traced to the government page it came from.
 
@@ -522,7 +542,7 @@ Per-table CSV and JSON files and a Frictionless \`datapackage.json\` are in the 
 
 | Country | Tax year(s) | Regions | Last verified | calcbloc.com |
 |---|---|---:|---|---|
-${ctx.countriesByName.map((c) => `| ${c.name} | ${c.years.join(", ")} | ${c.regions.length ? fmt(c.regions.length) : "–"} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${c.pageUrl}) |`).join("\n")}
+${ctx.countriesByName.map((c) => `| ${c.name} | ${c.years.join(", ")} | ${c.regions.length ? fmt(c.regions.length) : "–"} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${utm(c.pageUrl, "listing")}) |`).join("\n")}
 ${pending ? `\n${pending}\n` : ""}
 ## Status values
 
@@ -536,15 +556,15 @@ ${STATUS_VALUES.map(([v, d]) => `- \`${v}\`: ${d}`).join("\n")}
 
 ## Licence and credit
 
-Licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a link to ${SITE}/data. The figures are reference data, not tax advice; check the official source before relying on them.
+Licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a link to [${SITE}/data](${utm(`${SITE}/data`, "listing")}). The figures are reference data, not tax advice; check the official source before relying on them.
 
-The same tables are available from the free CalcBloc API: ${SITE}/developers
+The same tables are available from the free CalcBloc API: [${SITE}/developers](${utm(`${SITE}/developers`, "listing")})
 
 Version ${ctx.version}. Updated from the calcbloc.com code base with every data update; see ${ctx.ghUrl} for the change history.
 
 ## About
 
-[CalcBloc](${SITE}) is built and maintained by [${PUBLISHER.name}](${PUBLISHER.url}), ${PUBLISHER_DESCRIPTION}.
+[CalcBloc](${utm(SITE, "listing")}) is built and maintained by [${PUBLISHER.name}](${utm(PUBLISHER.url, "listing")}), ${PUBLISHER_DESCRIPTION}.
 `;
 }
 
@@ -562,7 +582,7 @@ ${kaggleCard(ctx)}`;
 export function publicApisListing(ctx) {
   const description = `Official income tax brackets and social security rates for ${ctx.countries} countries, plus take-home pay`;
   if (description.length > 100) throw new Error(`public-apis description is over 100 characters (${description.length})`);
-  const row = `| [CalcBloc](${SITE}/developers) | ${description} | \`apiKey\` | Yes | Yes | |`;
+  const row = `| [CalcBloc](${utm(`${SITE}/developers`, "listing")}) | ${description} | \`apiKey\` | Yes | Yes | |`;
   return `<!-- Generated by scripts/build.mjs. Edit scripts/lib/docs.mjs, not this file. -->
 
 # public-apis listing
@@ -615,7 +635,7 @@ The CalcBloc API returns **official tax tables** and **payroll calculations** fr
 - **Compare** (\`/compare\`): the same salary in two countries.
 - **Countries** (\`/countries\`): supported countries, regions, tax years and parameters.
 
-Rates are decimals (0.2 = 20%), amounts are in the country's currency, and every response includes an attribution block. Free use requires a visible "Data by CalcBloc" link to calcbloc.com wherever the figures are shown (terms: ${SITE}/developers/terms).
+Rates are decimals (0.2 = 20%), amounts are in the country's currency, and every response includes an attribution block. Free use requires a visible "Data by CalcBloc" link to calcbloc.com wherever the figures are shown (terms: ${utm(`${SITE}/developers/terms`, "listing")}).
 
 ## Category
 
@@ -647,9 +667,9 @@ Suggested: a free BASIC plan only, mirroring the direct free tier (5,000 request
 
 ## Links
 
-- Documentation: ${SITE}/developers
-- Terms: ${SITE}/developers/terms
-- Free key (direct use): ${SITE}/developers/keys
+- Documentation: ${utm(`${SITE}/developers`, "listing")}
+- Terms: ${utm(`${SITE}/developers/terms`, "listing")}
+- Free key (direct use): ${utm(`${SITE}/developers/keys`, "listing")}
 - Open data (CSV/JSON, CC BY 4.0): ${ctx.ghUrl}
 - Logo: ${SITE}/icon-512.png
 `;
