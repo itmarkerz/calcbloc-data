@@ -1,0 +1,280 @@
+{
+  "title": "Income Tax and Social Security Tables 2026",
+  "subtitle": "Tax brackets and contribution rates for 29 countries, with official sources",
+  "id": "binumathew/calcbloc-tax-tables",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "finance",
+    "economics",
+    "government",
+    "tabular",
+    "europe",
+    "north america"
+  ],
+  "collaborators": [],
+  "description": "## About this dataset\n\nFree, machine-readable **income tax tables** and **social security contribution rates** for 29 countries, compiled by [CalcBloc](https://calcbloc.com) from official government sources for the 2026 and 2026-27 tax years. Each table lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions with their own rates.\n\nEvery row carries the official **source URL**, the date it was **retrieved** and a review **status**, so each figure can be traced to the government page it came from.\n\n**29 countries · 213 tables (183 regional) · 7,329 rows · 728 official sources · last verified 2026-11-11**\n\n## Files\n\n- **calcbloc-tax-tables-all.csv**: every row of every table in long format (one row per band or value).\n- **calcbloc-tax-tables-all.json**: the same rows as JSON, with dataset metadata.\n- **tables-summary.csv** / **tables-summary.json**: one row per table with tax year, last-verified date, row counts, official source URLs and links.\n- **DATA_DICTIONARY.md**: every column, unit and status value.\n\nPer-table CSV and JSON files and a Frictionless `datapackage.json` are in the GitHub repository: https://github.com/itmarkerz/calcbloc-data\n\n## Key columns\n\n- `country`, `region_code`, `tax_year`, `currency`: which table the row belongs to (an empty `region_code` is the national table).\n- `section_id`, `group` (income-tax, employee, employer, other), `label`: what the row is.\n- `from`, `to`, `rate`: tax brackets; `rate` is a decimal fraction (0.2 = 20%) and an empty `to` means no upper limit.\n- `value`, `unit` (rate, money, number, text): single values such as allowances, ceilings and contribution rates.\n- `source_url`, `source_title`, `retrieved_at`, `status`: provenance and review status.\n\n## Countries\n\n| Country | Tax year(s) | Regions | Last verified | calcbloc.com |\n|---|---|---:|---|---|\n| Australia | 2026-27 | – | 2026-11-09 | [2026-27 tables](https://calcbloc.com/australia/tax-tables/2026-27) |\n| Austria | 2026 | – | 2026-11-10 | [2026 tables](https://calcbloc.com/austria/tax-tables/2026) |\n| Canada | 2026 | 13 | 2026-11-09 | [2026 tables](https://calcbloc.com/canada/tax-tables/2026) |\n| Czechia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/czechia/tax-tables/2026) |\n| Denmark | 2026 | 5 | 2026-11-09 | [2026 tables](https://calcbloc.com/denmark/tax-tables/2026) |\n| Finland | 2026 | 19 | 2026-11-11 | [2026 tables](https://calcbloc.com/finland/tax-tables/2026) |\n| France | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/france/tax-tables/2026) |\n| Germany | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/germany/tax-tables/2026) |\n| Greece | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/greece/tax-tables/2026) |\n| Hungary | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/hungary/tax-tables/2026) |\n| India | 2026-27 | – | 2026-11-11 | [2026-27 tables](https://calcbloc.com/india/tax-tables/2026-27) |\n| Ireland | 2026 | – | 2026-11-06 | [2026 tables](https://calcbloc.com/ireland/tax-tables/2026) |\n| Italy | 2026 | 21 | 2026-11-09 | [2026 tables](https://calcbloc.com/italy/tax-tables/2026) |\n| Luxembourg | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/luxembourg/tax-tables/2026) |\n| Netherlands | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/netherlands/tax-tables/2026) |\n| New Zealand | 2026-27 | – | 2026-11-09 | [2026-27 tables](https://calcbloc.com/new-zealand/tax-tables/2026-27) |\n| Norway | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/norway/tax-tables/2026) |\n| Poland | 2026 | – | 2026-11-10 | [2026 tables](https://calcbloc.com/poland/tax-tables/2026) |\n| Portugal | 2026 | 2 | 2026-11-09 | [2026 tables](https://calcbloc.com/portugal/tax-tables/2026) |\n| Romania | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/romania/tax-tables/2026) |\n| Singapore | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/singapore/tax-tables/2026) |\n| Slovakia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/slovakia/tax-tables/2026) |\n| Slovenia | 2026 | – | 2026-11-11 | [2026 tables](https://calcbloc.com/slovenia/tax-tables/2026) |\n| Spain | 2026 | 21 | 2026-11-09 | [2026 tables](https://calcbloc.com/spain/tax-tables/2026) |\n| Sweden | 2026 | 21 | 2026-11-10 | [2026 tables](https://calcbloc.com/sweden/tax-tables/2026) |\n| Switzerland | 2026 | 26 | 2026-11-09 | [2026 tables](https://calcbloc.com/switzerland/tax-tables/2026) |\n| United Arab Emirates | 2026 | – | 2026-11-09 | [2026 tables](https://calcbloc.com/uae/tax-tables/2026) |\n| United Kingdom | 2026-27, 2025-26 | 2 | 2026-11-09 | [2026-27 tables](https://calcbloc.com/uk/tax-tables/2026-27) |\n| United States | 2026 | 51 | 2026-11-09 | [2026 tables](https://calcbloc.com/us/tax-tables/2026) |\n\nBelgium is not included yet: held until the 2026 federal income-tax scale is confirmed against the official FPS Finance publication. It will be added as soon as its tables are complete.\n\n## Status values\n\n- `verified`: The figure was checked against the official source given in source_url on the retrieved_at date.\n- `under_review`: The row belongs to a section that is flagged for manual re-verification: a figure in it rests on a copy of the official page rather than the page itself, a later re-check could not reproduce it, or the underlying record is not yet marked verified. The whole section is flagged, so most rows in it are usually correct. Confirm the figure against source_url before relying on it; calcbloc.com marks the same sections as under review.\n- `not_applicable`: A sourced \"does not apply\" row: the source confirms that the item does not exist in that jurisdiction (for example a state with no labour welfare fund, or a country with no statutory minimum wage). value then holds a short explanation.\n\n## Ideas for use\n\n- Compare top marginal income tax rates or employer social security costs across countries.\n- Build a take-home pay or payroll cost model from the brackets and contribution rates.\n- Track how tax brackets and thresholds change from one tax year to the next.\n\n## Licence and credit\n\nLicensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit **\"Data by CalcBloc (calcbloc.com/data)\"** with a link to https://calcbloc.com/data. The figures are reference data, not tax advice; check the official source before relying on them.\n\nThe same tables are available from the free CalcBloc API: https://calcbloc.com/developers\n\nVersion 2026.11.11. Updated from the calcbloc.com code base with every data update; see https://github.com/itmarkerz/calcbloc-data for the change history.\n",
+  "resources": [
+    {
+      "path": "calcbloc-tax-tables-all.csv",
+      "description": "Every row of every table in long format (one row per band or value).",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "description": "Country code as used in calcbloc.com URLs and the API (lowercase, hyphenated English name or common short form, e.g. us, uk, uae, new-zealand).",
+            "type": "string"
+          },
+          {
+            "name": "country_name",
+            "description": "Country name in English.",
+            "type": "country"
+          },
+          {
+            "name": "region_code",
+            "description": "Region code (state, province, canton, autonomous community, nation...) for regional tables; empty for national tables. Same code as the API's region parameter.",
+            "type": "string"
+          },
+          {
+            "name": "region_name",
+            "description": "Region name; empty for national tables.",
+            "type": "province"
+          },
+          {
+            "name": "currency",
+            "description": "ISO 4217 currency code of every money amount in the table (value where unit is money, and the from/to band limits).",
+            "type": "string"
+          },
+          {
+            "name": "tax_year",
+            "description": "Tax year of the table: 2026 for a calendar tax year, 2026-27 for a split year (e.g. UK 6 April 2026 to 5 April 2027).",
+            "type": "string"
+          },
+          {
+            "name": "is_current_year",
+            "description": "true for the country's current tax year; false for an earlier year kept for reference.",
+            "type": "boolean"
+          },
+          {
+            "name": "section_id",
+            "description": "Stable identifier of the table section the row belongs to (also the anchor on the calcbloc.com page).",
+            "type": "string"
+          },
+          {
+            "name": "section",
+            "description": "Section title.",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "description": "What the section covers: income-tax, employee, employer or other (see Groups).",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "description": "Name of the band or value.",
+            "type": "string"
+          },
+          {
+            "name": "from",
+            "description": "Bands only: lower limit of the band, in the table's currency (on the basis described in basis). Empty for value rows.",
+            "type": "numeric"
+          },
+          {
+            "name": "to",
+            "description": "Bands only: upper limit of the band; empty means no upper limit (the top band). Empty for value rows.",
+            "type": "numeric"
+          },
+          {
+            "name": "rate",
+            "description": "Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. Empty for money, number and text rows.",
+            "type": "numeric"
+          },
+          {
+            "name": "value",
+            "description": "The value of a money, number or text row (see unit). Empty for bands and rate rows. Numbers are written without thousands separators.",
+            "type": "string"
+          },
+          {
+            "name": "unit",
+            "description": "How to read the row: rate (see the rate column), money, number or text (see the value column).",
+            "type": "string"
+          },
+          {
+            "name": "basis",
+            "description": "What the band limits or the rate apply to, and the period (per year, per month, per week). Empty when it is obvious from the label.",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "description": "Qualifications or conditions for the row or its section. Often empty.",
+            "type": "string"
+          },
+          {
+            "name": "effective_from",
+            "description": "First day the figure applies (ISO 8601 date).",
+            "type": "datetime"
+          },
+          {
+            "name": "effective_to",
+            "description": "Last day the figure applies; empty means in force until changed.",
+            "type": "datetime"
+          },
+          {
+            "name": "status",
+            "description": "Review status: verified, under_review or not_applicable (see Status values).",
+            "type": "string"
+          },
+          {
+            "name": "source_title",
+            "description": "Title of the official source (government, tax authority or social security agency publication, or the law).",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "description": "URL of the official source the figure was taken from.",
+            "type": "url"
+          },
+          {
+            "name": "retrieved_at",
+            "description": "Date the figure was retrieved from (and checked against) source_url (ISO 8601 date).",
+            "type": "datetime"
+          },
+          {
+            "name": "page_url",
+            "description": "The calcbloc.com page that shows this table; link here when you credit the data.",
+            "type": "url"
+          }
+        ]
+      }
+    },
+    {
+      "path": "calcbloc-tax-tables-all.json",
+      "description": "The same rows as JSON, with dataset metadata."
+    },
+    {
+      "path": "tables-summary.csv",
+      "description": "One row per table: tax year, last-verified date, row counts, official source URLs, page and API links.",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "description": "Country code (as in the rows).",
+            "type": "string"
+          },
+          {
+            "name": "country_name",
+            "description": "Country name in English.",
+            "type": "country"
+          },
+          {
+            "name": "region_code",
+            "description": "Region code; empty for the national table.",
+            "type": "string"
+          },
+          {
+            "name": "region_name",
+            "description": "Region name; empty for the national table.",
+            "type": "province"
+          },
+          {
+            "name": "tax_year",
+            "description": "Tax year (2026 or 2026-27).",
+            "type": "string"
+          },
+          {
+            "name": "year_label",
+            "description": "Tax year as written on calcbloc.com (2026 or 2026/27).",
+            "type": "string"
+          },
+          {
+            "name": "is_current_year",
+            "description": "true for the current tax year.",
+            "type": "boolean"
+          },
+          {
+            "name": "currency",
+            "description": "ISO 4217 currency code.",
+            "type": "string"
+          },
+          {
+            "name": "effective_from",
+            "description": "First day of the tax year.",
+            "type": "datetime"
+          },
+          {
+            "name": "effective_to",
+            "description": "Last day of the tax year.",
+            "type": "datetime"
+          },
+          {
+            "name": "table_status",
+            "description": "Status of the table as a whole, as shown on calcbloc.com: verified when its sources and every section are verified; unverified when any section is under review (see under_review_rows).",
+            "type": "string"
+          },
+          {
+            "name": "row_count",
+            "description": "Number of rows in the table.",
+            "type": "integer"
+          },
+          {
+            "name": "under_review_rows",
+            "description": "Rows with status under_review.",
+            "type": "integer"
+          },
+          {
+            "name": "not_applicable_rows",
+            "description": "Rows with status not_applicable.",
+            "type": "integer"
+          },
+          {
+            "name": "last_verified",
+            "description": "Latest retrieved_at date of any row in the table.",
+            "type": "datetime"
+          },
+          {
+            "name": "source_count",
+            "description": "Number of distinct official source URLs.",
+            "type": "integer"
+          },
+          {
+            "name": "source_urls",
+            "description": "The distinct official source URLs, separated by a space.",
+            "type": "string"
+          },
+          {
+            "name": "page_url",
+            "description": "calcbloc.com page for the table.",
+            "type": "url"
+          },
+          {
+            "name": "api_url",
+            "description": "The same table from the CalcBloc API (JSON; add format=csv for CSV).",
+            "type": "url"
+          },
+          {
+            "name": "csv_path",
+            "description": "Path of the table's CSV file in this dataset.",
+            "type": "string"
+          },
+          {
+            "name": "json_path",
+            "description": "Path of the table's JSON file in this dataset.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "tables-summary.json",
+      "description": "The table summary as JSON."
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "description": "Every column, unit and status value explained."
+    }
+  ]
+}

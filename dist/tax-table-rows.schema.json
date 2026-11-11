@@ -1,0 +1,200 @@
+{
+  "fields": [
+    {
+      "name": "country",
+      "type": "string",
+      "description": "Country code as used in calcbloc.com URLs and the API (lowercase, hyphenated English name or common short form, e.g. us, uk, uae, new-zealand).",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "country_name",
+      "type": "string",
+      "description": "Country name in English.",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "region_code",
+      "type": "string",
+      "description": "Region code (state, province, canton, autonomous community, nation...) for regional tables; empty for national tables. Same code as the API's region parameter."
+    },
+    {
+      "name": "region_name",
+      "type": "string",
+      "description": "Region name; empty for national tables."
+    },
+    {
+      "name": "currency",
+      "type": "string",
+      "description": "ISO 4217 currency code of every money amount in the table (value where unit is money, and the from/to band limits).",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "tax_year",
+      "type": "string",
+      "description": "Tax year of the table: 2026 for a calendar tax year, 2026-27 for a split year (e.g. UK 6 April 2026 to 5 April 2027).",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "is_current_year",
+      "type": "boolean",
+      "description": "true for the country's current tax year; false for an earlier year kept for reference.",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "section_id",
+      "type": "string",
+      "description": "Stable identifier of the table section the row belongs to (also the anchor on the calcbloc.com page).",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "section",
+      "type": "string",
+      "description": "Section title.",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "group",
+      "type": "string",
+      "description": "What the section covers: income-tax, employee, employer or other (see Groups).",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "income-tax",
+          "employee",
+          "employer",
+          "other"
+        ]
+      }
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "description": "Name of the band or value."
+    },
+    {
+      "name": "from",
+      "type": "number",
+      "description": "Bands only: lower limit of the band, in the table's currency (on the basis described in basis). Empty for value rows."
+    },
+    {
+      "name": "to",
+      "type": "number",
+      "description": "Bands only: upper limit of the band; empty means no upper limit (the top band). Empty for value rows."
+    },
+    {
+      "name": "rate",
+      "type": "number",
+      "description": "Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. Empty for money, number and text rows.",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    {
+      "name": "value",
+      "type": "any",
+      "description": "The value of a money, number or text row (see unit). Empty for bands and rate rows. Numbers are written without thousands separators."
+    },
+    {
+      "name": "unit",
+      "type": "string",
+      "description": "How to read the row: rate (see the rate column), money, number or text (see the value column).",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "rate",
+          "money",
+          "number",
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "basis",
+      "type": "string",
+      "description": "What the band limits or the rate apply to, and the period (per year, per month, per week). Empty when it is obvious from the label."
+    },
+    {
+      "name": "note",
+      "type": "string",
+      "description": "Qualifications or conditions for the row or its section. Often empty."
+    },
+    {
+      "name": "effective_from",
+      "type": "date",
+      "description": "First day the figure applies (ISO 8601 date).",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "effective_to",
+      "type": "date",
+      "description": "Last day the figure applies; empty means in force until changed."
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "description": "Review status: verified, under_review or not_applicable (see Status values).",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "verified",
+          "under_review",
+          "not_applicable"
+        ]
+      }
+    },
+    {
+      "name": "source_title",
+      "type": "string",
+      "description": "Title of the official source (government, tax authority or social security agency publication, or the law).",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "source_url",
+      "type": "string",
+      "description": "URL of the official source the figure was taken from.",
+      "format": "uri",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "retrieved_at",
+      "type": "date",
+      "description": "Date the figure was retrieved from (and checked against) source_url (ISO 8601 date).",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "page_url",
+      "type": "string",
+      "description": "The calcbloc.com page that shows this table; link here when you credit the data.",
+      "format": "uri",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

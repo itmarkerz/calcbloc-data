@@ -1,0 +1,808 @@
+{
+  "country": "us",
+  "countryName": "United States",
+  "year": "2026",
+  "yearLabel": "2026",
+  "isCurrent": true,
+  "region": {
+    "code": "nm",
+    "slug": "new-mexico",
+    "name": "New Mexico"
+  },
+  "currency": "USD",
+  "effectiveFrom": "2026-01-01",
+  "effectiveTo": "2026-12-31",
+  "status": "verified",
+  "underReview": [],
+  "dataVerified": true,
+  "sections": [
+    {
+      "id": "state-income-tax-single",
+      "title": "New Mexico income tax brackets: Single",
+      "group": "income-tax",
+      "kind": "bands",
+      "rows": [
+        {
+          "from": 0,
+          "to": 5500,
+          "rate": 0.015
+        },
+        {
+          "from": 5500,
+          "to": 16500,
+          "rate": 0.032
+        },
+        {
+          "from": 16500,
+          "to": 33500,
+          "rate": 0.043
+        },
+        {
+          "from": 33500,
+          "to": 66500,
+          "rate": 0.047
+        },
+        {
+          "from": 66500,
+          "to": 210000,
+          "rate": 0.049
+        },
+        {
+          "from": 210000,
+          "to": null,
+          "rate": 0.059
+        }
+      ],
+      "source": {
+        "title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+        "url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+        "retrievedAt": "2026-10-23"
+      },
+      "verified": true,
+      "basis": "State taxable income, per year"
+    },
+    {
+      "id": "state-income-tax-mfj",
+      "title": "New Mexico income tax brackets: Married filing jointly or surviving spouse",
+      "group": "income-tax",
+      "kind": "bands",
+      "rows": [
+        {
+          "from": 0,
+          "to": 8000,
+          "rate": 0.015
+        },
+        {
+          "from": 8000,
+          "to": 25000,
+          "rate": 0.032
+        },
+        {
+          "from": 25000,
+          "to": 50000,
+          "rate": 0.043
+        },
+        {
+          "from": 50000,
+          "to": 100000,
+          "rate": 0.047
+        },
+        {
+          "from": 100000,
+          "to": 315000,
+          "rate": 0.049
+        },
+        {
+          "from": 315000,
+          "to": null,
+          "rate": 0.059
+        }
+      ],
+      "source": {
+        "title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+        "url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+        "retrievedAt": "2026-10-23"
+      },
+      "verified": true,
+      "basis": "State taxable income, per year"
+    },
+    {
+      "id": "state-income-tax-hoh",
+      "title": "New Mexico income tax brackets: Head of household",
+      "group": "income-tax",
+      "kind": "bands",
+      "rows": [
+        {
+          "from": 0,
+          "to": 8000,
+          "rate": 0.015
+        },
+        {
+          "from": 8000,
+          "to": 25000,
+          "rate": 0.032
+        },
+        {
+          "from": 25000,
+          "to": 50000,
+          "rate": 0.043
+        },
+        {
+          "from": 50000,
+          "to": 100000,
+          "rate": 0.047
+        },
+        {
+          "from": 100000,
+          "to": 315000,
+          "rate": 0.049
+        },
+        {
+          "from": 315000,
+          "to": null,
+          "rate": 0.059
+        }
+      ],
+      "source": {
+        "title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+        "url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+        "retrievedAt": "2026-10-23"
+      },
+      "verified": true,
+      "basis": "State taxable income, per year"
+    },
+    {
+      "id": "state-income-tax",
+      "title": "New Mexico income tax: key figures",
+      "group": "income-tax",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Type",
+          "value": "Progressive brackets",
+          "unit": "text"
+        },
+        {
+          "label": "Top rate",
+          "value": 0.059,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+        "url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+        "retrievedAt": "2026-10-23"
+      },
+      "verified": true
+    },
+    {
+      "id": "state-supplemental",
+      "title": "New Mexico supplemental (bonus) withholding",
+      "group": "employee",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Supplemental rate",
+          "value": 0.059,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+        "url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+        "retrievedAt": "2026-10-23"
+      },
+      "verified": true
+    },
+    {
+      "id": "payroll-wc-fee",
+      "title": "Workers' Compensation Fee (employee share)",
+      "group": "employee",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Flat amount (per year)",
+          "value": 9,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "New Mexico Taxation and Revenue Department: Workers' Compensation Fee",
+        "url": "https://www.tax.newmexico.gov/businesses/workers-compensation/",
+        "retrievedAt": "2026-10-23"
+      },
+      "verified": true
+    },
+    {
+      "id": "state-unemployment",
+      "title": "New Mexico state unemployment insurance (employer)",
+      "group": "employer",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Taxable wage base (per employee, per year)",
+          "value": 34800,
+          "unit": "money"
+        },
+        {
+          "label": "New employer rate",
+          "value": "Set by industry",
+          "unit": "text"
+        },
+        {
+          "label": "Experience-rated range: lowest",
+          "value": 0.0033,
+          "unit": "rate"
+        },
+        {
+          "label": "Experience-rated range: highest",
+          "value": 0.054,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
+        "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
+        "retrievedAt": "2026-10-16"
+      },
+      "verified": true,
+      "note": "New Mexico assigns new employers a rate based on their industry, so there is no single new-employer rate. Enter the rate from your state rate notice."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FYI-104 (Rev. 11/2025), New Mexico Withholding Tax — Effective January 1, 2026",
+      "url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrievedAt": "2026-10-23"
+    },
+    {
+      "title": "New Mexico Taxation and Revenue Department: Workers' Compensation Fee",
+      "url": "https://www.tax.newmexico.gov/businesses/workers-compensation/",
+      "retrievedAt": "2026-10-23"
+    },
+    {
+      "title": "Frequently Asked Questions (quarterly assessment fee)",
+      "url": "https://www.workerscomp.nm.gov/faqs/",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
+      "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
+      "retrievedAt": "2026-10-16"
+    }
+  ],
+  "requested_year": "2026",
+  "current_year": "2026",
+  "years_available": [
+    "2026"
+  ],
+  "rows": [
+    {
+      "section_id": "state-income-tax-single",
+      "section": "New Mexico income tax brackets: Single",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 0,
+      "to": 5500,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-single",
+      "section": "New Mexico income tax brackets: Single",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 5500,
+      "to": 16500,
+      "rate": 0.032,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-single",
+      "section": "New Mexico income tax brackets: Single",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 16500,
+      "to": 33500,
+      "rate": 0.043,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-single",
+      "section": "New Mexico income tax brackets: Single",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 33500,
+      "to": 66500,
+      "rate": 0.047,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-single",
+      "section": "New Mexico income tax brackets: Single",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 66500,
+      "to": 210000,
+      "rate": 0.049,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-single",
+      "section": "New Mexico income tax brackets: Single",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 210000,
+      "to": null,
+      "rate": 0.059,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-mfj",
+      "section": "New Mexico income tax brackets: Married filing jointly or surviving spouse",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 0,
+      "to": 8000,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-mfj",
+      "section": "New Mexico income tax brackets: Married filing jointly or surviving spouse",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 8000,
+      "to": 25000,
+      "rate": 0.032,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-mfj",
+      "section": "New Mexico income tax brackets: Married filing jointly or surviving spouse",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 25000,
+      "to": 50000,
+      "rate": 0.043,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-mfj",
+      "section": "New Mexico income tax brackets: Married filing jointly or surviving spouse",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 50000,
+      "to": 100000,
+      "rate": 0.047,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-mfj",
+      "section": "New Mexico income tax brackets: Married filing jointly or surviving spouse",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 100000,
+      "to": 315000,
+      "rate": 0.049,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-mfj",
+      "section": "New Mexico income tax brackets: Married filing jointly or surviving spouse",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 315000,
+      "to": null,
+      "rate": 0.059,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-hoh",
+      "section": "New Mexico income tax brackets: Head of household",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 0,
+      "to": 8000,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-hoh",
+      "section": "New Mexico income tax brackets: Head of household",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 8000,
+      "to": 25000,
+      "rate": 0.032,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-hoh",
+      "section": "New Mexico income tax brackets: Head of household",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 25000,
+      "to": 50000,
+      "rate": 0.043,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-hoh",
+      "section": "New Mexico income tax brackets: Head of household",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 50000,
+      "to": 100000,
+      "rate": 0.047,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-hoh",
+      "section": "New Mexico income tax brackets: Head of household",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 100000,
+      "to": 315000,
+      "rate": 0.049,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax-hoh",
+      "section": "New Mexico income tax brackets: Head of household",
+      "group": "income-tax",
+      "basis": "State taxable income, per year",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "",
+      "from": 315000,
+      "to": null,
+      "rate": 0.059,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-income-tax",
+      "section": "New Mexico income tax: key figures",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "Type",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Progressive brackets",
+      "unit": "text"
+    },
+    {
+      "section_id": "state-income-tax",
+      "section": "New Mexico income tax: key figures",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "Top rate",
+      "from": null,
+      "to": null,
+      "rate": 0.059,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-supplemental",
+      "section": "New Mexico supplemental (bonus) withholding",
+      "group": "employee",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026",
+      "source_url": "https://realfile.tax.newmexico.gov/FYI-104%202026.pdf",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "Supplemental rate",
+      "from": null,
+      "to": null,
+      "rate": 0.059,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "payroll-wc-fee",
+      "section": "Workers' Compensation Fee (employee share)",
+      "group": "employee",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "New Mexico Taxation and Revenue Department: Workers' Compensation Fee",
+      "source_url": "https://www.tax.newmexico.gov/businesses/workers-compensation/",
+      "retrieved_at": "2026-10-23",
+      "status": "verified",
+      "label": "Flat amount (per year)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 9,
+      "unit": "money"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "New Mexico state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "New Mexico assigns new employers a rate based on their industry, so there is no single new-employer rate. Enter the rate from your state rate notice.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
+      "source_url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Taxable wage base (per employee, per year)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 34800,
+      "unit": "money"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "New Mexico state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "New Mexico assigns new employers a rate based on their industry, so there is no single new-employer rate. Enter the rate from your state rate notice.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
+      "source_url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "New employer rate",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Set by industry",
+      "unit": "text"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "New Mexico state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "New Mexico assigns new employers a rate based on their industry, so there is no single new-employer rate. Enter the rate from your state rate notice.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
+      "source_url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Experience-rated range: lowest",
+      "from": null,
+      "to": null,
+      "rate": 0.0033,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "New Mexico state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "New Mexico assigns new employers a rate based on their industry, so there is no single new-employer rate. Enter the rate from your state rate notice.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
+      "source_url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Experience-rated range: highest",
+      "from": null,
+      "to": null,
+      "rate": 0.054,
+      "value": null,
+      "unit": "rate"
+    }
+  ],
+  "pageUrl": "https://calcbloc.com/us/tax-tables/2026/new-mexico",
+  "attribution": {
+    "source": "CalcBloc",
+    "url": "https://calcbloc.com/us/tax-tables/2026/new-mexico",
+    "licence": "CC BY 4.0",
+    "credit": "Data by CalcBloc (calcbloc.com/data)"
+  }
+}

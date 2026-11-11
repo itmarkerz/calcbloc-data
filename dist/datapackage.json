@@ -1,0 +1,4081 @@
+{
+  "profile": "tabular-data-package",
+  "name": "calcbloc-tax-tables",
+  "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 29 countries",
+  "description": "Income tax brackets, allowances and social security contribution rates for 29 countries (213 tables, 7329 rows), from official government sources. Every row carries its source URL, retrieval date and review status. Rates are decimal fractions (0.2 = 20%).",
+  "version": "2026.11.11",
+  "created": "2026-11-11",
+  "homepage": "https://calcbloc.com/data",
+  "keywords": [
+    "income tax",
+    "tax brackets",
+    "tax tables",
+    "tax rates",
+    "social security contributions",
+    "payroll tax",
+    "employer contributions",
+    "personal allowance",
+    "public finance",
+    "open data"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "CalcBloc",
+      "path": "https://calcbloc.com",
+      "email": "hello@calcbloc.com",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CalcBloc tax tables (compiled from official government sources; see source_url on each row)",
+      "path": "https://calcbloc.com/data"
+    },
+    {
+      "title": "CalcBloc API",
+      "path": "https://calcbloc.com/developers"
+    }
+  ],
+  "resources": [
+    {
+      "name": "calcbloc-tax-tables-all",
+      "title": "All tax-table rows (long format)",
+      "path": "calcbloc-tax-tables-all.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country code as used in calcbloc.com URLs and the API (lowercase, hyphenated English name or common short form, e.g. us, uk, uae, new-zealand).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "country_name",
+            "type": "string",
+            "description": "Country name in English.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "region_code",
+            "type": "string",
+            "description": "Region code (state, province, canton, autonomous community, nation...) for regional tables; empty for national tables. Same code as the API's region parameter."
+          },
+          {
+            "name": "region_name",
+            "type": "string",
+            "description": "Region name; empty for national tables."
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "ISO 4217 currency code of every money amount in the table (value where unit is money, and the from/to band limits).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "tax_year",
+            "type": "string",
+            "description": "Tax year of the table: 2026 for a calendar tax year, 2026-27 for a split year (e.g. UK 6 April 2026 to 5 April 2027).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "is_current_year",
+            "type": "boolean",
+            "description": "true for the country's current tax year; false for an earlier year kept for reference.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "section_id",
+            "type": "string",
+            "description": "Stable identifier of the table section the row belongs to (also the anchor on the calcbloc.com page).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "section",
+            "type": "string",
+            "description": "Section title.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "What the section covers: income-tax, employee, employer or other (see Groups).",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "income-tax",
+                "employee",
+                "employer",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": "Name of the band or value."
+          },
+          {
+            "name": "from",
+            "type": "number",
+            "description": "Bands only: lower limit of the band, in the table's currency (on the basis described in basis). Empty for value rows."
+          },
+          {
+            "name": "to",
+            "type": "number",
+            "description": "Bands only: upper limit of the band; empty means no upper limit (the top band). Empty for value rows."
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "description": "Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. Empty for money, number and text rows.",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          {
+            "name": "value",
+            "type": "any",
+            "description": "The value of a money, number or text row (see unit). Empty for bands and rate rows. Numbers are written without thousands separators."
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "How to read the row: rate (see the rate column), money, number or text (see the value column).",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "rate",
+                "money",
+                "number",
+                "text"
+              ]
+            }
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "What the band limits or the rate apply to, and the period (per year, per month, per week). Empty when it is obvious from the label."
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Qualifications or conditions for the row or its section. Often empty."
+          },
+          {
+            "name": "effective_from",
+            "type": "date",
+            "description": "First day the figure applies (ISO 8601 date).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "effective_to",
+            "type": "date",
+            "description": "Last day the figure applies; empty means in force until changed."
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Review status: verified, under_review or not_applicable (see Status values).",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "verified",
+                "under_review",
+                "not_applicable"
+              ]
+            }
+          },
+          {
+            "name": "source_title",
+            "type": "string",
+            "description": "Title of the official source (government, tax authority or social security agency publication, or the law).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "description": "URL of the official source the figure was taken from.",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "retrieved_at",
+            "type": "date",
+            "description": "Date the figure was retrieved from (and checked against) source_url (ISO 8601 date).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "The calcbloc.com page that shows this table; link here when you credit the data.",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "tables-summary",
+      "title": "One row per table: tax year, last-verified date, official sources",
+      "path": "tables-summary.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country code (as in the rows).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "country_name",
+            "type": "string",
+            "description": "Country name in English.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "region_code",
+            "type": "string",
+            "description": "Region code; empty for the national table."
+          },
+          {
+            "name": "region_name",
+            "type": "string",
+            "description": "Region name; empty for the national table."
+          },
+          {
+            "name": "tax_year",
+            "type": "string",
+            "description": "Tax year (2026 or 2026-27).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "year_label",
+            "type": "string",
+            "description": "Tax year as written on calcbloc.com (2026 or 2026/27).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "is_current_year",
+            "type": "boolean",
+            "description": "true for the current tax year.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "ISO 4217 currency code.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "effective_from",
+            "type": "date",
+            "description": "First day of the tax year.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "effective_to",
+            "type": "date",
+            "description": "Last day of the tax year."
+          },
+          {
+            "name": "table_status",
+            "type": "string",
+            "description": "Status of the table as a whole, as shown on calcbloc.com: verified when its sources and every section are verified; unverified when any section is under review (see under_review_rows).",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "verified",
+                "unverified"
+              ]
+            }
+          },
+          {
+            "name": "row_count",
+            "type": "integer",
+            "description": "Number of rows in the table.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "under_review_rows",
+            "type": "integer",
+            "description": "Rows with status under_review.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "not_applicable_rows",
+            "type": "integer",
+            "description": "Rows with status not_applicable.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "last_verified",
+            "type": "date",
+            "description": "Latest retrieved_at date of any row in the table.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_count",
+            "type": "integer",
+            "description": "Number of distinct official source URLs.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "The distinct official source URLs, separated by a space.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "calcbloc.com page for the table.",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "api_url",
+            "type": "string",
+            "description": "The same table from the CalcBloc API (JSON; add format=csv for CSV).",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "csv_path",
+            "type": "string",
+            "description": "Path of the table's CSV file in this dataset.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "json_path",
+            "type": "string",
+            "description": "Path of the table's JSON file in this dataset.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "calcbloc-tax-tables-all-json",
+      "title": "All tax-table rows as JSON (same rows as the combined CSV)",
+      "path": "calcbloc-tax-tables-all.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "australia-2026-27",
+      "title": "Australia tax tables 2026–27",
+      "path": "csv/australia/2026-27.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "austria-2026",
+      "title": "Austria tax tables 2026",
+      "path": "csv/austria/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026",
+      "title": "Canada tax tables 2026",
+      "path": "csv/canada/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-on",
+      "title": "Canada, Ontario tax tables 2026",
+      "path": "csv/canada/2026/on.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-qc",
+      "title": "Canada, Quebec tax tables 2026",
+      "path": "csv/canada/2026/qc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-bc",
+      "title": "Canada, British Columbia tax tables 2026",
+      "path": "csv/canada/2026/bc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-ab",
+      "title": "Canada, Alberta tax tables 2026",
+      "path": "csv/canada/2026/ab.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-mb",
+      "title": "Canada, Manitoba tax tables 2026",
+      "path": "csv/canada/2026/mb.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-nb",
+      "title": "Canada, New Brunswick tax tables 2026",
+      "path": "csv/canada/2026/nb.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-nl",
+      "title": "Canada, Newfoundland and Labrador tax tables 2026",
+      "path": "csv/canada/2026/nl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-ns",
+      "title": "Canada, Nova Scotia tax tables 2026",
+      "path": "csv/canada/2026/ns.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-pe",
+      "title": "Canada, Prince Edward Island tax tables 2026",
+      "path": "csv/canada/2026/pe.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-sk",
+      "title": "Canada, Saskatchewan tax tables 2026",
+      "path": "csv/canada/2026/sk.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-nt",
+      "title": "Canada, Northwest Territories tax tables 2026",
+      "path": "csv/canada/2026/nt.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-nu",
+      "title": "Canada, Nunavut tax tables 2026",
+      "path": "csv/canada/2026/nu.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "canada-2026-yt",
+      "title": "Canada, Yukon tax tables 2026",
+      "path": "csv/canada/2026/yt.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "czechia-2026",
+      "title": "Czechia tax tables 2026",
+      "path": "csv/czechia/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "denmark-2026",
+      "title": "Denmark tax tables 2026",
+      "path": "csv/denmark/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "denmark-2026-hovedstaden",
+      "title": "Denmark, Region Hovedstaden tax tables 2026",
+      "path": "csv/denmark/2026/hovedstaden.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "denmark-2026-sjaelland",
+      "title": "Denmark, Region Sjælland tax tables 2026",
+      "path": "csv/denmark/2026/sjaelland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "denmark-2026-syddanmark",
+      "title": "Denmark, Region Syddanmark tax tables 2026",
+      "path": "csv/denmark/2026/syddanmark.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "denmark-2026-midtjylland",
+      "title": "Denmark, Region Midtjylland tax tables 2026",
+      "path": "csv/denmark/2026/midtjylland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "denmark-2026-nordjylland",
+      "title": "Denmark, Region Nordjylland tax tables 2026",
+      "path": "csv/denmark/2026/nordjylland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026",
+      "title": "Finland tax tables 2026",
+      "path": "csv/finland/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-uusimaa",
+      "title": "Finland, Uusimaa tax tables 2026",
+      "path": "csv/finland/2026/uusimaa.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-southwest-finland",
+      "title": "Finland, Southwest Finland tax tables 2026",
+      "path": "csv/finland/2026/southwest-finland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-satakunta",
+      "title": "Finland, Satakunta tax tables 2026",
+      "path": "csv/finland/2026/satakunta.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-kanta-hame",
+      "title": "Finland, Kanta-Häme tax tables 2026",
+      "path": "csv/finland/2026/kanta-hame.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-pirkanmaa",
+      "title": "Finland, Pirkanmaa tax tables 2026",
+      "path": "csv/finland/2026/pirkanmaa.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-paijat-hame",
+      "title": "Finland, Päijät-Häme tax tables 2026",
+      "path": "csv/finland/2026/paijat-hame.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-kymenlaakso",
+      "title": "Finland, Kymenlaakso tax tables 2026",
+      "path": "csv/finland/2026/kymenlaakso.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-south-karelia",
+      "title": "Finland, South Karelia tax tables 2026",
+      "path": "csv/finland/2026/south-karelia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-south-savo",
+      "title": "Finland, South Savo tax tables 2026",
+      "path": "csv/finland/2026/south-savo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-north-savo",
+      "title": "Finland, North Savo tax tables 2026",
+      "path": "csv/finland/2026/north-savo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-north-karelia",
+      "title": "Finland, North Karelia tax tables 2026",
+      "path": "csv/finland/2026/north-karelia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-central-finland",
+      "title": "Finland, Central Finland tax tables 2026",
+      "path": "csv/finland/2026/central-finland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-south-ostrobothnia",
+      "title": "Finland, South Ostrobothnia tax tables 2026",
+      "path": "csv/finland/2026/south-ostrobothnia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-ostrobothnia",
+      "title": "Finland, Ostrobothnia tax tables 2026",
+      "path": "csv/finland/2026/ostrobothnia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-central-ostrobothnia",
+      "title": "Finland, Central Ostrobothnia tax tables 2026",
+      "path": "csv/finland/2026/central-ostrobothnia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-north-ostrobothnia",
+      "title": "Finland, North Ostrobothnia tax tables 2026",
+      "path": "csv/finland/2026/north-ostrobothnia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-kainuu",
+      "title": "Finland, Kainuu tax tables 2026",
+      "path": "csv/finland/2026/kainuu.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-lapland",
+      "title": "Finland, Lapland tax tables 2026",
+      "path": "csv/finland/2026/lapland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "finland-2026-aland",
+      "title": "Finland, Åland tax tables 2026",
+      "path": "csv/finland/2026/aland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "france-2026",
+      "title": "France tax tables 2026",
+      "path": "csv/france/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "germany-2026",
+      "title": "Germany tax tables 2026",
+      "path": "csv/germany/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "greece-2026",
+      "title": "Greece tax tables 2026",
+      "path": "csv/greece/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "hungary-2026",
+      "title": "Hungary tax tables 2026",
+      "path": "csv/hungary/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "india-2026-27",
+      "title": "India tax tables 2026-27",
+      "path": "csv/india/2026-27.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "ireland-2026",
+      "title": "Ireland tax tables 2026",
+      "path": "csv/ireland/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026",
+      "title": "Italy tax tables 2026",
+      "path": "csv/italy/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-abr",
+      "title": "Italy, Abruzzo tax tables 2026",
+      "path": "csv/italy/2026/abr.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-bas",
+      "title": "Italy, Basilicata tax tables 2026",
+      "path": "csv/italy/2026/bas.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-bz",
+      "title": "Italy, Autonomous Province of Bolzano tax tables 2026",
+      "path": "csv/italy/2026/bz.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-cal",
+      "title": "Italy, Calabria tax tables 2026",
+      "path": "csv/italy/2026/cal.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-cam",
+      "title": "Italy, Campania tax tables 2026",
+      "path": "csv/italy/2026/cam.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-emr",
+      "title": "Italy, Emilia-Romagna tax tables 2026",
+      "path": "csv/italy/2026/emr.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-fvg",
+      "title": "Italy, Friuli Venezia Giulia tax tables 2026",
+      "path": "csv/italy/2026/fvg.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-laz",
+      "title": "Italy, Lazio tax tables 2026",
+      "path": "csv/italy/2026/laz.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-lig",
+      "title": "Italy, Liguria tax tables 2026",
+      "path": "csv/italy/2026/lig.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-lom",
+      "title": "Italy, Lombardy tax tables 2026",
+      "path": "csv/italy/2026/lom.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-mar",
+      "title": "Italy, Marche tax tables 2026",
+      "path": "csv/italy/2026/mar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-mol",
+      "title": "Italy, Molise tax tables 2026",
+      "path": "csv/italy/2026/mol.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-pie",
+      "title": "Italy, Piedmont tax tables 2026",
+      "path": "csv/italy/2026/pie.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-pug",
+      "title": "Italy, Apulia (Puglia) tax tables 2026",
+      "path": "csv/italy/2026/pug.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-sar",
+      "title": "Italy, Sardinia tax tables 2026",
+      "path": "csv/italy/2026/sar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-sic",
+      "title": "Italy, Sicily tax tables 2026",
+      "path": "csv/italy/2026/sic.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-tos",
+      "title": "Italy, Tuscany tax tables 2026",
+      "path": "csv/italy/2026/tos.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-tn",
+      "title": "Italy, Autonomous Province of Trento tax tables 2026",
+      "path": "csv/italy/2026/tn.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-umb",
+      "title": "Italy, Umbria tax tables 2026",
+      "path": "csv/italy/2026/umb.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-vda",
+      "title": "Italy, Aosta Valley tax tables 2026",
+      "path": "csv/italy/2026/vda.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "italy-2026-ven",
+      "title": "Italy, Veneto tax tables 2026",
+      "path": "csv/italy/2026/ven.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "luxembourg-2026",
+      "title": "Luxembourg tax tables 2026",
+      "path": "csv/luxembourg/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "netherlands-2026",
+      "title": "Netherlands tax tables 2026",
+      "path": "csv/netherlands/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "new-zealand-2026-27",
+      "title": "New Zealand tax tables 2026–27",
+      "path": "csv/new-zealand/2026-27.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "norway-2026",
+      "title": "Norway tax tables 2026",
+      "path": "csv/norway/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "poland-2026",
+      "title": "Poland tax tables 2026",
+      "path": "csv/poland/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "portugal-2026",
+      "title": "Portugal tax tables 2026",
+      "path": "csv/portugal/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "portugal-2026-ma",
+      "title": "Portugal, Madeira tax tables 2026",
+      "path": "csv/portugal/2026/ma.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "portugal-2026-ac",
+      "title": "Portugal, Azores tax tables 2026",
+      "path": "csv/portugal/2026/ac.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "romania-2026",
+      "title": "Romania tax tables 2026",
+      "path": "csv/romania/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "singapore-2026",
+      "title": "Singapore tax tables 2026",
+      "path": "csv/singapore/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "slovakia-2026",
+      "title": "Slovakia tax tables 2026",
+      "path": "csv/slovakia/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "slovenia-2026",
+      "title": "Slovenia tax tables 2026",
+      "path": "csv/slovenia/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026",
+      "title": "Spain tax tables 2026",
+      "path": "csv/spain/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-md",
+      "title": "Spain, Comunidad de Madrid tax tables 2026",
+      "path": "csv/spain/2026/md.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ct",
+      "title": "Spain, Cataluña tax tables 2026",
+      "path": "csv/spain/2026/ct.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-an",
+      "title": "Spain, Andalucía tax tables 2026",
+      "path": "csv/spain/2026/an.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-vc",
+      "title": "Spain, Comunitat Valenciana tax tables 2026",
+      "path": "csv/spain/2026/vc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ga",
+      "title": "Spain, Galicia tax tables 2026",
+      "path": "csv/spain/2026/ga.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-cl",
+      "title": "Spain, Castilla y León tax tables 2026",
+      "path": "csv/spain/2026/cl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ar",
+      "title": "Spain, Aragón tax tables 2026",
+      "path": "csv/spain/2026/ar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-cn",
+      "title": "Spain, Canarias tax tables 2026",
+      "path": "csv/spain/2026/cn.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-cm",
+      "title": "Spain, Castilla-La Mancha tax tables 2026",
+      "path": "csv/spain/2026/cm.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-mc",
+      "title": "Spain, Región de Murcia tax tables 2026",
+      "path": "csv/spain/2026/mc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-as",
+      "title": "Spain, Asturias tax tables 2026",
+      "path": "csv/spain/2026/as.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ib",
+      "title": "Spain, Illes Balears tax tables 2026",
+      "path": "csv/spain/2026/ib.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ex",
+      "title": "Spain, Extremadura tax tables 2026",
+      "path": "csv/spain/2026/ex.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-cb",
+      "title": "Spain, Cantabria tax tables 2026",
+      "path": "csv/spain/2026/cb.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ri",
+      "title": "Spain, La Rioja tax tables 2026",
+      "path": "csv/spain/2026/ri.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ce",
+      "title": "Spain, Ceuta tax tables 2026",
+      "path": "csv/spain/2026/ce.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-ml",
+      "title": "Spain, Melilla tax tables 2026",
+      "path": "csv/spain/2026/ml.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-bi",
+      "title": "Spain, Bizkaia tax tables 2026",
+      "path": "csv/spain/2026/bi.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-gi",
+      "title": "Spain, Gipuzkoa tax tables 2026",
+      "path": "csv/spain/2026/gi.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-al",
+      "title": "Spain, Álava tax tables 2026",
+      "path": "csv/spain/2026/al.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "spain-2026-nc",
+      "title": "Spain, Navarra tax tables 2026",
+      "path": "csv/spain/2026/nc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026",
+      "title": "Sweden tax tables 2026",
+      "path": "csv/sweden/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-ab",
+      "title": "Sweden, Stockholm County tax tables 2026",
+      "path": "csv/sweden/2026/ab.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-c",
+      "title": "Sweden, Uppsala County tax tables 2026",
+      "path": "csv/sweden/2026/c.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-d",
+      "title": "Sweden, Södermanland County tax tables 2026",
+      "path": "csv/sweden/2026/d.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-e",
+      "title": "Sweden, Östergötland County tax tables 2026",
+      "path": "csv/sweden/2026/e.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-f",
+      "title": "Sweden, Jönköping County tax tables 2026",
+      "path": "csv/sweden/2026/f.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-g",
+      "title": "Sweden, Kronoberg County tax tables 2026",
+      "path": "csv/sweden/2026/g.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-h",
+      "title": "Sweden, Kalmar County tax tables 2026",
+      "path": "csv/sweden/2026/h.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-i",
+      "title": "Sweden, Gotland County tax tables 2026",
+      "path": "csv/sweden/2026/i.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-k",
+      "title": "Sweden, Blekinge County tax tables 2026",
+      "path": "csv/sweden/2026/k.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-m",
+      "title": "Sweden, Skåne County tax tables 2026",
+      "path": "csv/sweden/2026/m.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-n",
+      "title": "Sweden, Halland County tax tables 2026",
+      "path": "csv/sweden/2026/n.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-o",
+      "title": "Sweden, Västra Götaland County tax tables 2026",
+      "path": "csv/sweden/2026/o.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-s",
+      "title": "Sweden, Värmland County tax tables 2026",
+      "path": "csv/sweden/2026/s.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-t",
+      "title": "Sweden, Örebro County tax tables 2026",
+      "path": "csv/sweden/2026/t.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-u",
+      "title": "Sweden, Västmanland County tax tables 2026",
+      "path": "csv/sweden/2026/u.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-w",
+      "title": "Sweden, Dalarna County tax tables 2026",
+      "path": "csv/sweden/2026/w.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-x",
+      "title": "Sweden, Gävleborg County tax tables 2026",
+      "path": "csv/sweden/2026/x.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-y",
+      "title": "Sweden, Västernorrland County tax tables 2026",
+      "path": "csv/sweden/2026/y.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-z",
+      "title": "Sweden, Jämtland County tax tables 2026",
+      "path": "csv/sweden/2026/z.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-ac",
+      "title": "Sweden, Västerbotten County tax tables 2026",
+      "path": "csv/sweden/2026/ac.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "sweden-2026-bd",
+      "title": "Sweden, Norrbotten County tax tables 2026",
+      "path": "csv/sweden/2026/bd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026",
+      "title": "Switzerland tax tables 2026",
+      "path": "csv/switzerland/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-zh",
+      "title": "Switzerland, Zürich tax tables 2026",
+      "path": "csv/switzerland/2026/zh.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-be",
+      "title": "Switzerland, Bern tax tables 2026",
+      "path": "csv/switzerland/2026/be.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-lu",
+      "title": "Switzerland, Lucerne tax tables 2026",
+      "path": "csv/switzerland/2026/lu.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ur",
+      "title": "Switzerland, Uri tax tables 2026",
+      "path": "csv/switzerland/2026/ur.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-sz",
+      "title": "Switzerland, Schwyz tax tables 2026",
+      "path": "csv/switzerland/2026/sz.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ow",
+      "title": "Switzerland, Obwalden tax tables 2026",
+      "path": "csv/switzerland/2026/ow.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-nw",
+      "title": "Switzerland, Nidwalden tax tables 2026",
+      "path": "csv/switzerland/2026/nw.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-gl",
+      "title": "Switzerland, Glarus tax tables 2026",
+      "path": "csv/switzerland/2026/gl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-zg",
+      "title": "Switzerland, Zug tax tables 2026",
+      "path": "csv/switzerland/2026/zg.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-fr",
+      "title": "Switzerland, Fribourg tax tables 2026",
+      "path": "csv/switzerland/2026/fr.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-so",
+      "title": "Switzerland, Solothurn tax tables 2026",
+      "path": "csv/switzerland/2026/so.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-bs",
+      "title": "Switzerland, Basel-Stadt tax tables 2026",
+      "path": "csv/switzerland/2026/bs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-bl",
+      "title": "Switzerland, Basel-Landschaft tax tables 2026",
+      "path": "csv/switzerland/2026/bl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-sh",
+      "title": "Switzerland, Schaffhausen tax tables 2026",
+      "path": "csv/switzerland/2026/sh.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ar",
+      "title": "Switzerland, Appenzell Ausserrhoden tax tables 2026",
+      "path": "csv/switzerland/2026/ar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ai",
+      "title": "Switzerland, Appenzell Innerrhoden tax tables 2026",
+      "path": "csv/switzerland/2026/ai.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-sg",
+      "title": "Switzerland, St. Gallen tax tables 2026",
+      "path": "csv/switzerland/2026/sg.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-gr",
+      "title": "Switzerland, Graubünden tax tables 2026",
+      "path": "csv/switzerland/2026/gr.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ag",
+      "title": "Switzerland, Aargau tax tables 2026",
+      "path": "csv/switzerland/2026/ag.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-tg",
+      "title": "Switzerland, Thurgau tax tables 2026",
+      "path": "csv/switzerland/2026/tg.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ti",
+      "title": "Switzerland, Ticino tax tables 2026",
+      "path": "csv/switzerland/2026/ti.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-vd",
+      "title": "Switzerland, Vaud tax tables 2026",
+      "path": "csv/switzerland/2026/vd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-vs",
+      "title": "Switzerland, Valais tax tables 2026",
+      "path": "csv/switzerland/2026/vs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ne",
+      "title": "Switzerland, Neuchâtel tax tables 2026",
+      "path": "csv/switzerland/2026/ne.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ge",
+      "title": "Switzerland, Geneva tax tables 2026",
+      "path": "csv/switzerland/2026/ge.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "switzerland-2026-ju",
+      "title": "Switzerland, Jura tax tables 2026",
+      "path": "csv/switzerland/2026/ju.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "uae-2026",
+      "title": "United Arab Emirates tax tables 2026",
+      "path": "csv/uae/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "uk-2026-27",
+      "title": "United Kingdom tax tables 2026/27",
+      "path": "csv/uk/2026-27.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "uk-2026-27-scotland",
+      "title": "United Kingdom, Scotland tax tables 2026/27",
+      "path": "csv/uk/2026-27/scotland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "uk-2026-27-wales",
+      "title": "United Kingdom, Wales tax tables 2026/27",
+      "path": "csv/uk/2026-27/wales.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "uk-2025-26",
+      "title": "United Kingdom tax tables 2025/26",
+      "path": "csv/uk/2025-26.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "uk-2025-26-scotland",
+      "title": "United Kingdom, Scotland tax tables 2025/26",
+      "path": "csv/uk/2025-26/scotland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "uk-2025-26-wales",
+      "title": "United Kingdom, Wales tax tables 2025/26",
+      "path": "csv/uk/2025-26/wales.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026",
+      "title": "United States tax tables 2026",
+      "path": "csv/us/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-al",
+      "title": "United States, Alabama tax tables 2026",
+      "path": "csv/us/2026/al.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ak",
+      "title": "United States, Alaska tax tables 2026",
+      "path": "csv/us/2026/ak.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-az",
+      "title": "United States, Arizona tax tables 2026",
+      "path": "csv/us/2026/az.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ar",
+      "title": "United States, Arkansas tax tables 2026",
+      "path": "csv/us/2026/ar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ca",
+      "title": "United States, California tax tables 2026",
+      "path": "csv/us/2026/ca.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-co",
+      "title": "United States, Colorado tax tables 2026",
+      "path": "csv/us/2026/co.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ct",
+      "title": "United States, Connecticut tax tables 2026",
+      "path": "csv/us/2026/ct.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-de",
+      "title": "United States, Delaware tax tables 2026",
+      "path": "csv/us/2026/de.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-dc",
+      "title": "United States, District of Columbia tax tables 2026",
+      "path": "csv/us/2026/dc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-fl",
+      "title": "United States, Florida tax tables 2026",
+      "path": "csv/us/2026/fl.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ga",
+      "title": "United States, Georgia tax tables 2026",
+      "path": "csv/us/2026/ga.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-hi",
+      "title": "United States, Hawaii tax tables 2026",
+      "path": "csv/us/2026/hi.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-id",
+      "title": "United States, Idaho tax tables 2026",
+      "path": "csv/us/2026/id.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-il",
+      "title": "United States, Illinois tax tables 2026",
+      "path": "csv/us/2026/il.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-in",
+      "title": "United States, Indiana tax tables 2026",
+      "path": "csv/us/2026/in.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ia",
+      "title": "United States, Iowa tax tables 2026",
+      "path": "csv/us/2026/ia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ks",
+      "title": "United States, Kansas tax tables 2026",
+      "path": "csv/us/2026/ks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ky",
+      "title": "United States, Kentucky tax tables 2026",
+      "path": "csv/us/2026/ky.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-la",
+      "title": "United States, Louisiana tax tables 2026",
+      "path": "csv/us/2026/la.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-me",
+      "title": "United States, Maine tax tables 2026",
+      "path": "csv/us/2026/me.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-md",
+      "title": "United States, Maryland tax tables 2026",
+      "path": "csv/us/2026/md.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ma",
+      "title": "United States, Massachusetts tax tables 2026",
+      "path": "csv/us/2026/ma.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-mi",
+      "title": "United States, Michigan tax tables 2026",
+      "path": "csv/us/2026/mi.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-mn",
+      "title": "United States, Minnesota tax tables 2026",
+      "path": "csv/us/2026/mn.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ms",
+      "title": "United States, Mississippi tax tables 2026",
+      "path": "csv/us/2026/ms.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-mo",
+      "title": "United States, Missouri tax tables 2026",
+      "path": "csv/us/2026/mo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-mt",
+      "title": "United States, Montana tax tables 2026",
+      "path": "csv/us/2026/mt.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ne",
+      "title": "United States, Nebraska tax tables 2026",
+      "path": "csv/us/2026/ne.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-nv",
+      "title": "United States, Nevada tax tables 2026",
+      "path": "csv/us/2026/nv.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-nh",
+      "title": "United States, New Hampshire tax tables 2026",
+      "path": "csv/us/2026/nh.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-nj",
+      "title": "United States, New Jersey tax tables 2026",
+      "path": "csv/us/2026/nj.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-nm",
+      "title": "United States, New Mexico tax tables 2026",
+      "path": "csv/us/2026/nm.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ny",
+      "title": "United States, New York tax tables 2026",
+      "path": "csv/us/2026/ny.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-nc",
+      "title": "United States, North Carolina tax tables 2026",
+      "path": "csv/us/2026/nc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-nd",
+      "title": "United States, North Dakota tax tables 2026",
+      "path": "csv/us/2026/nd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-oh",
+      "title": "United States, Ohio tax tables 2026",
+      "path": "csv/us/2026/oh.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ok",
+      "title": "United States, Oklahoma tax tables 2026",
+      "path": "csv/us/2026/ok.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-or",
+      "title": "United States, Oregon tax tables 2026",
+      "path": "csv/us/2026/or.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-pa",
+      "title": "United States, Pennsylvania tax tables 2026",
+      "path": "csv/us/2026/pa.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ri",
+      "title": "United States, Rhode Island tax tables 2026",
+      "path": "csv/us/2026/ri.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-sc",
+      "title": "United States, South Carolina tax tables 2026",
+      "path": "csv/us/2026/sc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-sd",
+      "title": "United States, South Dakota tax tables 2026",
+      "path": "csv/us/2026/sd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-tn",
+      "title": "United States, Tennessee tax tables 2026",
+      "path": "csv/us/2026/tn.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-tx",
+      "title": "United States, Texas tax tables 2026",
+      "path": "csv/us/2026/tx.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-ut",
+      "title": "United States, Utah tax tables 2026",
+      "path": "csv/us/2026/ut.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-vt",
+      "title": "United States, Vermont tax tables 2026",
+      "path": "csv/us/2026/vt.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-va",
+      "title": "United States, Virginia tax tables 2026",
+      "path": "csv/us/2026/va.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-wa",
+      "title": "United States, Washington tax tables 2026",
+      "path": "csv/us/2026/wa.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-wv",
+      "title": "United States, West Virginia tax tables 2026",
+      "path": "csv/us/2026/wv.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-wi",
+      "title": "United States, Wisconsin tax tables 2026",
+      "path": "csv/us/2026/wi.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "us-2026-wy",
+      "title": "United States, Wyoming tax tables 2026",
+      "path": "csv/us/2026/wy.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    }
+  ]
+}

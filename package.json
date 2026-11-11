@@ -1,0 +1,45 @@
+{
+  "name": "calcbloc-data",
+  "version": "0.0.0",
+  "private": true,
+  "description": "CalcBloc tax tables: income tax brackets and social security contribution rates from official sources, as CSV and JSON (CC BY 4.0).",
+  "homepage": "https://calcbloc.com/data",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itmarkerz/calcbloc-data.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "sync": "node scripts/sync-tables.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "stage:kaggle": "node scripts/stage-kaggle.mjs"
+  },
+  "calcblocData": {
+    "site": "https://calcbloc.com",
+    "githubRepo": "itmarkerz/calcbloc-data",
+    "kaggleId": "binumathew/calcbloc-tax-tables",
+    "doi": null,
+    "packages": {
+      "python": {
+        "name": "calcbloc",
+        "repo": "itmarkerz/calcbloc-python",
+        "published": false
+      },
+      "node": {
+        "name": "calcbloc",
+        "repo": "itmarkerz/calcbloc-js",
+        "published": false
+      },
+      "php": {
+        "name": "calcbloc/calcbloc",
+        "repo": "itmarkerz/calcbloc-php",
+        "published": false
+      }
+    }
+  }
+}

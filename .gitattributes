@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# CSV files are written with CRLF line endings (RFC 4180); keep their bytes exactly as generated.
+*.csv -text
+LICENSE text eol=lf

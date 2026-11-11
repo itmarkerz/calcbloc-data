@@ -1,0 +1,565 @@
+{
+  "country": "spain",
+  "countryName": "Spain",
+  "year": "2026",
+  "yearLabel": "2026",
+  "isCurrent": true,
+  "region": {
+    "code": "vc",
+    "slug": "comunitat-valenciana",
+    "name": "Comunitat Valenciana"
+  },
+  "currency": "EUR",
+  "effectiveFrom": "2026-01-01",
+  "effectiveTo": "2026-12-31",
+  "status": "verified",
+  "underReview": [],
+  "dataVerified": true,
+  "sections": [
+    {
+      "id": "regional-irpf",
+      "title": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "kind": "bands",
+      "rows": [
+        {
+          "from": 0,
+          "to": 12000,
+          "rate": 0.088
+        },
+        {
+          "from": 12000,
+          "to": 22000,
+          "rate": 0.117
+        },
+        {
+          "from": 22000,
+          "to": 32000,
+          "rate": 0.146
+        },
+        {
+          "from": 32000,
+          "to": 42000,
+          "rate": 0.17
+        },
+        {
+          "from": 42000,
+          "to": 52000,
+          "rate": 0.194
+        },
+        {
+          "from": 52000,
+          "to": 62000,
+          "rate": 0.219
+        },
+        {
+          "from": 62000,
+          "to": 72000,
+          "rate": 0.244
+        },
+        {
+          "from": 72000,
+          "to": 100000,
+          "rate": 0.261
+        },
+        {
+          "from": 100000,
+          "to": 150000,
+          "rate": 0.2735
+        },
+        {
+          "from": 150000,
+          "to": 200000,
+          "rate": 0.2835
+        },
+        {
+          "from": 200000,
+          "to": null,
+          "rate": 0.2935
+        }
+      ],
+      "source": {
+        "title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+        "retrievedAt": "2026-10-20"
+      },
+      "verified": true,
+      "basis": "General taxable base, per year (the regional half, added to the state scale)"
+    },
+    {
+      "id": "regional-minimums",
+      "title": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Personal minimum",
+          "value": 6105,
+          "unit": "money"
+        },
+        {
+          "label": "Increase from age 65",
+          "value": 1265,
+          "unit": "money"
+        },
+        {
+          "label": "Further increase from age 75",
+          "value": 1540,
+          "unit": "money"
+        },
+        {
+          "label": "Child minimum: 1st child",
+          "value": 2640,
+          "unit": "money"
+        },
+        {
+          "label": "Child minimum: 2nd child",
+          "value": 2970,
+          "unit": "money"
+        },
+        {
+          "label": "Child minimum: 3rd child",
+          "value": 4400,
+          "unit": "money"
+        },
+        {
+          "label": "Child minimum: 4th and later child",
+          "value": 4950,
+          "unit": "money"
+        },
+        {
+          "label": "Increase per child under 3",
+          "value": 3080,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+        "retrievedAt": "2026-10-20"
+      },
+      "verified": true
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ley 35/2006 del Impuesto sobre la Renta de las Personas Físicas (texto consolidado)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Reglamento del IRPF (RD 439/2007), arts. 80–87",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Algoritmo de cálculo del tipo de retención 2026",
+      "url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Programas_ayuda/Retenciones/2026/ALGORITMO_2026.pdf",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Tributación autonómica. Medidas 2026, capítulos I y II",
+      "url": "https://www.hacienda.gob.es/sgfal/financiacionterritorial/autonomica/capitulo-i-tributacion-autonomica-2026.pdf",
+      "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrievedAt": "2026-10-20"
+    }
+  ],
+  "requested_year": "2026",
+  "current_year": "2026",
+  "years_available": [
+    "2026"
+  ],
+  "rows": [
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 0,
+      "to": 12000,
+      "rate": 0.088,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 12000,
+      "to": 22000,
+      "rate": 0.117,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 22000,
+      "to": 32000,
+      "rate": 0.146,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 32000,
+      "to": 42000,
+      "rate": 0.17,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 42000,
+      "to": 52000,
+      "rate": 0.194,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 52000,
+      "to": 62000,
+      "rate": 0.219,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 62000,
+      "to": 72000,
+      "rate": 0.244,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 72000,
+      "to": 100000,
+      "rate": 0.261,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 100000,
+      "to": 150000,
+      "rate": 0.2735,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 150000,
+      "to": 200000,
+      "rate": 0.2835,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-irpf",
+      "section": "Regional IRPF scale (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "General taxable base, per year (the regional half, added to the state scale)",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "",
+      "from": 200000,
+      "to": null,
+      "rate": 0.2935,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Personal minimum",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 6105,
+      "unit": "money"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Increase from age 65",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 1265,
+      "unit": "money"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Further increase from age 75",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 1540,
+      "unit": "money"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Child minimum: 1st child",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 2640,
+      "unit": "money"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Child minimum: 2nd child",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 2970,
+      "unit": "money"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Child minimum: 3rd child",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 4400,
+      "unit": "money"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Child minimum: 4th and later child",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 4950,
+      "unit": "money"
+    },
+    {
+      "section_id": "regional-minimums",
+      "section": "Personal and family minimums (Comunitat Valenciana)",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Increase per child under 3",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 3080,
+      "unit": "money"
+    }
+  ],
+  "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/comunitat-valenciana",
+  "attribution": {
+    "source": "CalcBloc",
+    "url": "https://calcbloc.com/spain/tax-tables/2026/comunitat-valenciana",
+    "licence": "CC BY 4.0",
+    "credit": "Data by CalcBloc (calcbloc.com/data)"
+  }
+}

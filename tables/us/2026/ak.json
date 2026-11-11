@@ -1,0 +1,309 @@
+{
+  "country": "us",
+  "countryName": "United States",
+  "year": "2026",
+  "yearLabel": "2026",
+  "isCurrent": true,
+  "region": {
+    "code": "ak",
+    "slug": "alaska",
+    "name": "Alaska"
+  },
+  "currency": "USD",
+  "effectiveFrom": "2026-01-01",
+  "effectiveTo": "2026-12-31",
+  "status": "verified",
+  "underReview": [],
+  "dataVerified": true,
+  "sections": [
+    {
+      "id": "state-income-tax",
+      "title": "Alaska income tax: key figures",
+      "group": "income-tax",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Type",
+          "value": "No tax on wages",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Alaska Department of Revenue, Tax Division: Personal Income Tax",
+        "url": "https://tax.alaska.gov/programs/programs/index.aspx?10001",
+        "retrievedAt": "2026-10-16"
+      },
+      "verified": true
+    },
+    {
+      "id": "payroll-ui",
+      "title": "Unemployment Insurance employee contribution",
+      "group": "employee",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Employee rate",
+          "value": 0.005,
+          "unit": "rate"
+        },
+        {
+          "label": "Wage base (per year)",
+          "value": 54200,
+          "unit": "money"
+        },
+        {
+          "label": "Annual maximum",
+          "value": 271,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "Alaska Department of Labor and Workforce Development: 2026 Unemployment Insurance Tax Rates",
+        "url": "https://labor.alaska.gov/estax/2026-experience-rates.html",
+        "retrievedAt": "2026-10-16"
+      },
+      "verified": true
+    },
+    {
+      "id": "state-unemployment",
+      "title": "Alaska state unemployment insurance (employer)",
+      "group": "employer",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Taxable wage base (per employee, per year)",
+          "value": 54200,
+          "unit": "money"
+        },
+        {
+          "label": "New employer rate",
+          "value": 0.01,
+          "unit": "rate"
+        },
+        {
+          "label": "Experience-rated range: lowest",
+          "value": 0.01,
+          "unit": "rate"
+        },
+        {
+          "label": "Experience-rated range: highest",
+          "value": 0.054,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Alaska Department of Labor and Workforce Development, 2026 Industry Rates",
+        "url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
+        "retrievedAt": "2026-10-20"
+      },
+      "verified": true,
+      "note": "Alaska's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Personal Income Tax",
+      "url": "https://tax.alaska.gov/programs/programs/index.aspx?10001",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Withholding Tax",
+      "url": "https://tax.alaska.gov/programs/programs/index.aspx?10003",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "2026 Unemployment Insurance Tax Rates",
+      "url": "https://labor.alaska.gov/estax/2026-experience-rates.html",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Employment Security Tax FAQ",
+      "url": "https://www.labor.alaska.gov/estax/faq/w1.htm",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Unemployment Insurance Tax Employer Handbook",
+      "url": "https://labor.alaska.gov/estax/documents/taxbook.pdf",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Alaska Department of Labor and Workforce Development, 2026 Industry Rates",
+      "url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
+      "retrievedAt": "2026-10-20"
+    }
+  ],
+  "requested_year": "2026",
+  "current_year": "2026",
+  "years_available": [
+    "2026"
+  ],
+  "rows": [
+    {
+      "section_id": "state-income-tax",
+      "section": "Alaska income tax: key figures",
+      "group": "income-tax",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Revenue, Tax Division: Personal Income Tax",
+      "source_url": "https://tax.alaska.gov/programs/programs/index.aspx?10001",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Type",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "No tax on wages",
+      "unit": "text"
+    },
+    {
+      "section_id": "payroll-ui",
+      "section": "Unemployment Insurance employee contribution",
+      "group": "employee",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Labor and Workforce Development: 2026 Unemployment Insurance Tax Rates",
+      "source_url": "https://labor.alaska.gov/estax/2026-experience-rates.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Employee rate",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "payroll-ui",
+      "section": "Unemployment Insurance employee contribution",
+      "group": "employee",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Labor and Workforce Development: 2026 Unemployment Insurance Tax Rates",
+      "source_url": "https://labor.alaska.gov/estax/2026-experience-rates.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Wage base (per year)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 54200,
+      "unit": "money"
+    },
+    {
+      "section_id": "payroll-ui",
+      "section": "Unemployment Insurance employee contribution",
+      "group": "employee",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Labor and Workforce Development: 2026 Unemployment Insurance Tax Rates",
+      "source_url": "https://labor.alaska.gov/estax/2026-experience-rates.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Annual maximum",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 271,
+      "unit": "money"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "Alaska state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "Alaska's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Labor and Workforce Development, 2026 Industry Rates",
+      "source_url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Taxable wage base (per employee, per year)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 54200,
+      "unit": "money"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "Alaska state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "Alaska's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Labor and Workforce Development, 2026 Industry Rates",
+      "source_url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "New employer rate",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "Alaska state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "Alaska's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Labor and Workforce Development, 2026 Industry Rates",
+      "source_url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Experience-rated range: lowest",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "state-unemployment",
+      "section": "Alaska state unemployment insurance (employer)",
+      "group": "employer",
+      "basis": "",
+      "note": "Alaska's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Labor and Workforce Development, 2026 Industry Rates",
+      "source_url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
+      "retrieved_at": "2026-10-20",
+      "status": "verified",
+      "label": "Experience-rated range: highest",
+      "from": null,
+      "to": null,
+      "rate": 0.054,
+      "value": null,
+      "unit": "rate"
+    }
+  ],
+  "pageUrl": "https://calcbloc.com/us/tax-tables/2026/alaska",
+  "attribution": {
+    "source": "CalcBloc",
+    "url": "https://calcbloc.com/us/tax-tables/2026/alaska",
+    "licence": "CC BY 4.0",
+    "credit": "Data by CalcBloc (calcbloc.com/data)"
+  }
+}
