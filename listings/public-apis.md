@@ -18,7 +18,7 @@ Place it in `README.md` under `### Finance`, in alphabetical order (as of 2026-1
 
 ## Why these values
 
-- **Auth `apiKey`:** the calculation endpoints (`/net-salary`, `/employer-cost`, `/compare`) are documented as needing a free key in the `X-API-Key` header (OpenAPI `security: ApiKeyHeader`). The reference endpoints (`/countries`, `/tax-tables/{country}/{year}`) also work without a key, at 50 requests a day per IP address. Keyless trial access to the calculation endpoints can be switched on server-side, but the documented contract is a key, so `apiKey` is the accurate value.
+- **Auth `apiKey`:** the API takes a free key in the `X-API-Key` header (OpenAPI `security: ApiKeyHeader`), which allows 5,000 requests a day and 60 a minute. Every endpoint also works without a key, at 50 requests a day and 5 a minute per IP address; when that allowance runs out the API answers 429 `rate_limited` and the CalcBloc integrations ask for a free key. The list has no value for an optional key, so `apiKey` stays.
 - **HTTPS `Yes`:** served only over HTTPS at https://calcbloc.com/api/v1.
 - **CORS `Yes`:** every response, including errors and the OPTIONS preflight, sends `Access-Control-Allow-Origin: *` with `GET, OPTIONS` and the `X-API-Key` header allowed (calcbloc site code: `src/lib/api/response.ts`, `baseHeaders()`; confirmed on a live response 2026-11-11).
 - **Link:** https://calcbloc.com/developers (the API documentation page).

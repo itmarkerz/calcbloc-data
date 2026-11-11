@@ -219,7 +219,7 @@ const table = await res.json();
 console.log(table.country_name, table.tax_year, table.last_verified, table.rows.length, "rows");
 \`\`\`
 
-**Call the API** for the same tables without downloading anything. The tax-table endpoint needs no key (50 requests a day per IP address; a [free key](${rd("/developers/keys")}) raises that to 5,000):
+**Call the API** for the same tables without downloading anything. It works without a key for 50 requests a day per IP address, on every endpoint; when that runs out, add a [free API key](${rd("/developers/keys")}) for 5,000 a day, sent in the \`X-API-Key\` header:
 
 \`\`\`sh
 curl ${SITE}/api/v1/tax-tables/${ex.country}/${ex.current_year}
@@ -228,7 +228,7 @@ ${reg ? `curl "${SITE}/api/v1/tax-tables/${reg.country}/${reg.current_year}?regi
 
 The API also calculates take-home pay and employer cost. Documentation: [calcbloc.com/developers](${rd("/developers")}) · OpenAPI 3.1 description: [calcbloc.com/api/openapi.json](${SITE}/api/openapi.json).
 
-**Use it from code** with the CalcBloc packages, built from the same tables:
+**Use it from code** with the CalcBloc packages, built from the same tables. Their offline tables need no key and no network; their API clients work without a key for 50 requests a day and, when that runs out, ask for a free API key (5,000 a day), set in code or in \`CALCBLOC_API_KEY\`:
 
 ${packageLine(ctx, "python")}
 ${packageLine(ctx, "node")}
@@ -606,7 +606,7 @@ Place it in \`README.md\` under \`### Finance\`, in alphabetical order (as of 20
 
 ## Why these values
 
-- **Auth \`apiKey\`:** the calculation endpoints (\`/net-salary\`, \`/employer-cost\`, \`/compare\`) are documented as needing a free key in the \`X-API-Key\` header (OpenAPI \`security: ApiKeyHeader\`). The reference endpoints (\`/countries\`, \`/tax-tables/{country}/{year}\`) also work without a key, at 50 requests a day per IP address. Keyless trial access to the calculation endpoints can be switched on server-side, but the documented contract is a key, so \`apiKey\` is the accurate value.
+- **Auth \`apiKey\`:** the API takes a free key in the \`X-API-Key\` header (OpenAPI \`security: ApiKeyHeader\`), which allows 5,000 requests a day and 60 a minute. Every endpoint also works without a key, at 50 requests a day and 5 a minute per IP address; when that allowance runs out the API answers 429 \`rate_limited\` and the CalcBloc integrations ask for a free key. The list has no value for an optional key, so \`apiKey\` stays.
 - **HTTPS \`Yes\`:** served only over HTTPS at ${SITE}/api/v1.
 - **CORS \`Yes\`:** every response, including errors and the OPTIONS preflight, sends \`Access-Control-Allow-Origin: *\` with \`GET, OPTIONS\` and the \`X-API-Key\` header allowed (calcbloc site code: \`src/lib/api/response.ts\`, \`baseHeaders()\`; confirmed on a live response 2026-11-11).
 - **Link:** ${SITE}/developers (the API documentation page).
@@ -654,11 +654,11 @@ Finance (secondary tags: Data, Tax, Payroll)
 |---|---|---|---|
 | GET | \`/countries\` | Supported countries, regions, years and parameters | Optional |
 | GET | \`/tax-tables/{country}/{year}\` | Official tax tables for a country and tax year; \`region\` and \`format=json\\|csv\` optional; \`year\` may be \`latest\` | Optional |
-| GET | \`/net-salary?country=&salary=\` | Take-home pay for a salary | Required (documented) |
-| GET | \`/employer-cost?country=&salary=\` | Total cost of employing someone | Required (documented) |
-| GET | \`/compare?a=&b=&salary=\` | The same salary in two countries | Required (documented) |
+| GET | \`/net-salary?country=&salary=\` | Take-home pay for a salary | Optional |
+| GET | \`/employer-cost?country=&salary=\` | Total cost of employing someone | Optional |
+| GET | \`/compare?a=&b=&salary=\` | The same salary in two countries | Optional |
 
-Authentication: \`X-API-Key\` header (keys in the URL are refused). The calculation endpoints cover fewer countries than the tax tables; \`/countries\` lists them.
+Authentication: \`X-API-Key\` header (keys in the URL are refused). Used directly, every endpoint works without a key for 50 requests a day and 5 a minute per IP address; a free key from calcbloc.com allows 5,000 a day and 60 a minute. When the allowance without a key runs out the API answers 429 \`rate_limited\` with \`Retry-After\`. The calculation endpoints cover fewer countries than the tax tables; \`/countries\` lists them.
 
 ## OpenAPI
 

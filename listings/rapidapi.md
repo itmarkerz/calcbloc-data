@@ -38,11 +38,11 @@ Finance (secondary tags: Data, Tax, Payroll)
 |---|---|---|---|
 | GET | `/countries` | Supported countries, regions, years and parameters | Optional |
 | GET | `/tax-tables/{country}/{year}` | Official tax tables for a country and tax year; `region` and `format=json\|csv` optional; `year` may be `latest` | Optional |
-| GET | `/net-salary?country=&salary=` | Take-home pay for a salary | Required (documented) |
-| GET | `/employer-cost?country=&salary=` | Total cost of employing someone | Required (documented) |
-| GET | `/compare?a=&b=&salary=` | The same salary in two countries | Required (documented) |
+| GET | `/net-salary?country=&salary=` | Take-home pay for a salary | Optional |
+| GET | `/employer-cost?country=&salary=` | Total cost of employing someone | Optional |
+| GET | `/compare?a=&b=&salary=` | The same salary in two countries | Optional |
 
-Authentication: `X-API-Key` header (keys in the URL are refused). The calculation endpoints cover fewer countries than the tax tables; `/countries` lists them.
+Authentication: `X-API-Key` header (keys in the URL are refused). Used directly, every endpoint works without a key for 50 requests a day and 5 a minute per IP address; a free key from calcbloc.com allows 5,000 a day and 60 a minute. When the allowance without a key runs out the API answers 429 `rate_limited` with `Retry-After`. The calculation endpoints cover fewer countries than the tax tables; `/countries` lists them.
 
 ## OpenAPI
 

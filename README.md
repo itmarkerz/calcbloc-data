@@ -102,7 +102,7 @@ const table = await res.json();
 console.log(table.country_name, table.tax_year, table.last_verified, table.rows.length, "rows");
 ```
 
-**Call the API** for the same tables without downloading anything. The tax-table endpoint needs no key (50 requests a day per IP address; a [free key](https://calcbloc.com/developers/keys?utm_source=calcbloc-data&utm_medium=readme&utm_campaign=itmarkerz-oss) raises that to 5,000):
+**Call the API** for the same tables without downloading anything. It works without a key for 50 requests a day per IP address, on every endpoint; when that runs out, add a [free API key](https://calcbloc.com/developers/keys?utm_source=calcbloc-data&utm_medium=readme&utm_campaign=itmarkerz-oss) for 5,000 a day, sent in the `X-API-Key` header:
 
 ```sh
 curl https://calcbloc.com/api/v1/tax-tables/uk/2026-27
@@ -111,7 +111,7 @@ curl "https://calcbloc.com/api/v1/tax-tables/canada/2026?region=on&format=csv"
 
 The API also calculates take-home pay and employer cost. Documentation: [calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=readme&utm_campaign=itmarkerz-oss) · OpenAPI 3.1 description: [calcbloc.com/api/openapi.json](https://calcbloc.com/api/openapi.json).
 
-**Use it from code** with the CalcBloc packages, built from the same tables:
+**Use it from code** with the CalcBloc packages, built from the same tables. Their offline tables need no key and no network; their API clients work without a key for 50 requests a day and, when that runs out, ask for a free API key (5,000 a day), set in code or in `CALCBLOC_API_KEY`:
 
 - **Python:** package `calcbloc` on [PyPI](https://pypi.org/project/calcbloc/), *coming soon* (source: [itmarkerz/calcbloc-python](https://github.com/itmarkerz/calcbloc-python))
 - **Node.js / TypeScript:** package `calcbloc` on [npm](https://www.npmjs.com/package/calcbloc), *coming soon* (source: [itmarkerz/calcbloc-js](https://github.com/itmarkerz/calcbloc-js))

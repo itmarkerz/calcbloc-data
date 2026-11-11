@@ -49,7 +49,7 @@ Accounts used: the GitHub organization `itmarkerz` (repositories `calcbloc-data`
 
 ## 4. public-apis pull request
 
-Decide first: the **Auth** value is `apiKey` in [listings/public-apis.md](listings/public-apis.md) because the calculation endpoints are documented as needing a key. If keyless access to all endpoints is to stay permanently, `No` is also accurate.
+The **Auth** value stays `apiKey` in [listings/public-apis.md](listings/public-apis.md). Key policy (decided 11 November 2026): every endpoint works without a key for 50 requests a day and 5 a minute per IP address; when that runs out the API answers 429 and the CalcBloc integrations and packages ask for a free API key (5,000 a day, 60 a minute) from https://calcbloc.com/developers/keys, sent in the `X-API-Key` header.
 
 1. Fork https://github.com/public-apis/public-apis and create a branch.
 2. In `README.md`, section `### Finance`, insert the row from [listings/public-apis.md](listings/public-apis.md) in alphabetical order (currently after BriefTape, before CardBinCheck).
@@ -60,7 +60,7 @@ Decide first: the **Auth** value is `apiKey` in [listings/public-apis.md](listin
 
 ## 5. RapidAPI listing
 
-**Decide before going live (server-side work may be needed):** RapidAPI forwards every request from its own servers, so all RapidAPI users would share the API's per-IP keyless limit (50 a day) and would have no CalcBloc key for the calculation endpoints. Options: (a) if RapidAPI's gateway settings allow a fixed extra request header, send `X-API-Key` with a dedicated key on a raised tier; or (b) change the API to recognise RapidAPI traffic by the `X-RapidAPI-Proxy-Secret` header and rate-limit per `X-RapidAPI-User`. Either way, the API's attribution requirement applies to RapidAPI users too (the response carries the attribution block).
+**Decide before going live (server-side work may be needed):** RapidAPI forwards every request from its own servers, so all RapidAPI users would share the API's per-IP allowance without a key (50 requests a day) and could not add their own free CalcBloc key through the gateway. Options: (a) if RapidAPI's gateway settings allow a fixed extra request header, send `X-API-Key` with a dedicated key on a raised tier; or (b) change the API to recognise RapidAPI traffic by the `X-RapidAPI-Proxy-Secret` header and rate-limit per `X-RapidAPI-User`. Either way, the API's attribution requirement applies to RapidAPI users too (the response carries the attribution block).
 
 1. Sign in at https://rapidapi.com/provider (RapidAPI Studio) → **Add API Project**; name, short description and category (Finance) from [listings/rapidapi.md](listings/rapidapi.md).
 2. Definition: import the OpenAPI document from https://calcbloc.com/api/openapi.json, or add the endpoints by hand.
