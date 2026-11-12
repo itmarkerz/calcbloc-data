@@ -79,7 +79,7 @@ Belgium is not included yet: held until the 2026 federal income-tax scale is con
 
 © 2026 itmarkerz technologies, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit **"Data by CalcBloc (calcbloc.com/data)"** with a link to [https://calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss). The figures are reference data, not tax advice; check the official source before relying on them.
 
-The same tables are available from the free CalcBloc API: [https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)
+The same tables are available from the free CalcBloc API: [https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss). It works without a key for 50 requests a day (5 a minute) per IP address; a [free API key](https://calcbloc.com/developers/keys?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss) gives 5,000 a day, sent in the `X-API-Key` header.
 
 Version 2026.11.11. Updated from the calcbloc.com code base with every data update; see https://github.com/itmarkerz/calcbloc-data for the change history.
 
