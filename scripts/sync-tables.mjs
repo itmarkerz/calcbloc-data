@@ -65,8 +65,7 @@ if (!fs.existsSync(path.join(tmpDir, "manifest.json"))) {
 // The site's hold notes for pending countries are internal; publish a neutral sentence instead (scripts/lib/pending.mjs).
 const manifestPath = path.join(tmpDir, "manifest.json");
 const manifest = sanitizeManifest(JSON.parse(fs.readFileSync(manifestPath, "utf8")));
-fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "
-");
+fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
 
 fs.rmSync(tablesDir, { recursive: true, force: true });
 fs.renameSync(tmpDir, tablesDir);
