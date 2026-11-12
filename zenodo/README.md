@@ -17,7 +17,7 @@ Countries: Australia, Austria, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denma
 
 Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).
 
-© 2026 itmarkerz technologies. Licence: CC BY 4.0. Credit: "Data by CalcBloc (calcbloc.com/data)". The same tables are served by the CalcBloc API ([https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)). The tables are reference data, not tax advice.
+© 2026 itmarkerz technologies. Licence: CC BY 4.0. Credit: "Data by CalcBloc (calcbloc.com/data)". The same tables are served by the CalcBloc API ([https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)), which works without a key for 50 requests a day per IP address; a free API key ([https://calcbloc.com/developers/keys](https://calcbloc.com/developers/keys?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)) gives 5,000 a day. The tables are reference data, not tax advice.
 
 CalcBloc is built and maintained by itmarkerz technologies ([https://itmarkerz.co.in](https://itmarkerz.co.in/?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)), a web and mobile app development company in Kerala, India.
 

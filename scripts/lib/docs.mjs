@@ -431,7 +431,7 @@ function zenodoParagraphs(ctx, link) {
     `This version contains ${fmt(ctx.tables)} tables (${fmt(ctx.nationalTables)} national, ${fmt(ctx.regionalTables)} regional) with ${fmt(ctx.rows)} rows drawn from ${fmt(ctx.sources)} official sources; the latest figure was verified on ${ctx.lastVerified}. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.`,
     `Countries: ${listJoin(ctx.countryNames)}.${ctx.pending.length ? ` Pending (not included until complete): ${listJoin(ctx.pending.map((p) => p.name))}.` : ""}`,
     `Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).`,
-    `© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}. Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${link(utm(`${SITE}/developers`, "listing"), `${SITE}/developers`)}). The tables are reference data, not tax advice.`,
+    `© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}. Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${link(utm(`${SITE}/developers`, "listing"), `${SITE}/developers`)}), which works without a key for 50 requests a day per IP address; a free API key (${link(utm(`${SITE}/developers/keys`, "listing"), `${SITE}/developers/keys`)}) gives 5,000 a day. The tables are reference data, not tax advice.`,
     `CalcBloc is built and maintained by ${PUBLISHER.name} (${link(utm(PUBLISHER.url, "listing"), PUBLISHER.url)}), ${PUBLISHER_DESCRIPTION}.`,
   ];
 }
@@ -561,7 +561,7 @@ ${STATUS_VALUES.map(([v, d]) => `- \`${v}\`: ${d}`).join("\n")}
 
 © ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}, licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a link to [${SITE}/data](${utm(`${SITE}/data`, "listing")}). The figures are reference data, not tax advice; check the official source before relying on them.
 
-The same tables are available from the free CalcBloc API: [${SITE}/developers](${utm(`${SITE}/developers`, "listing")})
+The same tables are available from the free CalcBloc API: [${SITE}/developers](${utm(`${SITE}/developers`, "listing")}). It works without a key for 50 requests a day (5 a minute) per IP address; a [free API key](${utm(`${SITE}/developers/keys`, "listing")}) gives 5,000 a day, sent in the \`X-API-Key\` header.
 
 Version ${ctx.version}. Updated from the calcbloc.com code base with every data update; see ${ctx.ghUrl} for the change history.
 
