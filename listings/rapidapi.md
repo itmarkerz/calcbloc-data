@@ -10,13 +10,13 @@ CalcBloc Tax Tables and Take-Home Pay
 
 ## Short description
 
-Official income tax brackets and social security rates for 29 countries, plus net pay and employer cost.
+Official income tax brackets and social security rates for 37 countries, plus net pay and employer cost.
 
 ## Long description
 
 The CalcBloc API returns **official tax tables** and **payroll calculations** from the same data and engines as calcbloc.com.
 
-- **Tax tables** for 29 countries (2026 and 2026-27 tax years): income tax brackets, personal allowances and credits, employee and employer social security contribution rates with their ceilings, and other payroll figures, with regional tables for states, provinces and cantons. Every row includes its official source URL, retrieval date and review status. JSON or CSV.
+- **Tax tables** for 37 countries (2026 and 2026-27 tax years): income tax brackets, personal allowances and credits, employee and employer social security contribution rates with their ceilings, and other payroll figures, with regional tables for states, provinces and cantons. Every row includes its official source URL, retrieval date and review status. JSON or CSV.
 - **Take-home pay** (`/net-salary`): net pay from a gross salary, with income tax, social security and the main country-specific options.
 - **Employer cost** (`/employer-cost`): the total cost of employing someone, with employer contributions and payroll taxes.
 - **Compare** (`/compare`): the same salary in two countries.

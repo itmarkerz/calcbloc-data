@@ -1,6 +1,6 @@
 # Tables and official sources
 
-Version 2026.11.11 · 213 tables · 7,329 rows. One entry per table file in this dataset, with its tax year, row counts, last-verified date and links; the official sources of each country follow its tables. Generated from `tables/manifest.json`.
+Version 2026.11.12 · 242 tables · 9,427 rows. One entry per table file in this dataset, with its tax year, row counts, last-verified date and links; the official sources of each country follow its tables. Generated from `tables/manifest.json`.
 
 ## Australia
 
@@ -64,6 +64,26 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [Unternehmensserviceportal (content: BMF): Kleinunternehmen (Regelung seit 1. Jänner 2025) (last updated 1 January 2026)](https://www.usp.gv.at/themen/steuern-finanzen/umsatzsteuer-ueberblick/weitere-informationen-zur-umsatzsteuer/weitere-steuertatbestaende-und-befreiungen/kleinunternehmen.html)
 - [Wirtschaftskammer Österreich: Lohnverrechnung: Abrechnung von Dienstnehmern ab 1.1.2026 (Stand 01.01.2026)](https://www.wko.at/lohnverrechnung/lohnverrechnung-abrechnung-dienstnehmer)
 
+## Bulgaria
+
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/bulgaria/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 66 | 3 | unverified | 2026-11-11 | [page](https://calcbloc.com/bulgaria/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/bulgaria/2026.csv) · [JSON](json/bulgaria/2026.json) |
+
+**Official sources (9):**
+
+- [Държавен вестник, бр. 52 от 27.06.2025: Закон за изменение и допълнение на Закона за чужденците в Република България (§ 17: art. 24с; art. 24 (1) item 23; § 1 item 36 of the additional provisions)](https://dv.parliament.bg/DVWeb/fileUploadShowing.jsp?idFileAtt=753462&allowCache=true&openDirectly=false)
+- [Държавен вестник, бр. 98 от 18.11.2025: Постановление № 243 от 13 ноември 2025 г. за определяне размера на минималната работна заплата за страната](https://dv.parliament.bg/DVWeb/fileUploadShowing.jsp?idFileAtt=789780&allowCache=true&openDirectly=false)
+- [Държавен вестник, бр. 115 от 30.12.2025: Закон за изменение и допълнение на Закона за данък върху добавената стойност, § 16 (new art. 96) and § 69](https://dv.parliament.bg/DVWeb/fileUploadShowing.jsp?idFileAtt=799443&allowCache=true&openDirectly=false)
+- [Държавен вестник, бр. 68 от 28.07.2026: Закон за бюджета на Националната здравноосигурителна каса за 2026 г., art. 2; Закон за здравното осигуряване art. 40 (1) item 1 (NHIF consolidated text, last amendment ДВ бр. 68/2026)](https://dv.parliament.bg/DVWeb/fileUploadShowing.jsp?idFileAtt=845985&allowCache=true&openDirectly=false)
+- [Държавен вестник, бр. 69 от 31.07.2026: Закон за държавния бюджет на Република България за 2026 г., § 3 of the transitional and final provisions](https://dv.parliament.bg/DVWeb/fileUploadShowing.jsp?idFileAtt=847364&allowCache=true&openDirectly=false)
+- [Държавен вестник, бр. 113 от 28.12.2007: Закон за изменение и допълнение на Закона за данъците върху доходите на физическите лица (§ 29 and § 35: art. 42 and art. 48; in force from 1 January 2008)](https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=4611)
+- [Ministry of Finance, official euro changeover site (evroto.bg): Въпроси и отговори за гражданите](https://evroto.bg/bg/euro/citizens/faq)
+- [NSSI (НОИ): Осигуряване на самоосигуряващите се лица; Social Insurance Code, English text published by the NSSI (amendments to SG 105/2018), art. 6 and 157; Закон за здравното осигуряване art. 40 (1) item 2 (NHIF consolidated text)](https://www.nssi.bg/samoosiguryavashti-se-lica/osiguriavane-samoosiguriavashti-lica/)
+- [NSSI (НОИ): Social Insurance Code (Кодекс за социално осигуряване), English text published by the National Social Security Institute (amendments to SG 105/2018), art. 6 (1) and (3); confirmed by Държавен вестник, бр. 68 от 28.07.2026, State Social Security Budget Act 2026, § 6](https://www.nssi.bg/wp-content/uploads/SIC_2019.pdf)
+
 ## Canada
 
 Currency CAD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/canada/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
@@ -107,6 +127,80 @@ Currency CAD · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [Government of Saskatchewan: Provincial Sales Tax](https://www.saskatchewan.ca/business/taxes-licensing-and-reporting/provincial-taxes-policies-and-bulletins/provincial-sales-tax)
 - [Government of B.C., Employer health tax overview, rates for 2024 and later (last updated June 17, 2026); Charitable or non-profit employers page (last updated June 17, 2026)](https://www2.gov.bc.ca/gov/content/taxes/employer-health-tax/employer-health-tax-overview)
 - [Government of British Columbia: Provincial sales tax (PST)](https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst)
+
+## Croatia
+
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/croatia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 159 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026.csv) · [JSON](json/croatia/2026.json) |
+| Zagreb County | 2026 | 74 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/zagreb-county?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/zagreb-county.csv) · [JSON](json/croatia/2026/zagreb-county.json) |
+| Krapina-Zagorje County | 2026 | 72 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/krapina-zagorje?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/krapina-zagorje.csv) · [JSON](json/croatia/2026/krapina-zagorje.json) |
+| Sisak-Moslavina County | 2026 | 46 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/sisak-moslavina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/sisak-moslavina.csv) · [JSON](json/croatia/2026/sisak-moslavina.json) |
+| Karlovac County | 2026 | 52 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/karlovac?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/karlovac.csv) · [JSON](json/croatia/2026/karlovac.json) |
+| Varaždin County | 2026 | 64 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/varazdin?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/varazdin.csv) · [JSON](json/croatia/2026/varazdin.json) |
+| Koprivnica-Križevci County | 2026 | 58 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/koprivnica-krizevci?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/koprivnica-krizevci.csv) · [JSON](json/croatia/2026/koprivnica-krizevci.json) |
+| Bjelovar-Bilogora County | 2026 | 54 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/bjelovar-bilogora?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/bjelovar-bilogora.csv) · [JSON](json/croatia/2026/bjelovar-bilogora.json) |
+| Primorje-Gorski Kotar County | 2026 | 80 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/primorje-gorski-kotar?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/primorje-gorski-kotar.csv) · [JSON](json/croatia/2026/primorje-gorski-kotar.json) |
+| Lika-Senj County | 2026 | 32 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/lika-senj?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/lika-senj.csv) · [JSON](json/croatia/2026/lika-senj.json) |
+| Virovitica-Podravina County | 2026 | 40 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/virovitica-podravina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/virovitica-podravina.csv) · [JSON](json/croatia/2026/virovitica-podravina.json) |
+| Požega-Slavonia County | 2026 | 28 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/pozega-slavonia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/pozega-slavonia.csv) · [JSON](json/croatia/2026/pozega-slavonia.json) |
+| Brod-Posavina County | 2026 | 64 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/brod-posavina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/brod-posavina.csv) · [JSON](json/croatia/2026/brod-posavina.json) |
+| Zadar County | 2026 | 76 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/zadar?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/zadar.csv) · [JSON](json/croatia/2026/zadar.json) |
+| Osijek-Baranja County | 2026 | 92 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/osijek-baranja?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/osijek-baranja.csv) · [JSON](json/croatia/2026/osijek-baranja.json) |
+| Šibenik-Knin County | 2026 | 48 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/sibenik-knin?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/sibenik-knin.csv) · [JSON](json/croatia/2026/sibenik-knin.json) |
+| Vukovar-Srijem County | 2026 | 70 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/vukovar-srijem?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/vukovar-srijem.csv) · [JSON](json/croatia/2026/vukovar-srijem.json) |
+| Split-Dalmatia County | 2026 | 118 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/split-dalmatia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/split-dalmatia.csv) · [JSON](json/croatia/2026/split-dalmatia.json) |
+| Istria County | 2026 | 90 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/istria?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/istria.csv) · [JSON](json/croatia/2026/istria.json) |
+| Dubrovnik-Neretva County | 2026 | 52 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/dubrovnik-neretva?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/dubrovnik-neretva.csv) · [JSON](json/croatia/2026/dubrovnik-neretva.json) |
+| Međimurje County | 2026 | 58 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/medimurje?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/medimurje.csv) · [JSON](json/croatia/2026/medimurje.json) |
+| City of Zagreb | 2026 | 10 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/croatia/tax-tables/2026/city-of-zagreb?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/croatia/2026/city-of-zagreb.csv) · [JSON](json/croatia/2026/city-of-zagreb.json) |
+
+**Official sources (17):**
+
+- [Ministarstvo demografije i mladih: Popis jedinica lokalne samouprave s podacima o broju stanovnika ... prema Popisu stanovništva 2021. godine (PDF, 13 pages)](https://demografijaimladi.gov.hr/UserDocsImages//Direktorij%202/Slike%20od%2013.2024/Dokumenti//Popis%20jedinica%20lokalne%20samouprave.pdf)
+- [Ministry of the Interior of the Republic of Croatia (MUP): Temporary stay of digital nomads](https://mup.gov.hr/aliens-281621/stay-and-work/temporary-stay-of-digital-nomads/286833)
+- [Narodne novine 110/2019 (29.11.2019.): Zakon o blagdanima, spomendanima i neradnim danima u Republici Hrvatskoj](https://narodne-novine.nn.hr/clanci/sluzbeni/2019_11_110_2212.html)
+- [Narodne novine 138/2020 (11.12.2020.): Zakon o izmjenama i dopunama Zakona o porezu na dohodak](https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html)
+- [Narodne novine 114/2023 (4.10.2023.): Zakon o izmjenama i dopunama Zakona o doprinosima (ZD art. 21.a)](https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1611.html)
+- [Narodne novine 152/2024 (24.12.2024.): Zakon o izmjenama i dopunama Zakona o porezu na dohodak](https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html)
+- [Narodne novine 132/2025 (24.10.2025.): Uredba o visini minimalne plaće za 2026. godinu (Vlada Republike Hrvatske)](https://narodne-novine.nn.hr/clanci/sluzbeni/2025_10_132_1931.html)
+- [Narodne novine 150/2025 (12.12.2025.): Naredba o iznosima osnovica za obračun doprinosa za obvezna osiguranja za 2026. godinu (Ministarstvo financija)](https://narodne-novine.nn.hr/clanci/sluzbeni/2025_12_150_2237.html)
+- [Narodne novine 124/2026 (30.10.2026.): Uredba o visini minimalne plaće za 2027. godinu (Vlada Republike Hrvatske)](https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_124_1481.html)
+- [Porezna uprava: Tablica poreznih stopa godišnjeg poreza na dohodak za 2026. godinu (xlsx, linked from 'Porezne stope godišnjeg poreza na dohodak'; source: decisions of local units published in Narodne novine, state on 1 January 2026)](https://porezna-uprava.gov.hr/UserDocsImages/Portal_porezne_konkurentnosti/Odluke_JLS/Porezne%20stope%20godi%C5%A1njeg%20poreza%20na%20dohodak/Tablica%20poreznih%20stopa%20godi%C5%A1njeg%20poreza%20na%20dohodak%20za%202026%20godinu.xlsx)
+- [Porezna uprava: Doprinosi: informiranje o općim pravilima, stopama i poreznom obvezniku (datum ažuriranja: 8. siječnja 2025.)](https://porezna-uprava.gov.hr/hr/doprinosi/4585)
+- [Porezna uprava: Obrtnici paušalisti](https://porezna-uprava.gov.hr/hr/obrtnici-pausalisti/4564)
+- [Porezna uprava: Osobni odbitak ili neoporezivi dio plaće](https://porezna-uprava.gov.hr/hr/osobni-odbitak-ili-neoporezivi-dio-place/4677)
+- [Porezna uprava: PDV](https://porezna-uprava.gov.hr/hr/pdv-3938/3938)
+- [Porezna uprava (Ministry of Finance, Tax Administration): Porezne stope godišnjeg poreza na dohodak](https://porezna-uprava.gov.hr/hr/porezne-stope-godisnjeg-poreza-na-dohodak/4764)
+- [Porezna uprava: Posebne olakšice](https://porezna-uprava.gov.hr/hr/posebne-olaksice/4669)
+- [Hrvatski sabor: Prijedlog zakona o izmjenama Zakona o doprinosima, PZ 80 (Vlada Republike Hrvatske, 2024), explanatory part and text of the Act](https://sabor.hr/sites/default/files/uploads/sabor/2024-12-05/200202/PZ_80.pdf)
+
+## Cyprus
+
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/cyprus/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 114 | 4 | unverified | 2026-11-11 | [page](https://calcbloc.com/cyprus/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/cyprus/2026.csv) · [JSON](json/cyprus/2026.json) |
+
+**Official sources (14):**
+
+- [Επίσημη Εφημερίδα, Παράρτημα Τρίτο (Ι), Αρ. 5989, 31.12.2025: Κ.Δ.Π. 427/2025, Το περί Κατωτάτου Ορίου Μισθών (Τροποποιητικό) Διάταγμα του 2025 (CyLaw copy of the official gazette text)](https://www.cylaw.org/KDP/data/2025_1_427.pdf)
+- [Press and Information Office & Deputy Ministry of Migration and International Protection: Announcement on the 'Cyprus Digital Nomad Visa' Scheme (26/03/25)](https://www.gov.cy/en/migration/announcement-by-the-deputy-ministry-of-migration-and-international-protection-on-cyprus-digital-nomad-visa-scheme/)
+- [Tax Department: Declaration for claiming tax deductions for the tax year 2026 (Form T.D.59A, English), Part C Tax computation](https://www.gov.cy/media/sites/167/2026/02/IR59_2026_English__.pdf)
+- [Tax Department: Ο περί Έκτακτης Εισφοράς για την Άμυνα της Δημοκρατίας (Τροποποιητικός) (Αρ. 4) Νόμος του 2025 (presentation, 06/03/2026)](https://www.gov.cy/media/sites/167/2026/03/EEA-%CE%A6%CE%9A%CE%9A-%CE%9C%CE%95%CE%A4%CE%91%CE%A1%CE%A1%CE%A5%CE%98%CE%9C%CE%99%CE%A3%CE%97-06032026.pdf)
+- [Tax Department: Φορολογική Μεταρρύθμιση 2026 – Φόρος Εισοδήματος Ατόμου, βασικές αλλαγές και νέες εκπτώσεις (presentation, new version 11/05/2026)](https://www.gov.cy/media/sites/167/2026/05/%CE%A6%CE%BF%CF%81%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AE-%CE%9C%CE%B5%CF%84%CE%B1%CF%81%CF%81%CF%8D%CE%B8%CE%BC%CE%B9%CF%83%CE%B7-2026-%CF%86%CF%85%CF%83%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-11.05.2026.pdf)
+- [Tax Department: Υποχρέωση/Δικαίωμα Εγγραφής στο Μητρώο Φ.Π.Α. and Συντελεστές Φ.Π.Α.](https://www.gov.cy/mof-tax/documents/eggrafi-akyrosi-f-p-a/eggrafes-mitrooy-f-p-a/ypochreosi-dikaioma-eggrafis-sto-mitroo-f-p-a/)
+- [Tax Department: Απαλλαγή 50% για πρώτη εργοδότηση στη Δημοκρατία (άρθρα 8(23) και 8(23Α)); Απαλλαγή 20% (ή €8.550) για πρώτη εργοδότηση (άρθρα 8(21) και 8(21Α)); Απαλλαγή 25% (Σχέδιο Επαναπατρισμού Ταλέντων, άρθρο 8(21Β))](https://www.gov.cy/mof-tax/documents/forologiki-dilosi-eisodimatos-atomoy/apallagi-50-gia-proti-ergodotisi-sti-dimokratia-arthra-8-23-kai-8-23a-toy-peri-forologias-toy-eisodimatos-nomoy/)
+- [Tax Department: Εξ αποστάσεως εργασία σε εργοδότη εκτός της Δημοκρατίας ή και παροχή υπηρεσιών εκτός της Δημοκρατίας](https://www.gov.cy/mof-tax/documents/forologiki-dilosi-eisodimatos-atomoy/ex-apostaseos-ergasia-se-ergodoti-ektos-tis-dimokratias-i-kai-parochi-ypiresion-ektos-tis-dimokratias/)
+- [Tax Department: Γενικό Σύστημα Υγείας (ΓεΣΥ), Φορολογικοί Συντελεστές (Άτομα)](https://www.gov.cy/mof-tax/documents/geniko-systima-ygeias-gesy/)
+- [Tax Department: Tax Residency/Domicility](https://www.gov.cy/mof-tax/en/documents/tax-residency-domicility/)
+- [Migration Department, Deputy Ministry of Migration and International Protection: Cyprus Digital Nomad Visa scheme (page could not be opened: expired TLS certificate on 2026-11-11)](https://www.mip.gov.cy/dmmip/md.nsf/All/BF9908B541BFF7D3C22587EA003CD306?OpenDocument)
+- [Social Insurance Services: Επαγγελματικές κατηγορίες και ποσά ασφαλιστέων αποδοχών αυτοτελώς εργαζομένων 2026 (table I, Regulation 16) and Amount of contribution of Self-employed to SIF 2026 (table II)](https://www.mlsi.gov.cy/mlsi/sid/sidv2.nsf/All/1AFCD6556B9763F3C2258D6500224FE1?OpenDocument)
+- [Social Insurance Services (Ministry of Labour and Social Insurance): Employer's Guide (PDF), section Amount of contributions](https://www.mlsi.gov.cy/mlsi/sid/sidv2.nsf/All/551C82BEE69E2FC9C2257A170034B0EC?OpenDocument)
+- [Social Insurance Services: Basic Insurable Earnings 1981-2026 (spreadsheet Basic_insurable _earnings_1981-2026.xlsx)](https://www.mlsi.gov.cy/mlsi/sid/sidv2.nsf/All/9AD159715525E49CC22584D90030E8FF?OpenDocument)
 
 ## Czechia
 
@@ -164,6 +258,32 @@ Currency DKK · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [New to Denmark (SIRI): You want to apply for a work permit](https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work)
 - [New to Denmark (SIRI, Danish Agency for International Recruitment and Integration): Start-up Denmark](https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Start-up-Denmark)
 - [Lovtidende A 2023 nr. 214: Lov om konsekvenser ved afskaffelsen af store bededag som helligdag (6 March 2023), § 7](https://www.retsinformation.dk/eli/lta/2023/214/pdf)
+
+## Estonia
+
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/estonia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 67 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/estonia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/estonia/2026.csv) · [JSON](json/estonia/2026.json) |
+
+**Official sources (15):**
+
+- [Maksu- ja Tolliamet: Maksukohustuslasena registreerimise kohustus (last updated 05.02.2026); Käibemaksumäärad ja maksuvaba käive (last updated 05.11.2025); Maksumäärad, 2026](https://emta.ee/ariklient/maksud-ja-tasumine/kaibemaks/kaibemaksukohustuslasena-registreerimine/maksukohustuslasena-registreerimise-kohustus)
+- [Maksu- ja Tolliamet: Maksumäärad ja maksuvaba tulu suurus, 2026 (last updated 26.03.2026); Maksumuudatused 2026. aastal (27.11.2025)](https://emta.ee/ariklient/maksud-ja-tasumine/tulumaks-ja-sotsiaalmaks/maksumaarad)
+- [Maksu- ja Tolliamet: Sotsiaalmaks (last updated 20.07.2026); Riigi Teataja: 2026. aasta riigieelarve seadus § 2 lg 6 (RT I, 18.12.2025, 22)](https://emta.ee/ariklient/maksud-ja-tasumine/tulumaks-ja-sotsiaalmaks/sotsiaalmaks)
+- [Maksu- ja Tolliamet: Füüsilisest isikust ettevõtjale (FIE): Kohustuslik kogumispensioni makse (last updated 22.05.2026)](https://emta.ee/ariklient/registreerimine-ettevotlus/ettevotjale/fuusilisest-isikust-ettevotjale-fie/kohustuslik-kogumispensioni-makse)
+- [Maksu- ja Tolliamet: Residentsuse määramine (last updated 23.10.2026)](https://emta.ee/ariklient/registreerimine-ettevotlus/mitteresidendile-e-residendile/residentsuse-maaramine)
+- [Maksu- ja Tolliamet: Maksuvaba tulu arvestamine (last updated 25.05.2026); Maksumäärad ja maksuvaba tulu suurus, 2026 (last updated 26.03.2026)](https://emta.ee/eraklient/maksud-ja-tasumine/maksusoodustused/maksuvaba-tulu-arvestamine)
+- [Maksu- ja Tolliamet: Ettevõtluskonto (last updated 06.11.2026); Maksumuudatused 2026. aastal (27.11.2025)](https://emta.ee/eraklient/maksud-ja-tasumine/maksustatavad-tulud/ettevotluskonto)
+- [Maksu- ja Tolliamet: Maksumuudatused 2026. aastal (news, 27.11.2025)](https://emta.ee/uudised/maksumuudatused-2026)
+- [e-Residency (Republic of Estonia): Responsibilities of e-residents (modified 06.08.2025)](https://www.e-resident.gov.ee/blog/posts/responsibilities-of-e-residents/)
+- [Maksu- ja Tolliamet: Füüsilisest isikust ettevõtjale (FIE): Sotsiaalmaks (last updated 14.04.2026); FIE sotsiaalmaksu avansiliste maksete tasumine; Maksumuudatused 2026. aastal (27.11.2025); Riigi Teataja: Sotsiaalmaksuseadus § 2 lg 1 p 5 and lg 5](https://www.emta.ee/ariklient/registreerimine-ettevotlus/ettevotjale/fuusilisest-isikust-ettevotjale-fie/sotsiaalmaks)
+- [Pensionikeskus: Rejoining the second pillar after a 5-year break; Changing the rate of contributions to 2%, 4% or 6%; Exemption from contributions to II pillar; Mandatory funded pension](https://www.pensionikeskus.ee/en/ii-pillar/contributions/rejoining-the-second-pillar-after-a-5-year-break/)
+- [Riigi Teataja: Sotsiaalmaksuseadus, version in force 26.10.2026–31.12.2026 (RT I, 16.10.2026, 14), § 7 and § 10; Maksu- ja Tolliamet: Maksumäärad, 2026 (last updated 26.03.2026)](https://www.riigiteataja.ee/akt/116102026014)
+- [Riigi Teataja: Siseministri määrus nr 82 'Pikaajalise viisa andmise, viibimisaja vormistamise ja viibimisaja pikendamise kord ja tähtajad ning piisavate rahaliste vahendite määr' (version in force from 22.05.2026), § 15 lg 7; Välismaalaste seadus § 62^5; 2026. aasta riigieelarve seadus § 2 lg 5 p 5; Politsei- ja Piirivalveamet: Long-term visa](https://www.riigiteataja.ee/akt/119052026005)
+- [Riigi Teataja: Vabariigi Valitsuse 19.12.2024 määrus nr 87 'Töötasu alammäära kehtestamine' (RT I, 21.12.2024, 26; repealed from 1 April 2026)](https://www.riigiteataja.ee/akt/121122024026)
+- [Riigi Teataja: Vabariigi Valitsuse 23.03.2026 määrus nr 36 'Töötasu alammäära kehtestamine' (RT I, 24.03.2026, 5)](https://www.riigiteataja.ee/akt/124032026005)
 
 ## Finland
 
@@ -335,6 +455,33 @@ Currency HUF · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [Nemzeti Jogszabálytár: 426/2025. (XII. 23.) Korm. rendelet a kötelező legkisebb munkabér (minimálbér) és a garantált bérminimum megállapításáról, § 2-3](https://njt.jog.gov.hu/jogszabaly/2025-426-20-22)
 - [Országos Idegenrendészeti Főigazgatóság (OIF): Fehér Kártya – digitális nomád tartózkodás (White Card for digital nomads)](https://oif.gov.hu/tajekoztatok/feher-kartya-digitalis-nomad-tartozkodas)
 
+## Iceland
+
+Currency ISK · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/iceland/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 152 | 16 | unverified | 2026-11-11 | [page](https://calcbloc.com/iceland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/iceland/2026.csv) · [JSON](json/iceland/2026.json) |
+
+**Official sources (16):**
+
+- [Ísland.is, Mannauðstorg ríkisins (Fjársýslan): Lífeyrismál; Ísland.is: Salary (The Financial Management Authority)](https://island.is/adstod/mannaudstorg/laun-og-kjaramal/lifeyrismal)
+- [Ísland.is, Mannauðstorg ríkisins (Fjársýslan): Séreignarsparnaður](https://island.is/adstod/mannaudstorg/laun-og-kjaramal/sereignarsparnadur)
+- [Ísland.is: Salary (The Financial Management Authority, Fjársýslan)](https://island.is/en/salary)
+- [Ísland.is, Directorate of Immigration: Short-term residence permit](https://island.is/en/short-term-residence-permit)
+- [Útlendingastofnun (Directorate of Immigration), Ísland.is: Vegabréfsáritanir færast til utanríkisráðuneytisins (13 May 2026)](https://island.is/s/utlendingastofnun/frett/vegabrefsaritanir-faerast-til-utanrikisraduneytisins)
+- [Samband íslenskra sveitarfélaga: Útsvarsprósentur sveitarfélaga (Excel, column 2026; file last saved 5 January 2026), linked from https://www.samband.is/tekjustofnar; Skatturinn refers to this list for every municipality's útsvar](https://samband-islenskra-sveitarfelaga.cdn.prismic.io/samband-islenskra-sveitarfelaga/aVuhgXNYClf9oyAY_%C3%9Atsvarspr%C3%B3sentur_net.xls)
+- [Althingi: Lög um 40 stunda vinnuviku nr. 88/1971, 6. gr. (frídagar); lög um helgidagafrið nr. 32/1997 (helgidagar þjóðkirkjunnar)](https://www.althingi.is/lagas/nuna/1971088.html)
+- [Samband íslenskra sveitarfélaga: Tekjustofnar (Útsvar), with its file 'Útsvarsprósentur sveitarfélaga' (Excel); Skatturinn: Staðgreiðsla 2026; Fjármála- og efnahagsráðuneytið: Breytingar á staðgreiðslu um áramótin (22 December 2025)](https://www.samband.is/tekjustofnar)
+- [Skatturinn: Tryggingagjald; Skatturinn: Staðgreiðsla 2026 (Tryggingagjald, Fjársýsluskattur); Fjármála- og efnahagsráðuneytið: Breytingar á staðgreiðslu um áramótin (22 December 2025)](https://www.skatturinn.is/atvinnurekstur/skattar-og-gjold/tryggingagjald/)
+- [Skatturinn: Reiknað endurgjald 2026 (viðmiðunarreglur ríkisskattstjóra)](https://www.skatturinn.is/atvinnurekstur/stadgreidsla-og-reiknad-endurgjald/reiknad-endurgjald/2026/)
+- [Skatturinn: Skattskylda og skattprósentur (virðisaukaskattur); Skatturinn: Skráning á virðisaukaskattsskrá; Skatturinn: Helstu tölur og prósentur 2026](https://www.skatturinn.is/atvinnurekstur/virdisaukaskattur/skattskylda-og-skattprosentur/)
+- [Skatturinn: Erlendir sérfræðingar](https://www.skatturinn.is/einstaklingar/skattskylda/erlendir-serfraedingar/)
+- [Skatturinn: Staðgreiðsla 2026 (Hlutföll og fjárhæðir); Fjármála- og efnahagsráðuneytið: Breytingar á staðgreiðslu um áramótin (22 December 2025)](https://www.skatturinn.is/einstaklingar/stadgreidsla/stadgreidsla/2026/)
+- [Skatturinn: Helstu tölur og prósentur 2026](https://www.skatturinn.is/helstutolur)
+- [Fjármála- og efnahagsráðuneytið: Breytingar á staðgreiðslu um áramótin (22 December 2025)](https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/12/22/Breytingar-a-stadgreidslu-um-aramotin/)
+- [Fjármála- og efnahagsráðuneytið (Stjórnarráð Íslands): Lífeyrissjóðir, helstu efnisatriði lífeyrislaganna](https://www.stjornarradid.is/verkefni/almannatryggingar-og-lifeyrir/lifeyrismal/lifeyrissjodir/)
+
 ## India
 
 Currency INR · current tax year 2026-27 · [tax tables on calcbloc.com](https://calcbloc.com/india/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
@@ -500,6 +647,49 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [MEF Dipartimento delle Finanze: Addizionale comunale all'IRPEF, TRIESTE (L424), all years](https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/nuova_addcomirpef/risultato.htm?cc=L424&anno=9999)
 - [MEF Dipartimento delle Finanze: Addizionale comunale all'IRPEF, VENEZIA (L736), all years](https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/nuova_addcomirpef/risultato.htm?cc=L736&anno=9999)
 
+## Latvia
+
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/latvia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 77 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/latvia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/latvia/2026.csv) · [JSON](json/latvia/2026.json) |
+
+**Official sources (12):**
+
+- [Likumi.lv: Mikrouzņēmumu nodokļa likums (consolidated text), 4., 5., 6. un 8. pants; VID: Mikrouzņēmumu nodoklis (atjaunināts 13.05.2026)](https://likumi.lv/ta/id/215302)
+- [Likumi.lv: Pievienotās vērtības nodokļa likums (consolidated text), 59. pants](https://likumi.lv/ta/id/253451)
+- [Likumi.lv: MK 2015. gada 24. novembra noteikumi Nr. 656 "Noteikumi par minimālās mēneša darba algas apmēru normālā darba laika ietvaros un minimālās stundas tarifa likmes aprēķināšanu" (as amended by MK 19.11.2025 noteikumi Nr. 680); Labklājības ministrija: Minimum monthly wage (updated 05.01.2026)](https://likumi.lv/ta/id/278067)
+- [Likumi.lv: MK 2020. gada 17. decembra noteikumi Nr. 786 "Noteikumi par valsts sociālās apdrošināšanas iemaksu likmes sadalījumu pa valsts sociālās apdrošināšanas veidiem" (spēkā esošs), 2. un 18. punkts](https://likumi.lv/ta/id/319695)
+- [Likumi.lv: MK 2025. gada 4. novembra noteikumi Nr. 651 "Noteikumi par uzņēmējdarbības riska valsts nodevu 2026. gadā" (Latvijas Vēstnesis, 214, 05.11.2025)](https://likumi.lv/ta/id/364203)
+- [Likumi.lv: likums "Par valsts sociālo apdrošināšanu" (consolidated text), 18. panta 1. daļa; VID: Valsts sociālās apdrošināšanas obligāto iemaksu likmes (atjaunināts 02.09.2026)](https://likumi.lv/ta/id/45466-par-valsts-socialo-apdrosinasanu)
+- [Likumi.lv: likums "Par iedzīvotāju ienākuma nodokli" (consolidated text), 15. pants and pārejas noteikumu 202. punkts; VID: Iedzīvotāju ienākuma nodokļa likmes (atjaunināts 31.12.2025)](https://likumi.lv/ta/id/56880-par-iedzivotaju-ienakuma-nodokli)
+- [PMLP: Ilgtermiņa vīzas saņemšana attālinātā darba veikšanai (atjaunināts 16.06.2026); Imigrācijas likums 11. panta 5. daļa (likumi.lv)](https://www.pmlp.gov.lv/lv/ilgtermina-vizas-sanemsana-attalinata-darba-veiksanai)
+- [VID: Iedzīvotāju ienākuma nodokļa likmes (atjaunināts 31.12.2025)](https://www.vid.gov.lv/lv/iedzivotaju-ienakuma-nodokla-likmes)
+- [VID: Mikrouzņēmumu nodoklis, Minimālās valsts sociālās apdrošināšanas obligātās iemaksas (atjaunināts 13.05.2026); VID: Valsts sociālās apdrošināšanas obligāto iemaksu likmes (atjaunināts 02.09.2026); likums "Par valsts sociālo apdrošināšanu" 20.4 pants](https://www.vid.gov.lv/lv/mikrouznemumu-nodoklis)
+- [VID: Pašnodarbinātā sociālās apdrošināšanas iemaksas (atjaunināts 08.10.2026); MK noteikumi Nr. 786, 9.-11. punkts; likums "Par valsts sociālo apdrošināšanu" 14.1 pants](https://www.vid.gov.lv/lv/pasnodarbinata-socialas-apdrosinasanas-iemaksas)
+- [VID: Solidaritātes nodoklis (atjaunināts 11.07.2026); VID: Solidaritātes nodokļa likmes (atjaunināts 11.07.2026)](https://www.vid.gov.lv/lv/solidaritates-nodoklis)
+
+## Lithuania
+
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/lithuania/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 80 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/lithuania/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/lithuania/2026.csv) · [JSON](json/lithuania/2026.json) |
+
+**Official sources (9):**
+
+- [e-seimas: Lietuvos Respublikos garantijų darbuotojams jų darbdaviui tapus nemokiam ir ilgalaikio darbo išmokų įstatymas Nr. XII-2604, suvestinė redakcija nuo 2026-01-01, 5 straipsnio 3 dalis ir 14 straipsnio 3 dalis](https://e-seimas.lrs.lt/rs/actualedition/5395de427bd511e6a0f68fd135e6f40c/yhvdFxZyWj/)
+- [e-seimas: Lietuvos Respublikos valstybinio socialinio draudimo įstatymas Nr. I-1336, suvestinė redakcija nuo 2026-07-01 iki 2026-12-31, 2 straipsnio 16 dalis, 10 straipsnio 5, 7 ir 9 dalys; Seimas: įstatymas Nr. XV-632, 4 straipsnis](https://e-seimas.lrs.lt/rs/actualedition/TAIS.1327/bxoRMJvqWR/)
+- [e-seimas: Lietuvos Respublikos pridėtinės vertės mokesčio įstatymas Nr. IX-751, suvestinė redakcija nuo 2026-07-01 iki 2026-12-31, 71 straipsnio 2 dalis](https://e-seimas.lrs.lt/rs/actualedition/TAIS.163423/rGwdIQGCEj/)
+- [e-seimas: Lietuvos Respublikos gyventojų pajamų mokesčio įstatymas Nr. IX-1007, suvestinė redakcija nuo 2026-06-11 iki 2026-12-31, 6 straipsnio 1 dalis; Seimas: Valstybės socialinių fondų biudžetų 2026 metų rodiklių patvirtinimo įstatymas Nr. XV-632, 4 straipsnis](https://e-seimas.lrs.lt/rs/actualedition/TAIS.171369/QTlvfEvkKY/)
+- [e-seimas: Lietuvos Respublikos pensijų kaupimo įstatymas Nr. IX-1691, suvestinė redakcija nuo 2026-01-01 iki 2026-12-31, 4, 6, 8 ir 13 straipsniai](https://e-seimas.lrs.lt/rs/actualedition/TAIS.215829/bAAsfWCngt/)
+- [e-seimas: Lietuvos Respublikos įstatymas dėl užsieniečių teisinės padėties Nr. IX-2206, suvestinė redakcija nuo 2026-11-01 iki 2026-12-31, 40 straipsnio 1 dalies 5-1 punktas ir 45-1 straipsnis](https://e-seimas.lrs.lt/rs/actualedition/TAIS.232378/IOHiRhMlaI/)
+- [e-seimas: Lietuvos Respublikos sveikatos draudimo įstatymas Nr. I-1343, suvestinė redakcija nuo 2026-09-01 iki 2026-12-31, 17 straipsnis](https://e-seimas.lrs.lt/rs/actualedition/TAIS.28356/vdUTTeWmTx/)
+- [Lietuvos Respublikos Vyriausybės 2025 m. spalio 16 d. nutarimas Nr. 700 „Dėl 2026 metais taikomo minimaliojo darbo užmokesčio“ (TAR 2025-10-16 Nr. 2025-17211), text on the Seimas legal acts portal](https://www.lrs.lt/tais-portal/dokpaieska.showdoc_l?p_id=1934801)
+- [Seimas: Valstybės socialinių fondų biudžetų 2026 metų rodiklių patvirtinimo įstatymas Nr. XV-632 (2025-12-09; TAR 2025-12-15 Nr. 2025-21465), 3 straipsnio 4 dalis](https://www.lrs.lt/tais-portal/dokpaieska.showdoc_l?p_id=1951583)
+
 ## Luxembourg
 
 Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/luxembourg/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
@@ -522,6 +712,38 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [ACD: Barèmes, 1.3 Explications (last updated 18/04/2025)](https://impotsdirects.public.lu/fr/baremes.html)
 - [Inspection du travail et des mines (ITM): D4a3 - A combien s'élève la rémunération minimale ? (last updated 05/06/2026), with the ITM 'Archives des salaires minimum sociaux'](https://itm.public.lu/fr/questions-reponses/droit-travail/remuneration/a/a3.html)
 - [Administration de l'enregistrement, des domaines et de la TVA (AED), Portail de la fiscalité indirecte: Le nouveau régime de franchise des petites entreprises - FAQ (Service législation)](https://pfi.public.lu/dam-assets/pdf/tva/sme/faq-fr.pdf)
+
+## Malta
+
+Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/malta/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 105 | 0 | verified | 2026-11-11 | [page](https://calcbloc.com/malta/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/malta/2026.csv) · [JSON](json/malta/2026.json) |
+
+**Official sources (21):**
+
+- [Department for Industrial and Employment Relations (DIER): Bonus u Allowance ta’ kull Ġimgħa (last modified 11 April 2025)](https://dier.gov.mt/servizzi/kundizzjonijiet-tal-impieg/pagi/bonus-u-allowance-ta-kull-gimgha/)
+- [Act No. III of 2026, Budget Measures Implementation Act, 2026 (Government Gazette of Malta No. 21,599, 10 March 2026), article 13(2)](https://legislation.mt/eli/act/2026/3/eng)
+- [Income Tax Act (Cap. 123), consolidated text on legislation.mt (point in time 10 March 2026), art. 56(26) and (26A)](https://legislation.mt/eli/cap/123/eng)
+- [Value Added Tax Act (Cap. 406), consolidated text on legislation.mt (point in time 1 October 2026), article 11 and Sixth Schedule](https://legislation.mt/eli/cap/406/eng)
+- [L.N. 289 of 2025, National Minimum Wage National Standard Order, 2025 (Government Gazette No. 21,560, 22 December 2025)](https://legislation.mt/eli/ln/2025/289/eng)
+- [L.N. 290 of 2025, Wage Increase (Employees) National Standard Order, 2025 (Government Gazette No. 21,560, 22 December 2025)](https://legislation.mt/eli/ln/2025/290/eng)
+- [L.N. 20 of 2026, Tax Treatment of Highly Skilled Individuals Rules, 2026 (Government Gazette No. 21,575, 23 January 2026)](https://legislation.mt/eli/ln/2026/20/eng)
+- [Tax on Overtime Rules (S.L. 123.200), consolidated text on legislation.mt (point in time 8 February 2022)](https://legislation.mt/eli/sl/123.200/eng)
+- [Nomad Residence Permits (Income Tax) Rules (S.L. 123.210; L.N. 277 of 2023, Government Gazette No. 21,162, 7 December 2023)](https://legislation.mt/eli/sl/123.210/eng)
+- [MTCA: New Tax Rates, 2026 (Budget Amendments), last update January 2026](https://mtca.gov.mt/docs/default-source/documents/2026-tax-rates.pdf?sfvrsn=37563fb2_11)
+- [MTCA: Overview of recently published legal notices, January to June 2026 (LN 52 and 53 of 2026)](https://mtca.gov.mt/docs/default-source/documents/legislative-developments/2026/overview-of-recently-published-legal-notices-january-to-june-2026-memo.pdf?sfvrsn=1191b20d_1)
+- [MTCA: The Remittance Basis of Taxation for Individuals under the Income Tax Act (guidelines)](https://mtca.gov.mt/docs/default-source/documents/mtca-guidelines-on-the-remittance-under-the-income-tax.pdf?sfvrsn=d2f39d05_1)
+- [MTCA: Special Schemes](https://mtca.gov.mt/personal-tax/individual/special-schemes)
+- [MTCA: Tax on Income from Part-Time Work (FAQs)](https://mtca.gov.mt/personal-tax/legal-and-technical/faqs/tax-on-income-from-part-time-work)
+- [MTCA: Tax Rates for Returned Migrants](https://mtca.gov.mt/personal-tax/tax-rates/returned-migrants)
+- [Malta Tax and Customs Administration (MTCA): Tax Rates 2026](https://mtca.gov.mt/personal-tax/tax-rates/tax-ratesindividuals/2026)
+- [MTCA: Tax Rates 2027](https://mtca.gov.mt/personal-tax/tax-rates/tax-ratesindividuals/2027)
+- [MTCA: Tax Rates for Non-Residents](https://mtca.gov.mt/personal-tax/tax-rates/taxratesfornonresident)
+- [Residency Malta Agency: Nomad Residence Permit FAQs](https://nomad.residencymalta.gov.mt/new-faqs/)
+- [Department of Social Security: Social Security Contributions (Class 1) 2026 – Employed Persons (last modified 9 December 2025)](https://socialsecurity.gov.mt/en/information-and-applications-for-benefits-and-services/social-security-contributions/social-security-contributions-class-1-2026/)
+- [Department of Social Security: Social Security Contributions (Class 2) 2026 (last modified 5 December 2025)](https://socialsecurity.gov.mt/en/information-and-applications-for-benefits-and-services/social-security-contributions/social-security-contributions-class-2-2026/)
 
 ## Netherlands
 

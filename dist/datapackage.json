@@ -1,10 +1,10 @@
 {
   "profile": "tabular-data-package",
   "name": "calcbloc-tax-tables",
-  "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 29 countries",
-  "description": "Income tax brackets, allowances and social security contribution rates for 29 countries (213 tables, 7329 rows), from official government sources. Every row carries its source URL, retrieval date and review status. Rates are decimal fractions (0.2 = 20%).",
-  "version": "2026.11.11",
-  "created": "2026-11-11",
+  "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries",
+  "description": "Income tax brackets, allowances and social security contribution rates for 37 countries (242 tables, 9427 rows), from official government sources. Every row carries its source URL, retrieval date and review status. Rates are decimal fractions (0.2 = 20%).",
+  "version": "2026.11.12",
+  "created": "2026-11-12",
   "homepage": "https://calcbloc.com/data",
   "keywords": [
     "income tax",
@@ -491,6 +491,23 @@
       "schema": "tax-table-rows.schema.json"
     },
     {
+      "name": "bulgaria-2026",
+      "title": "Bulgaria tax tables 2026",
+      "path": "csv/bulgaria/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
       "name": "canada-2026",
       "title": "Canada tax tables 2026",
       "path": "csv/canada/2026.csv",
@@ -729,6 +746,397 @@
       "schema": "tax-table-rows.schema.json"
     },
     {
+      "name": "croatia-2026",
+      "title": "Croatia tax tables 2026",
+      "path": "csv/croatia/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-zagreb-county",
+      "title": "Croatia, Zagreb County tax tables 2026",
+      "path": "csv/croatia/2026/zagreb-county.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-krapina-zagorje",
+      "title": "Croatia, Krapina-Zagorje County tax tables 2026",
+      "path": "csv/croatia/2026/krapina-zagorje.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-sisak-moslavina",
+      "title": "Croatia, Sisak-Moslavina County tax tables 2026",
+      "path": "csv/croatia/2026/sisak-moslavina.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-karlovac",
+      "title": "Croatia, Karlovac County tax tables 2026",
+      "path": "csv/croatia/2026/karlovac.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-varazdin",
+      "title": "Croatia, Varaždin County tax tables 2026",
+      "path": "csv/croatia/2026/varazdin.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-koprivnica-krizevci",
+      "title": "Croatia, Koprivnica-Križevci County tax tables 2026",
+      "path": "csv/croatia/2026/koprivnica-krizevci.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-bjelovar-bilogora",
+      "title": "Croatia, Bjelovar-Bilogora County tax tables 2026",
+      "path": "csv/croatia/2026/bjelovar-bilogora.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-primorje-gorski-kotar",
+      "title": "Croatia, Primorje-Gorski Kotar County tax tables 2026",
+      "path": "csv/croatia/2026/primorje-gorski-kotar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-lika-senj",
+      "title": "Croatia, Lika-Senj County tax tables 2026",
+      "path": "csv/croatia/2026/lika-senj.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-virovitica-podravina",
+      "title": "Croatia, Virovitica-Podravina County tax tables 2026",
+      "path": "csv/croatia/2026/virovitica-podravina.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-pozega-slavonia",
+      "title": "Croatia, Požega-Slavonia County tax tables 2026",
+      "path": "csv/croatia/2026/pozega-slavonia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-brod-posavina",
+      "title": "Croatia, Brod-Posavina County tax tables 2026",
+      "path": "csv/croatia/2026/brod-posavina.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-zadar",
+      "title": "Croatia, Zadar County tax tables 2026",
+      "path": "csv/croatia/2026/zadar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-osijek-baranja",
+      "title": "Croatia, Osijek-Baranja County tax tables 2026",
+      "path": "csv/croatia/2026/osijek-baranja.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-sibenik-knin",
+      "title": "Croatia, Šibenik-Knin County tax tables 2026",
+      "path": "csv/croatia/2026/sibenik-knin.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-vukovar-srijem",
+      "title": "Croatia, Vukovar-Srijem County tax tables 2026",
+      "path": "csv/croatia/2026/vukovar-srijem.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-split-dalmatia",
+      "title": "Croatia, Split-Dalmatia County tax tables 2026",
+      "path": "csv/croatia/2026/split-dalmatia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-istria",
+      "title": "Croatia, Istria County tax tables 2026",
+      "path": "csv/croatia/2026/istria.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-dubrovnik-neretva",
+      "title": "Croatia, Dubrovnik-Neretva County tax tables 2026",
+      "path": "csv/croatia/2026/dubrovnik-neretva.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-medimurje",
+      "title": "Croatia, Međimurje County tax tables 2026",
+      "path": "csv/croatia/2026/medimurje.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "croatia-2026-city-of-zagreb",
+      "title": "Croatia, City of Zagreb tax tables 2026",
+      "path": "csv/croatia/2026/city-of-zagreb.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "cyprus-2026",
+      "title": "Cyprus tax tables 2026",
+      "path": "csv/cyprus/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
       "name": "czechia-2026",
       "title": "Czechia tax tables 2026",
       "path": "csv/czechia/2026.csv",
@@ -834,6 +1242,23 @@
       "name": "denmark-2026-nordjylland",
       "title": "Denmark, Region Nordjylland tax tables 2026",
       "path": "csv/denmark/2026/nordjylland.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "estonia-2026",
+      "title": "Estonia tax tables 2026",
+      "path": "csv/estonia/2026.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -1256,6 +1681,23 @@
       "schema": "tax-table-rows.schema.json"
     },
     {
+      "name": "iceland-2026",
+      "title": "Iceland tax tables 2026",
+      "path": "csv/iceland/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
       "name": "india-2026-27",
       "title": "India tax tables 2026-27",
       "path": "csv/india/2026-27.csv",
@@ -1664,9 +2106,60 @@
       "schema": "tax-table-rows.schema.json"
     },
     {
+      "name": "latvia-2026",
+      "title": "Latvia tax tables 2026",
+      "path": "csv/latvia/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "lithuania-2026",
+      "title": "Lithuania tax tables 2026",
+      "path": "csv/lithuania/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
       "name": "luxembourg-2026",
       "title": "Luxembourg tax tables 2026",
       "path": "csv/luxembourg/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json"
+    },
+    {
+      "name": "malta-2026",
+      "title": "Malta tax tables 2026",
+      "path": "csv/malta/2026.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",

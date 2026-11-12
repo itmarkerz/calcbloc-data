@@ -5,7 +5,7 @@
 **Description** (161 characters; GitHub allows 350):
 
 ```text
-Income tax brackets and social security contribution rates for 29 countries (2026 and 2026-27), from official sources. CSV and JSON, CC BY 4.0. Data by CalcBloc.
+Income tax brackets and social security contribution rates for 37 countries (2026 and 2026-27), from official sources. CSV and JSON, CC BY 4.0. Data by CalcBloc.
 ```
 
 **Website:** `https://calcbloc.com/data`
@@ -18,6 +18,6 @@ tax-tables income-tax tax-brackets tax-rates social-security payroll payroll-tax
 
 **Features:** Issues on (for corrections); Wiki and Projects off; Discussions optional.
 
-**Social preview image:** a 1280×640 card with "CalcBloc Tax Tables — 29 countries, 2026" (Settings → General → Social preview).
+**Social preview image:** a 1280×640 card with "CalcBloc Tax Tables — 37 countries, 2026" (Settings → General → Social preview).
 
-**Releases:** tag `v2026.11.11` (CalVer from the export date in `tables/manifest.json`); release title "CalcBloc Tax Tables 2026.11.11"; body: countries, tables and rows from the README "At a glance" line. Each release is archived by Zenodo once the integration is on.
+**Releases:** tag `v2026.11.12` (CalVer from the export date in `tables/manifest.json`); release title "CalcBloc Tax Tables 2026.11.12"; body: countries, tables and rows from the README "At a glance" line. Each release is archived by Zenodo once the integration is on.
