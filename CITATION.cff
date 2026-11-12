@@ -13,6 +13,11 @@ date-released: "2026-11-12"
 license: CC-BY-4.0
 url: "https://calcbloc.com/data"
 repository-code: "https://github.com/itmarkerz/calcbloc-data"
+doi: "10.5281/zenodo.24153625"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24153625"
+    description: "Zenodo DOI (all versions)"
 keywords:
   - "income tax"
   - "tax brackets"

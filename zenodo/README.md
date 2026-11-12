@@ -33,4 +33,4 @@ income tax, tax brackets, tax tables, tax rates, social security contributions, 
 
 ## How to cite
 
-itmarkerz technologies (2026). CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries (Version 2026.11.12) [Data set]. https://github.com/itmarkerz/calcbloc-data
+itmarkerz technologies (2026). CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries (Version 2026.11.12) [Data set]. https://doi.org/10.5281/zenodo.24153625

@@ -2,7 +2,7 @@
 
 # CalcBloc Tax Tables — 2026 income tax and social security data for 37 countries
 
-[![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24153625.svg)](https://doi.org/10.5281/zenodo.24153625)
 
 Free, machine-readable **income tax tables** and **social security contribution rates** for 37 countries, compiled by [CalcBloc](https://calcbloc.com/?utm_source=calcbloc-data&utm_medium=readme&utm_campaign=itmarkerz-oss) from official government sources. Each table covers one country and tax year (the 2026 and 2026-27 tax years) and lists the **tax brackets**, personal allowances and credits, employee and employer contributions with their ceilings, and other payroll figures, with regional tables for states, provinces and cantons where they set their own rates.
 
@@ -157,7 +157,7 @@ The tax rates and thresholds themselves are set by the governments listed in `so
 
 ## Citation
 
-itmarkerz technologies (2026). *CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries* (Version 2026.11.12) [Data set]. https://github.com/itmarkerz/calcbloc-data
+itmarkerz technologies (2026). *CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries* (Version 2026.11.12) [Data set]. https://doi.org/10.5281/zenodo.24153625
 
 ```bibtex
 @misc{calcbloc_tax_tables_2026_11_12,
@@ -165,8 +165,9 @@ itmarkerz technologies (2026). *CalcBloc Tax Tables: 2026 income tax and social 
   title     = {CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries},
   year      = {2026},
   version   = {2026.11.12},
-  publisher = {itmarkerz technologies},
-  url       = {https://github.com/itmarkerz/calcbloc-data},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24153625},
+  url       = {https://doi.org/10.5281/zenodo.24153625},
   note      = {Data by CalcBloc (calcbloc.com/data). Licensed under CC BY 4.0.}
 }
 ```
