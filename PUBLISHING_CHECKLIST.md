@@ -39,7 +39,7 @@ Accounts used: the GitHub organization `itmarkerz` (repositories `calcbloc-data`
 
 1. Kaggle account → Settings → API → **Create New Token**; save `kaggle.json` to `~/.kaggle/` (Windows: `C:\Users\<you>\.kaggle\`), or set `KAGGLE_USERNAME` and `KAGGLE_KEY`. Never commit it (it is in `.gitignore`).
 2. `pip install kaggle`.
-3. **Assumption to confirm:** the Kaggle id `binumathew/calcbloc-tax-tables` assumes the Kaggle account's username is `binumathew` (Kaggle datasets belong to a user, not to the GitHub organization). If it differs, change `calcblocData.kaggleId` in `package.json` and run `npm run build`.
+3. **Confirmed:** the Kaggle id is `itmarkerz/calcbloc-tax-tables` (Kaggle username `itmarkerz`; Kaggle datasets belong to a user, not to the GitHub organization). If the account ever changes, change `calcblocData.kaggleId` in `package.json` and run `npm run build`.
 4. `npm run stage:kaggle` (copies `kaggle/dataset-metadata.json` and the five top-level dist files into `build/kaggle/`).
 5. First upload: `kaggle datasets create -p build/kaggle --public` (omit `--public` to review it privately first, then switch visibility in the dataset settings).
 6. Later updates: `npm run stage:kaggle && kaggle datasets version -p build/kaggle -m "Update <version>"`.

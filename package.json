@@ -23,7 +23,7 @@
   "calcblocData": {
     "site": "https://calcbloc.com",
     "githubRepo": "itmarkerz/calcbloc-data",
-    "kaggleId": "binumathew/calcbloc-tax-tables",
+    "kaggleId": "itmarkerz/calcbloc-tax-tables",
     "doi": "10.5281/zenodo.24153625",
     "packages": {
       "python": {
