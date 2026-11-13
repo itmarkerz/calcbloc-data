@@ -471,7 +471,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Australia tax tables 2026–27 on calcbloc.com",
+          "path": "https://calcbloc.com/australia/tax-tables/2026-27"
+        }
+      ]
     },
     {
       "name": "austria-2026",
@@ -488,7 +494,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Austria tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/austria/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "bulgaria-2026",
@@ -505,7 +517,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Bulgaria tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/bulgaria/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "canada-2026",
@@ -522,7 +540,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "canada-2026-on",
@@ -539,7 +563,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Ontario tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/ontario"
+        }
+      ]
     },
     {
       "name": "canada-2026-qc",
@@ -556,7 +586,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Quebec tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/quebec"
+        }
+      ]
     },
     {
       "name": "canada-2026-bc",
@@ -573,7 +609,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, British Columbia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/british-columbia"
+        }
+      ]
     },
     {
       "name": "canada-2026-ab",
@@ -590,7 +632,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Alberta tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/alberta"
+        }
+      ]
     },
     {
       "name": "canada-2026-mb",
@@ -607,7 +655,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Manitoba tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/manitoba"
+        }
+      ]
     },
     {
       "name": "canada-2026-nb",
@@ -624,7 +678,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, New Brunswick tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/new-brunswick"
+        }
+      ]
     },
     {
       "name": "canada-2026-nl",
@@ -641,7 +701,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Newfoundland and Labrador tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/newfoundland-and-labrador"
+        }
+      ]
     },
     {
       "name": "canada-2026-ns",
@@ -658,7 +724,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Nova Scotia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/nova-scotia"
+        }
+      ]
     },
     {
       "name": "canada-2026-pe",
@@ -675,7 +747,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Prince Edward Island tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/prince-edward-island"
+        }
+      ]
     },
     {
       "name": "canada-2026-sk",
@@ -692,7 +770,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Saskatchewan tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/saskatchewan"
+        }
+      ]
     },
     {
       "name": "canada-2026-nt",
@@ -709,7 +793,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Northwest Territories tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/northwest-territories"
+        }
+      ]
     },
     {
       "name": "canada-2026-nu",
@@ -726,7 +816,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Nunavut tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/nunavut"
+        }
+      ]
     },
     {
       "name": "canada-2026-yt",
@@ -743,7 +839,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Canada, Yukon tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/canada/tax-tables/2026/yukon"
+        }
+      ]
     },
     {
       "name": "croatia-2026",
@@ -760,7 +862,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "croatia-2026-zagreb-county",
@@ -777,7 +885,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Zagreb County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/zagreb-county"
+        }
+      ]
     },
     {
       "name": "croatia-2026-krapina-zagorje",
@@ -794,7 +908,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Krapina-Zagorje County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/krapina-zagorje"
+        }
+      ]
     },
     {
       "name": "croatia-2026-sisak-moslavina",
@@ -811,7 +931,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Sisak-Moslavina County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/sisak-moslavina"
+        }
+      ]
     },
     {
       "name": "croatia-2026-karlovac",
@@ -828,7 +954,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Karlovac County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/karlovac"
+        }
+      ]
     },
     {
       "name": "croatia-2026-varazdin",
@@ -845,7 +977,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Varaždin County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/varazdin"
+        }
+      ]
     },
     {
       "name": "croatia-2026-koprivnica-krizevci",
@@ -862,7 +1000,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Koprivnica-Križevci County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/koprivnica-krizevci"
+        }
+      ]
     },
     {
       "name": "croatia-2026-bjelovar-bilogora",
@@ -879,7 +1023,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Bjelovar-Bilogora County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/bjelovar-bilogora"
+        }
+      ]
     },
     {
       "name": "croatia-2026-primorje-gorski-kotar",
@@ -896,7 +1046,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Primorje-Gorski Kotar County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/primorje-gorski-kotar"
+        }
+      ]
     },
     {
       "name": "croatia-2026-lika-senj",
@@ -913,7 +1069,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Lika-Senj County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/lika-senj"
+        }
+      ]
     },
     {
       "name": "croatia-2026-virovitica-podravina",
@@ -930,7 +1092,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Virovitica-Podravina County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/virovitica-podravina"
+        }
+      ]
     },
     {
       "name": "croatia-2026-pozega-slavonia",
@@ -947,7 +1115,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Požega-Slavonia County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/pozega-slavonia"
+        }
+      ]
     },
     {
       "name": "croatia-2026-brod-posavina",
@@ -964,7 +1138,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Brod-Posavina County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/brod-posavina"
+        }
+      ]
     },
     {
       "name": "croatia-2026-zadar",
@@ -981,7 +1161,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Zadar County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/zadar"
+        }
+      ]
     },
     {
       "name": "croatia-2026-osijek-baranja",
@@ -998,7 +1184,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Osijek-Baranja County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/osijek-baranja"
+        }
+      ]
     },
     {
       "name": "croatia-2026-sibenik-knin",
@@ -1015,7 +1207,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Šibenik-Knin County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/sibenik-knin"
+        }
+      ]
     },
     {
       "name": "croatia-2026-vukovar-srijem",
@@ -1032,7 +1230,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Vukovar-Srijem County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/vukovar-srijem"
+        }
+      ]
     },
     {
       "name": "croatia-2026-split-dalmatia",
@@ -1049,7 +1253,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Split-Dalmatia County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/split-dalmatia"
+        }
+      ]
     },
     {
       "name": "croatia-2026-istria",
@@ -1066,7 +1276,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Istria County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/istria"
+        }
+      ]
     },
     {
       "name": "croatia-2026-dubrovnik-neretva",
@@ -1083,7 +1299,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Dubrovnik-Neretva County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/dubrovnik-neretva"
+        }
+      ]
     },
     {
       "name": "croatia-2026-medimurje",
@@ -1100,7 +1322,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, Međimurje County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/medimurje"
+        }
+      ]
     },
     {
       "name": "croatia-2026-city-of-zagreb",
@@ -1117,7 +1345,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Croatia, City of Zagreb tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/croatia/tax-tables/2026/city-of-zagreb"
+        }
+      ]
     },
     {
       "name": "cyprus-2026",
@@ -1134,7 +1368,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Cyprus tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/cyprus/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "czechia-2026",
@@ -1151,7 +1391,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Czechia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/czechia/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "denmark-2026",
@@ -1168,7 +1414,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Denmark tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/denmark/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "denmark-2026-hovedstaden",
@@ -1185,7 +1437,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Denmark, Region Hovedstaden tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/denmark/tax-tables/2026/hovedstaden"
+        }
+      ]
     },
     {
       "name": "denmark-2026-sjaelland",
@@ -1202,7 +1460,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Denmark, Region Sjælland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/denmark/tax-tables/2026/sjaelland"
+        }
+      ]
     },
     {
       "name": "denmark-2026-syddanmark",
@@ -1219,7 +1483,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Denmark, Region Syddanmark tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/denmark/tax-tables/2026/syddanmark"
+        }
+      ]
     },
     {
       "name": "denmark-2026-midtjylland",
@@ -1236,7 +1506,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Denmark, Region Midtjylland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/denmark/tax-tables/2026/midtjylland"
+        }
+      ]
     },
     {
       "name": "denmark-2026-nordjylland",
@@ -1253,7 +1529,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Denmark, Region Nordjylland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/denmark/tax-tables/2026/nordjylland"
+        }
+      ]
     },
     {
       "name": "estonia-2026",
@@ -1270,7 +1552,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Estonia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/estonia/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "finland-2026",
@@ -1287,7 +1575,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "finland-2026-uusimaa",
@@ -1304,7 +1598,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Uusimaa tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/uusimaa"
+        }
+      ]
     },
     {
       "name": "finland-2026-southwest-finland",
@@ -1321,7 +1621,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Southwest Finland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/southwest-finland"
+        }
+      ]
     },
     {
       "name": "finland-2026-satakunta",
@@ -1338,7 +1644,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Satakunta tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/satakunta"
+        }
+      ]
     },
     {
       "name": "finland-2026-kanta-hame",
@@ -1355,7 +1667,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Kanta-Häme tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/kanta-hame"
+        }
+      ]
     },
     {
       "name": "finland-2026-pirkanmaa",
@@ -1372,7 +1690,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Pirkanmaa tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/pirkanmaa"
+        }
+      ]
     },
     {
       "name": "finland-2026-paijat-hame",
@@ -1389,7 +1713,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Päijät-Häme tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/paijat-hame"
+        }
+      ]
     },
     {
       "name": "finland-2026-kymenlaakso",
@@ -1406,7 +1736,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Kymenlaakso tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/kymenlaakso"
+        }
+      ]
     },
     {
       "name": "finland-2026-south-karelia",
@@ -1423,7 +1759,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, South Karelia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/south-karelia"
+        }
+      ]
     },
     {
       "name": "finland-2026-south-savo",
@@ -1440,7 +1782,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, South Savo tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/south-savo"
+        }
+      ]
     },
     {
       "name": "finland-2026-north-savo",
@@ -1457,7 +1805,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, North Savo tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/north-savo"
+        }
+      ]
     },
     {
       "name": "finland-2026-north-karelia",
@@ -1474,7 +1828,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, North Karelia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/north-karelia"
+        }
+      ]
     },
     {
       "name": "finland-2026-central-finland",
@@ -1491,7 +1851,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Central Finland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/central-finland"
+        }
+      ]
     },
     {
       "name": "finland-2026-south-ostrobothnia",
@@ -1508,7 +1874,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, South Ostrobothnia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/south-ostrobothnia"
+        }
+      ]
     },
     {
       "name": "finland-2026-ostrobothnia",
@@ -1525,7 +1897,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Ostrobothnia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/ostrobothnia"
+        }
+      ]
     },
     {
       "name": "finland-2026-central-ostrobothnia",
@@ -1542,7 +1920,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Central Ostrobothnia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/central-ostrobothnia"
+        }
+      ]
     },
     {
       "name": "finland-2026-north-ostrobothnia",
@@ -1559,7 +1943,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, North Ostrobothnia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/north-ostrobothnia"
+        }
+      ]
     },
     {
       "name": "finland-2026-kainuu",
@@ -1576,7 +1966,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Kainuu tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/kainuu"
+        }
+      ]
     },
     {
       "name": "finland-2026-lapland",
@@ -1593,7 +1989,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Lapland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/lapland"
+        }
+      ]
     },
     {
       "name": "finland-2026-aland",
@@ -1610,7 +2012,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Finland, Åland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/finland/tax-tables/2026/aland"
+        }
+      ]
     },
     {
       "name": "france-2026",
@@ -1627,7 +2035,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "France tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/france/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "germany-2026",
@@ -1644,7 +2058,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Germany tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/germany/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "greece-2026",
@@ -1661,7 +2081,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Greece tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/greece/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "hungary-2026",
@@ -1678,7 +2104,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Hungary tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/hungary/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "iceland-2026",
@@ -1695,7 +2127,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Iceland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/iceland/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "india-2026-27",
@@ -1712,7 +2150,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "India tax tables 2026-27 on calcbloc.com",
+          "path": "https://calcbloc.com/india/tax-tables/2026-27"
+        }
+      ]
     },
     {
       "name": "ireland-2026",
@@ -1729,7 +2173,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Ireland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/ireland/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "italy-2026",
@@ -1746,7 +2196,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "italy-2026-abr",
@@ -1763,7 +2219,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Abruzzo tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/abruzzo"
+        }
+      ]
     },
     {
       "name": "italy-2026-bas",
@@ -1780,7 +2242,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Basilicata tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/basilicata"
+        }
+      ]
     },
     {
       "name": "italy-2026-bz",
@@ -1797,7 +2265,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Autonomous Province of Bolzano tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/bolzano"
+        }
+      ]
     },
     {
       "name": "italy-2026-cal",
@@ -1814,7 +2288,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Calabria tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/calabria"
+        }
+      ]
     },
     {
       "name": "italy-2026-cam",
@@ -1831,7 +2311,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Campania tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/campania"
+        }
+      ]
     },
     {
       "name": "italy-2026-emr",
@@ -1848,7 +2334,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Emilia-Romagna tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/emilia-romagna"
+        }
+      ]
     },
     {
       "name": "italy-2026-fvg",
@@ -1865,7 +2357,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Friuli Venezia Giulia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/friuli-venezia-giulia"
+        }
+      ]
     },
     {
       "name": "italy-2026-laz",
@@ -1882,7 +2380,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Lazio tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/lazio"
+        }
+      ]
     },
     {
       "name": "italy-2026-lig",
@@ -1899,7 +2403,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Liguria tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/liguria"
+        }
+      ]
     },
     {
       "name": "italy-2026-lom",
@@ -1916,7 +2426,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Lombardy tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/lombardy"
+        }
+      ]
     },
     {
       "name": "italy-2026-mar",
@@ -1933,7 +2449,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Marche tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/marche"
+        }
+      ]
     },
     {
       "name": "italy-2026-mol",
@@ -1950,7 +2472,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Molise tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/molise"
+        }
+      ]
     },
     {
       "name": "italy-2026-pie",
@@ -1967,7 +2495,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Piedmont tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/piedmont"
+        }
+      ]
     },
     {
       "name": "italy-2026-pug",
@@ -1984,7 +2518,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Apulia (Puglia) tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/apulia"
+        }
+      ]
     },
     {
       "name": "italy-2026-sar",
@@ -2001,7 +2541,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Sardinia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/sardinia"
+        }
+      ]
     },
     {
       "name": "italy-2026-sic",
@@ -2018,7 +2564,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Sicily tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/sicily"
+        }
+      ]
     },
     {
       "name": "italy-2026-tos",
@@ -2035,7 +2587,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Tuscany tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/tuscany"
+        }
+      ]
     },
     {
       "name": "italy-2026-tn",
@@ -2052,7 +2610,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Autonomous Province of Trento tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/trento"
+        }
+      ]
     },
     {
       "name": "italy-2026-umb",
@@ -2069,7 +2633,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Umbria tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/umbria"
+        }
+      ]
     },
     {
       "name": "italy-2026-vda",
@@ -2086,7 +2656,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Aosta Valley tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/aosta-valley"
+        }
+      ]
     },
     {
       "name": "italy-2026-ven",
@@ -2103,7 +2679,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Italy, Veneto tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/italy/tax-tables/2026/veneto"
+        }
+      ]
     },
     {
       "name": "latvia-2026",
@@ -2120,7 +2702,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Latvia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/latvia/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "lithuania-2026",
@@ -2137,7 +2725,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Lithuania tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/lithuania/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "luxembourg-2026",
@@ -2154,7 +2748,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Luxembourg tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/luxembourg/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "malta-2026",
@@ -2171,7 +2771,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Malta tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/malta/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "netherlands-2026",
@@ -2188,7 +2794,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Netherlands tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/netherlands/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "new-zealand-2026-27",
@@ -2205,7 +2817,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "New Zealand tax tables 2026–27 on calcbloc.com",
+          "path": "https://calcbloc.com/new-zealand/tax-tables/2026-27"
+        }
+      ]
     },
     {
       "name": "norway-2026",
@@ -2222,7 +2840,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Norway tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/norway/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "poland-2026",
@@ -2239,7 +2863,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Poland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/poland/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "portugal-2026",
@@ -2256,7 +2886,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Portugal tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/portugal/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "portugal-2026-ma",
@@ -2273,7 +2909,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Portugal, Madeira tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/portugal/tax-tables/2026/madeira"
+        }
+      ]
     },
     {
       "name": "portugal-2026-ac",
@@ -2290,7 +2932,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Portugal, Azores tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/portugal/tax-tables/2026/azores"
+        }
+      ]
     },
     {
       "name": "romania-2026",
@@ -2307,7 +2955,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Romania tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/romania/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "singapore-2026",
@@ -2324,7 +2978,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Singapore tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/singapore/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "slovakia-2026",
@@ -2341,7 +3001,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Slovakia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/slovakia/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "slovenia-2026",
@@ -2358,7 +3024,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Slovenia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/slovenia/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "spain-2026",
@@ -2375,7 +3047,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "spain-2026-md",
@@ -2392,7 +3070,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Comunidad de Madrid tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/madrid"
+        }
+      ]
     },
     {
       "name": "spain-2026-ct",
@@ -2409,7 +3093,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Cataluña tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/cataluna"
+        }
+      ]
     },
     {
       "name": "spain-2026-an",
@@ -2426,7 +3116,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Andalucía tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/andalucia"
+        }
+      ]
     },
     {
       "name": "spain-2026-vc",
@@ -2443,7 +3139,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Comunitat Valenciana tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/comunitat-valenciana"
+        }
+      ]
     },
     {
       "name": "spain-2026-ga",
@@ -2460,7 +3162,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Galicia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/galicia"
+        }
+      ]
     },
     {
       "name": "spain-2026-cl",
@@ -2477,7 +3185,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Castilla y León tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/castilla-y-leon"
+        }
+      ]
     },
     {
       "name": "spain-2026-ar",
@@ -2494,7 +3208,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Aragón tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/aragon"
+        }
+      ]
     },
     {
       "name": "spain-2026-cn",
@@ -2511,7 +3231,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Canarias tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/canarias"
+        }
+      ]
     },
     {
       "name": "spain-2026-cm",
@@ -2528,7 +3254,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Castilla-La Mancha tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/castilla-la-mancha"
+        }
+      ]
     },
     {
       "name": "spain-2026-mc",
@@ -2545,7 +3277,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Región de Murcia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/murcia"
+        }
+      ]
     },
     {
       "name": "spain-2026-as",
@@ -2562,7 +3300,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Asturias tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/asturias"
+        }
+      ]
     },
     {
       "name": "spain-2026-ib",
@@ -2579,7 +3323,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Illes Balears tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/illes-balears"
+        }
+      ]
     },
     {
       "name": "spain-2026-ex",
@@ -2596,7 +3346,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Extremadura tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/extremadura"
+        }
+      ]
     },
     {
       "name": "spain-2026-cb",
@@ -2613,7 +3369,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Cantabria tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/cantabria"
+        }
+      ]
     },
     {
       "name": "spain-2026-ri",
@@ -2630,7 +3392,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, La Rioja tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/la-rioja"
+        }
+      ]
     },
     {
       "name": "spain-2026-ce",
@@ -2647,7 +3415,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Ceuta tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/ceuta"
+        }
+      ]
     },
     {
       "name": "spain-2026-ml",
@@ -2664,7 +3438,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Melilla tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/melilla"
+        }
+      ]
     },
     {
       "name": "spain-2026-bi",
@@ -2681,7 +3461,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Bizkaia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/bizkaia"
+        }
+      ]
     },
     {
       "name": "spain-2026-gi",
@@ -2698,7 +3484,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Gipuzkoa tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/gipuzkoa"
+        }
+      ]
     },
     {
       "name": "spain-2026-al",
@@ -2715,7 +3507,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Álava tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/alava"
+        }
+      ]
     },
     {
       "name": "spain-2026-nc",
@@ -2732,7 +3530,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Spain, Navarra tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/spain/tax-tables/2026/navarra"
+        }
+      ]
     },
     {
       "name": "sweden-2026",
@@ -2749,7 +3553,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "sweden-2026-ab",
@@ -2766,7 +3576,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Stockholm County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/stockholm"
+        }
+      ]
     },
     {
       "name": "sweden-2026-c",
@@ -2783,7 +3599,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Uppsala County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/uppsala"
+        }
+      ]
     },
     {
       "name": "sweden-2026-d",
@@ -2800,7 +3622,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Södermanland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/sodermanland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-e",
@@ -2817,7 +3645,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Östergötland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/ostergotland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-f",
@@ -2834,7 +3668,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Jönköping County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/jonkoping"
+        }
+      ]
     },
     {
       "name": "sweden-2026-g",
@@ -2851,7 +3691,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Kronoberg County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/kronoberg"
+        }
+      ]
     },
     {
       "name": "sweden-2026-h",
@@ -2868,7 +3714,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Kalmar County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/kalmar"
+        }
+      ]
     },
     {
       "name": "sweden-2026-i",
@@ -2885,7 +3737,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Gotland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/gotland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-k",
@@ -2902,7 +3760,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Blekinge County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/blekinge"
+        }
+      ]
     },
     {
       "name": "sweden-2026-m",
@@ -2919,7 +3783,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Skåne County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/skane"
+        }
+      ]
     },
     {
       "name": "sweden-2026-n",
@@ -2936,7 +3806,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Halland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/halland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-o",
@@ -2953,7 +3829,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Västra Götaland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/vastra-gotaland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-s",
@@ -2970,7 +3852,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Värmland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/varmland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-t",
@@ -2987,7 +3875,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Örebro County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/orebro"
+        }
+      ]
     },
     {
       "name": "sweden-2026-u",
@@ -3004,7 +3898,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Västmanland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/vastmanland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-w",
@@ -3021,7 +3921,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Dalarna County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/dalarna"
+        }
+      ]
     },
     {
       "name": "sweden-2026-x",
@@ -3038,7 +3944,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Gävleborg County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/gavleborg"
+        }
+      ]
     },
     {
       "name": "sweden-2026-y",
@@ -3055,7 +3967,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Västernorrland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/vasternorrland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-z",
@@ -3072,7 +3990,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Jämtland County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/jamtland"
+        }
+      ]
     },
     {
       "name": "sweden-2026-ac",
@@ -3089,7 +4013,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Västerbotten County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/vasterbotten"
+        }
+      ]
     },
     {
       "name": "sweden-2026-bd",
@@ -3106,7 +4036,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Sweden, Norrbotten County tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/sweden/tax-tables/2026/norrbotten"
+        }
+      ]
     },
     {
       "name": "switzerland-2026",
@@ -3123,7 +4059,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-zh",
@@ -3140,7 +4082,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Zürich tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/zurich"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-be",
@@ -3157,7 +4105,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Bern tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/bern"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-lu",
@@ -3174,7 +4128,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Lucerne tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/lucerne"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ur",
@@ -3191,7 +4151,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Uri tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/uri"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-sz",
@@ -3208,7 +4174,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Schwyz tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/schwyz"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ow",
@@ -3225,7 +4197,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Obwalden tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/obwalden"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-nw",
@@ -3242,7 +4220,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Nidwalden tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/nidwalden"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-gl",
@@ -3259,7 +4243,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Glarus tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/glarus"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-zg",
@@ -3276,7 +4266,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Zug tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/zug"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-fr",
@@ -3293,7 +4289,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Fribourg tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/fribourg"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-so",
@@ -3310,7 +4312,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Solothurn tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/solothurn"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-bs",
@@ -3327,7 +4335,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Basel-Stadt tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/basel-stadt"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-bl",
@@ -3344,7 +4358,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Basel-Landschaft tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/basel-landschaft"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-sh",
@@ -3361,7 +4381,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Schaffhausen tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/schaffhausen"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ar",
@@ -3378,7 +4404,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Appenzell Ausserrhoden tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/appenzell-ausserrhoden"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ai",
@@ -3395,7 +4427,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Appenzell Innerrhoden tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/appenzell-innerrhoden"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-sg",
@@ -3412,7 +4450,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, St. Gallen tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/st-gallen"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-gr",
@@ -3429,7 +4473,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Graubünden tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/graubunden"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ag",
@@ -3446,7 +4496,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Aargau tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/aargau"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-tg",
@@ -3463,7 +4519,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Thurgau tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/thurgau"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ti",
@@ -3480,7 +4542,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Ticino tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/ticino"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-vd",
@@ -3497,7 +4565,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Vaud tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/vaud"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-vs",
@@ -3514,7 +4588,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Valais tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/valais"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ne",
@@ -3531,7 +4611,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Neuchâtel tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/neuchatel"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ge",
@@ -3548,7 +4634,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Geneva tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/geneva"
+        }
+      ]
     },
     {
       "name": "switzerland-2026-ju",
@@ -3565,7 +4657,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Switzerland, Jura tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/switzerland/tax-tables/2026/jura"
+        }
+      ]
     },
     {
       "name": "uae-2026",
@@ -3582,7 +4680,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United Arab Emirates tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/uae/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "uk-2026-27",
@@ -3599,7 +4703,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United Kingdom tax tables 2026/27 on calcbloc.com",
+          "path": "https://calcbloc.com/uk/tax-tables/2026-27"
+        }
+      ]
     },
     {
       "name": "uk-2026-27-scotland",
@@ -3616,7 +4726,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United Kingdom, Scotland tax tables 2026/27 on calcbloc.com",
+          "path": "https://calcbloc.com/uk/tax-tables/2026-27/scotland"
+        }
+      ]
     },
     {
       "name": "uk-2026-27-wales",
@@ -3633,7 +4749,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United Kingdom, Wales tax tables 2026/27 on calcbloc.com",
+          "path": "https://calcbloc.com/uk/tax-tables/2026-27/wales"
+        }
+      ]
     },
     {
       "name": "uk-2025-26",
@@ -3650,7 +4772,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United Kingdom tax tables 2025/26 on calcbloc.com",
+          "path": "https://calcbloc.com/uk/tax-tables/2025-26"
+        }
+      ]
     },
     {
       "name": "uk-2025-26-scotland",
@@ -3667,7 +4795,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United Kingdom, Scotland tax tables 2025/26 on calcbloc.com",
+          "path": "https://calcbloc.com/uk/tax-tables/2025-26/scotland"
+        }
+      ]
     },
     {
       "name": "uk-2025-26-wales",
@@ -3684,7 +4818,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United Kingdom, Wales tax tables 2025/26 on calcbloc.com",
+          "path": "https://calcbloc.com/uk/tax-tables/2025-26/wales"
+        }
+      ]
     },
     {
       "name": "us-2026",
@@ -3701,7 +4841,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026"
+        }
+      ]
     },
     {
       "name": "us-2026-al",
@@ -3718,7 +4864,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Alabama tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/alabama"
+        }
+      ]
     },
     {
       "name": "us-2026-ak",
@@ -3735,7 +4887,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Alaska tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/alaska"
+        }
+      ]
     },
     {
       "name": "us-2026-az",
@@ -3752,7 +4910,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Arizona tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/arizona"
+        }
+      ]
     },
     {
       "name": "us-2026-ar",
@@ -3769,7 +4933,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Arkansas tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/arkansas"
+        }
+      ]
     },
     {
       "name": "us-2026-ca",
@@ -3786,7 +4956,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, California tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/california"
+        }
+      ]
     },
     {
       "name": "us-2026-co",
@@ -3803,7 +4979,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Colorado tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/colorado"
+        }
+      ]
     },
     {
       "name": "us-2026-ct",
@@ -3820,7 +5002,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Connecticut tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/connecticut"
+        }
+      ]
     },
     {
       "name": "us-2026-de",
@@ -3837,7 +5025,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Delaware tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/delaware"
+        }
+      ]
     },
     {
       "name": "us-2026-dc",
@@ -3854,7 +5048,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, District of Columbia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/district-of-columbia"
+        }
+      ]
     },
     {
       "name": "us-2026-fl",
@@ -3871,7 +5071,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Florida tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/florida"
+        }
+      ]
     },
     {
       "name": "us-2026-ga",
@@ -3888,7 +5094,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Georgia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/georgia"
+        }
+      ]
     },
     {
       "name": "us-2026-hi",
@@ -3905,7 +5117,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Hawaii tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/hawaii"
+        }
+      ]
     },
     {
       "name": "us-2026-id",
@@ -3922,7 +5140,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Idaho tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/idaho"
+        }
+      ]
     },
     {
       "name": "us-2026-il",
@@ -3939,7 +5163,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Illinois tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/illinois"
+        }
+      ]
     },
     {
       "name": "us-2026-in",
@@ -3956,7 +5186,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Indiana tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/indiana"
+        }
+      ]
     },
     {
       "name": "us-2026-ia",
@@ -3973,7 +5209,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Iowa tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/iowa"
+        }
+      ]
     },
     {
       "name": "us-2026-ks",
@@ -3990,7 +5232,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Kansas tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/kansas"
+        }
+      ]
     },
     {
       "name": "us-2026-ky",
@@ -4007,7 +5255,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Kentucky tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/kentucky"
+        }
+      ]
     },
     {
       "name": "us-2026-la",
@@ -4024,7 +5278,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Louisiana tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/louisiana"
+        }
+      ]
     },
     {
       "name": "us-2026-me",
@@ -4041,7 +5301,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Maine tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/maine"
+        }
+      ]
     },
     {
       "name": "us-2026-md",
@@ -4058,7 +5324,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Maryland tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/maryland"
+        }
+      ]
     },
     {
       "name": "us-2026-ma",
@@ -4075,7 +5347,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Massachusetts tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/massachusetts"
+        }
+      ]
     },
     {
       "name": "us-2026-mi",
@@ -4092,7 +5370,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Michigan tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/michigan"
+        }
+      ]
     },
     {
       "name": "us-2026-mn",
@@ -4109,7 +5393,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Minnesota tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/minnesota"
+        }
+      ]
     },
     {
       "name": "us-2026-ms",
@@ -4126,7 +5416,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Mississippi tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/mississippi"
+        }
+      ]
     },
     {
       "name": "us-2026-mo",
@@ -4143,7 +5439,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Missouri tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/missouri"
+        }
+      ]
     },
     {
       "name": "us-2026-mt",
@@ -4160,7 +5462,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Montana tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/montana"
+        }
+      ]
     },
     {
       "name": "us-2026-ne",
@@ -4177,7 +5485,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Nebraska tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/nebraska"
+        }
+      ]
     },
     {
       "name": "us-2026-nv",
@@ -4194,7 +5508,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Nevada tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/nevada"
+        }
+      ]
     },
     {
       "name": "us-2026-nh",
@@ -4211,7 +5531,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, New Hampshire tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/new-hampshire"
+        }
+      ]
     },
     {
       "name": "us-2026-nj",
@@ -4228,7 +5554,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, New Jersey tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/new-jersey"
+        }
+      ]
     },
     {
       "name": "us-2026-nm",
@@ -4245,7 +5577,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, New Mexico tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/new-mexico"
+        }
+      ]
     },
     {
       "name": "us-2026-ny",
@@ -4262,7 +5600,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, New York tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/new-york"
+        }
+      ]
     },
     {
       "name": "us-2026-nc",
@@ -4279,7 +5623,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, North Carolina tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/north-carolina"
+        }
+      ]
     },
     {
       "name": "us-2026-nd",
@@ -4296,7 +5646,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, North Dakota tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/north-dakota"
+        }
+      ]
     },
     {
       "name": "us-2026-oh",
@@ -4313,7 +5669,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Ohio tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/ohio"
+        }
+      ]
     },
     {
       "name": "us-2026-ok",
@@ -4330,7 +5692,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Oklahoma tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/oklahoma"
+        }
+      ]
     },
     {
       "name": "us-2026-or",
@@ -4347,7 +5715,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Oregon tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/oregon"
+        }
+      ]
     },
     {
       "name": "us-2026-pa",
@@ -4364,7 +5738,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Pennsylvania tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/pennsylvania"
+        }
+      ]
     },
     {
       "name": "us-2026-ri",
@@ -4381,7 +5761,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Rhode Island tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/rhode-island"
+        }
+      ]
     },
     {
       "name": "us-2026-sc",
@@ -4398,7 +5784,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, South Carolina tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/south-carolina"
+        }
+      ]
     },
     {
       "name": "us-2026-sd",
@@ -4415,7 +5807,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, South Dakota tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/south-dakota"
+        }
+      ]
     },
     {
       "name": "us-2026-tn",
@@ -4432,7 +5830,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Tennessee tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/tennessee"
+        }
+      ]
     },
     {
       "name": "us-2026-tx",
@@ -4449,7 +5853,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Texas tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/texas"
+        }
+      ]
     },
     {
       "name": "us-2026-ut",
@@ -4466,7 +5876,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Utah tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/utah"
+        }
+      ]
     },
     {
       "name": "us-2026-vt",
@@ -4483,7 +5899,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Vermont tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/vermont"
+        }
+      ]
     },
     {
       "name": "us-2026-va",
@@ -4500,7 +5922,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Virginia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/virginia"
+        }
+      ]
     },
     {
       "name": "us-2026-wa",
@@ -4517,7 +5945,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Washington tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/washington"
+        }
+      ]
     },
     {
       "name": "us-2026-wv",
@@ -4534,7 +5968,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, West Virginia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/west-virginia"
+        }
+      ]
     },
     {
       "name": "us-2026-wi",
@@ -4551,7 +5991,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Wisconsin tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/wisconsin"
+        }
+      ]
     },
     {
       "name": "us-2026-wy",
@@ -4568,7 +6014,13 @@
         "doubleQuote": true,
         "header": true
       },
-      "schema": "tax-table-rows.schema.json"
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "United States, Wyoming tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/us/tax-tables/2026/wyoming"
+        }
+      ]
     }
   ]
 }

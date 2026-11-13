@@ -132,6 +132,8 @@ export function generate(root = ROOT) {
         profile: "tabular-data-resource",
         dialect: csvDialect,
         schema: "tax-table-rows.schema.json",
+        // The canonical, most recent version of this table: its page on calcbloc.com (tax year in the path).
+        sources: [{ title: `${t.entry.name}${t.region ? `, ${t.region.name}` : ""} tax tables ${t.data.yearLabel} on calcbloc.com`, path: t.data.pageUrl }],
       })),
     ],
   };

@@ -17,7 +17,7 @@ Countries: Australia, Austria, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denma
 
 Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).
 
-© 2026 itmarkerz technologies. Licence: CC BY 4.0. Credit: "Data by CalcBloc (calcbloc.com/data)". The same tables are served by the CalcBloc API ([https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)), which works without a key for 50 requests a day per IP address; a free API key ([https://calcbloc.com/developers/keys](https://calcbloc.com/developers/keys?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)) gives 5,000 a day. The tables are reference data, not tax advice.
+© 2026 itmarkerz technologies. Licence: CC BY 4.0. Credit: "Data by CalcBloc (calcbloc.com/data)". The canonical, most recent version of each table is its country page on calcbloc.com. The same tables are served by the CalcBloc API ([https://calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)), which works without a key for 50 requests a day per IP address; a free API key ([https://calcbloc.com/developers/keys](https://calcbloc.com/developers/keys?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)) gives 5,000 a day. The tables are reference data, not tax advice.
 
 CalcBloc is built and maintained by itmarkerz technologies ([https://itmarkerz.co.in](https://itmarkerz.co.in/?utm_source=calcbloc-data&utm_medium=listing&utm_campaign=itmarkerz-oss)), a web and mobile app development company in Kerala, India.
 
@@ -30,6 +30,44 @@ income tax, tax brackets, tax tables, tax rates, social security contributions, 
 - Is documented by: https://calcbloc.com/data
 - Is documented by: https://calcbloc.com/developers
 - Is supplement to: https://github.com/itmarkerz/calcbloc-data
+- Is documented by: https://calcbloc.com/australia/tax-tables/2026-27 (Australia, 2026–27)
+- Is documented by: https://calcbloc.com/austria/tax-tables/2026 (Austria, 2026)
+- Is documented by: https://calcbloc.com/bulgaria/tax-tables/2026 (Bulgaria, 2026)
+- Is documented by: https://calcbloc.com/canada/tax-tables/2026 (Canada, 2026)
+- Is documented by: https://calcbloc.com/croatia/tax-tables/2026 (Croatia, 2026)
+- Is documented by: https://calcbloc.com/cyprus/tax-tables/2026 (Cyprus, 2026)
+- Is documented by: https://calcbloc.com/czechia/tax-tables/2026 (Czechia, 2026)
+- Is documented by: https://calcbloc.com/denmark/tax-tables/2026 (Denmark, 2026)
+- Is documented by: https://calcbloc.com/estonia/tax-tables/2026 (Estonia, 2026)
+- Is documented by: https://calcbloc.com/finland/tax-tables/2026 (Finland, 2026)
+- Is documented by: https://calcbloc.com/france/tax-tables/2026 (France, 2026)
+- Is documented by: https://calcbloc.com/germany/tax-tables/2026 (Germany, 2026)
+- Is documented by: https://calcbloc.com/greece/tax-tables/2026 (Greece, 2026)
+- Is documented by: https://calcbloc.com/hungary/tax-tables/2026 (Hungary, 2026)
+- Is documented by: https://calcbloc.com/iceland/tax-tables/2026 (Iceland, 2026)
+- Is documented by: https://calcbloc.com/india/tax-tables/2026-27 (India, 2026-27)
+- Is documented by: https://calcbloc.com/ireland/tax-tables/2026 (Ireland, 2026)
+- Is documented by: https://calcbloc.com/italy/tax-tables/2026 (Italy, 2026)
+- Is documented by: https://calcbloc.com/latvia/tax-tables/2026 (Latvia, 2026)
+- Is documented by: https://calcbloc.com/lithuania/tax-tables/2026 (Lithuania, 2026)
+- Is documented by: https://calcbloc.com/luxembourg/tax-tables/2026 (Luxembourg, 2026)
+- Is documented by: https://calcbloc.com/malta/tax-tables/2026 (Malta, 2026)
+- Is documented by: https://calcbloc.com/netherlands/tax-tables/2026 (Netherlands, 2026)
+- Is documented by: https://calcbloc.com/new-zealand/tax-tables/2026-27 (New Zealand, 2026–27)
+- Is documented by: https://calcbloc.com/norway/tax-tables/2026 (Norway, 2026)
+- Is documented by: https://calcbloc.com/poland/tax-tables/2026 (Poland, 2026)
+- Is documented by: https://calcbloc.com/portugal/tax-tables/2026 (Portugal, 2026)
+- Is documented by: https://calcbloc.com/romania/tax-tables/2026 (Romania, 2026)
+- Is documented by: https://calcbloc.com/singapore/tax-tables/2026 (Singapore, 2026)
+- Is documented by: https://calcbloc.com/slovakia/tax-tables/2026 (Slovakia, 2026)
+- Is documented by: https://calcbloc.com/slovenia/tax-tables/2026 (Slovenia, 2026)
+- Is documented by: https://calcbloc.com/spain/tax-tables/2026 (Spain, 2026)
+- Is documented by: https://calcbloc.com/sweden/tax-tables/2026 (Sweden, 2026)
+- Is documented by: https://calcbloc.com/switzerland/tax-tables/2026 (Switzerland, 2026)
+- Is documented by: https://calcbloc.com/uae/tax-tables/2026 (United Arab Emirates, 2026)
+- Is documented by: https://calcbloc.com/uk/tax-tables/2026-27 (United Kingdom, 2026/27)
+- Is documented by: https://calcbloc.com/uk/tax-tables/2025-26 (United Kingdom, 2025/26)
+- Is documented by: https://calcbloc.com/us/tax-tables/2026 (United States, 2026)
 
 ## How to cite
 

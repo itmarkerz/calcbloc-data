@@ -104,12 +104,15 @@ function coverageRows(ctx, { absolute }) {
       const t = ctx.tableList.find((x) => x.entry === c && x.year === c.current_year && !x.region);
       const years = c.years.join(", ");
       const regions = c.regions.length ? fmt(c.regions.length) : "–";
-      return `| [${c.name}](${rd(`/${c.country}/tax-tables`)}) | ${years} | ${c.currency} | ${regions} | ${fmt(c.rowCount)} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${utm(c.pageUrl, "readme")}) | [CSV](${link(t.csvPath)}) · [JSON](${link(t.jsonPath)}) |`;
+      return `| [${c.name}](${utm(c.pageUrl, "readme")}) | ${years} | ${c.currency} | ${regions} | ${fmt(c.rowCount)} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${utm(c.pageUrl, "readme")}) | [CSV](${link(t.csvPath)}) · [JSON](${link(t.jsonPath)}) |`;
     })
     .join("\n");
 }
 
-const COVERAGE_HEAD = "| Country | Tax year(s) | Currency | Regions | Rows (current year, national) | Last verified | On calcbloc.com | Download |\n|---|---|---|---:|---:|---|---|---|";
+/** Said wherever the data is credited: the country page, not the data hub, is the canonical source of each table. */
+export const CANONICAL_NOTE = "The canonical, most recent version of each table is its country page on calcbloc.com.";
+
+const COVERAGE_HEAD = "| Country | Tax year(s) | Currency | Regions | Rows (current year, national) | Last checked | On calcbloc.com | Download |\n|---|---|---|---:|---:|---|---|---|";
 
 function citationText(ctx) {
   const doi = ctx.doi ? ` https://doi.org/${ctx.doi}` : ` ${ctx.ghUrl}`;
@@ -258,7 +261,9 @@ The data is © ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name} and licensed und
 
 > ${CREDIT}
 
-with a link to [calcbloc.com/data](${rd("/data")}) or to the country page in the \`page_url\` column. The full licence text is in [LICENSE](LICENSE). The code in \`scripts/\` and \`test/\` is © ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}, released under the [MIT licence](LICENSE-CODE).
+${CANONICAL_NOTE}
+
+Link the credit to [calcbloc.com/data](${rd("/data")}) or, better, to the table's own country page: the \`page_url\` column, also linked from each country in [Countries covered](#countries-covered). The full licence text is in [LICENSE](LICENSE). The code in \`scripts/\` and \`test/\` is © ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}, released under the [MIT licence](LICENSE-CODE).
 
 The tax rates and thresholds themselves are set by the governments listed in \`source_url\`; the licence covers CalcBloc's compilation, structure and notes. The tables are reference data, not tax advice: check the official source before relying on a figure for a filing or payroll run.
 
@@ -431,12 +436,19 @@ function zenodoParagraphs(ctx, link) {
     `This version contains ${fmt(ctx.tables)} tables (${fmt(ctx.nationalTables)} national, ${fmt(ctx.regionalTables)} regional) with ${fmt(ctx.rows)} rows drawn from ${fmt(ctx.sources)} official sources; the latest figure was verified on ${ctx.lastVerified}. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.`,
     `Countries: ${listJoin(ctx.countryNames)}.${ctx.pending.length ? ` Pending (not included until complete): ${listJoin(ctx.pending.map((p) => p.name))}.` : ""}`,
     `Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).`,
-    `© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}. Licence: CC BY 4.0. Credit: "${CREDIT}". The same tables are served by the CalcBloc API (${link(utm(`${SITE}/developers`, "listing"), `${SITE}/developers`)}), which works without a key for 50 requests a day per IP address; a free API key (${link(utm(`${SITE}/developers/keys`, "listing"), `${SITE}/developers/keys`)}) gives 5,000 a day. The tables are reference data, not tax advice.`,
+    `© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}. Licence: CC BY 4.0. Credit: "${CREDIT}". ${CANONICAL_NOTE} The same tables are served by the CalcBloc API (${link(utm(`${SITE}/developers`, "listing"), `${SITE}/developers`)}), which works without a key for 50 requests a day per IP address; a free API key (${link(utm(`${SITE}/developers/keys`, "listing"), `${SITE}/developers/keys`)}) gives 5,000 a day. The tables are reference data, not tax advice.`,
     `CalcBloc is built and maintained by ${PUBLISHER.name} (${link(utm(PUBLISHER.url, "listing"), PUBLISHER.url)}), ${PUBLISHER_DESCRIPTION}.`,
   ];
 }
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+/** One canonical calcbloc.com page per national table (country and tax year), in country-name order, current year first. */
+export function countryPages(ctx) {
+  return ctx.countriesByName.flatMap((c) =>
+    ctx.tableList.filter((t) => t.entry === c && !t.region).map((t) => ({ name: c.name, year: t.data.yearLabel ?? t.year, url: t.data.pageUrl })),
+  );
+}
 
 export function zenodoJson(ctx) {
   const links = [];
@@ -453,11 +465,13 @@ export function zenodoJson(ctx) {
     version: ctx.version,
     language: "eng",
     keywords: KEYWORDS,
-    notes: `Please credit: ${CREDIT}. CalcBloc is a product of ${PUBLISHER.name} (${PUBLISHER.url}). Generated from ${ctx.ghUrl} (tables/manifest.json, ${ctx.generatedAt}).`,
+    notes: `Please credit: ${CREDIT}. ${CANONICAL_NOTE} CalcBloc is a product of ${PUBLISHER.name} (${PUBLISHER.url}). Generated from ${ctx.ghUrl} (tables/manifest.json, ${ctx.generatedAt}).`,
     related_identifiers: [
       { identifier: `${SITE}/data`, relation: "isDocumentedBy", resource_type: "other" },
       { identifier: `${SITE}/developers`, relation: "isDocumentedBy", resource_type: "other" },
       { identifier: ctx.ghUrl, relation: "isSupplementTo", resource_type: "dataset" },
+      // The canonical page of each national table (country and tax year); regional tables are sections of these pages.
+      ...countryPages(ctx).map((p) => ({ identifier: p.url, relation: "isDocumentedBy", resource_type: "other" })),
     ],
   };
   return JSON.stringify(meta, null, 2) + "\n";
@@ -486,6 +500,9 @@ ${KEYWORDS.join(", ")}
 - Is documented by: ${SITE}/data
 - Is documented by: ${SITE}/developers
 - Is supplement to: ${ctx.ghUrl}
+${countryPages(ctx)
+  .map((p) => `- Is documented by: ${p.url} (${p.name}, ${p.year})`)
+  .join("\n")}
 
 ## How to cite
 
@@ -543,9 +560,9 @@ Per-table CSV and JSON files and a Frictionless \`datapackage.json\` are in the 
 
 ## Countries
 
-| Country | Tax year(s) | Regions | Last verified | calcbloc.com |
+| Country | Tax year(s) | Regions | Last checked | calcbloc.com |
 |---|---|---:|---|---|
-${ctx.countriesByName.map((c) => `| ${c.name} | ${c.years.join(", ")} | ${c.regions.length ? fmt(c.regions.length) : "–"} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${utm(c.pageUrl, "listing")}) |`).join("\n")}
+${ctx.countriesByName.map((c) => `| [${c.name}](${utm(c.pageUrl, "listing")}) | ${c.years.join(", ")} | ${c.regions.length ? fmt(c.regions.length) : "–"} | ${c.lastVerified ?? ""} | [${c.current_year} tables](${utm(c.pageUrl, "listing")}) |`).join("\n")}
 ${pending ? `\n${pending}\n` : ""}
 ## Status values
 
@@ -559,7 +576,7 @@ ${STATUS_VALUES.map(([v, d]) => `- \`${v}\`: ${d}`).join("\n")}
 
 ## Licence and credit
 
-© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}, licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a link to [${SITE}/data](${utm(`${SITE}/data`, "listing")}). The figures are reference data, not tax advice; check the official source before relying on them.
+© ${ctx.generatedAt.slice(0, 4)} ${PUBLISHER.name}, licensed under [CC BY 4.0](${LICENCE.url}). Please credit **"${CREDIT}"** with a link to [${SITE}/data](${utm(`${SITE}/data`, "listing")}) or to the table's country page (the \`page_url\` column). ${CANONICAL_NOTE} The figures are reference data, not tax advice; check the official source before relying on them.
 
 The same tables are available from the free CalcBloc API: [${SITE}/developers](${utm(`${SITE}/developers`, "listing")}). It works without a key for 50 requests a day (5 a minute) per IP address; a [free API key](${utm(`${SITE}/developers/keys`, "listing")}) gives 5,000 a day, sent in the \`X-API-Key\` header.
 
