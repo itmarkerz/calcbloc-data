@@ -1,7 +1,7 @@
 {
-  "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries",
+  "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 41 countries",
   "upload_type": "dataset",
-  "description": "<p>Free, machine-readable income tax tables and social security contribution rates for 37 countries, compiled by CalcBloc (calcbloc.com) from official government sources. Each table covers one country and tax year (the 2026 and 2026-27 tax years) and lists the tax brackets, personal allowances and credits, employee and employer social security contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions that set their own rates.</p><p>This version contains 242 tables (38 national, 204 regional) with 9,427 rows drawn from 841 official sources; the latest figure was verified on 2026-11-11. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.</p><p>Countries: Australia, Austria, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, India, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Arab Emirates, United Kingdom and United States. Pending (not included until complete): Belgium.</p><p>Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).</p><p>© 2026 itmarkerz technologies. Licence: CC BY 4.0. Credit: \"Data by CalcBloc (calcbloc.com/data)\". The canonical, most recent version of each table is its country page on calcbloc.com. The same tables are served by the CalcBloc API (<a href=\"https://calcbloc.com/developers?utm_source=calcbloc-data&amp;utm_medium=listing&amp;utm_campaign=itmarkerz-oss\">https://calcbloc.com/developers</a>), which works without a key for 50 requests a day per IP address; a free API key (<a href=\"https://calcbloc.com/developers/keys?utm_source=calcbloc-data&amp;utm_medium=listing&amp;utm_campaign=itmarkerz-oss\">https://calcbloc.com/developers/keys</a>) gives 5,000 a day. The tables are reference data, not tax advice.</p><p>CalcBloc is built and maintained by itmarkerz technologies (<a href=\"https://itmarkerz.co.in/?utm_source=calcbloc-data&amp;utm_medium=listing&amp;utm_campaign=itmarkerz-oss\">https://itmarkerz.co.in</a>), a web and mobile app development company in Kerala, India.</p>",
+  "description": "<p>Free, machine-readable income tax tables and social security contribution rates for 41 countries, compiled by CalcBloc (calcbloc.com) from official government sources. Each table covers one country and tax year (the 2026 and 2026-27 tax years) and lists the tax brackets, personal allowances and credits, employee and employer social security contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions that set their own rates.</p><p>This version contains 246 tables (42 national, 204 regional) with 10,243 rows drawn from 953 official sources; the latest figure was verified on 2026-11-13. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.</p><p>Countries: Australia, Austria, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, India, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Arab Emirates, United Kingdom and United States. Pending (not included until complete): Belgium.</p><p>Files: a combined long-format CSV and JSON of all rows, one CSV and one JSON file per table, a per-table summary with last-verified dates and source URLs, a data dictionary and a Frictionless Data Package descriptor (datapackage.json).</p><p>© 2026 itmarkerz technologies. Licence: CC BY 4.0. Credit: \"Data by CalcBloc (calcbloc.com/data)\". The canonical, most recent version of each table is its country page on calcbloc.com. The same tables are served by the CalcBloc API (<a href=\"https://calcbloc.com/developers?utm_source=calcbloc-data&amp;utm_medium=listing&amp;utm_campaign=itmarkerz-oss\">https://calcbloc.com/developers</a>), which works without a key for 50 requests a day per IP address; a free API key (<a href=\"https://calcbloc.com/developers/keys?utm_source=calcbloc-data&amp;utm_medium=listing&amp;utm_campaign=itmarkerz-oss\">https://calcbloc.com/developers/keys</a>) gives 5,000 a day. The tables are reference data, not tax advice.</p><p>CalcBloc is built and maintained by itmarkerz technologies (<a href=\"https://itmarkerz.co.in/?utm_source=calcbloc-data&amp;utm_medium=listing&amp;utm_campaign=itmarkerz-oss\">https://itmarkerz.co.in</a>), a web and mobile app development company in Kerala, India.</p>",
   "creators": [
     {
       "name": "itmarkerz technologies"
@@ -9,7 +9,7 @@
   ],
   "license": "cc-by-4.0",
   "access_right": "open",
-  "version": "2026.11.12",
+  "version": "2026.11.13",
   "language": "eng",
   "keywords": [
     "income tax",
@@ -23,7 +23,7 @@
     "public finance",
     "open data"
   ],
-  "notes": "Please credit: Data by CalcBloc (calcbloc.com/data). The canonical, most recent version of each table is its country page on calcbloc.com. CalcBloc is a product of itmarkerz technologies (https://itmarkerz.co.in). Generated from https://github.com/itmarkerz/calcbloc-data (tables/manifest.json, 2026-11-12).",
+  "notes": "Please credit: Data by CalcBloc (calcbloc.com/data). The canonical, most recent version of each table is its country page on calcbloc.com. CalcBloc is a product of itmarkerz technologies (https://itmarkerz.co.in). Generated from https://github.com/itmarkerz/calcbloc-data (tables/manifest.json, 2026-11-13).",
   "related_identifiers": [
     {
       "identifier": "https://calcbloc.com/data",
@@ -136,6 +136,11 @@
       "resource_type": "other"
     },
     {
+      "identifier": "https://calcbloc.com/liechtenstein/tax-tables/2026",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
       "identifier": "https://calcbloc.com/lithuania/tax-tables/2026",
       "relation": "isDocumentedBy",
       "resource_type": "other"
@@ -181,6 +186,11 @@
       "resource_type": "other"
     },
     {
+      "identifier": "https://calcbloc.com/serbia/tax-tables/2026",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
       "identifier": "https://calcbloc.com/singapore/tax-tables/2026",
       "relation": "isDocumentedBy",
       "resource_type": "other"
@@ -207,6 +217,16 @@
     },
     {
       "identifier": "https://calcbloc.com/switzerland/tax-tables/2026",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://calcbloc.com/turkey/tax-tables/2026",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://calcbloc.com/ukraine/tax-tables/2026",
       "relation": "isDocumentedBy",
       "resource_type": "other"
     },

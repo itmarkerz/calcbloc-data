@@ -1,6 +1,6 @@
 # Tables and official sources
 
-Version 2026.11.12 · 242 tables · 9,427 rows. One entry per table file in this dataset, with its tax year, row counts, last-verified date and links; the official sources of each country follow its tables. Generated from `tables/manifest.json`.
+Version 2026.11.13 · 246 tables · 10,243 rows. One entry per table file in this dataset, with its tax year, row counts, last-verified date and links; the official sources of each country follow its tables. Generated from `tables/manifest.json`.
 
 ## Australia
 
@@ -670,6 +670,57 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [VID: Pašnodarbinātā sociālās apdrošināšanas iemaksas (atjaunināts 08.10.2026); MK noteikumi Nr. 786, 9.-11. punkts; likums "Par valsts sociālo apdrošināšanu" 14.1 pants](https://www.vid.gov.lv/lv/pasnodarbinata-socialas-apdrosinasanas-iemaksas)
 - [VID: Solidaritātes nodoklis (atjaunināts 11.07.2026); VID: Solidaritātes nodokļa likmes (atjaunināts 11.07.2026)](https://www.vid.gov.lv/lv/solidaritates-nodoklis)
 
+## Liechtenstein
+
+Currency CHF · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/liechtenstein/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 252 | 16 | unverified | 2026-11-13 | [page](https://calcbloc.com/liechtenstein/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/liechtenstein/2026.csv) · [JSON](json/liechtenstein/2026.json) |
+
+**Official sources (40):**
+
+- [AHV-IV-FAK: Beitragsansätze AHV / IV / FAK / VK (gültig ab 01.01.2026)](https://www.ahv.li/beitraege/arbeitnehmer-arbeitgeber/beitragsansaetze-ahv-iv-fak-vk-gueltig-ab-01012021-1-1-1)
+- [AHV-IV-FAK: Beitragssätze ALV (gültig ab 01.01.2011); ALVG Art. 7 and 30](https://www.ahv.li/beitraege/arbeitnehmer-arbeitgeber/beitragssaetze-alv-gueltig-ab-01012011)
+- [AHV-IV-FAK: Unterstellung](https://www.ahv.li/beitraege/beitragspflicht/unterstellung)
+- [AHV-IV-FAK: Beiträge aus selbständiger Erwerbstätigkeit; AHVG Art. 34, 41 and 43](https://www.ahv.li/beitraege/selbstaendigerwerbende)
+- [Gemeinde Balzers: GR-Protokoll Nr. 45/25 vom 26. November 2025, Traktandum 4](https://www.balzers.li/Portal/UserFiles/files/Service/GR-Protokolle/GR-Protokolle_2025/hw_GRPR_45_2025.pdf)
+- [BAZG: Info Zoll für Privatpersonen (01/2025); BAZG: Wertfreigrenze 150 Franken](https://www.bazg.admin.ch/dam/de/sd-web/v4auIkpAqjnc/Publikation_Info-Zoll-alle-wichtigen-Informationen-auf-einen-Blick_d_2025.pdf)
+- [BAZG: Automobilsteuer; BAZG: Interneteinkauf: Steuern und Abgaben; Kundmachung LGBl. 2026 Nr. 312](https://www.bazg.admin.ch/de/automobilsteuer-inland-abgaben)
+- [BAZG: Empfangen von Briefen und Paketen; BAZG: Verzollungskosten und Paketverfolgung; BAZG: Zölle](https://www.bazg.admin.ch/de/empfangen-von-briefen-und-paketen)
+- [BAZG: Bargeld, Fremdwährung, Wertpapiere](https://www.bazg.admin.ch/de/mitnahme-von-bargeld-in-die-schweiz)
+- [BAZG: Treibstoff und Fahrzeugreparaturen](https://www.bazg.admin.ch/de/treibstoff-und-fahrzeugreparaturen-grenze)
+- [Gemeinde Eschen: Gemeinderatsprotokoll 16/25 vom 12. November 2025](https://www.eschen.li/wp-content/uploads/2025/11/GR-Protokoll-16-2025-Aushang.pdf)
+- [ESTV: Die eidgenössischen Stempelabgaben (Stand 1. Januar 2024); Kundmachung LGBl. 2026 Nr. 315](https://www.estv2.admin.ch/stp/ds/d-eidgenoessischen-stempelabgaben-de.pdf)
+- [Gemeinde Gamprin-Bendern: Gemeinderatsprotokoll 15/25 vom 12. November 2025](https://www.gamprin.li/download_file/view/2703ff98-e0e0-4ca9-9902-869430e04adf)
+- [Verordnung vom 30. Juni 2026 über die Allgemeinverbindlicherklärung des Gesamtarbeitsvertrages für das Metallgewerbe, LGBl. 2026 Nr. 232 (gesetze.li); Gesetz über die Allgemeinverbindlicherklärung von Gesamtarbeitsverträgen (AVEG), LGBl. 2007 Nr. 101](https://www.gesetze.li/chrono/pdf/2026232000)
+- [Zollvertrag Schweiz–Liechtenstein of 29 March 1923 Art. 1; Kundmachung LGBl. 2026 Nr. 312](https://www.gesetze.li/konso/1923024000)
+- [Gesetz vom 29. Dezember 1966 über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz), LR 822.10, Art. 18 Abs. 2 (gesetze.li, version of 01.01.2019); Gesetz vom 27. Juni 1990 über den Staatsfeiertag, LR 145.0](https://www.gesetze.li/konso/1967006000)
+- [Gesetz über die Ausrichtung von Beiträgen an die römisch-katholische Landeskirche](https://www.gesetze.li/konso/1987063000)
+- [BPVG Art. 4 to 7 (version of 01.01.2026); AHV-IV-FAK: Rentenhöhe](https://www.gesetze.li/konso/1988012000)
+- [Unfallversicherungsgesetz (UVersG) Art. 79; UVersV Art. 28](https://www.gesetze.li/konso/1990046000)
+- [Motorfahrzeugsteuergesetz Art. 10 to 12 (version of 01.10.2019)](https://www.gesetze.li/konso/1994078000)
+- [Gesetz über eine leistungsabhängige Schwerverkehrsabgabe (SVAG) (version of 01.01.2025)](https://www.gesetze.li/konso/2000273000)
+- [Grundbuch- und Handelsregistergebührenverordnung (version of 01.08.2024)](https://www.gesetze.li/konso/2003067000)
+- [Ausländergesetz (AuG) Art. 13 and 20 (version of 12.06.2026)](https://www.gesetze.li/konso/2008311000)
+- [Mehrwertsteuergesetz (MWSTG) Art. 10 and 25 (version of 01.01.2026)](https://www.gesetze.li/konso/2009330000)
+- [PFZG Art. 10, 15, 16; PFZV Art. 23 to 27; Ausländergesetz (AuG) Art. 13 to 30](https://www.gesetze.li/konso/2009348000)
+- [Steuergesetz (SteG) Art. 18 and 19 (version of 01.01.2026)](https://www.gesetze.li/konso/2010340000)
+- [Steuerverordnung (SteV) Art. 8 to 16 (version of 01.07.2026)](https://www.gesetze.li/konso/2010437000)
+- [Beherbergungsverordnung (BMTV) (version of 01.01.2024)](https://www.gesetze.li/konso/2011581000)
+- [CO2-Verordnung; CO2-Gesetz Art. 3](https://www.gesetze.li/konso/2013359000)
+- [Finanzgesetz 2026, LGBl. 2025 Nr. 556, Art. 2 and 3; SteG Art. 2, 6, 23; tax treaties with CH and AT, Art. 15](https://www.gesetze.li/konso/2025556000)
+- [Gemeinde Mauren: Protokoll über die 47. Sitzung des Gemeinderates vom 26. November 2025 (Budget 2026)](https://www.mauren.li/files/attachments/oeffentliches-protokoll-47-25.pdf)
+- [Gemeinde Planken: Rechnungsbericht 2025](https://www.planken.li/download_file/view/1450/588)
+- [Regierung: Merkblatt Lohnabrechnung (Stand Januar 2026); SteG Art. 23 to 25](https://www.regierung.li/files/attachments/2026-merkblatt-lohnabrechnung.pdf)
+- [Gemeinde Ruggell: Gemeinderatsprotokolle Nr. 15/25 (25. November 2025) and Nr. 03/26 (25. February 2026)](https://www.ruggell.li/files/medienarchiv/Protokollveroeffentlichung-GR-1525.pdf)
+- [Gemeinde Schaan: Gemeinderatsprotokoll vom 26. November 2025, Traktandum 281](https://www.schaan.li/application/files/3817/6543/8304/pa_20251126.pdf)
+- [Gemeinde Schellenberg: Gemeinderatsprotokoll 11/2025 vom 19. November 2025](https://www.schellenberg.li/files/attachments/11-2025-grp-vom-19-11-2025.pdf)
+- [BAZG: Zolltarif Tares (linked from BAZG: Zölle and Empfangen von Briefen und Paketen)](https://www.tares.ch/)
+- [Gemeinde Triesen: Gemeinderatsprotokoll Nr. 16/25 vom 18. November 2025](https://www.triesen.li/files/%C3%96ffentliches%20Protokoll%2016_25.pdf)
+- [Gemeinde Triesenberg: Steuerinformationen (not opened: the site refused connections on 2026-11-12)](https://www.triesenberg.li/verwaltungsdienste/steuerinformationen/)
+- [Gemeinde Vaduz: Voranschlag der Gemeinde Vaduz 2026 (veröffentlicht am 26. November 2025)](https://www.vaduz.li/news/voranschlag-der-gemeinde-vaduz-2026)
+
 ## Lithuania
 
 Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/lithuania/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
@@ -899,6 +950,45 @@ Currency RON · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [ANAF: Ordonanța de urgență a Guvernului nr. 156 din 30 decembrie 2024 (Monitorul Oficial nr. 1.334 din 31 decembrie 2024), art. LXIV pct. 7-13 and art. LXV](https://static.anaf.ro/static/10/Anaf/legislatie/OUG_156_2024.pdf)
 - [ANAF: Ordonanța de urgență a Guvernului nr. 89 din 23 decembrie 2025 (Monitorul Oficial nr. 1.203 din 24 decembrie 2025), art. III](https://static.anaf.ro/static/10/Anaf/legislatie/OUG_89_2025.pdf)
 - [Inspecția Muncii, ITM Botoșani: Informare privind ... angajatorii din domeniul construcțiilor, nr. 2285/02.04.2026 (April 2026); OUG nr. 156/2024 art. LXIX](https://www.inspectiamuncii.ro/documents/521316/523496/20260407_COMUNICAT+PRESA+INFORMARE+ANGAJATORI+DIN+DOMENIUL+CONSTRUCTIILOR+-APRILIE+2026.pdf/11a0c4b0-f07a-4515-b18f-920a305473ab)
+
+## Serbia
+
+Currency RSD · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/serbia/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 188 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/serbia/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/serbia/2026.csv) · [JSON](json/serbia/2026.json) |
+
+**Official sources (28):**
+
+- [Government of Serbia, Welcome to Serbia (foreigners' portal): Потребна вам је дозвола за привремени боравак (last updated 12.11.2026); Zakon o strancima art. 40](https://welcometoserbia.gov.rs/%D0%BF%D1%80%D0%B8%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-%D0%B1%D0%BE%D1%80%D0%B0%D0%B2%D0%B0%D0%BA)
+- [Uprava carina: TARIC (ITMS) (last updated 2026-11-03)](https://www.carina.rs/privreda/tarifski-poslovi/taris.html)
+- [Uprava carina: Путнички промет (last updated 2026-01-27); Уредба о царинским повластицама art. 3](https://www.carina.rs/putnici/korisne-informacije/korisne_informacije_putnicki_promet.html)
+- [Uprava carina: Пошиљке, questions and answers (last updated 2026-05-14); Уредба о царинским повластицама](https://www.carina.rs/putnici/pitanja-i-odgovori/postanske-posiljke.html)
+- [Uprava carina: Пријава преноса средстава преко границе, опште одредбе (last updated 2026-03-18); Закон о спречавању прања новца и финансирања тероризма art. 86](https://www.carina.rs/putnici/prijava-prenosa-sredstava-preko-granice/prijava_prenosa_sredstava_opste_odredbe.html)
+- [Uprava carina: Услуге на које се плаћају таксе (last updated 2026-07-01); Царински закон art. 38](https://www.carina.rs/servisi/taksirani_servisi/taksirani_servisi_usluge_na_koje_se_placaju_takse.html)
+- [National Bank of Serbia: Public holidays in Serbia (2026); Zakon o državnim i drugim praznicima u Republici Srbiji](https://www.nbs.rs/en/o_nbs/radno-vreme-i-neradni-dani)
+- [Paragraf (portal to the official text): Zakon o porezu na premije neživotnih osiguranja (Sl. glasnik RS 135/2004 i 68/2014 - dr. zakon), art. 5](https://www.paragraf.rs/propisi/zakon-o-porezu-na-premije-nezivotnih-osiguranja.html)
+- [Paragraf (portal to the official text): Zakon o ugostiteljstvu (Sl. glasnik RS 17/2019 and amendments), arts. 70 to 76](https://www.paragraf.rs/propisi/zakon-o-ugostiteljstvu.html)
+- [Paragraf (portal to the official text): Zakon o finansiranju lokalne samouprave (to 115/2025), arts. 6, 15–15v](https://www.paragraf.rs/propisi/zakon_o_finansiranju_lokalne_samouprave.html)
+- [Paragraf (portal to the official text): Zakon o porezima na imovinu, consolidated to Sl. glasnik RS 94/2024, arts. 5, 6, 11 and 13; Poreska uprava notice of 12 November 2025](https://www.paragraf.rs/propisi/zakon_o_porezima_na_imovinu.html)
+- [Paragraf (portal to the official text): Zakon o porezima na upotrebu, držanje i nošenje dobara, consolidated with 118/2025 - usklađeni din. izn., arts. 2 to 6](https://www.paragraf.rs/propisi/zakon_o_porezima_na_upotrebu_drzanje_i_nosenje_dobara.html)
+- [Paragraf (portal to the official text): Zakon o profesionalnoj rehabilitaciji i zapošljavanju osoba sa invaliditetom (Sl. glasnik RS 36/2009, 32/2013 i 14/2022 - dr. zakon), arts. 24 to 28](https://www.paragraf.rs/propisi/zakon_o_profesionalnoj_rehabilitaciji_i_zaposljavanju_osoba_sa_invaliditetom.html)
+- [PIO Fund: Међународни уговори](https://www.pio.rs/sr/medunarodni-ugovori)
+- [PIO Fund (Republički fond za penzijsko i invalidsko osiguranje): Основице за уплату доприноса, 2026 bases (Sl. glasnik RS 112/25)](https://www.pio.rs/sr/osnovice-za-uplatu-doprinosa)
+- [Poreska uprava: Опште о ПДВ-у; Закон о порезу на додату вредност arts. 23 and 33 (PURS consolidated text to 80/26)](https://www.purs.gov.rs/fizicka-lica/pdv/opste-o-pdvu.html)
+- [Poreska uprava: Закон о порезу на додату вредност (consolidated text to 80/26), arts. 19, 23, 26 and 59; Uprava carina: Пошиљке (2026-05-14)](https://www.purs.gov.rs/fizicka-lica/pdv/zakon/202/zakon-o-porezu-na-dodatu-vrednost.html)
+- [Poreska uprava: Усклађени динарски неопорезиви износи (Government, 22 January 2026, from 1 February 2026); ZPDG arts. 85–86](https://www.purs.gov.rs/fizicka-lica/pregled-propisa/uputstva/8089/uskladjeni-dinarski-neoporezivi-iznosi-poreza-na-dohodak-gradjana.html)
+- [Poreska uprava: Усклађени динарски износи акциза (Government, 6 February 2026, from 15 February 2026); Zakon o akcizama](https://www.purs.gov.rs/fizicka-lica/pregled-propisa/uputstva/9831/uskladjeni-dinarski-iznosi-akciza.html)
+- [Poreska uprava: Закон о доприносима за обавезно социјално осигурање, consolidated text to 80/26 (PDF of 18 September 2026), arts. 9 and 44](https://www.purs.gov.rs/fizicka-lica/pregled-propisa/zakoni/9461/zakon-o-doprinosima-za-obavezno-socijalno-osiguranje.html)
+- [Poreska uprava: Закон о порезу на доходак грађана, consolidated to 80/26 (PDF of 18 September 2026), arts. 15a and 16](https://www.purs.gov.rs/fizicka-lica/pregled-propisa/zakoni/9941/zakon-o-porezu-na-dohodak-gradjana.html)
+- [Poreska uprava: Рок за подношење пријаве и плаћање годишњег пореза на доходак грађана истиче 15. маја (5 May 2026)](https://www.purs.gov.rs/odnosi-s-javnoscu/novosti/4608558/rok-za-podnosenje-prijave-i-placanje-godisnjeg-poreza-na-dohodak-gradjana-istice-15-maja.html)
+- [Poreska uprava: Обавештење о измењеним износима републичке административне таксе (1 July 2026)](https://www.purs.gov.rs/odnosi-s-javnoscu/novosti/4608585/obavestenje-o-izmenjenim-iznosima-republicke-administrativne-takse.html)
+- [Poreska uprava: Закон о порезу на добит правних лица (consolidated to 80/26, PDF of 18 September 2026), arts. 39–40](https://www.purs.gov.rs/pravna-lica/pregled-propisa/zakoni/306/zakon-o-porezu-na-dobit-pravnih-lica.html)
+- [Poreska uprava: Закон о порезу на емисије гасова са ефектом стаклене баште (Sl. glasnik RS 109/25, 80/26), consolidated text of 18 September 2026, arts. 3, 5 and 11](https://www.purs.gov.rs/pravna-lica/pregled-propisa/zakoni/4608454/zakon-o-porezu-na-emisije-gasova-sa-efektom-staklene-baste.html)
+- [RTS (public media service): Taksa za javni medijski servis i uslovi oslobađanja; Zakon o javnim medijskim servisima arts. 37 to 41](https://www.rts.rs/lat/rts/javni-servis/taksa/2159586/taksa-za-javni-medijski-servis-i-uslovi-oslobadjanja.html)
+- [Government of the Republic of Serbia: Tax system (srbija.gov.rs, Business > Taxes)](https://www.srbija.gov.rs/tekst/en/130076/tax-system-.php)
+- [Government of the Republic of Serbia: Government adopts Decision on regular increase in minimum wage (11 September 2025); Government adopts 2026 budget revision bill (20 August 2026, decision for 2027)](https://www.srbija.gov.rs/vest/en/257386/government-adopts-decision-on-regular-increase-in-minimum-wage.php)
 
 ## Singapore
 
@@ -1163,6 +1253,72 @@ Currency CHF · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [SEM Rundschreiben 'Tätigkeit im Home Office; ausländerrechtliche Qualifikation; FZA und Drittstaaten' (Bern-Wabern, 5. April 2022)](https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/20220403-rs-homeoffice-fza-drittstaaten.pdf.download.pdf/20220403-rs-homeoffice-fza-drittstaaten-d.pdf)
 - [SEM: FAQ Work (non-EU/EFTA nationals) (last modification 05.07.2026)](https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html)
 - [SEM: FAQ EU/EFTA citizens in Switzerland (last modification 06.07.2026)](https://www.sem.admin.ch/sem/en/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html)
+
+## Türkiye
+
+Currency TRY · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/turkey/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 212 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/turkey/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/turkey/2026.csv) · [JSON](json/turkey/2026.json) |
+
+**Official sources (34):**
+
+- [GİB: G.V.K. Geçici 67'nci Madde Vergi Rehberi (February 2026), section 16 'Mevduat faizleri'](https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Gecici67.pdf)
+- [Gelir İdaresi Başkanlığı: Serbest Meslek Kazancı Elde Eden Mükellefler İçin Vergi Rehberi (February 2026, publication no. 590), sections 6, 9 and 12](https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Serbest_Meslek_Kazanci.pdf)
+- [GİB: Ücret Geliri Rehberi (February 2026), 4.3; Gelir Vergisi Kanunu art. 23(1)(18); Damga Vergisi Kanunu table 2, IV-34](https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Ucret_Geliri.pdf)
+- [Gelir İdaresi Başkanlığı: Veraset ve İntikal Vergisi Broşürü (September 2026, publication no. 617)](https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=PAGE/UNIVERSAL/2026/2026_VerasetveIntikal_Vergisi_Brosuru.pdf)
+- [Gelir İdaresi Başkanlığı: Motorlu Taşıtlar Vergisi ve Trafik Para Cezası Rehberi (2026); 197 sayılı Motorlu Taşıtlar Vergisi Kanunu](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/fileadmin/beyannamerehberi/2026/2026MtvTpcRehberi.pdf)
+- [Gelir İdaresi Başkanlığı: Genç Girişimcilere Vergi Teşviki (March 2026, publication no. 599); 193 sayılı Gelir Vergisi Kanunu mükerrer madde 20](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/fileadmin/beyannamerehberi/2026/2026_genc_girisimciler.pdf)
+- [GİB: Menkul Sermaye İradı Rehberi (2026); Kurumlar Vergisi Kanunu madde 30(3); Gelir Vergisi Kanunu mükerrer madde 20/B](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/fileadmin/beyannamerehberi/2026/2026_menkulsermayeiradi.pdf)
+- [GİB: Yurt Dışına Çıkış Harcı (May 2026); Law 5597 art. 1](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/onceki-dokumanlar/2026_Yurt_Disina_Cikis_Harci.pdf)
+- [GİB: Güncel KDV Oranları (rate decision 2007/13033, consolidated to Decision 9126 of 14 November 2024); KDV Kanunu madde 1 and 28](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/yardim-kaynaklar/yararli-bilgiler/kdv-oranlari.pdf)
+- [Çalışma ve Sosyal Güvenlik Bakanlığı (Ministry of Labour and Social Security): Asgari Ücret, Asgari Ücretin Net Hesabı ve İşverene Maliyeti (01/01/2026 - 31/12/2026); press release of 23 December 2025 (Asgari Ücret Tespit Komisyonu decision)](https://csgb.gov.tr/poco-pages/asgari-ucret/)
+- [GoTürkiye (Türkiye Tourism Promotion and Development Agency, Ministry of Culture and Tourism): Application requirements for Digital Nomad Identification Certificate](https://goturkiye.com/digitalnomads/application-requirements-for-digital-nomad-visa-and-short-term-residence)
+- [Ticaret Bakanlığı, Gümrük İşlemleri, Mevzuat: Cumhurbaşkanlığı Kararı/BKK (İstatistik Pozisyonlarına Bölünmüş Türk Gümrük Tarife Cetveli, Karar Sayısı: 10781)](https://ticaret.gov.tr/gumruk-islemleri/mevzuat/cumhurbaskanligi-karari-bkk)
+- [Ticaret Bakanlığı: Posta ve Hızlı Kargo Muafiyeti FAQ (5 March 2026); customs circular 2026/4](https://ticaret.gov.tr/gumruk-islemleri/sikca-sorulan-sorular/bireysel/posta-ve-hizli-kargo-muafiyeti)
+- [Ticaret Bakanlığı: Yolcu Muafiyetleri FAQ (3 March 2026); Harçlar Kanunu tariff 8, VIII (2026 amount: Genel Tebliğ Seri No: 98)](https://ticaret.gov.tr/gumruk-islemleri/sikca-sorulan-sorular/bireysel/yolcu-muafiyetleri)
+- [Ticaret Bakanlığı, Gümrük Muhafaza: Sıkça Sorulan Sorular (page dated 22 March 2023)](https://ticaret.gov.tr/gumruk-muhafaza/sikca-sorulan-sorular)
+- [Diyanet İşleri Başkanlığı (Presidency of Religious Affairs): 2026 Yılı Resmi Tatil Günleri (icerik=158) and 2027 Yılı Resmi Tatil Günleri (icerik=159); 2429 sayılı Ulusal Bayram ve Genel Tatiller Hakkında Kanun](https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=158)
+- [Mevzuat Bilgi Sistemi: 1319 sayılı Emlak Vergisi Kanunu, madde 8 and 18](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1319&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 193 sayılı Gelir Vergisi Kanunu, madde 103 (2026 amounts: Gelir Vergisi Genel Tebliği Seri No: 332); GİB: Ücret Geliri Rehberi (February 2026), 4.7](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=4)
+- [Mevzuat Bilgi Sistemi: 2464 sayılı Belediye Gelirleri Kanunu, madde 12–44 (municipal taxes) and 52–70 (municipal fees)](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2464&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 3065 sayılı Katma Değer Vergisi Kanunu, madde 1](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 3093 sayılı Türkiye Radyo-Televizyon Kurumu Gelirleri Kanunu, madde 3 and 4](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3093&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 4632 sayılı Bireysel Emeklilik Tasarruf ve Yatırım Sistemi Kanunu, ek madde 2](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4632&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 4760 sayılı Özel Tüketim Vergisi Kanunu, madde 12 and lists (I)–(IV)](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4760&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 488 sayılı Damga Vergisi Kanunu, (1) sayılı tablo, IV. Makbuzlar ve diğer kâğıtlar, 1-b](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 492 sayılı Harçlar Kanunu, (4) sayılı tarife (tapu ve kadastro harçları), 20-a](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=492&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 5520 sayılı Kurumlar Vergisi Kanunu, madde 32, 32/C, 30 and ek madde 6](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5520&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 6458 sayılı Yabancılar ve Uluslararası Koruma Kanunu, madde 31 'Kısa dönem ikamet izni'](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6458&MevzuatTur=1&MevzuatTertip=5)
+- [Mevzuat Bilgi Sistemi: 6802 sayılı Gider Vergileri Kanunu, madde 34 (Konaklama vergisi), and madde 33 (banka ve sigorta muameleleri vergisi)](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6802&MevzuatTur=1&MevzuatTertip=3)
+- [Mevzuat Bilgi Sistemi: 7194 sayılı Dijital Hizmet Vergisi ile Bazı Kanunlarda ve 375 Sayılı Kanun Hükmünde Kararnamede Değişiklik Yapılması Hakkında Kanun, madde 5 (footnote: Presidential Decision no. 10767, Resmî Gazete 25 December 2025)](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7194&MevzuatTur=1&MevzuatTertip=5)
+- [SGK: Prime Esas Kazanç Miktarları (14 January 2026); Law 5510 art. 82](https://www.sgk.gov.tr/Content/Post/2e0c9e1a-2cfe-4456-af10-49d3de0c58ba/Prime-Esas-Kazanc-Miktarlari-2026-01-14-10-35-39)
+- [Sosyal Güvenlik Kurumu: Sosyal Güvenlik Sözleşmeleri (page dated 6 January 2026)](https://www.sgk.gov.tr/Content/Post/8d2c0ec8-1558-48ef-8075-3ed3e860208b/Sosyal-Guvenlik-Sozlesmeleri-2026-01-06-03-31-26)
+- [Sosyal Güvenlik Kurumu: Güncel Sigorta Primi Teşvik, Destek ve İndirimleri (4 August 2026); 5510 sayılı Kanun madde 81(ı) and geçici madde 108](https://www.sgk.gov.tr/Content/Post/c52f99f0-da6c-4029-9b9a-a0d6f96a6a42/Guncel-Sigorta-Primi-Tesvik-Destek-ve-Indirimleri-2026-08-04-10-29-55)
+- [SGK: İşveren Prim Oranları (13 January 2026); Law 5510 art. 81 (as amended by Law 7566); Law 4447 art. 49](https://www.sgk.gov.tr/Content/Post/c7812ea8-5087-413f-aeb5-d3c1d153e11a/Isveren-Prim-Oranlari-2026-01-13-04-52-38)
+- [Sosyal Güvenlik Kurumu: Bağımsız Çalışanların Prim Tahakkuk ve Tahsilat İşlemleri (11 May 2026); 5510 sayılı Kanun madde 81(g) and (j)](https://www.sgk.gov.tr/Content/Post/e85649be-3a38-484f-8a82-95109bc7ccde/Bagimsiz-Calisanlarin-Prim-Tahakkuk-ve-Tahsilat-Islemleri-2026-05-11-10-21-03)
+
+## Ukraine
+
+Currency UAH · current tax year 2026 · [tax tables on calcbloc.com](https://calcbloc.com/ukraine/tax-tables?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss)
+
+| Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
+|---|---|---:|---:|---|---|---|---|
+| National | 2026 | 164 | 0 | verified | 2026-11-12 | [page](https://calcbloc.com/ukraine/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/ukraine/2026.csv) · [JSON](json/ukraine/2026.json) |
+
+**Official sources (10):**
+
+- [Національний банк України: Постанова Правління № 3 від 02.01.2019 «Про затвердження Положення про транскордонне переміщення валютних цінностей» (PDF of the Regulation as published on bank.gov.ua)](https://bank.gov.ua/ua/legislation/Resolution_02012019_3)
+- [Міністерство цифрової трансформації: Дія.City (city.diia.gov.ua, home page: «Переваги для резидентів», «Умови вступу»); Податковий кодекс України, art. 167.2 and 170.14-1; Закон № 2464-VI, art. 8(14-1)](https://city.diia.gov.ua/)
+- [Ministry of Foreign Affairs of Ukraine: Visa information (Consular affairs, Entry and stay of foreigners in Ukraine)](https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information)
+- [Верховна Рада України, Законодавство України: Закон № 2464-VI «Про збір та облік єдиного внеску на загальнообов'язкове державне соціальне страхування», art. 4, 7, 8 (редакція від 26.01.2026, basis Law 4697-IX; read from the Internet Archive capture of 08.10.2026)](https://zakon.rada.gov.ua/laws/show/2464-17)
+- [Верховна Рада України, Законодавство України: Податковий кодекс України № 2755-VI, art. 167 (редакція від 17.09.2026; read from the Internet Archive capture of 13.10.2026)](https://zakon.rada.gov.ua/laws/show/2755-17)
+- [Верховна Рада України, Законодавство України: Кодекс законів про працю України, ст. 73 (редакція від 31.07.2026); Закон № 2136-IX «Про організацію трудових відносин в умовах воєнного стану», ст. 6; Указ Президента № 64/2022 (read from Internet Archive captures of 16.10.2026, 05.10.2026 and 02.10.2026)](https://zakon.rada.gov.ua/laws/show/322-08)
+- [Верховна Рада України, Законодавство України: Закон № 4015-IX від 10.10.2024 «Про внесення змін до Податкового кодексу України ...» (набрання чинності 01.12.2024); Податковий кодекс України, розділ XX, підрозділ 10, пункт 16-1 (редакція від 17.09.2026); read from Internet Archive captures of 09.10.2026 and 13.10.2026](https://zakon.rada.gov.ua/laws/show/4015-20)
+- [Верховна Рада України, Законодавство України: Митний кодекс України № 4495-VI, ст. 247, 279, 280, 374, 376 (редакція від 26.12.2025, basis Law 4710-IX; read from the Internet Archive capture of 02.01.2026)](https://zakon.rada.gov.ua/laws/show/4495-17)
+- [Верховна Рада України, Законодавство України: Закон № 4695-IX від 03.12.2025 «Про Державний бюджет України на 2026 рік», art. 7 (read from Internet Archive captures of 04.01.2026 (print text) and 19.05.2026: 'чинний, поточна редакція — Прийняття від 03.12.2025')](https://zakon.rada.gov.ua/laws/show/4695-20)
+- [Верховна Рада України, Законодавство України: Декрет Кабінету Міністрів України № 7-93 «Про державне мито», ст. 3 (редакція від 19.11.2022; read from the Internet Archive capture of 06.10.2025); Податковий кодекс України, art. 172](https://zakon.rada.gov.ua/laws/show/7-93)
 
 ## United Arab Emirates
 

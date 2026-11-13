@@ -1,10 +1,10 @@
 {
   "profile": "tabular-data-package",
   "name": "calcbloc-tax-tables",
-  "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 37 countries",
-  "description": "Income tax brackets, allowances and social security contribution rates for 37 countries (242 tables, 9427 rows), from official government sources. Every row carries its source URL, retrieval date and review status. Rates are decimal fractions (0.2 = 20%).",
-  "version": "2026.11.12",
-  "created": "2026-11-12",
+  "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 41 countries",
+  "description": "Income tax brackets, allowances and social security contribution rates for 41 countries (246 tables, 10243 rows), from official government sources. Every row carries its source URL, retrieval date and review status. Rates are decimal fractions (0.2 = 20%).",
+  "version": "2026.11.13",
+  "created": "2026-11-13",
   "homepage": "https://calcbloc.com/data",
   "keywords": [
     "income tax",
@@ -159,10 +159,10 @@
           {
             "name": "rate",
             "type": "number",
-            "description": "Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. Empty for money, number and text rows.",
+            "description": "Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. A few rows are a multiple of another amount and exceed 1, for example a Liechtenstein municipal surcharge of 1.5 = 150% of the national income tax. Empty for money, number and text rows.",
             "constraints": {
               "minimum": 0,
-              "maximum": 1
+              "maximum": 5
             }
           },
           {
@@ -2711,6 +2711,29 @@
       ]
     },
     {
+      "name": "liechtenstein-2026",
+      "title": "Liechtenstein tax tables 2026",
+      "path": "csv/liechtenstein/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Liechtenstein tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/liechtenstein/tax-tables/2026"
+        }
+      ]
+    },
+    {
       "name": "lithuania-2026",
       "title": "Lithuania tax tables 2026",
       "path": "csv/lithuania/2026.csv",
@@ -2960,6 +2983,29 @@
         {
           "title": "Romania tax tables 2026 on calcbloc.com",
           "path": "https://calcbloc.com/romania/tax-tables/2026"
+        }
+      ]
+    },
+    {
+      "name": "serbia-2026",
+      "title": "Serbia tax tables 2026",
+      "path": "csv/serbia/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Serbia tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/serbia/tax-tables/2026"
         }
       ]
     },
@@ -4666,6 +4712,29 @@
       ]
     },
     {
+      "name": "turkey-2026",
+      "title": "Türkiye tax tables 2026",
+      "path": "csv/turkey/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Türkiye tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/turkey/tax-tables/2026"
+        }
+      ]
+    },
+    {
       "name": "uae-2026",
       "title": "United Arab Emirates tax tables 2026",
       "path": "csv/uae/2026.csv",
@@ -4823,6 +4892,29 @@
         {
           "title": "United Kingdom, Wales tax tables 2025/26 on calcbloc.com",
           "path": "https://calcbloc.com/uk/tax-tables/2025-26/wales"
+        }
+      ]
+    },
+    {
+      "name": "ukraine-2026",
+      "title": "Ukraine tax tables 2026",
+      "path": "csv/ukraine/2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "header": true
+      },
+      "schema": "tax-table-rows.schema.json",
+      "sources": [
+        {
+          "title": "Ukraine tax tables 2026 on calcbloc.com",
+          "path": "https://calcbloc.com/ukraine/tax-tables/2026"
         }
       ]
     },

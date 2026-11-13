@@ -98,10 +98,10 @@
     {
       "name": "rate",
       "type": "number",
-      "description": "Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. Empty for money, number and text rows.",
+      "description": "Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. A few rows are a multiple of another amount and exceed 1, for example a Liechtenstein municipal surcharge of 1.5 = 150% of the national income tax. Empty for money, number and text rows.",
       "constraints": {
         "minimum": 0,
-        "maximum": 1
+        "maximum": 5
       }
     },
     {

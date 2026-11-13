@@ -1,6 +1,6 @@
 # Data dictionary: CalcBloc Tax Tables
 
-Version 2026.11.12 · 37 countries · 242 tables · 9,427 rows · CC BY 4.0 · Data by CalcBloc (calcbloc.com/data)
+Version 2026.11.13 · 41 countries · 246 tables · 10,243 rows · CC BY 4.0 · Data by CalcBloc (calcbloc.com/data)
 
 This file describes the columns of every CSV and JSON file in `dist/`. It is generated from the same column list as `datapackage.json`.
 
@@ -32,7 +32,7 @@ CSV files are UTF-8 without a byte-order mark, comma-separated, with a header ro
 | `label` | string | Name of the band or value. | `Higher rate` |
 | `from` | number | Bands only: lower limit of the band, in the table's currency (on the basis described in basis). Empty for value rows. | `37700` |
 | `to` | number | Bands only: upper limit of the band; empty means no upper limit (the top band). Empty for value rows. | `125140` |
-| `rate` | number | Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. Empty for money, number and text rows. | `0.4` |
+| `rate` | number | Rate as a decimal fraction (0.4 = 40%): the marginal rate of a band, or the value of a rate row. A few rows are a multiple of another amount and exceed 1, for example a Liechtenstein municipal surcharge of 1.5 = 150% of the national income tax. Empty for money, number and text rows. | `0.4` |
 | `value` | any | The value of a money, number or text row (see unit). Empty for bands and rate rows. Numbers are written without thousands separators. | `12570` |
 | `unit` | string, required | How to read the row: rate (see the rate column), money, number or text (see the value column). | `rate` |
 | `basis` | string | What the band limits or the rate apply to, and the period (per year, per month, per week). Empty when it is obvious from the label. | `Taxable income above the Personal Allowance, per year` |
@@ -53,7 +53,7 @@ CSV files are UTF-8 without a byte-order mark, comma-separated, with a header ro
 
 ### How rates are expressed
 
-All rates are decimal fractions between 0 and 1: `0.2` = 20%, `0.0765` = 7.65%, `0.00125` = 0.125%. Multiply by 100 for a percentage. Rates are never written as percentages, per-mille values or text, except inside a `text` row that describes a rule in words.
+All rates are decimal fractions: `0.2` = 20%, `0.0765` = 7.65%, `0.00125` = 0.125%. Multiply by 100 for a percentage. Almost every rate is between 0 and 1. The exceptions are rows that state a multiple of another amount, and their labels name that amount: Liechtenstein's municipal surcharges (`1.5` = 150% of the national income tax) and Ukraine's higher social benefit (`1.5` times the basic benefit). Rates are never written as percentages, per-mille values or text, except inside a `text` row that describes a rule in words.
 
 ### Units
 
