@@ -252,6 +252,186 @@
       },
       "verified": true,
       "note": "Alabama's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Alabama corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.065,
+          "unit": "rate",
+          "note": "Flat rate on Alabama taxable income; was 5% for tax years before 2001.",
+          "source": {
+            "title": "Alabama Department of Revenue FAQ: What is the corporate income tax rate?",
+            "url": "https://www.revenue.alabama.gov/faqs/what-is-the-corporate-income-tax-rate",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2001-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Business privilege tax rate range",
+          "value": "$0.25 to $1.75 per $1,000 of Alabama net worth",
+          "unit": "text",
+          "note": "Annual tax on corporations and LLCs measured by net worth; the rate rises with federal taxable income apportioned to Alabama ($1.75 at $2.5M or more).",
+          "source": {
+            "title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+            "url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Business privilege tax maximum",
+          "value": 15000,
+          "unit": "money",
+          "note": "Financial institutions, financial institution groups and insurance companies have a $3 million maximum; electing family LLEs are capped at $500.",
+          "source": {
+            "title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+            "url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Business privilege tax small-taxpayer threshold",
+          "value": 100,
+          "unit": "money",
+          "note": "Entities whose privilege tax would be $100 or less do not have to file.",
+          "source": {
+            "title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+            "url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Alabama Department of Revenue FAQ: What is the corporate income tax rate?",
+        "url": "https://www.revenue.alabama.gov/faqs/what-is-the-corporate-income-tax-rate",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2001-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Alabama property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "State (6.5 mills), counties and cities",
+          "unit": "text",
+          "note": "Counties and cities levy millage on top of the state's 6.5 mills; ADOR cites an average combined rate of about 43 mills.",
+          "source": {
+            "title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+            "url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Alabama Department of Revenue, Property Tax Division",
+          "unit": "text",
+          "note": "Assessment is done by county assessing officials; the division advises county officials and boards of equalization.",
+          "source": {
+            "title": "Alabama Department of Revenue: Property Tax",
+            "url": "https://www.revenue.alabama.gov/property-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State property tax rate (maximum)",
+          "value": 0.0065,
+          "unit": "rate",
+          "note": "State millage cap of 6.5 mills ($6.50 per $1,000 of assessed value) under Section 214 of the Alabama Constitution.",
+          "source": {
+            "title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+            "url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State homestead exemption (under 65, not disabled)",
+          "value": 4000,
+          "unit": "money",
+          "note": "Up to $4,000 of assessed value exempt from state tax ($2,000 for county tax); owners 65+, disabled or blind get larger exemptions.",
+          "source": {
+            "title": "Alabama Department of Revenue: Homestead Exemptions",
+            "url": "https://www.revenue.alabama.gov/property-tax/homestead-exemptions/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+        "url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Alabama real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Deed tax",
+          "value": "$0.50 per $500 of value or fraction thereof",
+          "unit": "text",
+          "note": "Recordation tax on deeds (and bills of sale) under Code of Alabama Sections 40-22-1 to 40-22-12; collected at recording.",
+          "source": {
+            "title": "Alabama Department of Revenue: Recordation Tax",
+            "url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Deed tax rate",
+          "value": 0.001,
+          "unit": "rate",
+          "note": "$0.50 per $500 equals 0.1% of value, charged per $500 or part of $500.",
+          "source": {
+            "title": "Alabama Department of Revenue: Recordation Tax",
+            "url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Mortgage recording tax",
+          "value": "$0.15 per $100 of indebtedness or fraction thereof",
+          "unit": "text",
+          "note": "Also applies to deeds of trust and conditional sale contracts.",
+          "source": {
+            "title": "Alabama Department of Revenue: Recordation Tax",
+            "url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Revenue split",
+          "value": "Two-thirds state General Fund, one-third county",
+          "unit": "text",
+          "source": {
+            "title": "Alabama Department of Revenue: Recordation Tax",
+            "url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Alabama Department of Revenue: Recordation Tax",
+        "url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -304,6 +484,23 @@
       "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
       "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Alabama Department of Revenue FAQ: What is the corporate income tax rate?",
+      "url": "https://www.revenue.alabama.gov/faqs/what-is-the-corporate-income-tax-rate",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2001-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+      "url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Alabama Department of Revenue: Recordation Tax",
+      "url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -791,6 +988,246 @@
       "rate": 0.054,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alabama corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat rate on Alabama taxable income; was 5% for tax years before 2001.",
+      "tax_year": "2026",
+      "effective_from": "2001-01-01",
+      "effective_to": null,
+      "source_title": "Alabama Department of Revenue FAQ: What is the corporate income tax rate?",
+      "source_url": "https://www.revenue.alabama.gov/faqs/what-is-the-corporate-income-tax-rate",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.065,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alabama corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Annual tax on corporations and LLCs measured by net worth; the rate rises with federal taxable income apportioned to Alabama ($1.75 at $2.5M or more).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+      "source_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Business privilege tax rate range",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.25 to $1.75 per $1,000 of Alabama net worth",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alabama corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Financial institutions, financial institution groups and insurance companies have a $3 million maximum; electing family LLEs are capped at $500.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+      "source_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Business privilege tax maximum",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 15000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alabama corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Entities whose privilege tax would be $100 or less do not have to file.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+      "source_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Business privilege tax small-taxpayer threshold",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 100,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alabama property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Counties and cities levy millage on top of the state's 6.5 mills; ADOR cites an average combined rate of about 43 mills.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+      "source_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "State (6.5 mills), counties and cities",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alabama property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Assessment is done by county assessing officials; the division advises county officials and boards of equalization.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Property Tax",
+      "source_url": "https://www.revenue.alabama.gov/property-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Alabama Department of Revenue, Property Tax Division",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alabama property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "State millage cap of 6.5 mills ($6.50 per $1,000 of assessed value) under Section 214 of the Alabama Constitution.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)",
+      "source_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State property tax rate (maximum)",
+      "from": null,
+      "to": null,
+      "rate": 0.0065,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alabama property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Up to $4,000 of assessed value exempt from state tax ($2,000 for county tax); owners 65+, disabled or blind get larger exemptions.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Homestead Exemptions",
+      "source_url": "https://www.revenue.alabama.gov/property-tax/homestead-exemptions/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State homestead exemption (under 65, not disabled)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 4000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Alabama real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Recordation tax on deeds (and bills of sale) under Code of Alabama Sections 40-22-1 to 40-22-12; collected at recording.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Recordation Tax",
+      "source_url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Deed tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.50 per $500 of value or fraction thereof",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Alabama real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "$0.50 per $500 equals 0.1% of value, charged per $500 or part of $500.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Recordation Tax",
+      "source_url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Deed tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.001,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Alabama real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Also applies to deeds of trust and conditional sale contracts.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Recordation Tax",
+      "source_url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Mortgage recording tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.15 per $100 of indebtedness or fraction thereof",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Alabama real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alabama Department of Revenue: Recordation Tax",
+      "source_url": "https://www.revenue.alabama.gov/tax-types/recordation-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Revenue split",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Two-thirds state General Fund, one-third county",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/alabama",

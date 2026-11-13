@@ -12,8 +12,10 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "property-transfer-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -325,6 +327,178 @@
       },
       "verified": true,
       "note": "Oregon's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Oregon corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate excise tax rate (taxable income up to $1 million)",
+          "value": 0.066,
+          "unit": "rate",
+          "note": "Rate unchanged since tax years beginning January 1, 2013.",
+          "source": {
+            "title": "Oregon Department of Revenue: Corporation tax filing requirements, minimum tax and tax rates",
+            "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Corporate excise tax rate (taxable income over $1 million)",
+          "value": 0.076,
+          "unit": "rate",
+          "note": "7.6% on the part above $1 million, plus $66,000.",
+          "source": {
+            "title": "Oregon Department of Revenue: Corporation tax filing requirements, minimum tax and tax rates",
+            "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Minimum excise tax",
+          "value": 150,
+          "unit": "money",
+          "note": "Lowest minimum for excise tax filers; for C corporations the minimum rises with Oregon sales (tiers not read on an official page).",
+          "source": {
+            "title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+            "url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate Activity Tax (CAT)",
+          "value": "$250 plus 0.57% of taxable Oregon commercial activity over $1 million",
+          "unit": "text",
+          "note": "Gross-receipts tax on all business forms; a 35% subtraction for certain expenses applies. Only businesses above $1 million owe it.",
+          "source": {
+            "title": "Oregon Department of Revenue: Corporate Activity Tax",
+            "url": "https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate Activity Tax rate",
+          "value": 0.0057,
+          "unit": "rate",
+          "note": "Applies to taxable commercial activity above the $1 million threshold, in addition to the $250 base.",
+          "source": {
+            "title": "Oregon Department of Revenue: Corporate Activity Tax",
+            "url": "https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Oregon Department of Revenue: Corporation tax filing requirements, minimum tax and tax rates",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2013-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Oregon property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Local taxing districts such as cities, counties, school districts, community colleges, fire districts and ports",
+          "unit": "text",
+          "note": "The county assessor verifies each district's rate and the county tax collector collects and distributes the tax.",
+          "source": {
+            "title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+            "url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Oregon Department of Revenue, Property Tax program",
+          "unit": "text",
+          "note": "Certifies county assessment programs for state funding (CAFFA), registers appraisers and values centrally assessed property.",
+          "source": {
+            "title": "Oregon Department of Revenue: County Assessment Function Funding Assistance (CAFFA)",
+            "url": "https://www.oregon.gov/dor/programs/property/Pages/CAFFA.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Rate limits (Measure 5)",
+          "value": "Non-school taxes up to $10 per $1,000 and school taxes up to $5 per $1,000 of real market value",
+          "unit": "text",
+          "note": "Constitutional limits from 1990; voter-approved bonds sit outside them.",
+          "source": {
+            "title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+            "url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Assessed value growth cap (Measure 50)",
+          "value": 0.03,
+          "unit": "rate",
+          "note": "Assessed value may grow at most 3% a year until it reaches real market value; districts have fixed permanent rates.",
+          "source": {
+            "title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+            "url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+        "url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer-under-review",
+      "title": "Oregon real estate transfer tax: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State real estate transfer tax",
+          "value": "None: the Oregon Constitution prohibits new taxes on real estate transfers",
+          "unit": "text",
+          "note": "Article IX, section 15 (Measure 79, 2012) bars state and local transfer taxes except those operative on December 31, 2009.",
+          "source": {
+            "title": "Oregon State Legislature: Oregon Constitution, Article IX, section 15",
+            "url": "https://www.oregonlegislature.gov/bills_laws/Pages/OrConst.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Local transfer tax (Washington County)",
+          "value": "$1 per $1,000 of the selling price (0.1%), Washington County only",
+          "unit": "text",
+          "note": "The only local transfer tax kept under the constitutional exception.",
+          "source": {
+            "title": "Washington County, Oregon: Assessment & Taxation, Transfer tax exemption",
+            "url": "https://washingtoncountyor.gov/at/recording/transfer-tax-exemption",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Oregon State Legislature: Oregon Constitution, Article IX, section 15",
+        "url": "https://www.oregonlegislature.gov/bills_laws/Pages/OrConst.aspx",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -392,6 +566,23 @@
       "title": "Oregon Employment Department, Current Tax Rate (2026)",
       "url": "https://www.oregon.gov/employ/businesses/pages/current-tax-rate.aspx",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Oregon Department of Revenue: Corporation tax filing requirements, minimum tax and tax rates",
+      "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2013-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+      "url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Oregon State Legislature: Oregon Constitution, Article IX, section 15",
+      "url": "https://www.oregonlegislature.gov/bills_laws/Pages/OrConst.aspx",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -999,6 +1190,226 @@
       "rate": 0.054,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Oregon corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Rate unchanged since tax years beginning January 1, 2013.",
+      "tax_year": "2026",
+      "effective_from": "2013-01-01",
+      "effective_to": null,
+      "source_title": "Oregon Department of Revenue: Corporation tax filing requirements, minimum tax and tax rates",
+      "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate excise tax rate (taxable income up to $1 million)",
+      "from": null,
+      "to": null,
+      "rate": 0.066,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Oregon corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "7.6% on the part above $1 million, plus $66,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-01-01",
+      "effective_to": null,
+      "source_title": "Oregon Department of Revenue: Corporation tax filing requirements, minimum tax and tax rates",
+      "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate excise tax rate (taxable income over $1 million)",
+      "from": null,
+      "to": null,
+      "rate": 0.076,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Oregon corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Lowest minimum for excise tax filers; for C corporations the minimum rises with Oregon sales (tiers not read on an official page).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+      "source_url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum excise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 150,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Oregon corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Gross-receipts tax on all business forms; a 35% subtraction for certain expenses applies. Only businesses above $1 million owe it.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon Department of Revenue: Corporate Activity Tax",
+      "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate Activity Tax (CAT)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$250 plus 0.57% of taxable Oregon commercial activity over $1 million",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Oregon corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to taxable commercial activity above the $1 million threshold, in addition to the $250 base.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon Department of Revenue: Corporate Activity Tax",
+      "source_url": "https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate Activity Tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0057,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oregon property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The county assessor verifies each district's rate and the county tax collector collects and distributes the tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+      "source_url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Local taxing districts such as cities, counties, school districts, community colleges, fire districts and ports",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oregon property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Certifies county assessment programs for state funding (CAFFA), registers appraisers and values centrally assessed property.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon Department of Revenue: County Assessment Function Funding Assistance (CAFFA)",
+      "source_url": "https://www.oregon.gov/dor/programs/property/Pages/CAFFA.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Oregon Department of Revenue, Property Tax program",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oregon property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Constitutional limits from 1990; voter-approved bonds sit outside them.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+      "source_url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate limits (Measure 5)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Non-school taxes up to $10 per $1,000 and school taxes up to $5 per $1,000 of real market value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oregon property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Assessed value may grow at most 3% a year until it reaches real market value; districts have fixed permanent rates.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon Secretary of State, Oregon Blue Book: Finance and Taxes",
+      "source_url": "https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Assessed value growth cap (Measure 50)",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "Oregon real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Article IX, section 15 (Measure 79, 2012) bars state and local transfer taxes except those operative on December 31, 2009.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oregon State Legislature: Oregon Constitution, Article IX, section 15",
+      "source_url": "https://www.oregonlegislature.gov/bills_laws/Pages/OrConst.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "State real estate transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None: the Oregon Constitution prohibits new taxes on real estate transfers",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "Oregon real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "The only local transfer tax kept under the constitutional exception.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington County, Oregon: Assessment & Taxation, Transfer tax exemption",
+      "source_url": "https://washingtoncountyor.gov/at/recording/transfer-tax-exemption",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Local transfer tax (Washington County)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$1 per $1,000 of the selling price (0.1%), Washington County only",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/oregon",

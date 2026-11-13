@@ -127,6 +127,94 @@
         "retrievedAt": "2026-10-16"
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Alberta corporate income tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Lower rate (small business income up to the business limit)",
+          "value": 0.02,
+          "unit": "rate"
+        },
+        {
+          "label": "Higher (general) rate",
+          "value": 0.08,
+          "unit": "rate"
+        },
+        {
+          "label": "Business limit",
+          "value": 500000,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+        "url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+        "retrievedAt": "2026-11-06"
+      },
+      "verified": true,
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Alberta collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income."
+    },
+    {
+      "id": "property-tax",
+      "title": "Alberta property tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Education property tax 2026-27: residential and farmland",
+          "value": "$2.84 per $1,000 of equalized assessment (provincial requisition rate)",
+          "unit": "text"
+        },
+        {
+          "label": "Education property tax 2026-27: non-residential",
+          "value": "$4.17 per $1,000 of equalized assessment (provincial requisition rate)",
+          "unit": "text"
+        },
+        {
+          "label": "Who levies",
+          "value": "Municipalities collect municipal tax and the education tax on the assessment they determine",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Alberta.ca: Education property tax",
+        "url": "https://www.alberta.ca/education-property-tax",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Alberta land titles transfer fee",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer of land registration fee",
+          "value": "$50 + $5 for each $5,000 of the value of the land",
+          "unit": "text"
+        },
+        {
+          "label": "Each additional title",
+          "value": 25,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "Service Alberta and Red Tape Reduction: Land Titles and Surveys Common Documents Fee Schedule (effective October 1, 2026)",
+        "url": "https://alberta.ca/system/files/sartr-land-titles-and-surveys-common-documents-fee-schedule.pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-10-01",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -139,6 +227,21 @@
       "title": "Personal income tax (2025 and 2026 tax brackets)",
       "url": "https://www.alberta.ca/personal-income-tax",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+      "url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Alberta.ca: Education property tax",
+      "url": "https://www.alberta.ca/education-property-tax",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Service Alberta and Red Tape Reduction: Land Titles and Surveys Common Documents Fee Schedule (effective October 1, 2026)",
+      "url": "https://alberta.ca/system/files/sartr-land-titles-and-surveys-common-documents-fee-schedule.pdf",
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "CRA: GST/HST rates by province",
@@ -371,6 +474,166 @@
       "rate": 0.05,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alberta corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Alberta collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+      "source_url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Lower rate (small business income up to the business limit)",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alberta corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Alberta collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+      "source_url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Higher (general) rate",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alberta corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Alberta collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+      "source_url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alberta property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Alberta.ca: Education property tax",
+      "source_url": "https://www.alberta.ca/education-property-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Education property tax 2026-27: residential and farmland",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$2.84 per $1,000 of equalized assessment (provincial requisition rate)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alberta property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Alberta.ca: Education property tax",
+      "source_url": "https://www.alberta.ca/education-property-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Education property tax 2026-27: non-residential",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$4.17 per $1,000 of equalized assessment (provincial requisition rate)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alberta property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Alberta.ca: Education property tax",
+      "source_url": "https://www.alberta.ca/education-property-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who levies",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Municipalities collect municipal tax and the education tax on the assessment they determine",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Alberta land titles transfer fee",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-10-01",
+      "effective_to": null,
+      "source_title": "Service Alberta and Red Tape Reduction: Land Titles and Surveys Common Documents Fee Schedule (effective October 1, 2026)",
+      "source_url": "https://alberta.ca/system/files/sartr-land-titles-and-surveys-common-documents-fee-schedule.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer of land registration fee",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$50 + $5 for each $5,000 of the value of the land",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Alberta land titles transfer fee",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-10-01",
+      "effective_to": null,
+      "source_title": "Service Alberta and Red Tape Reduction: Land Titles and Surveys Common Documents Fee Schedule (effective October 1, 2026)",
+      "source_url": "https://alberta.ca/system/files/sartr-land-titles-and-surveys-common-documents-fee-schedule.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Each additional title",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 25,
+      "unit": "money"
     }
   ],
   "pageUrl": "https://calcbloc.com/canada/tax-tables/2026/alberta",

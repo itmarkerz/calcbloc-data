@@ -12,8 +12,11 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "corporate-tax-under-review",
+    "property-tax-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -118,6 +121,105 @@
       },
       "verified": true,
       "note": "Utah assigns new employers a rate based on their industry, so there is no single new-employer rate. Enter the rate from your state rate notice."
+    },
+    {
+      "id": "corporate-tax-under-review",
+      "title": "Utah corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate franchise and income tax rate",
+          "value": 0.0445,
+          "unit": "rate",
+          "note": "2026 General Session S.B. 60 cuts the rate from 4.5% to 4.45% for 2026 (reported as applying to taxable years beginning on or after Jan. 1, 2026; not confirmed on an official page).",
+          "source": {
+            "title": "Utah Legislature: S.B. 60 (2026 General Session), amending Utah Code 59-7-104",
+            "url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0060.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum corporate franchise tax",
+          "value": 100,
+          "unit": "money",
+          "note": "Applies to every corporation filing form TC-20.",
+          "source": {
+            "title": "Utah State Tax Commission: TC-20 Corporation Franchise and Income Tax Instructions",
+            "url": "https://tax.utah.gov/forms/current/tc-20inst.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Utah Legislature: S.B. 60 (2026 General Session), amending Utah Code 59-7-104",
+        "url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0060.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
+    },
+    {
+      "id": "property-tax",
+      "title": "Utah property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, cities and towns, school districts and special service districts",
+          "unit": "text",
+          "note": "Example list from Utah County's official tax entities page.",
+          "source": {
+            "title": "Utah County Auditor: Tax Entities",
+            "url": "https://utahcounty.gov/Dept/Auditor/TaxAdmin/Equalization/TaxingEntities.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Primary residential exemption",
+          "value": 0.45,
+          "unit": "rate",
+          "note": "Primary residences are taxed on 55% of fair market value (Utah Code 59-2-103).",
+          "source": {
+            "title": "Utah County Assessor: Residential Exemption",
+            "url": "https://assessor.utahcounty.gov/residential-exemption",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Utah County Auditor: Tax Entities",
+        "url": "https://utahcounty.gov/Dept/Auditor/TaxAdmin/Equalization/TaxingEntities.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-tax-under-review",
+      "title": "Utah property tax: state rules: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State oversight",
+          "value": "Utah State Tax Commission, Property Tax Division",
+          "unit": "text",
+          "source": {
+            "title": "Utah State Tax Commission: Property Tax Division",
+            "url": "https://propertytax.utah.gov/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Utah State Tax Commission: Property Tax Division",
+        "url": "https://propertytax.utah.gov/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -127,14 +229,24 @@
       "retrievedAt": "2026-10-23"
     },
     {
-      "title": "S.B. 60 Income Tax Rate Amendments (2026 General Session), Enrolled Copy",
+      "title": "Utah Legislature: S.B. 60 (2026 General Session), amending Utah Code 59-7-104",
       "url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0060.pdf",
-      "retrievedAt": "2026-10-23"
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
       "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Utah County Auditor: Tax Entities",
+      "url": "https://utahcounty.gov/Dept/Auditor/TaxAdmin/Equalization/TaxingEntities.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Utah State Tax Commission: Property Tax Division",
+      "url": "https://propertytax.utah.gov/",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -322,6 +434,106 @@
       "rate": 0.072,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "Utah corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "2026 General Session S.B. 60 cuts the rate from 4.5% to 4.45% for 2026 (reported as applying to taxable years beginning on or after Jan. 1, 2026; not confirmed on an official page).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Utah Legislature: S.B. 60 (2026 General Session), amending Utah Code 59-7-104",
+      "source_url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0060.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Corporate franchise and income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0445,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "Utah corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to every corporation filing form TC-20.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Utah State Tax Commission: TC-20 Corporation Franchise and Income Tax Instructions",
+      "source_url": "https://tax.utah.gov/forms/current/tc-20inst.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Minimum corporate franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 100,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Utah property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Example list from Utah County's official tax entities page.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Utah County Auditor: Tax Entities",
+      "source_url": "https://utahcounty.gov/Dept/Auditor/TaxAdmin/Equalization/TaxingEntities.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, cities and towns, school districts and special service districts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Utah property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Primary residences are taxed on 55% of fair market value (Utah Code 59-2-103).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Utah County Assessor: Residential Exemption",
+      "source_url": "https://assessor.utahcounty.gov/residential-exemption",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Primary residential exemption",
+      "from": null,
+      "to": null,
+      "rate": 0.45,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Utah property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Utah State Tax Commission: Property Tax Division",
+      "source_url": "https://propertytax.utah.gov/",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Utah State Tax Commission, Property Tax Division",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/utah",

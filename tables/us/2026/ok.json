@@ -223,6 +223,153 @@
       },
       "verified": true,
       "note": "Oklahoma's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Oklahoma corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.04,
+          "unit": "rate",
+          "note": "Flat rate on Oklahoma taxable income; same rate in the 2025 Form 512 instructions. No change announced for 2026.",
+          "source": {
+            "title": "Oklahoma Tax Commission: Other Taxes (Corporate Income Tax)",
+            "url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate franchise tax",
+          "value": "None from tax year 2024: the franchise tax ($1.25 per $1,000 of capital) was repealed",
+          "unit": "text",
+          "note": "Tax year 2023 was the last franchise tax year (HB 1039X). Foreign corporations still pay a registered agent fee.",
+          "source": {
+            "title": "Oklahoma Tax Commission: Other Taxes (Franchise Tax, HB 1039X FAQ)",
+            "url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2024-01-01",
+            "effectiveTo": null
+          },
+          "status": "not_applicable"
+        }
+      ],
+      "source": {
+        "title": "Oklahoma Tax Commission: Other Taxes (Corporate Income Tax)",
+        "url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Oklahoma property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "School districts, counties (general, sinking fund, health department), career-tech districts, junior colleges, emergency medical districts and city sinking funds",
+          "unit": "text",
+          "note": "Schools receive the largest share in every county.",
+          "source": {
+            "title": "Oklahoma State Auditor & Inspector: Newsletter November/December 2020, Where Do My Property Taxes Go?",
+            "url": "https://www.sai.ok.gov/newsletter/november-december-2020",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Oklahoma Tax Commission, Ad Valorem Division (with the State Board of Equalization)",
+          "unit": "text",
+          "note": "Values public service property and compiles county abstracts certified by the State Board of Equalization.",
+          "source": {
+            "title": "Oklahoma Tax Commission: Ad Valorem",
+            "url": "https://oklahoma.gov/tax/ad-valorem.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Annual cap on taxable value increases",
+          "value": "3% a year for homesteads and agricultural land; 5% for other real property",
+          "unit": "text",
+          "note": "Constitution Art. 10, Sec. 8B; the cap does not apply in a year the property changes hands or for new improvements.",
+          "source": {
+            "title": "Oklahoma Tax Commission, Ad Valorem Tax Division: Ad Valorem Statistics 2024",
+            "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2024StatBook.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead exemption (assessed value)",
+          "value": 1000,
+          "unit": "money",
+          "note": "$1,000 of assessed (not market) value; an additional $1,000 applies for qualifying lower-income heads of household (68 O.S. 2889, 2890).",
+          "source": {
+            "title": "Oklahoma Tax Commission, Ad Valorem Tax Division: Ad Valorem Statistics 2024 (statute appendix)",
+            "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2024StatBook.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Oklahoma State Auditor & Inspector: Newsletter November/December 2020, Where Do My Property Taxes Go?",
+        "url": "https://www.sai.ok.gov/newsletter/november-december-2020",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Oklahoma real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Documentary stamp tax on deeds",
+          "value": "$0.75 per $500 of consideration (or fraction), when consideration exceeds $100",
+          "unit": "text",
+          "note": "Equivalent to 0.15%. Applies to deeds conveying realty that is sold; stamps are sold by the county clerk.",
+          "source": {
+            "title": "Oklahoma Tax Commission: Documentary Stamp Tax Quick Reference Guide (2021), quoting 68 O.S. 3201",
+            "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2021AdValoremDocumentaryStampsQuickReferenceGuide.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "Either the buyer (grantee) or the seller (grantor)",
+          "unit": "text",
+          "note": "The rule does not assign it to one party; it is usually settled in the sale contract.",
+          "source": {
+            "title": "Oklahoma Tax Commission: Documentary Stamp Tax Quick Reference Guide (2021), quoting OAC 710:30-1-8",
+            "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2021AdValoremDocumentaryStampsQuickReferenceGuide.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "County share",
+          "value": "Counties keep 30.33% of documentary stamp receipts; the rest goes to the Oklahoma Tax Commission",
+          "unit": "text",
+          "note": "From the county clerk's monthly return form.",
+          "source": {
+            "title": "Oklahoma Tax Commission: Form DS-1, Monthly County Return of Documentary Stamp Sales (revised 11-2021)",
+            "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/ad-valorem/current/DS-1.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Oklahoma Tax Commission: Documentary Stamp Tax Quick Reference Guide (2021), quoting 68 O.S. 3201",
+        "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2021AdValoremDocumentaryStampsQuickReferenceGuide.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -260,6 +407,21 @@
       "title": "Oklahoma Employment Security Commission, Employer Important Numbers 2026",
       "url": "https://oklahoma.gov/content/dam/ok/en/oesc/images/misc/Employer-Improtant-Numbers-2026.pdf",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Oklahoma Tax Commission: Other Taxes (Corporate Income Tax)",
+      "url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Oklahoma State Auditor & Inspector: Newsletter November/December 2020, Where Do My Property Taxes Go?",
+      "url": "https://www.sai.ok.gov/newsletter/november-december-2020",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Oklahoma Tax Commission: Documentary Stamp Tax Quick Reference Guide (2021), quoting 68 O.S. 3201",
+      "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2021AdValoremDocumentaryStampsQuickReferenceGuide.pdf",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -747,6 +909,186 @@
       "rate": 0.058,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Oklahoma corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat rate on Oklahoma taxable income; same rate in the 2025 Form 512 instructions. No change announced for 2026.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma Tax Commission: Other Taxes (Corporate Income Tax)",
+      "source_url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Oklahoma corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Tax year 2023 was the last franchise tax year (HB 1039X). Foreign corporations still pay a registered agent fee.",
+      "tax_year": "2026",
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "source_title": "Oklahoma Tax Commission: Other Taxes (Franchise Tax, HB 1039X FAQ)",
+      "source_url": "https://oklahoma.gov/tax/businesses/other-taxes.html",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Corporate franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None from tax year 2024: the franchise tax ($1.25 per $1,000 of capital) was repealed",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oklahoma property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Schools receive the largest share in every county.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma State Auditor & Inspector: Newsletter November/December 2020, Where Do My Property Taxes Go?",
+      "source_url": "https://www.sai.ok.gov/newsletter/november-december-2020",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "School districts, counties (general, sinking fund, health department), career-tech districts, junior colleges, emergency medical districts and city sinking funds",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oklahoma property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Values public service property and compiles county abstracts certified by the State Board of Equalization.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma Tax Commission: Ad Valorem",
+      "source_url": "https://oklahoma.gov/tax/ad-valorem.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Oklahoma Tax Commission, Ad Valorem Division (with the State Board of Equalization)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oklahoma property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Constitution Art. 10, Sec. 8B; the cap does not apply in a year the property changes hands or for new improvements.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma Tax Commission, Ad Valorem Tax Division: Ad Valorem Statistics 2024",
+      "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2024StatBook.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Annual cap on taxable value increases",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "3% a year for homesteads and agricultural land; 5% for other real property",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Oklahoma property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "$1,000 of assessed (not market) value; an additional $1,000 applies for qualifying lower-income heads of household (68 O.S. 2889, 2890).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma Tax Commission, Ad Valorem Tax Division: Ad Valorem Statistics 2024 (statute appendix)",
+      "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2024StatBook.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead exemption (assessed value)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 1000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Oklahoma real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Equivalent to 0.15%. Applies to deeds conveying realty that is sold; stamps are sold by the county clerk.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma Tax Commission: Documentary Stamp Tax Quick Reference Guide (2021), quoting 68 O.S. 3201",
+      "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2021AdValoremDocumentaryStampsQuickReferenceGuide.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Documentary stamp tax on deeds",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.75 per $500 of consideration (or fraction), when consideration exceeds $100",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Oklahoma real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "The rule does not assign it to one party; it is usually settled in the sale contract.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma Tax Commission: Documentary Stamp Tax Quick Reference Guide (2021), quoting OAC 710:30-1-8",
+      "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2021AdValoremDocumentaryStampsQuickReferenceGuide.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Either the buyer (grantee) or the seller (grantor)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Oklahoma real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "From the county clerk's monthly return form.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Oklahoma Tax Commission: Form DS-1, Monthly County Return of Documentary Stamp Sales (revised 11-2021)",
+      "source_url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/ad-valorem/current/DS-1.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "County share",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties keep 30.33% of documentary stamp receipts; the rest goes to the Oklahoma Tax Commission",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/oklahoma",

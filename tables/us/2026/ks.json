@@ -208,6 +208,150 @@
       },
       "verified": true,
       "note": "Kansas's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Kansas corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax normal rate",
+          "value": 0.035,
+          "unit": "rate",
+          "note": "Cut from the statutory 4% to 3.5% from Jan 1, 2024 under the APEX Act (K.S.A. 74-50,321). No further cut for tax year 2026 was found.",
+          "source": {
+            "title": "Kansas Register Vol. 42 No. 35 (Aug 31, 2023), Kansas Department of Revenue: Notice of Corporate Income Tax Normal Rate Reduction",
+            "url": "https://sos.ks.gov/publications/Register/Volume-42/Issues/Issue-35/08-31-23-51443.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2024-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Additional corporate tax on taxable income over $50,000",
+          "value": 0.03,
+          "unit": "rate",
+          "note": "Kansas calls this the corporate surtax; it is added to the normal rate on income above $50,000 (combined 6.5%).",
+          "source": {
+            "title": "Kansas Office of Revisor of Statutes: K.S.A. 79-32,110 (c) Corporations",
+            "url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Bank privilege tax rates",
+          "value": "1.94% of net income plus 2.125% on net income over $25,000",
+          "unit": "text",
+          "note": "National and state banks pay this privilege tax instead of the corporate income tax (K.S.A. 79-1107), for tax year 2024 and later.",
+          "source": {
+            "title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1107",
+            "url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_011_0007.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2024-01-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Kansas Register Vol. 42 No. 35 (Aug 31, 2023), Kansas Department of Revenue: Notice of Corporate Income Tax Normal Rate Reduction",
+        "url": "https://sos.ks.gov/publications/Register/Volume-42/Issues/Issue-35/08-31-23-51443.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2024-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Kansas property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Cities, townships, school districts and other taxing subdivisions (collected by the county treasurer)",
+          "unit": "text",
+          "note": "Counties also levy; each body certifies its levy to the county clerk by October 1.",
+          "source": {
+            "title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1801",
+            "url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_018_0001.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Kansas Department of Revenue, Division of Property Valuation (Director of Property Valuation)",
+          "unit": "text",
+          "note": "The division's page (ksrevenue.gov/pvd.html) could not be reached; duties quoted from statute.",
+          "source": {
+            "title": "Kansas Office of Revisor of Statutes: K.S.A. 75-5105a Director of property valuation; powers and duties",
+            "url": "https://www.ksrevisor.gov/statutes/chapters/ch75/075_051_0005a.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Residential assessment rate",
+          "value": 0.115,
+          "unit": "rate",
+          "note": "Homes are taxed on 11.5% of appraised market value; commercial/industrial real property 25%, farmland (use value) 30%.",
+          "source": {
+            "title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1439",
+            "url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_014_0039.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State property tax levies",
+          "value": "1.5 mills statewide (1 mill for higher education + 0.5 mill for state institutions); plus a mandatory 20-mill school levy for 2025-26 and 2026-27 remitted to the state",
+          "unit": "text",
+          "note": "The compiled statutes name levy year 2025 for the 1 and 0.5 mill state levies (K.S.A. 76-6b01, 76-6b04); the 20 mills is K.S.A. 72-5142.",
+          "source": {
+            "title": "Kansas Office of Revisor of Statutes: K.S.A. 76-6b01 (also 76-6b04 and 72-5142)",
+            "url": "https://www.ksrevisor.gov/statutes/chapters/ch76/076_006b_0001.html",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1801",
+        "url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_018_0001.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Kansas real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Mortgage registration tax",
+          "value": "None since 2019: repealed (was 0.26% of the mortgage principal)",
+          "unit": "text",
+          "note": "Phased out 2015-2018 and repealed from calendar year 2019; recording fees were raised instead.",
+          "source": {
+            "title": "Kansas Legislative Research Department: Mortgage Registration Tax and Statutory Fees for Recording Documents with County Registers of Deeds",
+            "url": "https://klrd.gov/2023/11/22/mortgage-registration-tax-and-statutory-fees/",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2019-01-01",
+            "effectiveTo": null
+          },
+          "status": "not_applicable"
+        }
+      ],
+      "source": {
+        "title": "Kansas Legislative Research Department: Mortgage Registration Tax and Statutory Fees for Recording Documents with County Registers of Deeds",
+        "url": "https://klrd.gov/2023/11/22/mortgage-registration-tax-and-statutory-fees/",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2019-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -240,6 +384,25 @@
       "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
       "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Kansas Register Vol. 42 No. 35 (Aug 31, 2023), Kansas Department of Revenue: Notice of Corporate Income Tax Normal Rate Reduction",
+      "url": "https://sos.ks.gov/publications/Register/Volume-42/Issues/Issue-35/08-31-23-51443.html",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1801",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_018_0001.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Kansas Legislative Research Department: Mortgage Registration Tax and Statutory Fees for Recording Documents with County Registers of Deeds",
+      "url": "https://klrd.gov/2023/11/22/mortgage-registration-tax-and-statutory-fees/",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2019-01-01",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -667,6 +830,166 @@
       "rate": 0.0695,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Kansas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Cut from the statutory 4% to 3.5% from Jan 1, 2024 under the APEX Act (K.S.A. 74-50,321). No further cut for tax year 2026 was found.",
+      "tax_year": "2026",
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "source_title": "Kansas Register Vol. 42 No. 35 (Aug 31, 2023), Kansas Department of Revenue: Notice of Corporate Income Tax Normal Rate Reduction",
+      "source_url": "https://sos.ks.gov/publications/Register/Volume-42/Issues/Issue-35/08-31-23-51443.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax normal rate",
+      "from": null,
+      "to": null,
+      "rate": 0.035,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Kansas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Kansas calls this the corporate surtax; it is added to the normal rate on income above $50,000 (combined 6.5%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Kansas Office of Revisor of Statutes: K.S.A. 79-32,110 (c) Corporations",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Additional corporate tax on taxable income over $50,000",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Kansas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "National and state banks pay this privilege tax instead of the corporate income tax (K.S.A. 79-1107), for tax year 2024 and later.",
+      "tax_year": "2026",
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "source_title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1107",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_011_0007.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Bank privilege tax rates",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "1.94% of net income plus 2.125% on net income over $25,000",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Kansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Counties also levy; each body certifies its levy to the county clerk by October 1.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1801",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_018_0001.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Cities, townships, school districts and other taxing subdivisions (collected by the county treasurer)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Kansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The division's page (ksrevenue.gov/pvd.html) could not be reached; duties quoted from statute.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Kansas Office of Revisor of Statutes: K.S.A. 75-5105a Director of property valuation; powers and duties",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch75/075_051_0005a.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Kansas Department of Revenue, Division of Property Valuation (Director of Property Valuation)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Kansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Homes are taxed on 11.5% of appraised market value; commercial/industrial real property 25%, farmland (use value) 30%.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Kansas Office of Revisor of Statutes: K.S.A. 79-1439",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_014_0039.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Residential assessment rate",
+      "from": null,
+      "to": null,
+      "rate": 0.115,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Kansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The compiled statutes name levy year 2025 for the 1 and 0.5 mill state levies (K.S.A. 76-6b01, 76-6b04); the 20 mills is K.S.A. 72-5142.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Kansas Office of Revisor of Statutes: K.S.A. 76-6b01 (also 76-6b04 and 72-5142)",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch76/076_006b_0001.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State property tax levies",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "1.5 mills statewide (1 mill for higher education + 0.5 mill for state institutions); plus a mandatory 20-mill school levy for 2025-26 and 2026-27 remitted to the state",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Kansas real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Phased out 2015-2018 and repealed from calendar year 2019; recording fees were raised instead.",
+      "tax_year": "2026",
+      "effective_from": "2019-01-01",
+      "effective_to": null,
+      "source_title": "Kansas Legislative Research Department: Mortgage Registration Tax and Statutory Fees for Recording Documents with County Registers of Deeds",
+      "source_url": "https://klrd.gov/2023/11/22/mortgage-registration-tax-and-statutory-fees/",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Mortgage registration tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None since 2019: repealed (was 0.26% of the mortgage principal)",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/kansas",

@@ -369,6 +369,150 @@
       },
       "verified": true,
       "note": "Hawaii's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Hawaii corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate on taxable income up to $25,000",
+          "value": 0.044,
+          "unit": "rate",
+          "note": "Bracket: $0 to $25,000 of taxable income (HRS 235-71).",
+          "source": {
+            "title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate income tax rate on taxable income over $25,000",
+          "value": 0.054,
+          "unit": "rate",
+          "note": "Bracket: over $25,000 up to $100,000 of taxable income (HRS 235-71).",
+          "source": {
+            "title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate income tax rate on taxable income over $100,000",
+          "value": 0.064,
+          "unit": "rate",
+          "note": "Bracket: taxable income over $100,000 (HRS 235-71).",
+          "source": {
+            "title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Franchise tax rate on banks and financial corporations",
+          "value": 0.0792,
+          "unit": "rate",
+          "note": "Banks and other financial corporations pay the franchise tax (HRS chapter 241) on entire net income instead of the corporate income tax.",
+          "source": {
+            "title": "Hawaii State Legislature: HRS 241-4 Tax on financial institutions",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0241/HRS_0241-0004.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Hawaii property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "The counties (City and County of Honolulu, Hawaii, Maui and Kauai counties)",
+          "unit": "text",
+          "note": "Hawaii's constitution reserves real property taxation exclusively to the counties (except Kalawao).",
+          "source": {
+            "title": "Hawaii State Legislature: Constitution of the State of Hawaii, Article VIII, Section 3",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-CONST/CONST_0008-0003.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "None at state level: each county assesses, sets rates and collects its own real property tax",
+          "unit": "text",
+          "note": "Unlike most states, Hawaii has no state agency supervising property assessment; contact the county real property assessment office.",
+          "source": {
+            "title": "Hawaii State Legislature: Constitution of the State of Hawaii, Article VIII, Section 3",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-CONST/CONST_0008-0003.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Hawaii State Legislature: Constitution of the State of Hawaii, Article VIII, Section 3",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-CONST/CONST_0008-0003.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Hawaii real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Conveyance tax rates (standard schedule)",
+          "value": "$0.10 per $100 under $600,000; $0.20 ($600,000-$1M); $0.30 ($1M-$2M); $0.50 ($2M-$4M); $0.70 ($4M-$6M); $0.90 ($6M-$10M); $1.00 per $100 at $10M or more",
+          "unit": "text",
+          "note": "Rate is set by the property's value band and applies to the full consideration (HRS 247-2). No 2026 rate change was enacted.",
+          "source": {
+            "title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Conveyance tax rates when the buyer cannot claim a home exemption",
+          "value": "$0.15 per $100 under $600,000; $0.25 ($600,000-$1M); $0.40 ($1M-$2M); $0.60 ($2M-$4M); $0.85 ($4M-$6M); $1.10 ($6M-$10M); $1.25 per $100 at $10M or more",
+          "unit": "text",
+          "note": "Applies to sales of a condominium or single-family home where the purchaser is ineligible for a county homeowner's exemption (e.g. investors, second homes).",
+          "source": {
+            "title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum conveyance tax per transaction",
+          "value": 1,
+          "unit": "money",
+          "note": "Leases count only if the unexpired term is five years or more.",
+          "source": {
+            "title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+            "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -406,6 +550,21 @@
       "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
       "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Hawaii State Legislature: Constitution of the State of Hawaii, Article VIII, Section 3",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-CONST/CONST_0008-0003.htm",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -1413,6 +1572,186 @@
       "rate": 0.056,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Hawaii corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket: $0 to $25,000 of taxable income (HRS 235-71).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate on taxable income up to $25,000",
+      "from": null,
+      "to": null,
+      "rate": 0.044,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Hawaii corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket: over $25,000 up to $100,000 of taxable income (HRS 235-71).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate on taxable income over $25,000",
+      "from": null,
+      "to": null,
+      "rate": 0.054,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Hawaii corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket: taxable income over $100,000 (HRS 235-71).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: HRS 235-71 Tax on corporations; rates",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate on taxable income over $100,000",
+      "from": null,
+      "to": null,
+      "rate": 0.064,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Hawaii corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Banks and other financial corporations pay the franchise tax (HRS chapter 241) on entire net income instead of the corporate income tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: HRS 241-4 Tax on financial institutions",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0241/HRS_0241-0004.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax rate on banks and financial corporations",
+      "from": null,
+      "to": null,
+      "rate": 0.0792,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Hawaii property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Hawaii's constitution reserves real property taxation exclusively to the counties (except Kalawao).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: Constitution of the State of Hawaii, Article VIII, Section 3",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-CONST/CONST_0008-0003.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "The counties (City and County of Honolulu, Hawaii, Maui and Kauai counties)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Hawaii property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Unlike most states, Hawaii has no state agency supervising property assessment; contact the county real property assessment office.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: Constitution of the State of Hawaii, Article VIII, Section 3",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-CONST/CONST_0008-0003.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None at state level: each county assesses, sets rates and collects its own real property tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Hawaii real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Rate is set by the property's value band and applies to the full consideration (HRS 247-2). No 2026 rate change was enacted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Conveyance tax rates (standard schedule)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.10 per $100 under $600,000; $0.20 ($600,000-$1M); $0.30 ($1M-$2M); $0.50 ($2M-$4M); $0.70 ($4M-$6M); $0.90 ($6M-$10M); $1.00 per $100 at $10M or more",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Hawaii real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to sales of a condominium or single-family home where the purchaser is ineligible for a county homeowner's exemption (e.g. investors, second homes).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Conveyance tax rates when the buyer cannot claim a home exemption",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.15 per $100 under $600,000; $0.25 ($600,000-$1M); $0.40 ($1M-$2M); $0.60 ($2M-$4M); $0.85 ($4M-$6M); $1.10 ($6M-$10M); $1.25 per $100 at $10M or more",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Hawaii real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Leases count only if the unexpired term is five years or more.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum conveyance tax per transaction",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 1,
+      "unit": "money"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/hawaii",

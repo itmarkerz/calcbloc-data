@@ -116,6 +116,101 @@
       },
       "verified": true,
       "note": "Idaho's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Idaho corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.053,
+          "unit": "rate",
+          "note": "Flat rate on taxable income; cut from 5.695% by HB 40 (2025). The Tax Commission's rate history lists 5.3% as the latest rate; no 2026 rate change was found.",
+          "source": {
+            "title": "Idaho State Tax Commission: Business Income Tax Basics (Business income tax rates)",
+            "url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate franchise tax rate",
+          "value": "Same as the business income tax rate (5.3%)",
+          "unit": "text",
+          "note": "Idaho imposes a franchise tax for the privilege of doing business in Idaho (Idaho Code 63-3025A).",
+          "source": {
+            "title": "Idaho State Tax Commission: Income Tax for Corporations",
+            "url": "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Permanent Building Fund tax per corporation",
+          "value": 10,
+          "unit": "money",
+          "note": "Flat $10 added to most business income tax returns (Idaho Code 63-3082); unitary groups pay $10 per corporation filing in Idaho.",
+          "source": {
+            "title": "Idaho State Tax Commission: Business Income Tax Basics (Permanent Building Fund tax)",
+            "url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Idaho State Tax Commission: Business Income Tax Basics (Business income tax rates)",
+        "url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Idaho property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, plus independent taxing districts such as cities and school districts",
+          "unit": "text",
+          "source": {
+            "title": "Idaho State Tax Commission: Property Tax",
+            "url": "https://tax.idaho.gov/taxes/property/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Idaho State Tax Commission",
+          "unit": "text",
+          "note": "Oversees local property tax procedures and the taxing district budget and levy process; values operating property (utilities, railroads).",
+          "source": {
+            "title": "Idaho State Tax Commission: Property Tax",
+            "url": "https://tax.idaho.gov/taxes/property/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homeowner's exemption",
+          "value": "50% of the value of the home and up to one acre of land, maximum $125,000",
+          "unit": "text",
+          "note": "For an owner-occupied primary residence; apply with the county assessor.",
+          "source": {
+            "title": "Idaho State Tax Commission: Homeowner's Exemption",
+            "url": "https://tax.idaho.gov/taxes/property/homeowners/exemption/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Idaho State Tax Commission: Property Tax",
+        "url": "https://tax.idaho.gov/taxes/property/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
     }
   ],
   "sources": [
@@ -158,6 +253,16 @@
       "title": "Idaho Department of Labor, 2026 Tax Rate Class Array",
       "url": "https://www.labor.idaho.gov/wp-content/uploads/2024/12/Tax-rate_Class-array_2026.pdf",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Idaho State Tax Commission: Business Income Tax Basics (Business income tax rates)",
+      "url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Idaho State Tax Commission: Property Tax",
+      "url": "https://tax.idaho.gov/taxes/property/",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -385,6 +490,126 @@
       "rate": 0.054,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Idaho corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat rate on taxable income; cut from 5.695% by HB 40 (2025). The Tax Commission's rate history lists 5.3% as the latest rate; no 2026 rate change was found.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Idaho State Tax Commission: Business Income Tax Basics (Business income tax rates)",
+      "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.053,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Idaho corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Idaho imposes a franchise tax for the privilege of doing business in Idaho (Idaho Code 63-3025A).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Idaho State Tax Commission: Income Tax for Corporations",
+      "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate franchise tax rate",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Same as the business income tax rate (5.3%)",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Idaho corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat $10 added to most business income tax returns (Idaho Code 63-3082); unitary groups pay $10 per corporation filing in Idaho.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Idaho State Tax Commission: Business Income Tax Basics (Permanent Building Fund tax)",
+      "source_url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Permanent Building Fund tax per corporation",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 10,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Idaho property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Idaho State Tax Commission: Property Tax",
+      "source_url": "https://tax.idaho.gov/taxes/property/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, plus independent taxing districts such as cities and school districts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Idaho property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Oversees local property tax procedures and the taxing district budget and levy process; values operating property (utilities, railroads).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Idaho State Tax Commission: Property Tax",
+      "source_url": "https://tax.idaho.gov/taxes/property/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Idaho State Tax Commission",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Idaho property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "For an owner-occupied primary residence; apply with the county assessor.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Idaho State Tax Commission: Homeowner's Exemption",
+      "source_url": "https://tax.idaho.gov/taxes/property/homeowners/exemption/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homeowner's exemption",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "50% of the value of the home and up to one acre of land, maximum $125,000",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/idaho",

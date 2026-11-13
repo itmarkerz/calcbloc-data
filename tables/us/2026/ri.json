@@ -12,8 +12,10 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "property-transfer-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -183,6 +185,173 @@
       },
       "verified": true,
       "note": "Rhode Island new employers pay 1.00% plus the 0.21% Job Development Fund (1.21%) on the first $30,800 ($32,300 for employers rated 9.19% or higher)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Rhode Island corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.07,
+          "unit": "rate",
+          "note": "C corporations pay 7% of Rhode Island net income or the $400 minimum, whichever is greater (Form RI-1120C).",
+          "source": {
+            "title": "Rhode Island Department of State: Pay your business taxes",
+            "url": "https://www.sos.ri.gov/divisions/business-services/ri-business/pay-your-business-taxes",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum business tax",
+          "value": 400,
+          "unit": "money",
+          "note": "Annual minimum for C corporations, S corporations, LLCs, LPs and LLPs; not prorated and owed even with no business or profit.",
+          "source": {
+            "title": "Rhode Island Department of State: Pay your business taxes",
+            "url": "https://www.sos.ri.gov/divisions/business-services/ri-business/pay-your-business-taxes",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Rhode Island Department of State: Pay your business taxes",
+        "url": "https://www.sos.ri.gov/divisions/business-services/ri-business/pay-your-business-taxes",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Rhode Island property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Cities and towns (Rhode Island has no county property tax)",
+          "unit": "text",
+          "note": "Municipal levies are certified to the state Division of Municipal Finance.",
+          "source": {
+            "title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+            "url": "https://www.ri.gov/press/view/32307",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Rhode Island Department of Revenue, Division of Municipal Finance",
+          "unit": "text",
+          "note": "Monitors compliance with the levy cap and publishes the annual Property Tax Cap Report.",
+          "source": {
+            "title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+            "url": "https://www.ri.gov/press/view/32307",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Municipal property tax levy cap",
+          "value": 0.04,
+          "unit": "rate",
+          "note": "Annual levy growth limit (R.I. Gen. Laws 44-5-2) with statutory exemptions. Quote is from the FY2018 release; the FY2026 report could not be opened (site blocked).",
+          "source": {
+            "title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+            "url": "https://www.ri.gov/press/view/32307",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State tax on non-owner-occupied homes over $1 million",
+          "value": "$2.50 per $500 of assessed value above $1,000,000, from the tax year beginning July 1, 2026",
+          "unit": "text",
+          "note": "Statewide tax (R.I. Gen. Laws ch. 44-72) on residential property not occupied by the owner 183+ days a year; billed by the State. Threshold is indexed from 2027.",
+          "source": {
+            "title": "Rhode Island Code of Regulations: 280-RICR-20-75-1 Non-Owner Occupied Property Tax (active rule)",
+            "url": "https://rules.sos.ri.gov/Regulations/part/280-20-75-1",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-07-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+        "url": "https://www.ri.gov/press/view/32307",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Rhode Island real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real estate conveyance tax",
+          "value": "$3.75 per $500 of the sales price (raised from $2.30 on October 1, 2025)",
+          "unit": "text",
+          "note": "Equivalent to 0.75%. Applies to the full price when consideration exceeds $100.",
+          "source": {
+            "title": "City of Cranston, RI: State Notice of Real Estate Conveyance Tax Rate Change",
+            "url": "https://cranstonri.gov/state-notice-of-real-estate-conveyance-tax-change",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2025-10-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Additional tier on residential sales over $800,000",
+          "value": "Extra $3.75 per $500 on the portion of a residential sale price above $800,000",
+          "unit": "text",
+          "note": "Tier 2 applies to residential property only, on the part of the price above $800,000, in addition to the Tier 1 tax on the whole price.",
+          "source": {
+            "title": "City of Cranston, RI: State Notice of Real Estate Conveyance Tax Rate Change",
+            "url": "https://cranstonri.gov/state-notice-of-real-estate-conveyance-tax-change",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2025-10-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "City of Cranston, RI: State Notice of Real Estate Conveyance Tax Rate Change",
+        "url": "https://cranstonri.gov/state-notice-of-real-estate-conveyance-tax-change",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2025-10-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer-under-review",
+      "title": "Rhode Island real estate transfer tax: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Who pays",
+          "value": "Seller (grantor), unless the parties agree otherwise",
+          "unit": "text",
+          "note": "From R.I. Gen. Laws 44-25-1; only seen in a search snippet.",
+          "source": {
+            "title": "Rhode Island General Laws 44-25-1, Real estate conveyance tax",
+            "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-25/44-25-1.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Rhode Island General Laws 44-25-1, Real estate conveyance tax",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-25/44-25-1.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -215,6 +384,28 @@
       "title": "R.I. Gen. Laws § 28-42-3 (Employment Security Act — Definitions, incl. \"Wages\")",
       "url": "https://webserver.rilegislature.gov/Statutes/TITLE28/28-42/28-42-3.htm",
       "retrievedAt": "2026-10-23"
+    },
+    {
+      "title": "Rhode Island Department of State: Pay your business taxes",
+      "url": "https://www.sos.ri.gov/divisions/business-services/ri-business/pay-your-business-taxes",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+      "url": "https://www.ri.gov/press/view/32307",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "City of Cranston, RI: State Notice of Real Estate Conveyance Tax Rate Change",
+      "url": "https://cranstonri.gov/state-notice-of-real-estate-conveyance-tax-change",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2025-10-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Rhode Island General Laws 44-25-1, Real estate conveyance tax",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-25/44-25-1.htm",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -602,6 +793,186 @@
       "rate": 0.0919,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Rhode Island corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "C corporations pay 7% of Rhode Island net income or the $400 minimum, whichever is greater (Form RI-1120C).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Rhode Island Department of State: Pay your business taxes",
+      "source_url": "https://www.sos.ri.gov/divisions/business-services/ri-business/pay-your-business-taxes",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Rhode Island corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Annual minimum for C corporations, S corporations, LLCs, LPs and LLPs; not prorated and owed even with no business or profit.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Rhode Island Department of State: Pay your business taxes",
+      "source_url": "https://www.sos.ri.gov/divisions/business-services/ri-business/pay-your-business-taxes",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum business tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 400,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Rhode Island property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Municipal levies are certified to the state Division of Municipal Finance.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+      "source_url": "https://www.ri.gov/press/view/32307",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Cities and towns (Rhode Island has no county property tax)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Rhode Island property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Monitors compliance with the levy cap and publishes the annual Property Tax Cap Report.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+      "source_url": "https://www.ri.gov/press/view/32307",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Rhode Island Department of Revenue, Division of Municipal Finance",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Rhode Island property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Annual levy growth limit (R.I. Gen. Laws 44-5-2) with statutory exemptions. Quote is from the FY2018 release; the FY2026 report could not be opened (site blocked).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available",
+      "source_url": "https://www.ri.gov/press/view/32307",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Municipal property tax levy cap",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Rhode Island property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Statewide tax (R.I. Gen. Laws ch. 44-72) on residential property not occupied by the owner 183+ days a year; billed by the State. Threshold is indexed from 2027.",
+      "tax_year": "2026",
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "source_title": "Rhode Island Code of Regulations: 280-RICR-20-75-1 Non-Owner Occupied Property Tax (active rule)",
+      "source_url": "https://rules.sos.ri.gov/Regulations/part/280-20-75-1",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State tax on non-owner-occupied homes over $1 million",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$2.50 per $500 of assessed value above $1,000,000, from the tax year beginning July 1, 2026",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Rhode Island real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Equivalent to 0.75%. Applies to the full price when consideration exceeds $100.",
+      "tax_year": "2026",
+      "effective_from": "2025-10-01",
+      "effective_to": null,
+      "source_title": "City of Cranston, RI: State Notice of Real Estate Conveyance Tax Rate Change",
+      "source_url": "https://cranstonri.gov/state-notice-of-real-estate-conveyance-tax-change",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Real estate conveyance tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$3.75 per $500 of the sales price (raised from $2.30 on October 1, 2025)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Rhode Island real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Tier 2 applies to residential property only, on the part of the price above $800,000, in addition to the Tier 1 tax on the whole price.",
+      "tax_year": "2026",
+      "effective_from": "2025-10-01",
+      "effective_to": null,
+      "source_title": "City of Cranston, RI: State Notice of Real Estate Conveyance Tax Rate Change",
+      "source_url": "https://cranstonri.gov/state-notice-of-real-estate-conveyance-tax-change",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Additional tier on residential sales over $800,000",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Extra $3.75 per $500 on the portion of a residential sale price above $800,000",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "Rhode Island real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "From R.I. Gen. Laws 44-25-1; only seen in a search snippet.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Rhode Island General Laws 44-25-1, Real estate conveyance tax",
+      "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-25/44-25-1.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Seller (grantor), unless the parties agree otherwise",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/rhode-island",

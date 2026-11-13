@@ -12,8 +12,12 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "corporate-tax-under-review",
+    "property-tax-under-review",
+    "property-transfer-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -167,6 +171,165 @@
       },
       "verified": true,
       "note": "Massachusetts new employers pay 2.42% (construction 6.08%). The Workforce Training Fund contribution is added on top and is not included here; the COVID Recovery Assessment does not apply to new employers."
+    },
+    {
+      "id": "corporate-tax-under-review",
+      "title": "Massachusetts corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate excise rate on net income",
+          "value": 0.08,
+          "unit": "rate",
+          "note": "Rate on net income apportioned to Massachusetts (business corporations other than financial institutions). Seen only in a search snippet of the state's FY2027 tax expenditure budget.",
+          "source": {
+            "title": "Commonwealth of Massachusetts FY2027 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+            "url": "https://budget.digital.mass.gov/govbudget/fy27/tax-expenditure-budget/corporate-excise-tax/introduction",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate excise on property or net worth",
+          "value": "$2.60 per $1,000 of Massachusetts tangible property or net worth",
+          "unit": "text",
+          "note": "Added to the net income measure. Seen only in a search snippet of the FY2027 tax expenditure budget.",
+          "source": {
+            "title": "Commonwealth of Massachusetts FY2027 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+            "url": "https://budget.digital.mass.gov/govbudget/fy27/tax-expenditure-budget/corporate-excise-tax/introduction",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum corporate excise",
+          "value": 456,
+          "unit": "money",
+          "note": "Seen only in a search snippet of the state's FY2022 tax expenditure budget.",
+          "source": {
+            "title": "Commonwealth of Massachusetts FY2022 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+            "url": "https://budget.digital.mass.gov/govbudget/fy22/tax-expenditure-budget/corporate-excise-tax/introduction",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Commonwealth of Massachusetts FY2027 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+        "url": "https://budget.digital.mass.gov/govbudget/fy27/tax-expenditure-budget/corporate-excise-tax/introduction",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
+    },
+    {
+      "id": "property-tax-under-review",
+      "title": "Massachusetts property tax: state rules: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Cities and towns (351 municipalities); there is no state property tax",
+          "unit": "text",
+          "note": "Local assessors value property; the Division of Local Services certifies values and tax rates. Seen only in a search snippet.",
+          "source": {
+            "title": "Mass.gov: Massachusetts Municipal Property Taxes",
+            "url": "https://www.mass.gov/guides/massachusetts-property-taxes",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Massachusetts Department of Revenue, Division of Local Services (DLS)",
+          "unit": "text",
+          "note": "DLS certifies municipal valuations and tax rates and enforces the Proposition 2½ levy limits. Seen only in a search snippet.",
+          "source": {
+            "title": "Mass.gov (Division of Local Services): FY2026 Tax Levies, Assessed Values and Tax Rates",
+            "url": "https://www.mass.gov/info-details/fy2026-tax-levies-assessed-values-and-tax-rates",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Levy limits (Proposition 2½)",
+          "value": "A municipality's levy may not exceed 2.5% of the full and fair cash value of its taxable property (levy ceiling), and the annual levy limit may grow only 2.5% a year plus new growth unless voters approve an override",
+          "unit": "text",
+          "note": "G.L. c. 59 s. 21C. Overrides can raise the levy limit but never above the ceiling. Seen only in search snippets of DLS material.",
+          "source": {
+            "title": "Mass.gov (Division of Local Services): Chapter 5, Setting the Tax Rate",
+            "url": "https://www.mass.gov/doc/chapter-5-setting-the-tax-rate/download",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Mass.gov: Massachusetts Municipal Property Taxes",
+        "url": "https://www.mass.gov/guides/massachusetts-property-taxes",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Massachusetts real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Deeds excise (state tax stamps) rate",
+          "value": "$2.28 per $500 of value (equals $4.56 per $1,000), outside Barnstable County",
+          "unit": "text",
+          "note": "Statewide rate set by G.L. c. 64D; Barnstable County differs. Paid at the Registry of Deeds and forwarded to the Department of Revenue.",
+          "source": {
+            "title": "Berkshire Middle District Registry of Deeds: Tax Stamps",
+            "url": "https://massrods.com/berkshiremiddle/tax-stamps",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays the deeds excise",
+          "value": "Seller, by custom",
+          "unit": "text",
+          "note": "Stated for Berkshire County; the buyer pays the recording fees for the deed and mortgage.",
+          "source": {
+            "title": "Berkshire Middle District Registry of Deeds: Tax Stamps",
+            "url": "https://massrods.com/berkshiremiddle/tax-stamps",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Berkshire Middle District Registry of Deeds: Tax Stamps",
+        "url": "https://massrods.com/berkshiremiddle/tax-stamps",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer-under-review",
+      "title": "Massachusetts real estate transfer tax: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Barnstable County combined deeds excise",
+          "value": "$3.24 per $500 ($6.48 per $1,000): $3.42 per $1,000 state share plus $3.06 per $1,000 county share",
+          "unit": "text",
+          "note": "Cape Cod has its own lower state rate plus a county excise. Seen only in a search snippet of the Barnstable Registry of Deeds advisory.",
+          "source": {
+            "title": "Barnstable County Registry of Deeds: Barnstable County Excise Tax Advisory",
+            "url": "https://www.barnstabledeeds.org/?p=517",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Barnstable County Registry of Deeds: Barnstable County Excise Tax Advisory",
+        "url": "https://www.barnstabledeeds.org/?p=517",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -229,6 +392,26 @@
       "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
       "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Commonwealth of Massachusetts FY2027 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+      "url": "https://budget.digital.mass.gov/govbudget/fy27/tax-expenditure-budget/corporate-excise-tax/introduction",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Mass.gov: Massachusetts Municipal Property Taxes",
+      "url": "https://www.mass.gov/guides/massachusetts-property-taxes",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Berkshire Middle District Registry of Deeds: Tax Stamps",
+      "url": "https://massrods.com/berkshiremiddle/tax-stamps",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Barnstable County Registry of Deeds: Barnstable County Excise Tax Advisory",
+      "url": "https://www.barnstabledeeds.org/?p=517",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -556,6 +739,186 @@
       "rate": 0.1437,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "Massachusetts corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Rate on net income apportioned to Massachusetts (business corporations other than financial institutions). Seen only in a search snippet of the state's FY2027 tax expenditure budget.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Commonwealth of Massachusetts FY2027 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+      "source_url": "https://budget.digital.mass.gov/govbudget/fy27/tax-expenditure-budget/corporate-excise-tax/introduction",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Corporate excise rate on net income",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "Massachusetts corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Added to the net income measure. Seen only in a search snippet of the FY2027 tax expenditure budget.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Commonwealth of Massachusetts FY2027 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+      "source_url": "https://budget.digital.mass.gov/govbudget/fy27/tax-expenditure-budget/corporate-excise-tax/introduction",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Corporate excise on property or net worth",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$2.60 per $1,000 of Massachusetts tangible property or net worth",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "Massachusetts corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Seen only in a search snippet of the state's FY2022 tax expenditure budget.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Commonwealth of Massachusetts FY2022 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction",
+      "source_url": "https://budget.digital.mass.gov/govbudget/fy22/tax-expenditure-budget/corporate-excise-tax/introduction",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Minimum corporate excise",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 456,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Massachusetts property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Local assessors value property; the Division of Local Services certifies values and tax rates. Seen only in a search snippet.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Mass.gov: Massachusetts Municipal Property Taxes",
+      "source_url": "https://www.mass.gov/guides/massachusetts-property-taxes",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Cities and towns (351 municipalities); there is no state property tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Massachusetts property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "DLS certifies municipal valuations and tax rates and enforces the Proposition 2½ levy limits. Seen only in a search snippet.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Mass.gov (Division of Local Services): FY2026 Tax Levies, Assessed Values and Tax Rates",
+      "source_url": "https://www.mass.gov/info-details/fy2026-tax-levies-assessed-values-and-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Massachusetts Department of Revenue, Division of Local Services (DLS)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Massachusetts property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "G.L. c. 59 s. 21C. Overrides can raise the levy limit but never above the ceiling. Seen only in search snippets of DLS material.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Mass.gov (Division of Local Services): Chapter 5, Setting the Tax Rate",
+      "source_url": "https://www.mass.gov/doc/chapter-5-setting-the-tax-rate/download",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Levy limits (Proposition 2½)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "A municipality's levy may not exceed 2.5% of the full and fair cash value of its taxable property (levy ceiling), and the annual levy limit may grow only 2.5% a year plus new growth unless voters approve an override",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Massachusetts real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Statewide rate set by G.L. c. 64D; Barnstable County differs. Paid at the Registry of Deeds and forwarded to the Department of Revenue.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Berkshire Middle District Registry of Deeds: Tax Stamps",
+      "source_url": "https://massrods.com/berkshiremiddle/tax-stamps",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Deeds excise (state tax stamps) rate",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$2.28 per $500 of value (equals $4.56 per $1,000), outside Barnstable County",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Massachusetts real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Stated for Berkshire County; the buyer pays the recording fees for the deed and mortgage.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Berkshire Middle District Registry of Deeds: Tax Stamps",
+      "source_url": "https://massrods.com/berkshiremiddle/tax-stamps",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays the deeds excise",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Seller, by custom",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "Massachusetts real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Cape Cod has its own lower state rate plus a county excise. Seen only in a search snippet of the Barnstable Registry of Deeds advisory.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Barnstable County Registry of Deeds: Barnstable County Excise Tax Advisory",
+      "source_url": "https://www.barnstabledeeds.org/?p=517",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Barnstable County combined deeds excise",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$3.24 per $500 ($6.48 per $1,000): $3.42 per $1,000 state share plus $3.06 per $1,000 county share",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/massachusetts",

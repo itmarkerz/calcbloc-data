@@ -215,6 +215,144 @@
         "retrievedAt": "2026-11-06"
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Quebec corporate income tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Lower rate (small business income up to the business limit)",
+          "value": 0.032,
+          "unit": "rate",
+          "note": "2.2% for taxation years starting after April 29, 2026"
+        },
+        {
+          "label": "Higher (general) rate",
+          "value": 0.115,
+          "unit": "rate"
+        },
+        {
+          "label": "Business limit",
+          "value": 500000,
+          "unit": "money"
+        },
+        {
+          "label": "Small business deduction: hours test",
+          "value": "Full deduction from 5,500 paid hours in the year; none at 5,000 hours or fewer",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+        "retrievedAt": "2026-11-06"
+      },
+      "verified": true,
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Quebec collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income."
+    },
+    {
+      "id": "property-tax",
+      "title": "Quebec property tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "School tax 2026-2027 (one rate for all of Quebec, set by the government)",
+          "value": "$0.07899 per $100 of standardized assessed value",
+          "unit": "text"
+        },
+        {
+          "label": "School tax: exempt first part of the taxable value",
+          "value": 25000,
+          "unit": "money"
+        },
+        {
+          "label": "Municipal property tax",
+          "value": "Set by each municipality on the property assessment roll",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Centre de services scolaire des Hautes-Rivières: Année scolaire 2026-2027, Taxe scolaire (2 July 2026)",
+        "url": "https://www.cssdhr.gouv.qc.ca/wp-content/uploads/2026/07/2026-07-02_Comm_Pres_Taxe_Scol.pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-07-01",
+        "effectiveTo": "2027-06-30"
+      },
+      "verified": true
+    },
+    {
+      "id": "property-transfer-rates",
+      "title": "Quebec duties on transfers of immovables (welcome tax)",
+      "group": "other",
+      "kind": "bands",
+      "rows": [
+        {
+          "from": 0,
+          "to": 62900,
+          "rate": 0.005
+        },
+        {
+          "from": 62900,
+          "to": 315000,
+          "rate": 0.01
+        },
+        {
+          "from": 315000,
+          "to": null,
+          "rate": 0.015
+        }
+      ],
+      "source": {
+        "title": "Québec.ca: Droits sur les mutations immobilières (dernière mise à jour 17 février 2026)",
+        "url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "basis": "Highest of the price paid, the price in the deed and the market value, 2026",
+      "note": "Collected by the municipality. Band limits are indexed every year. A municipality may set a higher rate, up to 3%, on any part above $500,000 (Montreal may go higher)."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Quebec transfer duties: municipal top rate, exemptions and first-time buyers",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Highest municipal rate on the part above $500,000 (outside Montreal)",
+          "value": 0.03,
+          "unit": "rate"
+        },
+        {
+          "label": "No duties when the tax base is under",
+          "value": 5000,
+          "unit": "money"
+        },
+        {
+          "label": "First-time buyers: refundable tax credit, maximum (from 2026, announced)",
+          "value": 5875,
+          "unit": "money",
+          "note": "100% of the first $5,000 of duties plus 25% of the next $3,500; reduced above a tax base of $750,000",
+          "source": {
+            "title": "Ministère des Finances du Québec: Bulletin d'information 2026-2 (17 avril 2026)",
+            "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/FR/BULFR_2026-2.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Québec.ca: Droits sur les mutations immobilières (17 février 2026); Ministère des Finances du Québec, Bulletin d'information 2026-2 (17 avril 2026)",
+        "url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -227,6 +365,21 @@
       "title": "Paramètres du régime d’imposition des particuliers pour l’année d’imposition 2026 (novembre 2025)",
       "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/parametres/AUTFR_RegimeImpot2026.pdf",
       "retrievedAt": "2026-10-25"
+    },
+    {
+      "title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Centre de services scolaire des Hautes-Rivières: Année scolaire 2026-2027, Taxe scolaire (2 July 2026)",
+      "url": "https://www.cssdhr.gouv.qc.ca/wp-content/uploads/2026/07/2026-07-02_Comm_Pres_Taxe_Scol.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Québec.ca: Droits sur les mutations immobilières (dernière mise à jour 17 février 2026)",
+      "url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "Revenu Québec: Basic rules for applying the GST/HST and QST",
@@ -654,6 +807,266 @@
       "rate": 0.01,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Quebec corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "2.2% for taxation years starting after April 29, 2026",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Lower rate (small business income up to the business limit)",
+      "from": null,
+      "to": null,
+      "rate": 0.032,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Quebec corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Quebec collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Higher (general) rate",
+      "from": null,
+      "to": null,
+      "rate": 0.115,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Quebec corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Quebec collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Quebec corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Quebec collects its own corporate tax (no collection agreement with the CRA). Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Small business deduction: hours test",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Full deduction from 5,500 paid hours in the year; none at 5,000 hours or fewer",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Quebec property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-07-01",
+      "effective_to": "2027-06-30",
+      "source_title": "Centre de services scolaire des Hautes-Rivières: Année scolaire 2026-2027, Taxe scolaire (2 July 2026)",
+      "source_url": "https://www.cssdhr.gouv.qc.ca/wp-content/uploads/2026/07/2026-07-02_Comm_Pres_Taxe_Scol.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "School tax 2026-2027 (one rate for all of Quebec, set by the government)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.07899 per $100 of standardized assessed value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Quebec property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-07-01",
+      "effective_to": "2027-06-30",
+      "source_title": "Centre de services scolaire des Hautes-Rivières: Année scolaire 2026-2027, Taxe scolaire (2 July 2026)",
+      "source_url": "https://www.cssdhr.gouv.qc.ca/wp-content/uploads/2026/07/2026-07-02_Comm_Pres_Taxe_Scol.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "School tax: exempt first part of the taxable value",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 25000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Quebec property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-07-01",
+      "effective_to": "2027-06-30",
+      "source_title": "Centre de services scolaire des Hautes-Rivières: Année scolaire 2026-2027, Taxe scolaire (2 July 2026)",
+      "source_url": "https://www.cssdhr.gouv.qc.ca/wp-content/uploads/2026/07/2026-07-02_Comm_Pres_Taxe_Scol.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Municipal property tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Set by each municipality on the property assessment roll",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-rates",
+      "section": "Quebec duties on transfers of immovables (welcome tax)",
+      "group": "other",
+      "basis": "Highest of the price paid, the price in the deed and the market value, 2026",
+      "note": "Collected by the municipality. Band limits are indexed every year. A municipality may set a higher rate, up to 3%, on any part above $500,000 (Montreal may go higher).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Québec.ca: Droits sur les mutations immobilières (dernière mise à jour 17 février 2026)",
+      "source_url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 0,
+      "to": 62900,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-rates",
+      "section": "Quebec duties on transfers of immovables (welcome tax)",
+      "group": "other",
+      "basis": "Highest of the price paid, the price in the deed and the market value, 2026",
+      "note": "Collected by the municipality. Band limits are indexed every year. A municipality may set a higher rate, up to 3%, on any part above $500,000 (Montreal may go higher).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Québec.ca: Droits sur les mutations immobilières (dernière mise à jour 17 février 2026)",
+      "source_url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 62900,
+      "to": 315000,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-rates",
+      "section": "Quebec duties on transfers of immovables (welcome tax)",
+      "group": "other",
+      "basis": "Highest of the price paid, the price in the deed and the market value, 2026",
+      "note": "Collected by the municipality. Band limits are indexed every year. A municipality may set a higher rate, up to 3%, on any part above $500,000 (Montreal may go higher).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Québec.ca: Droits sur les mutations immobilières (dernière mise à jour 17 février 2026)",
+      "source_url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 315000,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Quebec transfer duties: municipal top rate, exemptions and first-time buyers",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Québec.ca: Droits sur les mutations immobilières (17 février 2026); Ministère des Finances du Québec, Bulletin d'information 2026-2 (17 avril 2026)",
+      "source_url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Highest municipal rate on the part above $500,000 (outside Montreal)",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Quebec transfer duties: municipal top rate, exemptions and first-time buyers",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Québec.ca: Droits sur les mutations immobilières (17 février 2026); Ministère des Finances du Québec, Bulletin d'information 2026-2 (17 avril 2026)",
+      "source_url": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "No duties when the tax base is under",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 5000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Quebec transfer duties: municipal top rate, exemptions and first-time buyers",
+      "group": "other",
+      "basis": "",
+      "note": "100% of the first $5,000 of duties plus 25% of the next $3,500; reduced above a tax base of $750,000",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec: Bulletin d'information 2026-2 (17 avril 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/FR/BULFR_2026-2.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "First-time buyers: refundable tax credit, maximum (from 2026, announced)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 5875,
+      "unit": "money"
     }
   ],
   "pageUrl": "https://calcbloc.com/canada/tax-tables/2026/quebec",

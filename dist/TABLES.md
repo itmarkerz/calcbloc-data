@@ -1,6 +1,6 @@
 # Tables and official sources
 
-Version 2026.11.13 · 246 tables · 10,243 rows. One entry per table file in this dataset, with its tax year, row counts, last-verified date and links; the official sources of each country follow its tables. Generated from `tables/manifest.json`.
+Version 2026.11.13 · 246 tables · 11,570 rows. One entry per table file in this dataset, with its tax year, row counts, last-verified date and links; the official sources of each country follow its tables. Generated from `tables/manifest.json`.
 
 ## Australia
 
@@ -8,17 +8,26 @@ Currency AUD · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026-27 | 88 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/australia/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/australia/2026-27.csv) · [JSON](json/australia/2026-27.json) |
+| National | 2026-27 | 270 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/australia/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/australia/2026-27.csv) · [JSON](json/australia/2026-27.json) |
 
-**Official sources (23):**
+**Official sources (66):**
 
 - [Payroll Tax Act 2007 (Vic), authorised version No. 041 (in force from 1 May 2026; the latest version listed on legislation.vic.gov.au on 2026-11-06), Schedule 1 clauses 1, 1A, 1B and 5](https://content.legislation.vic.gov.au/sites/default/files/2026-05/07-26aa041-authorised.pdf)
 - [Taxation Administration (Amounts and Rates—Payroll Tax) Determination 2026 (DI2026-151), commencing 1 July 2026, s 5 and Table 1; Payroll Tax Act 2011 (ACT) Schedule 1 (republication R20, effective 26 December 2025)](https://legislation.act.gov.au/DownloadFile/di/2026-151/current/PDF/2026-151.PDF)
+- [Northern Territory Legislation: Stamp Duty Act 1978 (as in force at 1 July 2025), Schedule 1 clause 1](https://legislation.nt.gov.au/Legislation/STAMP-DUTY-ACT-1978)
 - [Payroll Tax Act 2009 (NT) as in force at 1 July 2026, section 7A and Schedule 1 clauses 1–5 (equations read from the Word version of the same reprint, https://legislation.nt.gov.au/api/sitecore/Act/Word?id=12078)](https://legislation.nt.gov.au/api/sitecore/Act/PDF?id=12078)
+- [NT Government (nt.gov.au): Property taxes](https://nt.gov.au/property/land/land-taxes)
+- [Queensland Revenue Office: Transfer duty home concession rates (last updated 31 July 2026)](https://qro.qld.gov.au/duties/transfer-duty/calculate/concession-rates/)
+- [Queensland Revenue Office: Transfer duty rates (last updated 25 June 2026)](https://qro.qld.gov.au/duties/transfer-duty/calculate/rates/)
+- [Queensland Revenue Office: Land tax threshold and rates for absentees (last updated 23 December 2024)](https://qro.qld.gov.au/land-tax/calculate/absentee/)
+- [Queensland Revenue Office: Land tax threshold and rates for individuals (last updated 23 July 2024)](https://qro.qld.gov.au/land-tax/calculate/individual/)
+- [NT Treasury, Territory Revenue Office: Stamp duty](https://treasury.nt.gov.au/dtf/territory-revenue-office/stamp-duty)
 - [NT WorkSafe - Understanding workers compensation premiums in the NT (bulletin v1.4, 02/04/2019; page generated 9 November 2026)](https://worksafe.nt.gov.au/forms-and-resources/bulletins/understanding-workers-compensation-premiums-northern-territory)
 - [KPMG for WorkCover Tasmania Board / WorkSafe Tasmania - Suggested Industry Premium Rates for 2026/27 (4 May 2026)](https://worksafe.tas.gov.au/__data/assets/pdf_file/0006/808566/TAS-WC-Suggested-Premium-Rates-2026-27-FINAL.pdf)
 - [ACT Government - ACT Workers' Compensation Suggested Reasonable Premium Rates 2026/27 (extract from Finity Consulting 'ACT Workers' Compensation Review of Scheme Performance to 30 June 2025', prepared for the Chief Minister, Treasury and Economic Development Directorate)](https://www.act.gov.au/__data/assets/pdf_file/0020/3062720/ACT-Workers-Compensation-Suggested-Reasonable-Premium-Rates-2026-27.pdf)
 - [icare NSW - Workers Compensation Reform FAQs (updated 1 October 2026)](https://www.icare.nsw.gov.au/workers-compensation/employers/workers-compensation-reform-faqs)
+- [Income Tax Assessment Act 1936 (compilation of 1 October 2026), section 6(1) (definition of resident) and section 251U(1)(d)](https://www.legislation.gov.au/C1936A00027/latest/text)
+- [Taxation Administration Act 1953 (compilation of 1 October 2026), Schedule 1, section 12-60](https://www.legislation.gov.au/C1953A00001/latest/text)
 - [A New Tax System (Goods and Services Tax) Act 1999 (compilation of 1 January 2026), sections 9-70 and 9-75](https://www.legislation.gov.au/C2004A00446/latest/text)
 - [Higher Education Support Act 2003 (compilation of 1 July 2026), sections 154-1, 154-5, 154-10, 154-20 and 154-25](https://www.legislation.gov.au/C2004A01234/latest/text)
 - [Income Tax Rates Act 1986 (compilation of 1 July 2026), s 3 (tax-free threshold) and Schedule 7 Part I clause 1, table for the 2026-27 year of income](https://www.legislation.gov.au/C2004A03348/latest/text)
@@ -26,12 +35,46 @@ Currency AUD · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 - [Superannuation Guarantee (Administration) Act 1992 (compilation of 1 July 2026), sections 10A (qualifying earnings, maximum contributions base) and 17A (charge percentage)](https://www.legislation.gov.au/C2004A04402/latest/text)
 - [Income Tax Assessment Act 1997 (compilation of 27 August 2026), sections 61-110 and 61-115 (Low Income tax offset)](https://www.legislation.gov.au/C2004A05138/latest/text)
 - [Private Health Insurance Act 2007 (compilation of 19 September 2026), sections 22-30 to 22-45 (tiers, thresholds, indexation); Medicare Levy Act 1986 sections 8B-8D (surcharge rates)](https://www.legislation.gov.au/C2007A00031/latest/text)
+- [Fair Work Act 2009 (compilation of 7 July 2026), section 15AA](https://www.legislation.gov.au/C2009A00028/latest/text)
+- [Taxation (Multinational—Global and Domestic Minimum Tax) Act 2024 (No. 132, 2024; latest version, as made 10 December 2024), sections 5, 6, 8, 10 and 12](https://www.legislation.gov.au/C2024A00132/latest/text)
+- [Taxation Administration Regulations 2017 (compilation of 27 August 2026), section 38 and the definition of 'top rate' in section 5; Taxation Administration Act 1953 Schedule 1 sections 12-190 and 15-10](https://www.legislation.gov.au/F2017L01227/latest/text)
+- [A New Tax System (Goods and Services Tax) Regulations 2019 (compilation F2025C01015, 1 November 2025), sections 23-15.01 and 23-15.02; A New Tax System (Goods and Services Tax) Act 1999 section 23-15](https://www.legislation.gov.au/F2019L00417/latest/text)
+- [Taxation (Multinational—Global and Domestic Minimum Tax) Rules 2024 (compilation No. 3, 2 July 2026), section 1-10 definitions](https://www.legislation.gov.au/F2024L01740/latest/text)
+- [Taxation Administration (Withholding Schedules) Instrument 2026 (F2026L00716), Schedule 1 – Statement of formulas for calculating amounts to be withheld (NAT 1004), in force from 1 July 2026](https://www.legislation.gov.au/F2026L00716/asmade/text)
 - [Payroll Tax Act 1971 (Qld), current as at 22 October 2026, sections 10, 10A and 29; Queensland Revenue Office – Payroll tax rates and thresholds and Deductions pages](https://www.legislation.qld.gov.au/view/whole/pdf/inforce/2026-10-22/act-1971-037)
+- [ACT Revenue Office: About the Home Buyer Concession Scheme](https://www.revenue.act.gov.au/home-buyer-assistance/home-buyer-concession-scheme/about-the-home-buyer-concession-scheme)
+- [ACT Revenue Office: Conveyance duty for non-commercial property](https://www.revenue.act.gov.au/rates-and-property-charges/conveyance-duty-stamp-duty/conveyance-duty-for-non-commercial-property)
+- [ACT Revenue Office: Land tax](https://www.revenue.act.gov.au/rates-and-property-charges/land-tax)
+- [ACT Revenue Office: Foreign ownership surcharge for land tax](https://www.revenue.act.gov.au/rates-and-property-charges/land-tax/foreign-ownership-surcharge-for-land-tax)
+- [ACT Revenue Office: How land tax is calculated](https://www.revenue.act.gov.au/rates-and-property-charges/land-tax/how-land-tax-is-calculated)
+- [Revenue NSW: How to calculate transfer duty, current thresholds and rates (last updated 6 October 2026)](https://www.revenue.nsw.gov.au/_resources/duties-links/current-thresholds-and-rates)
+- [Revenue NSW: What is surcharge land tax? (last updated 8 April 2026)](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax/surcharge-land-tax/what-is-surcharge-land-tax)
+- [Revenue NSW: Land tax thresholds and rates (last updated 16 March 2026)](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax/understanding-land-tax/thresholds-and-rates)
 - [Revenue NSW – Payroll tax thresholds and rates (last updated 1 July 2026), table row '1 July 2026 – 30 June 2027'](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/lodge-and-pay-returns/thresholds-and-rates)
 - [RevenueSA – 2026-27 Guide to Legislation: Payroll Tax (Version 2026-27.01, issued 6 July 2026), pp 10–16; Payroll Tax Act 2009 (SA) Schedule 1 clause 5](https://www.revenuesa.sa.gov.au/__data/assets/pdf_file/0014/1422203/2026-27-Guide-to-Legislation-payroll-tax.pdf)
+- [RevenueSA: Foreign Ownership Surcharge](https://www.revenuesa.sa.gov.au/foreign-ownership-surcharge-page)
+- [RevenueSA: Principal place of residence exemption](https://www.revenuesa.sa.gov.au/landtax/LTExemptions/residential-home)
+- [RevenueSA: Land tax rates and thresholds](https://www.revenuesa.sa.gov.au/landtax/rates-and-thresholds)
+- [RevenueSA: Stamp duty relief available (first home buyers)](https://www.revenuesa.sa.gov.au/stampduty/first-home-buyer-relief/relief-available)
+- [RevenueSA: Rate of stamp duty (conveyances)](https://www.revenuesa.sa.gov.au/stampduty/rate-of-stamp-duty)
 - [ReturnToWorkSA - ReturnToWorkSA average premium rate for 2026-27 maintained (21 April 2026)](https://www.rtwsa.com/about-us/news-room/articles/returntoworksa-average-premium-rate-for-2026-27-maintained)
+- [State Revenue Office of Tasmania: Land Tax](https://www.sro.tas.gov.au/land-tax)
+- [State Revenue Office of Tasmania: Foreign investor land tax surcharge, rate of surcharge](https://www.sro.tas.gov.au/land-tax/foreign-investor-land-tax-surcharge/rate-of-surcharge)
+- [State Revenue Office of Tasmania: Rates of land tax (last published 2 September 2026)](https://www.sro.tas.gov.au/land-tax/rates-of-land-tax)
 - [State Revenue Office Tasmania – Payroll tax rates and thresholds (last published 29 June 2026), '2026-27 financial year'; Annual Adjustment Return Guideline (2025-26 example calculations)](https://www.sro.tas.gov.au/payroll-tax/rates-thresholds)
+- [State Revenue Office of Tasmania: First home buyers of established homes duty relief](https://www.sro.tas.gov.au/property-transfer-duties/concessions-exemptions/first-home-buyers-of-established-homes-duty-relief)
+- [State Revenue Office of Tasmania: Foreign investor duty surcharge, rates of surcharge](https://www.sro.tas.gov.au/property-transfer-duties/foreign-investor-duty-surcharge/rates-of-surcharge)
+- [State Revenue Office of Tasmania: Rates of duty (property transfer duties, last published 30 September 2026)](https://www.sro.tas.gov.au/property-transfer-duties/rates-of-duty)
+- [State Revenue Office Victoria: Foreign purchaser additional duty (current rates) (updated 13 November 2026)](https://www.sro.vic.gov.au/about-us/rates-and-statistics/current-rates/foreign-purchaser-additional-duty-current-rates)
+- [State Revenue Office Victoria: Land tax (current rates) (updated 29 September 2026)](https://www.sro.vic.gov.au/about-us/rates-and-statistics/current-rates/land-tax-current-rates)
+- [State Revenue Office Victoria: Land transfer duty, non-principal place of residence (current rates) (updated 29 September 2026)](https://www.sro.vic.gov.au/about-us/rates-and-statistics/current-rates/land-transfer-duty-non-principal-place-residence-current-rates)
+- [State Revenue Office Victoria: First home buyer duty exemption or concession (updated 22 October 2026)](https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty/concessions-exemptions-and-waivers/first-home-buyers/first-home-buyer-duty-exemption-or-concession)
+- [State Revenue Office Victoria: Understanding the absentee owner surcharge (updated 28 October 2026)](https://www.sro.vic.gov.au/owning-property/land-tax/absentee-owner-surcharge/understanding-absentee-owner-surcharge)
+- [State Revenue Office Victoria: Principal place of residence exemption (updated 22 October 2026)](https://www.sro.vic.gov.au/owning-property/land-tax/exemptions-and-concessions-land-tax/principal-place-residence/principal-place-residence-exemption)
 - [WA Department of Finance – Payroll Tax Employer Guide: Calculation (last updated 2 June 2026), 'Current rates and thresholds' and 'Calculating the diminishing threshold'](https://www.wa.gov.au/government/multi-step-guides/payroll-tax-employer-guide/calculation-payroll-tax-employer-guide)
+- [Department of Treasury and Finance WA (RevenueWA): Land tax assessment (last updated 20 May 2026)](https://www.wa.gov.au/organisation/department-of-treasury-and-finance/land-tax-assessment)
+- [Department of Treasury and Finance WA (RevenueWA): Transfer duty assessment (last updated 30 July 2026)](https://www.wa.gov.au/organisation/department-of-treasury-and-finance/transfer-duty-assessment)
+- [WA Government: About foreign buyers duty (last updated 23 October 2026)](https://www.wa.gov.au/service/financial-management/taxation-and-duty/about-foreign-buyers-duty)
 - [WorkCover WA Media Statement - Recommended premium rates for workers compensation insurance 2026/27 (9 April 2026)](https://www.workcover.wa.gov.au/wp-content/uploads/2026/04/CEO-media-statement-RPR-2026-27.pdf)
 - [WorkCover Queensland - WorkCover Queensland holds premiums steady for the second year (last updated 26 June 2026)](https://www.workcoverqld.com.au/news-and-events/news/2026/workcover-queensland-holds-premiums-steady-for-the-second-year)
 - [WorkSafe Victoria Claims Manual - 1.1 Overview of the Scheme](https://www1.worksafe.vic.gov.au/vwa/claimsmanual/Claims%20Manual/1-the-scheme/1-1-overview-of-the-scheme.htm)
@@ -90,43 +133,91 @@ Currency CAD · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 95 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/canada/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026.csv) · [JSON](json/canada/2026.json) |
-| Ontario | 2026 | 38 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/ontario?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/on.csv) · [JSON](json/canada/2026/on.json) |
-| Quebec | 2026 | 20 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/quebec?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/qc.csv) · [JSON](json/canada/2026/qc.json) |
-| British Columbia | 2026 | 20 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/british-columbia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/bc.csv) · [JSON](json/canada/2026/bc.json) |
-| Alberta | 2026 | 11 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/alberta?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/ab.csv) · [JSON](json/canada/2026/ab.json) |
-| Manitoba | 2026 | 14 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/manitoba?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/mb.csv) · [JSON](json/canada/2026/mb.json) |
-| New Brunswick | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/new-brunswick?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nb.csv) · [JSON](json/canada/2026/nb.json) |
-| Newfoundland and Labrador | 2026 | 13 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/canada/tax-tables/2026/newfoundland-and-labrador?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nl.csv) · [JSON](json/canada/2026/nl.json) |
-| Nova Scotia | 2026 | 8 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/nova-scotia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/ns.csv) · [JSON](json/canada/2026/ns.json) |
-| Prince Edward Island | 2026 | 9 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/prince-edward-island?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/pe.csv) · [JSON](json/canada/2026/pe.json) |
-| Saskatchewan | 2026 | 7 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/saskatchewan?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/sk.csv) · [JSON](json/canada/2026/sk.json) |
-| Northwest Territories | 2026 | 8 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/canada/tax-tables/2026/northwest-territories?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nt.csv) · [JSON](json/canada/2026/nt.json) |
-| Nunavut | 2026 | 8 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/canada/tax-tables/2026/nunavut?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nu.csv) · [JSON](json/canada/2026/nu.json) |
-| Yukon | 2026 | 12 | 0 | verified | 2026-10-25 | [page](https://calcbloc.com/canada/tax-tables/2026/yukon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/yt.csv) · [JSON](json/canada/2026/yt.json) |
+| National | 2026 | 206 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026.csv) · [JSON](json/canada/2026.json) |
+| Ontario | 2026 | 63 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/ontario?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/on.csv) · [JSON](json/canada/2026/on.json) |
+| Quebec | 2026 | 33 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/quebec?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/qc.csv) · [JSON](json/canada/2026/qc.json) |
+| British Columbia | 2026 | 36 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/british-columbia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/bc.csv) · [JSON](json/canada/2026/bc.json) |
+| Alberta | 2026 | 19 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/alberta?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/ab.csv) · [JSON](json/canada/2026/ab.json) |
+| Manitoba | 2026 | 24 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/manitoba?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/mb.csv) · [JSON](json/canada/2026/mb.json) |
+| New Brunswick | 2026 | 12 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/new-brunswick?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nb.csv) · [JSON](json/canada/2026/nb.json) |
+| Newfoundland and Labrador | 2026 | 20 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/newfoundland-and-labrador?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nl.csv) · [JSON](json/canada/2026/nl.json) |
+| Nova Scotia | 2026 | 16 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/nova-scotia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/ns.csv) · [JSON](json/canada/2026/ns.json) |
+| Prince Edward Island | 2026 | 14 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/prince-edward-island?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/pe.csv) · [JSON](json/canada/2026/pe.json) |
+| Saskatchewan | 2026 | 16 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/saskatchewan?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/sk.csv) · [JSON](json/canada/2026/sk.json) |
+| Northwest Territories | 2026 | 13 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/northwest-territories?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nt.csv) · [JSON](json/canada/2026/nt.json) |
+| Nunavut | 2026 | 13 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/nunavut?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/nu.csv) · [JSON](json/canada/2026/nu.json) |
+| Yukon | 2026 | 17 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/canada/tax-tables/2026/yukon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/canada/2026/yt.csv) · [JSON](json/canada/2026/yt.json) |
 
-**Official sources (20):**
+**Official sources (68):**
 
+- [Service Alberta and Red Tape Reduction: Land Titles and Surveys Common Documents Fee Schedule (effective October 1, 2026)](https://alberta.ca/system/files/sartr-land-titles-and-surveys-common-documents-fee-schedule.pdf)
+- [Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)](https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf)
+- [Ministère des Finances du Québec: Bulletin d'information 2026-2 (17 avril 2026)](https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/FR/BULFR_2026-2.pdf)
+- [Manitoba Finance: Land Transfer Tax](https://gov.mb.ca/finance/other/landtransfertax.html)
+- [Constitution Act, 1867, s. 92 (Justice Laws Website)](https://laws-lois.justice.gc.ca/eng/Const/page-3.html)
+- [Income Tax Act s. 125(7) 'personal services business' and s. 123.5 (current to 2026-10-19); CRA fact sheet 'Personal services businesses' (psb-fs-en.pdf)](https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html)
+- [Income Tax Act, Part XIV, s. 219 and s. 219.2 (current to 2026-10-19)](https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html)
+- [Income Tax Act ss. 60(e), 60(g) and 118.7 (current to 2026-10-19); Canada Pension Plan s. 10 (current to 2026-10-19); CRA CPP and CPP2 rates and maximums pages (modified 2026-10-30)](https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-60.html)
+- [Prohibition on the Purchase of Residential Property by Non-Canadians Act, s. 4(1) (current to 2026-10-19); Department of Finance news release, 4 February 2024; Budget 2026, Chapter 3](https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html)
+- [Underused Housing Tax Act, s. 1.1 and s. 6.1 (current to 2026-10-19, last amended 2026-03-26); CRA: Underused Housing Tax (page details 2025-04-04)](https://laws-lois.justice.gc.ca/eng/acts/U-0.5/FullText.html)
+- [Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)](https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html)
+- [Real Property Transfer Tax Act, R.S.N.B. c. R-2.1 (not readable)](https://laws.gnb.ca/en/ShowPdf/cs/R-2.1.pdf)
+- [Service Nova Scotia: Municipal deed transfer and property tax](https://novascotia.ca/sns/access/land/deed-transfer-property-tax.asp)
+- [Service Nova Scotia: Municipal Deed Transfer Tax Rates (July 2026); Municipal deed transfer and property tax; Non-resident Provincial Deed Transfer Tax](https://novascotia.ca/sns/pdf/ans-property-dtt-rates.pdf)
+- [Government of Nunavut legislation (not read)](https://nunavutlegislation.ca/en/file-download/download/public/376)
+- [Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)](https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates)
+- [Alberta.ca: Education property tax](https://www.alberta.ca/education-property-tax)
+- [Services Charges Act, SNL 1998 c. S-13.2, s. 5 (amended to 2015 c10)](https://www.assembly.nl.ca/Legislation/sr/statutes/s13-2.htm)
+- [Community Charter, s. 197 (current to November 10, 2026); Speculation and Vacancy Tax Act, ss. 15-17 (current to November 10, 2026)](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/03026_07)
+- [Speculation and Vacancy Tax Act, s. 15 (current to November 10, 2026)](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/18046)
+- [Property Transfer Tax Regulation, B.C. Reg. 74/88 (current to November 10, 2026)](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/74_88)
+- [Property Transfer Tax Act, s. 3 (current to November 10, 2026)](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96378_01)
 - [T4127 Payroll Deductions Formulas, 122nd Edition, effective January 1, 2026 (CRA): What's new (Federal changes), Chapter 2 (BPAF formula), Chapter 4 Steps 2–3, Table 8.1 and Table 8.2](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/t4127-jan/t4127-01-26e.pdf)
 - [T4127 Payroll Deductions Formulas, 123rd Edition, effective July 1, 2026 (CRA), What's new (British Columbia), Chapter 5 Option 2 table (BC V and KP) and Table 8.2](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/t4127-jul/t4127-jul-26e.pdf)
+- [CRA: Fact sheet, Reporting fees for service requirement (last update 2026-04-14)](https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-fees-for-service/fact-sheet-reporting-fees-services.html)
+- [CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)](https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html)
+- [CRA: RC4110 Employee or Self-Employed? (page details 2023-10-06)](https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html)
+- [CRA: Corporation tax rates (page details 2026-10-21)](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html)
 - [CRA: GST/HST calculator (and rates) – GST/HST rates by province](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html)
 - [CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html)
 - [CRA: EI premium rates and maximums; T4127 (122nd Edition) Table 8.7 and Chapter 7](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html)
+- [CRA: Tax treatment of non-residents who perform services in Canada (page details 2025-05-20); Income Tax Regulations s. 105 (current to 2026-10-19)](https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rendering-services-canada/tax-treatment-non-residents-who-perform-services-canada.html)
 - [CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE](https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html)
+- [Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)](https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html)
+- [Canada.ca: Global minimum tax, About the tax (page details 2025-09-12)](https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html)
+- [Centre de services scolaire des Hautes-Rivières: Année scolaire 2026-2027, Taxe scolaire (2 July 2026)](https://www.cssdhr.gouv.qc.ca/wp-content/uploads/2026/07/2026-07-02_Comm_Pres_Taxe_Scol.pdf)
 - [Government of the Northwest Territories, Department of Finance: Payroll Tax for Employees](https://www.fin.gov.nt.ca/en/services/licences-taxes-et-droits/payroll-tax-employees)
+- [Manitoba Finance: Personal tax credits, Homeowners Affordability Tax Credit](https://www.gov.mb.ca/finance/personal/pcredits.html)
 - [Manitoba Finance, Taxation Division, Information Bulletin HE 001, Health and Post Secondary Education Tax Levy: Information for Employers (revised January 2026), pp. 3-5](https://www.gov.mb.ca/finance/taxation/pubs/bulletins/001he.pdf)
 - [Manitoba Finance, Taxation Division: Retail Sales Tax](https://www.gov.mb.ca/finance/taxation/taxes/retail.html)
 - [Government of Newfoundland and Labrador, Department of Finance, Health and Post Secondary Education Tax (Payroll Tax)](https://www.gov.nl.ca/fin/tax-programs-incentives/business/education/)
+- [Government of Newfoundland and Labrador: Municipal and Community Affairs](https://www.gov.nl.ca/mca/)
+- [Information Services Corporation (land titles registry operator): Land Titles Fees (page not readable)](https://www.isc.ca/LandTitles/Pages/LandTitlesFees.aspx)
+- [Government of the Northwest Territories (not readable)](https://www.justice.gov.nt.ca/en/files/land-titles/Notices%20and%20Practice%20Directions/2022%20Land%20Titles%20Fee%20Schedule.pdf)
+- [Nova Scotia: Non-resident Provincial Deed Transfer Tax](https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax)
 - [Payroll Tax Act, 1993 (Nunavut), consolidation, s. 3(1); Government of Nunavut, Department of Finance, Payroll Tax page](https://www.nunavutlegislation.ca/en/file-download/download/public/292)
 - [Ontario Ministry of Finance, Employer Health Tax (EHT): Rates, Exemption and Calculating EHT examples (updated September 18, 2026)](https://www.ontario.ca/document/employer-health-tax-eht)
+- [Ontario Ministry of Finance: Land Transfer Tax, Calculating land transfer tax (updated April 22, 2026)](https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax)
+- [Ontario Ministry of Finance: Land Transfer Tax Refunds for First-Time Homebuyers; Non-Resident Speculation Tax (updated May 04, 2026); City of Toronto MNRST](https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers)
+- [Ontario Ministry of Finance: Non-Resident Speculation Tax (updated May 04, 2026)](https://www.ontario.ca/document/non-resident-speculation-tax)
+- [Ontario Regulation 400/98 (Education Act): Tax matters, tax rates for school purposes (consolidation period from January 1, 2026)](https://www.ontario.ca/laws/regulation/980400)
+- [Government of Prince Edward Island: Real Property Transfer Tax (page behind a bot check)](https://www.princeedwardisland.ca/en/information/finance/real-property-transfer-tax)
+- [Government of Prince Edward Island (pages behind a bot check)](https://www.princeedwardisland.ca/en/topic/real-property-transfer-tax)
+- [Québec.ca: Taux de cotisation au Régime québécois d'assurance parentale (dernière mise à jour 19 mars 2026)](https://www.quebec.ca/entreprises-et-travailleurs-autonomes/administrer-gerer/embauche-gestion-personnel/assurance-parentale/taux-cotisations)
+- [Québec.ca: Droits sur les mutations immobilières (dernière mise à jour 17 février 2026)](https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres)
+- [Retraite Québec: Québec Pension Plan figures, basic information for 2026](https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures)
 - [Revenu Québec TP-1015.F-V (2026-01), Principal changes (QPP contributions) and section 3.1; Retraite Québec 'Québec Pension Plan Figures'](https://www.revenuquebec.ca/documents/en/formulaires/tp/TP-1015.F-V%282026-01%29.pdf)
 - [Revenu Québec: Basic rules for applying the GST/HST and QST](https://www.revenuquebec.ca/en/businesses/consumption-taxes/gsthst-and-qst/basic-rules-for-applying-the-gsthst-and-qst/)
 - [Revenu Québec, Contribution Related to Labour Standards; form LE-39.0.2-V (2026-01), Calculation of the Contribution Related to Labour Standards, lines 28-36](https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/calculating-source-deductions-and-contributions/contribution-related-to-labour-standards/)
 - [Revenu Québec, Contribution to the Workforce Skills Development and Recognition Fund](https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/calculating-source-deductions-and-contributions/contribution-to-the-workforce-skills-development-and-recognition-fund/)
 - [Revenu Québec, Total Payroll Threshold and Health Services Fund Contribution Rate (rates for 2026); Ministère des Finances du Québec, Information Bulletin 2025-8 (November 25, 2025), section 3](https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/calculating-source-deductions-and-contributions/employer-contribution-to-the-health-services-fund/total-payroll-threshold-and-health-services-fund-contribution-rate/)
 - [Government of Saskatchewan: Provincial Sales Tax](https://www.saskatchewan.ca/business/taxes-licensing-and-reporting/provincial-taxes-policies-and-bulletins/provincial-sales-tax)
+- [Saskatchewan.ca: Education property tax mill rates; Property taxes](https://www.saskatchewan.ca/residents/taxes-and-investments/property-taxes/education-property-tax-system)
+- [City of Toronto: Municipal Land Transfer Tax and Municipal Non-Resident Speculation Tax, Rates and Fees](https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/)
+- [Government of New Brunswick: Real property tax (page not readable)](https://www2.gnb.ca/content/gnb/en/departments/finance/taxes/real_property.html)
 - [Government of B.C., Employer health tax overview, rates for 2024 and later (last updated June 17, 2026); Charitable or non-profit employers page (last updated June 17, 2026)](https://www2.gov.bc.ca/gov/content/taxes/employer-health-tax/employer-health-tax-overview)
 - [Government of British Columbia: Provincial sales tax (PST)](https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst)
+- [Government of Yukon (page behind a bot check)](https://yukon.ca/en/find-out-land-titles-fees)
 
 ## Croatia
 
@@ -541,17 +632,38 @@ Currency EUR · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 50 | 0 | verified | 2026-11-06 | [page](https://calcbloc.com/ireland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/ireland/2026.csv) · [JSON](json/ireland/2026.json) |
+| National | 2026 | 144 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/ireland/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/ireland/2026.csv) · [JSON](json/ireland/2026.json) |
 
-**Official sources (7):**
+**Official sources (28):**
 
 - [Department of Social Protection: PRSI 2026 Contribution Rates and User Guide (SW 14), January 2026, pages 4–5 and 11–12](https://assets.gov.ie/static/documents/cb168977/PRSI_C20260116_Contribution_Rates_and_User_Guide_-_SW_14_-_English_Version_-_January_2026_.pdf-web.pdf)
+- [Law Reform Commission: Finance (Local Property Tax) Act 2012, Revised, updated to 7 May 2026, sections 19 to 21; Revenue: Valuation bands and rates, Local Adjustment Factor (published 27 October 2026); Revenue: LPT legislation (published 16 October 2026)](https://revisedacts.lawreform.ie/eli/2012/act/52/revised/en/html)
 - [Revenue: Corporation Tax (CT) — Basis of charge, published 25 September 2025](https://www.revenue.ie/en/companies-and-charities/corporation-tax-for-companies/corporation-tax/basis-of-charge.aspx)
+- [Revenue: Corporation Tax (CT), Overview (published 16 October 2026)](https://www.revenue.ie/en/companies-and-charities/corporation-tax-for-companies/corporation-tax/index.aspx)
+- [Revenue: Dividend Withholding Tax (DWT), Overview (published 24 August 2026); Tax and Duty Manual Part 06-08A-01](https://www.revenue.ie/en/companies-and-charities/dividend-withholding-tax/index.aspx)
+- [Revenue: What is the domestic top-up tax?; What are the Pillar Two rules?; Entities within the scope of the legislation (all published 18 June 2026)](https://www.revenue.ie/en/companies-and-charities/pillar-two/what-is/domestic-top-up-tax.aspx)
+- [Revenue: Tax and tax credits for non-residents (published 26 January 2026)](https://www.revenue.ie/en/jobs-and-pensions/tax-residence/non-residents.aspx)
+- [Revenue: What is a PAYE Exclusion Order? (published 24 November 2025); PAYE Exclusion Order issued by Revenue: Non-resident directors and employees recruited abroad (published 06 November 2026); Tax and Duty Manual Part 42-04-01 (Section 984 TCA 1997)](https://www.revenue.ie/en/jobs-and-pensions/tax-residence/paye-exclusion-order.aspx)
+- [Revenue: How to know if you are resident for tax purposes (published 24 November 2025)](https://www.revenue.ie/en/jobs-and-pensions/tax-residence/resident-for-tax-purposes.aspx)
 - [Revenue: Other rates of USC, published 1 January 2026; Department of Finance: Budget 2027 Tax Policy Changes (October 2026), section on USC and Table 4 (page 20)](https://www.revenue.ie/en/jobs-and-pensions/usc/other-rates.aspx)
 - [Revenue: Reduced rates of USC, published 1 January 2026](https://www.revenue.ie/en/jobs-and-pensions/usc/reduced-rates.aspx)
 - [Revenue: Standard rates and thresholds of USC, published 1 January 2026](https://www.revenue.ie/en/jobs-and-pensions/usc/standard-rates-thresholds.aspx)
+- [Revenue: Split-year treatment in your year of arrival (published 20 January 2026)](https://www.revenue.ie/en/life-events-and-personal-circumstances/moving-to-or-from-ireland/moving-or-returning-to-ireland/split-year-treatment-in-your-year-of-arrival.aspx)
 - [Revenue: Tax rates, bands and reliefs (tax year 2026 and previous years), published 1 January 2026](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/tax-relief-charts/index.aspx)
-- [Revenue: Current VAT rates (effective from 1 January 2026) and 'Standard rate of VAT', published 26 May 2026](https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx)
+- [Revenue: Who is liable for LPT? (published 22 October 2026)](https://www.revenue.ie/en/property/local-property-tax/lpt-liability/who-liable-lpt.aspx)
+- [Revenue: Local Property Tax (LPT), Valuation bands and rates (published 27 October 2026); Changes in valuation (published 27 October 2026)](https://www.revenue.ie/en/property/local-property-tax/valuing-your-property/valuation-bands-rates.aspx)
+- [Revenue: Transfers between spouses and between civil partners (published 06 November 2026)](https://www.revenue.ie/en/property/stamp-duty/exemptions-and-reliefs/transfers-between-spouses-and-between-civil-partners.aspx)
+- [Revenue: Stamp Duty and property, Rates (published 22 October 2025); Stamp Duty Manual, Schedule 1: Stamp duties on instruments (last updated April 2026); Tax and Duty Manual, Section 31E (last updated December 2025); Who has to pay Stamp Duty? (published 02 October 2026)](https://www.revenue.ie/en/property/stamp-duty/property/stamp-duty-property/rates.aspx)
+- [Revenue: Do you need to pay PRSI? (published 15 October 2026); Department of Social Protection: PRSI 2026 Contribution Rates and User Guide (SW 14), printed page 18; Law Reform Commission: Social Welfare Consolidation Act 2005, Revised, Part 2 Chapter 3](https://www.revenue.ie/en/self-assessment-and-self-employment/guide-to-self-assessment/prsi-need-pay.aspx)
+- [Revenue: Professional Services Withholding Tax (PSWT), PSWT for accountable persons; Overview; What are professional services? (all published 17 September 2024); Tax and Duty Manual Part 18-01-04 (last updated November 2025)](https://www.revenue.ie/en/self-assessment-and-self-employment/pswt/pswt-for-accountable-persons.aspx)
+- [Revenue: Relevant Contracts Tax (RCT), RCT for subcontractors; Overview; RCT for principal contractors (all published 19 May 2026); Tax and Duty Manual Part 18-02-05 (last updated October 2024)](https://www.revenue.ie/en/self-assessment-and-self-employment/rct/rct-subcontractors.aspx)
+- [Revenue: Tax relief for new start-up companies, Overview (published 02 April 2025)](https://www.revenue.ie/en/starting-a-business/initiatives-startup-businesses-smes/tax-relief-for-new-startup-companies/index.aspx)
+- [Revenue Tax and Duty Manual Part 05-01-30, Revenue Guidelines for Determining Employment Status for Taxation Purposes (last reviewed May 2026); Department of Social Protection: Code of Practice on Determining Employment Status (last updated 12 May 2025); Revenue: RCT for principal contractors (published 19 May 2026)](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-05/05-01-30.pdf)
+- [Revenue Tax and Duty Manual Part 13-02-05, Surcharge on Certain Undistributed Income of Close Companies (last updated January 2025); Part 13-02-06, Surcharge on Undistributed Income of Service Companies (last reviewed November 2024); Revenue: Close companies, Overview (published 12 November 2026)](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-13/13-02-05.pdf)
+- [Revenue Tax and Duty Manual Part 42-04-65, PAYE: Employee payroll tax deductions in relation to non-Irish employments exercised in the State, chapter 4 (last reviewed May 2026)](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-42/42-04-65.pdf)
+- [Revenue: Accounting for VAT on moneys received, Who may opt for the moneys received basis? (published 06 October 2026)](https://www.revenue.ie/en/vat/accounting-for-vat/accounting-for-vat-on-moneys-received/who-can-opt-moneys-received-basis.aspx)
+- [Revenue: Current VAT rates (table row 'Date effective from 1 January 2026'); Farmers and the Flat-rate Scheme, Overview (published 06 July 2026)](https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx)
+- [Revenue: VAT thresholds (published 27 October 2026; served at this address, linked as 'VAT thresholds' from Who needs to register for VAT?); Who needs to register for VAT? (published 27 October 2026); Overview of the EU VAT SME Scheme (published 10 November 2025)](https://www.revenue.ie/en/vat/vat-registration/who-should-register-for-vat/persons-required-register-goods-services-abroad.aspx)
 
 ## Italy
 
@@ -824,11 +936,15 @@ Currency NZD · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026-27 | 55 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/new-zealand/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/new-zealand/2026-27.csv) · [JSON](json/new-zealand/2026-27.json) |
+| National | 2026-27 | 149 | 8 | unverified | 2026-11-13 | [page](https://calcbloc.com/new-zealand/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/new-zealand/2026-27.csv) · [JSON](json/new-zealand/2026-27.json) |
 
-**Official sources (9):**
+**Official sources (26):**
 
+- [New Zealand Gazette notice 2025-au1361 (March 2025): ACC's Levy Rate Consultation 2024: A Report on the Results for Levies Affecting New Zealand Businesses](https://gazette.govt.nz/notice/id/2025-au1361)
+- [Employment New Zealand (Ministry of Business, Innovation and Employment): Employee or contractor](https://www.employment.govt.nz/starting-employment/types-of-worker/employee-or-contractor)
 - [Inland Revenue: Payroll Calculations & Business Rules Specification 1 April 2026 to 31 March 2027, sections 5.1 and 5.6](https://www.ird.govt.nz/-/media/project/ir/home/documents/digital-service-providers/software-providers/payroll-calculations-business-rules-specifications/payroll-calculations-and-business-rules-specification.pdf)
+- [Inland Revenue: Smart business, IR320 (August 2026), page 54](https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir300---ir399/ir320/ir320.pdf)
+- [Inland Revenue: Employer's guide, IR335 (September 2026), pages 8 and 14-17](https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir300---ir399/ir335/ir335.pdf)
 - [Inland Revenue: Full alternate rate calculations for fringe benefit tax (last updated 1 April 2026), FBT rate table for the 2026 year (from 1 April 2025)](https://www.ird.govt.nz/employing-staff/deductions-from-other-payments/fringe-benefit-tax/calculating/how-fbt-is-calculated/full-alternate-rate-calculations)
 - [Inland Revenue: Calculation options and rates for fringe benefit tax (last updated 1 April 2026)](https://www.ird.govt.nz/employing-staff/deductions-from-other-payments/fringe-benefit-tax/fringe-benefit-tax-rates)
 - [Inland Revenue: Calculating your GST; GST guide Working with GST IR375 (March 2026), page 5](https://www.ird.govt.nz/gst/filing-and-paying-gst-and-refunds/calculating-gst)
@@ -836,7 +952,20 @@ Currency NZD · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 - [Inland Revenue: ACC earners' levy rates](https://www.ird.govt.nz/income-tax/income-tax-for-individuals/acc-clients-and-carers/acc-earners-levy-rates)
 - [Inland Revenue: Independent earner tax credit (IETC)](https://www.ird.govt.nz/income-tax/income-tax-for-individuals/individual-tax-credits/independent-earner-tax-credit-ietc)
 - [Inland Revenue: Tax rates for individuals (From 1 April 2025 table) and Payroll Calculations & Business Rules Specification 1 April 2026 to 31 March 2027, section 2.6 and 5.2](https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals)
+- [Inland Revenue: About schedular payments for contractors (last updated 20 May 2025)](https://www.ird.govt.nz/income-tax/withholding-taxes/schedular-payments/about-schedular-payments-for-contractors)
+- [Inland Revenue: The GloBE rules (last updated 9 September 2026); OECD/G20 Inclusive Framework solution page (last updated 9 September 2026)](https://www.ird.govt.nz/international-tax/business/nz-globe-rules-and-inclusive-framework-2-pillar-solution/the-globe-rules)
+- [Inland Revenue: Filing the top-up tax return (last updated 12 November 2026)](https://www.ird.govt.nz/international-tax/business/nz-globe-rules-and-inclusive-framework-2-pillar-solution/the-globe-rules/filing-the-top-up-tax-return)
+- [Inland Revenue: Paying non-resident contractors (last updated 23 June 2026); Employer's guide IR335 (September 2026), pages 54-55](https://www.ird.govt.nz/international-tax/business/paying-non-resident-contractors)
+- [Inland Revenue: Tax residency status for companies (last updated 25 June 2025)](https://www.ird.govt.nz/international-tax/business/tax-residency-status-for-companies)
+- [Inland Revenue: Tax for non-resident taxpayers (last updated 1 April 2026)](https://www.ird.govt.nz/international-tax/individuals/tax-for-non-resident-taxpayers)
+- [Inland Revenue: Tax residency status for individuals (last updated 25 June 2026)](https://www.ird.govt.nz/international-tax/individuals/tax-residency-status-for-individuals)
+- [Inland Revenue: Joining KiwiSaver if I'm self-employed or not working (last updated 1 April 2026)](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver/joining-kiwisaver-if-im-self-employed-or-not-working)
 - [Inland Revenue: KiwiSaver benefits (Government contribution) and KiwiSaver changes](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/kiwisaver-benefits)
+- [Inland Revenue: Self-employed (last updated 6 July 2026)](https://www.ird.govt.nz/roles/self-employed)
+- [Local Government (Rating) Act 2002](https://www.legislation.govt.nz/act/public/2002/0006/latest/whole.html)
+- [Toitū Te Whenua Land Information New Zealand: Buying residential property to live in (last updated 6 March 2026)](https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live)
+- [Inland Revenue: Tax Information Bulletin Vol 11 No 5 (May/June 1999), page 4: Stamp Duty Abolished (Stamp Duty Abolition Act 1999)](https://www.taxtechnical.ird.govt.nz/-/media/project/ir/tt/pdfs/tib/volume-11---1999/tib-vol11-no05.pdf)
+- [Inland Revenue (Tax technical): Interpretation Guideline IG 16/01, Determining employment status for tax purposes (employee or independent contractor?), issued 8 March 2016, paragraphs 5-6](https://www.taxtechnical.ird.govt.nz/interpretation-guidelines/ig-1601-determining-employment-status-for-tax-purposes-employee-or-independent-contractor-)
 
 ## Norway
 
@@ -1352,23 +1481,59 @@ Currency GBP · current tax year 2026-27 · [tax tables on calcbloc.com](https:/
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026-27 | 78 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27.csv) · [JSON](json/uk/2026-27.json) |
-| Scotland | 2026-27 | 9 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/uk/tax-tables/2026-27/scotland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27/scotland.csv) · [JSON](json/uk/2026-27/scotland.json) |
-| Wales | 2026-27 | 6 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/uk/tax-tables/2026-27/wales?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27/wales.csv) · [JSON](json/uk/2026-27/wales.json) |
+| National | 2026-27 | 212 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/uk/tax-tables/2026-27?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27.csv) · [JSON](json/uk/2026-27.json) |
+| Scotland | 2026-27 | 43 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/uk/tax-tables/2026-27/scotland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27/scotland.csv) · [JSON](json/uk/2026-27/scotland.json) |
+| Wales | 2026-27 | 43 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/uk/tax-tables/2026-27/wales?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2026-27/wales.csv) · [JSON](json/uk/2026-27/wales.json) |
 | National | 2025-26 | 76 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2025-26.csv) · [JSON](json/uk/2025-26.json) |
 | Scotland | 2025-26 | 9 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26/scotland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2025-26/scotland.csv) · [JSON](json/uk/2025-26/scotland.json) |
 | Wales | 2025-26 | 6 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/uk/tax-tables/2025-26/wales?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/uk/2025-26/wales.csv) · [JSON](json/uk/2025-26/wales.json) |
 
-**Official sources (9):**
+**Official sources (45):**
 
+- [Business Wales (Welsh Government): Business rates in Wales (updated 18 September 2026)](https://businesswales.gov.wales/business-rates-wales)
+- [Revenue Scotland: The Additional Dwelling Supplement (ADS)](https://revenue.scot/taxes/land-buildings-transaction-tax/additional-dwelling-supplement-ads)
+- [Revenue Scotland: Land and Buildings Transaction Tax: Non-residential property](https://revenue.scot/taxes/land-buildings-transaction-tax/non-residential-property)
+- [Revenue Scotland: Land and Buildings Transaction Tax: Residential property](https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property)
+- [Scottish Government: Council tax datasets, 'Council Tax by band 2026-27' (CTAS 2026 workbook; page last updated 27 October 2026)](https://www.gov.scot/publications/council-tax-datasets/)
+- [GOV.UK: How Council Tax works (printable guide)](https://www.gov.uk/council-tax/print)
+- [GOV.UK: Estimate your business rates (multipliers for the 2026 to 2027 tax year)](https://www.gov.uk/estimate-your-business-rates)
+- [HM Treasury: Budget 2026 (HC 726, published 28 October 2026), chapter 7.22 Business and enterprise taxation](https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html)
 - [HMRC: Collection of student loans from 6 April 2026 (payroll technical specification)](https://www.gov.uk/government/publications/payroll-technical-specifications-student-loans/collection-of-student-loans-from-6-april-2026)
 - [HMRC: Corporation Tax rates and allowances (updated 1 April 2026)](https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax)
 - [HMRC: Income Tax rates and allowances for current and previous tax years (updated 6 April 2026)](https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past)
 - [HMRC: Rates and allowances: National Insurance contributions (updated 6 April 2026), section 3 Class 2 and Class 4](https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions)
+- [MHCLG: Council Tax levels set by local authorities in England 2026 to 2027: Technical Notes (published 25 March 2026)](https://www.gov.uk/government/statistics/council-tax-levels-set-by-local-authorities-in-england-2026-to-2027/council-tax-levels-set-by-local-authorities-in-england-2026-to-2027-technical-notes)
+- [HMRC: Check employment status for tax (CEST) (last updated 30 April 2025)](https://www.gov.uk/guidance/check-employment-status-for-tax)
+- [HMRC: Marginal Relief for Corporation Tax (last updated 5 January 2023)](https://www.gov.uk/guidance/corporation-tax-marginal-relief)
+- [HMRC: Claiming Double Taxation Relief for companies and other concerns](https://www.gov.uk/guidance/double-taxation-relief-for-companies)
+- [HMRC: New employee coming to work from abroad (last updated 10 December 2025)](https://www.gov.uk/guidance/new-employee-coming-to-work-from-abroad)
+- [HMRC: PAYE rules for labour supply chains that include umbrella companies from 6 April 2026 (last updated 19 June 2026)](https://www.gov.uk/guidance/paye-rules-for-labour-supply-chains-that-include-umbrella-companies-from-6-april-2026)
 - [HMRC: Rates and thresholds for employers 2025 to 2026 (published 31 January 2025, last updated 1 March 2026)](https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2025-to-2026)
 - [GOV.UK: Rates and thresholds for employers 2026 to 2027 (Class 1 National Insurance thresholds and rates)](https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027)
+- [HMRC: Rates of Stamp Duty Land Tax for non-UK residents (last updated 1 April 2025)](https://www.gov.uk/guidance/rates-of-stamp-duty-land-tax-for-non-uk-residents)
+- [HMRC: Stamp Duty Land Tax: buying an additional residential property (last updated 1 April 2025)](https://www.gov.uk/guidance/stamp-duty-land-tax-buying-an-additional-residential-property)
+- [HMRC: Stamp Duty Land Tax: corporate bodies (last updated 2 May 2025)](https://www.gov.uk/guidance/stamp-duty-land-tax-corporate-bodies)
+- [HMRC: Tax-free allowances on property and trading income (last updated 8 May 2019)](https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income)
+- [HMRC: Understanding off-payroll working (IR35) (last updated 26 February 2026)](https://www.gov.uk/guidance/understanding-off-payroll-working-ir35)
+- [HMRC Employment Status Manual ESM10006: meaning of medium or large sized non-public sector organisation (with ESM10006A: size-threshold changes from 6 April 2025)](https://www.gov.uk/hmrc-internal-manuals/employment-status-manual/esm10006)
+- [HMRC International Manual INTM262040: Non-residents trading in the UK: domestic charging provisions: Corporate Tax charge](https://www.gov.uk/hmrc-internal-manuals/international-manual/intm262040)
+- [HMRC Multinational Top-up Tax and Domestic Top-up Tax manual, MTT01100: Overview of Multinational Top-up Tax](https://www.gov.uk/hmrc-internal-manuals/multinational-top-up-tax-and-domestic-top-up-tax/mtt01100)
+- [HMRC Multinational Top-up Tax and Domestic Top-up Tax manual, MTT01200: Overview of Domestic Top-up Tax](https://www.gov.uk/hmrc-internal-manuals/multinational-top-up-tax-and-domestic-top-up-tax/mtt01200)
+- [HMRC National Insurance Manual NIM24001: Class 4 liability: general](https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim24001)
+- [GOV.UK: Cash basis (printable guide)](https://www.gov.uk/simpler-income-tax-cash-basis/print)
+- [GOV.UK: Simplified expenses if you're self-employed (printable guide)](https://www.gov.uk/simpler-income-tax-simplified-expenses/print)
+- [GOV.UK: Stamp Duty Land Tax (printable guide)](https://www.gov.uk/stamp-duty-land-tax/print)
+- [GOV.UK: Tax on foreign income: UK residence and tax](https://www.gov.uk/tax-foreign-income/residence)
 - [GOV.UK: Tax on your private pension contributions: Tax relief](https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief)
+- [GOV.UK: Tax on your UK income if you live abroad (printable guide)](https://www.gov.uk/tax-uk-income-live-abroad/print)
+- [GOV.UK: VAT Flat Rate Scheme (printable guide)](https://www.gov.uk/vat-flat-rate-scheme/print)
 - [GOV.UK: VAT rates](https://www.gov.uk/vat-rates)
+- [GOV.UK: What you must do as a Construction Industry Scheme (CIS) contractor: Make deductions and pay subcontractors](https://www.gov.uk/what-you-must-do-as-a-cis-contractor/make-deductions-and-pay-subcontractors)
+- [GOV.UK: What you must do as a Construction Industry Scheme (CIS) subcontractor (printable guide), section 5 How to get gross payment status](https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor/print)
+- [Welsh Government statistics: Council Tax levels: April 2026 to March 2027 (released 24 March 2026)](https://www.gov.wales/council-tax-levels-april-2026-march-2027-html)
+- [Welsh Revenue Authority: Land Transaction Tax rates and bands (last updated 10 December 2024)](https://www.gov.wales/land-transaction-tax-rates-and-bands)
+- [mygov.scot (Scottish Government): How your rates are calculated (non-domestic rates, last updated 30 Mar 2026)](https://www.mygov.scot/non-domestic-rates-guidance/rates-calculations)
+- [nidirect (Northern Ireland government): How rate bills are calculated](https://www.nidirect.gov.uk/articles/how-rate-bills-are-calculated)
 - [The Pensions Regulator: Earnings thresholds (table 'qualifying earnings for 2026 to 2027')](https://www.thepensionsregulator.gov.uk/employers/new-employers/im-an-employer-who-has-to-provide-a-pension/declare-your-compliance/ongoing-duties-for-employers/earnings-thresholds)
 
 ## United States
@@ -1377,94 +1542,136 @@ Currency USD · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 
 | Table | Tax year | Rows | Under review | Status | Last verified | Page | Files |
 |---|---|---:|---:|---|---|---|---|
-| National | 2026 | 70 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026.csv) · [JSON](json/us/2026.json) |
-| Alabama | 2026 | 24 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/alabama?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/al.csv) · [JSON](json/us/2026/al.json) |
-| Alaska | 2026 | 8 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/alaska?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ak.csv) · [JSON](json/us/2026/ak.json) |
-| Arizona | 2026 | 11 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/arizona?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/az.csv) · [JSON](json/us/2026/az.json) |
-| Arkansas | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/arkansas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ar.csv) · [JSON](json/us/2026/ar.json) |
-| California | 2026 | 47 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/california?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ca.csv) · [JSON](json/us/2026/ca.json) |
-| Colorado | 2026 | 15 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/colorado?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/co.csv) · [JSON](json/us/2026/co.json) |
-| Connecticut | 2026 | 41 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/connecticut?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ct.csv) · [JSON](json/us/2026/ct.json) |
-| Delaware | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/delaware?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/de.csv) · [JSON](json/us/2026/de.json) |
-| District of Columbia | 2026 | 20 | 15 | unverified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/district-of-columbia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/dc.csv) · [JSON](json/us/2026/dc.json) |
-| Florida | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/florida?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/fl.csv) · [JSON](json/us/2026/fl.json) |
-| Georgia | 2026 | 14 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/georgia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ga.csv) · [JSON](json/us/2026/ga.json) |
-| Hawaii | 2026 | 50 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/hawaii?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/hi.csv) · [JSON](json/us/2026/hi.json) |
-| Idaho | 2026 | 11 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/idaho?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/id.csv) · [JSON](json/us/2026/id.json) |
-| Illinois | 2026 | 11 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/illinois?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/il.csv) · [JSON](json/us/2026/il.json) |
-| Indiana | 2026 | 105 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/indiana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/in.csv) · [JSON](json/us/2026/in.json) |
-| Iowa | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/iowa?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ia.csv) · [JSON](json/us/2026/ia.json) |
-| Kansas | 2026 | 21 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/kansas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ks.csv) · [JSON](json/us/2026/ks.json) |
-| Kentucky | 2026 | 12 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/kentucky?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ky.csv) · [JSON](json/us/2026/ky.json) |
-| Louisiana | 2026 | 14 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/louisiana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/la.csv) · [JSON](json/us/2026/la.json) |
-| Maine | 2026 | 26 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/maine?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/me.csv) · [JSON](json/us/2026/me.json) |
-| Maryland | 2026 | 68 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/maryland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/md.csv) · [JSON](json/us/2026/md.json) |
-| Massachusetts | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/massachusetts?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ma.csv) · [JSON](json/us/2026/ma.json) |
-| Michigan | 2026 | 14 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/michigan?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mi.csv) · [JSON](json/us/2026/mi.json) |
-| Minnesota | 2026 | 31 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/minnesota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mn.csv) · [JSON](json/us/2026/mn.json) |
-| Mississippi | 2026 | 18 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/mississippi?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ms.csv) · [JSON](json/us/2026/ms.json) |
-| Missouri | 2026 | 22 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/missouri?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mo.csv) · [JSON](json/us/2026/mo.json) |
-| Montana | 2026 | 16 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/montana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mt.csv) · [JSON](json/us/2026/mt.json) |
-| Nebraska | 2026 | 21 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/nebraska?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ne.csv) · [JSON](json/us/2026/ne.json) |
-| Nevada | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/nevada?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nv.csv) · [JSON](json/us/2026/nv.json) |
-| New Hampshire | 2026 | 6 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-hampshire?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nh.csv) · [JSON](json/us/2026/nh.json) |
-| New Jersey | 2026 | 33 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-jersey?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nj.csv) · [JSON](json/us/2026/nj.json) |
-| New Mexico | 2026 | 26 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/new-mexico?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nm.csv) · [JSON](json/us/2026/nm.json) |
-| New York | 2026 | 50 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/new-york?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ny.csv) · [JSON](json/us/2026/ny.json) |
-| North Carolina | 2026 | 15 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/north-carolina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nc.csv) · [JSON](json/us/2026/nc.json) |
-| North Dakota | 2026 | 19 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/north-dakota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nd.csv) · [JSON](json/us/2026/nd.json) |
-| Ohio | 2026 | 47 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/ohio?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/oh.csv) · [JSON](json/us/2026/oh.json) |
-| Oklahoma | 2026 | 24 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/oklahoma?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ok.csv) · [JSON](json/us/2026/ok.json) |
-| Oregon | 2026 | 30 | 0 | verified | 2026-11-05 | [page](https://calcbloc.com/us/tax-tables/2026/oregon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/or.csv) · [JSON](json/us/2026/or.json) |
-| Pennsylvania | 2026 | 28 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/pennsylvania?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/pa.csv) · [JSON](json/us/2026/pa.json) |
-| Rhode Island | 2026 | 19 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/rhode-island?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ri.csv) · [JSON](json/us/2026/ri.json) |
-| South Carolina | 2026 | 14 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/south-carolina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/sc.csv) · [JSON](json/us/2026/sc.json) |
-| South Dakota | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/south-dakota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/sd.csv) · [JSON](json/us/2026/sd.json) |
-| Tennessee | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/tennessee?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/tn.csv) · [JSON](json/us/2026/tn.json) |
-| Texas | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/texas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/tx.csv) · [JSON](json/us/2026/tx.json) |
-| Utah | 2026 | 9 | 0 | verified | 2026-10-23 | [page](https://calcbloc.com/us/tax-tables/2026/utah?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ut.csv) · [JSON](json/us/2026/ut.json) |
-| Vermont | 2026 | 9 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/vermont?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/vt.csv) · [JSON](json/us/2026/vt.json) |
-| Virginia | 2026 | 17 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/virginia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/va.csv) · [JSON](json/us/2026/va.json) |
-| Washington | 2026 | 9 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/washington?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wa.csv) · [JSON](json/us/2026/wa.json) |
-| West Virginia | 2026 | 21 | 0 | verified | 2026-11-09 | [page](https://calcbloc.com/us/tax-tables/2026/west-virginia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wv.csv) · [JSON](json/us/2026/wv.json) |
-| Wisconsin | 2026 | 32 | 0 | verified | 2026-10-16 | [page](https://calcbloc.com/us/tax-tables/2026/wisconsin?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wi.csv) · [JSON](json/us/2026/wi.json) |
-| Wyoming | 2026 | 5 | 0 | verified | 2026-10-20 | [page](https://calcbloc.com/us/tax-tables/2026/wyoming?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wy.csv) · [JSON](json/us/2026/wy.json) |
+| National | 2026 | 131 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026.csv) · [JSON](json/us/2026.json) |
+| Alabama | 2026 | 36 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/alabama?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/al.csv) · [JSON](json/us/2026/al.json) |
+| Alaska | 2026 | 22 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/alaska?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ak.csv) · [JSON](json/us/2026/ak.json) |
+| Arizona | 2026 | 18 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/arizona?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/az.csv) · [JSON](json/us/2026/az.json) |
+| Arkansas | 2026 | 30 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/arkansas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ar.csv) · [JSON](json/us/2026/ar.json) |
+| California | 2026 | 59 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/california?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ca.csv) · [JSON](json/us/2026/ca.json) |
+| Colorado | 2026 | 23 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/colorado?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/co.csv) · [JSON](json/us/2026/co.json) |
+| Connecticut | 2026 | 53 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/connecticut?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ct.csv) · [JSON](json/us/2026/ct.json) |
+| Delaware | 2026 | 32 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/delaware?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/de.csv) · [JSON](json/us/2026/de.json) |
+| District of Columbia | 2026 | 32 | 15 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/district-of-columbia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/dc.csv) · [JSON](json/us/2026/dc.json) |
+| Florida | 2026 | 15 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/florida?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/fl.csv) · [JSON](json/us/2026/fl.json) |
+| Georgia | 2026 | 24 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/georgia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ga.csv) · [JSON](json/us/2026/ga.json) |
+| Hawaii | 2026 | 59 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/hawaii?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/hi.csv) · [JSON](json/us/2026/hi.json) |
+| Idaho | 2026 | 17 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/idaho?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/id.csv) · [JSON](json/us/2026/id.json) |
+| Illinois | 2026 | 19 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/illinois?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/il.csv) · [JSON](json/us/2026/il.json) |
+| Indiana | 2026 | 111 | 3 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/indiana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/in.csv) · [JSON](json/us/2026/in.json) |
+| Iowa | 2026 | 25 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/iowa?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ia.csv) · [JSON](json/us/2026/ia.json) |
+| Kansas | 2026 | 29 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/kansas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ks.csv) · [JSON](json/us/2026/ks.json) |
+| Kentucky | 2026 | 21 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/kentucky?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ky.csv) · [JSON](json/us/2026/ky.json) |
+| Louisiana | 2026 | 20 | 4 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/louisiana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/la.csv) · [JSON](json/us/2026/la.json) |
+| Maine | 2026 | 36 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/maine?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/me.csv) · [JSON](json/us/2026/me.json) |
+| Maryland | 2026 | 76 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/maryland?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/md.csv) · [JSON](json/us/2026/md.json) |
+| Massachusetts | 2026 | 25 | 7 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/massachusetts?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ma.csv) · [JSON](json/us/2026/ma.json) |
+| Michigan | 2026 | 23 | 3 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/michigan?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mi.csv) · [JSON](json/us/2026/mi.json) |
+| Minnesota | 2026 | 39 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/minnesota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mn.csv) · [JSON](json/us/2026/mn.json) |
+| Mississippi | 2026 | 27 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/mississippi?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ms.csv) · [JSON](json/us/2026/ms.json) |
+| Missouri | 2026 | 28 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/missouri?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mo.csv) · [JSON](json/us/2026/mo.json) |
+| Montana | 2026 | 25 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/montana?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/mt.csv) · [JSON](json/us/2026/mt.json) |
+| Nebraska | 2026 | 28 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/nebraska?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ne.csv) · [JSON](json/us/2026/ne.json) |
+| Nevada | 2026 | 15 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/nevada?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nv.csv) · [JSON](json/us/2026/nv.json) |
+| New Hampshire | 2026 | 12 | 4 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/new-hampshire?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nh.csv) · [JSON](json/us/2026/nh.json) |
+| New Jersey | 2026 | 45 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/new-jersey?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nj.csv) · [JSON](json/us/2026/nj.json) |
+| New Mexico | 2026 | 32 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/new-mexico?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nm.csv) · [JSON](json/us/2026/nm.json) |
+| New York | 2026 | 62 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/new-york?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ny.csv) · [JSON](json/us/2026/ny.json) |
+| North Carolina | 2026 | 24 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/north-carolina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nc.csv) · [JSON](json/us/2026/nc.json) |
+| North Dakota | 2026 | 28 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/north-dakota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/nd.csv) · [JSON](json/us/2026/nd.json) |
+| Ohio | 2026 | 58 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/ohio?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/oh.csv) · [JSON](json/us/2026/oh.json) |
+| Oklahoma | 2026 | 33 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/oklahoma?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ok.csv) · [JSON](json/us/2026/ok.json) |
+| Oregon | 2026 | 41 | 2 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/oregon?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/or.csv) · [JSON](json/us/2026/or.json) |
+| Pennsylvania | 2026 | 36 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/pennsylvania?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/pa.csv) · [JSON](json/us/2026/pa.json) |
+| Rhode Island | 2026 | 28 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/rhode-island?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ri.csv) · [JSON](json/us/2026/ri.json) |
+| South Carolina | 2026 | 25 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/south-carolina?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/sc.csv) · [JSON](json/us/2026/sc.json) |
+| South Dakota | 2026 | 14 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/south-dakota?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/sd.csv) · [JSON](json/us/2026/sd.json) |
+| Tennessee | 2026 | 14 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/tennessee?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/tn.csv) · [JSON](json/us/2026/tn.json) |
+| Texas | 2026 | 14 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/texas?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/tx.csv) · [JSON](json/us/2026/tx.json) |
+| Utah | 2026 | 14 | 3 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/utah?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/ut.csv) · [JSON](json/us/2026/ut.json) |
+| Vermont | 2026 | 21 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/vermont?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/vt.csv) · [JSON](json/us/2026/vt.json) |
+| Virginia | 2026 | 26 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/virginia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/va.csv) · [JSON](json/us/2026/va.json) |
+| Washington | 2026 | 23 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/washington?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wa.csv) · [JSON](json/us/2026/wa.json) |
+| West Virginia | 2026 | 29 | 1 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/west-virginia?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wv.csv) · [JSON](json/us/2026/wv.json) |
+| Wisconsin | 2026 | 37 | 3 | unverified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/wisconsin?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wi.csv) · [JSON](json/us/2026/wi.json) |
+| Wyoming | 2026 | 10 | 0 | verified | 2026-11-13 | [page](https://calcbloc.com/us/tax-tables/2026/wyoming?utm_source=calcbloc-data&utm_medium=docs&utm_campaign=itmarkerz-oss) | [CSV](csv/us/2026/wy.csv) · [JSON](json/us/2026/wy.json) |
 
-**Official sources (178):**
+**Official sources (467):**
 
 - [City of Gadsden business registration form (Revenue Department), footnote on occupation tax](http://www.cityofgadsden.com/DocumentCenter/View/752)
 - [PA DCED Municipal Statistics — EIT / PIT / LST Tax Register (Official Rates as of June 15, 2026), statewide report for reporting year 2026](https://apps.dced.pa.gov/munstats-public/ReportInformation2.aspx?report=EitWithCollector_Dyn_Excel&type=O)
+- [Kentucky Legislature: KRS 132.420 Duties and powers of property valuation administrator](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=28271)
+- [Kentucky Legislature: KRS 142.050 Real estate transfer tax](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43160)
+- [Montana Legislature: Montana Constitution, Article VIII, Section 17](https://archive.legmt.gov/bills/mca/title_0000/article_0080/part_0010/section_0170/0000-0080-0010-0170.html)
+- [Utah County Assessor: Residential Exemption](https://assessor.utahcounty.gov/residential-exemption)
 - [City of Auburn Revenue Office, Occupational License Fee](https://auburnalabama.org/revenue/tax-information/occupational-license-fee)
 - [Arizona Department of Revenue: Arizona Withholding Tax Information for Employers](https://azdor.gov/business/withholding-tax)
 - [Arizona Department of Revenue, 2026 Form 140ES Individual Estimated Tax Payment Booklet](https://azdor.gov/sites/default/files/document/FORMS_INDIVIDUAL_2026_140ESBooklet.pdf)
+- [Commonwealth of Massachusetts FY2022 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction](https://budget.digital.mass.gov/govbudget/fy22/tax-expenditure-budget/corporate-excise-tax/introduction)
+- [Commonwealth of Massachusetts FY2027 Governor's Budget, Tax Expenditure Budget: Corporate and Other Business Excise, Introduction](https://budget.digital.mass.gov/govbudget/fy27/tax-expenditure-budget/corporate-excise-tax/introduction)
 - [Colorado CDLE, Introductory Rates (2026)](https://cdle.colorado.gov/employers/unemployment-insurance-premiums/introductory-rates)
 - [City of Sheridan, Colorado: Occupational Privilege Tax](https://ci.sheridan.co.us/288/Occupational-Privilege-Tax)
+- [El Paso County Clerk and Recorder: Recording Fees](https://clerkandrecorder.elpasoco.com/recording/recording-fees/)
+- [Louisiana Legislative Auditor: Time Table for Ad Valorem Taxes (2/25/2025)](https://cms.lla.la.gov/assets/documents/TimeTable-Ad-Valorem-Taxes-2025.pdf)
+- [Code of the District of Columbia § 42-1103 (deed recordation tax), D.C. Law Library](https://code.dccouncil.gov/us/dc/council/code/sections/42-1103)
+- [Code of the District of Columbia § 47-1807.02 (corporation franchise tax rate), D.C. Law Library](https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02)
+- [Code of the District of Columbia § 47-1808.03, D.C. Law Library](https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03)
+- [Code of the District of Columbia § 47-903 (deed transfer tax), D.C. Law Library](https://code.dccouncil.gov/us/dc/council/code/sections/47-903)
 - [W. Va. Code § 11-21-4j, Rate of tax — Taxable years beginning on and after January 1, 2026 (added by SB 392, 2026 Regular Session); West Virginia Tax Division, 2026 Income Tax Rate Cut](https://code.wvlegislature.gov/11-21-4J/)
 - [Ohio Administrative Code 5703-7-10, Withholding on supplemental compensation (effective January 1, 2026)](https://codes.ohio.gov/ohio-administrative-code/rule-5703-7-10)
 - [Ohio Revised Code 5747.02 Tax rates (effective September 30, 2025, as amended by H.B. 96, 136th General Assembly)](https://codes.ohio.gov/ohio-revised-code/section-5747.02)
+- [Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)](https://comptroller.texas.gov/taxes/franchise/)
+- [Texas Comptroller of Public Accounts: Property Tax Assistance](https://comptroller.texas.gov/taxes/property-tax/)
+- [Texas Comptroller of Public Accounts: Property Tax Exemptions](https://comptroller.texas.gov/taxes/property-tax/exemptions/index.php)
+- [Tennessee Comptroller of the Treasury: How to Calculate Your Tax Bill](https://comptroller.tn.gov/office-functions/pa/property-taxes/how-to-figure-your-tax-bill.html)
 - [City of Lansing Income Tax Department, 2026 Form L-1040ES Estimated Income Tax instructions and worksheet](https://content.civicplus.com/api/assets/mi-lansing/76bc3634-69b9-417d-aadb-91b69ace6cb8)
 - [Colorado Legislative Council Staff, Economic & Revenue Forecast, September 2026 (TABOR refund mechanisms for tax year 2026)](https://content.leg.colorado.gov/sites/default/files/2026-09/sept2026-forecast-with-cover-for-remediation-and-posting-accessible.pdf)
+- [Delaware Division of Corporations: How to Calculate Franchise Taxes](https://corp.delaware.gov/frtaxcalc/)
+- [City of Cranston, RI: State Notice of Real Estate Conveyance Tax Rate Change](https://cranstonri.gov/state-notice-of-real-estate-conveyance-tax-change)
 - [Ohio ODJFS, 2026 Contribution Rate Details](https://dam.assets.ohio.gov/image/upload/jfs.ohio.gov/ouio/uctax/2026RateDetails.pdf)
+- [Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf)
+- [Ohio Department of Taxation: Corporation Franchise Tax (publication)](https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/corporation_franchise_tax.pdf)
 - [Louisiana Department of Revenue, Revenue Information Bulletin 26-005: Updated Withholding Tables](https://dam.ldr.la.gov/lawspolicies/RIB%2026-005-Updated%20Withholding%20Tables.pdf)
 - [Louisiana Department of Revenue, R-1306 (1/26) Louisiana Withholding Tables and Formulas](https://dam.ldr.la.gov/taxforms/1306-1-26.pdf)
+- [Pennsylvania DCED: State Tax Equalization Board (STEB)/Tax Equalization Division (TED)](https://dced.pa.gov/local-government/tax-equalization-division/)
 - [DC Office of Paid Family Leave: PFL Tax Rate Change FAQ and Preparation Guidance, PFL Tax Rate Table (Calendar Year 2026)](https://dcpaidfamilyleave.dc.gov/employer-information/)
 - [Delaware Code Title 30, Chapter 11 — § 1102(a)(14) rate schedule (taxable years beginning after December 31, 2013); § 1108 standard deduction; § 1110 personal credits](https://delcode.delaware.gov/title30/c011/sc01/index.html)
+- [Delaware Code Title 30, Chapter 54, Subchapter I: Realty Transfer Tax (§ 5402)](https://delcode.delaware.gov/title30/c054/sc01/index.html)
 - [City and County of Denver Tax Guide Topic No. 61, Occupational Privilege Taxes (Revised 04/2026)](https://denvergov.org/files/assets/public/v/2/finance/documents/treasury/tax-guides/2026/taxguidetopic61_occupationalprivilegetaxes.pdf)
 - [Arizona DES Form UIT-0603A (12/25), Unemployment Tax Rate Information 2026](https://des.az.gov/sites/default/files/dl/UIT-0603A_FY26.pdf)
 - [Nevada DETR Employment Security Division, What's New in UI Tax: Taxable Wage Base for 2026 (and 2025); UI Information for Employers: Tax Rate Schedule for 2026](https://detr.nv.gov/Page/UI_Tax)
 - [South Dakota Department of Labor & Regulation, Reemployment Assistance for Businesses: 2026 Wage Base and Rate Information; New Employer Tax Rates](https://dlr.sd.gov/ra/businesses/default.aspx)
 - [Rhode Island Department of Labor and Training, Employer Tax Unit (information effective for calendar year 2026)](https://dlt.ri.gov/employers/employer-tax-unit)
 - [RI Department of Labor and Training — 2026 Tax Rates for Unemployment Insurance and Temporary Disability Insurance (December 18, 2025); Employer Tax Unit page (2026); R.I. Gen. Laws §§ 28-39-2(22), 28-42-3(29)](https://dlt.ri.gov/press-releases/2026-tax-rates-unemployment-insurance-and-temporary-disability-insurance)
+- [Missouri House of Representatives: Bill summary, HCS HB 425 (2025), Corporate Income Taxes (PDF)](https://documents.house.mo.gov/billtracking/bills251/sumpdf/HB0425C.pdf)
 - [Georgia Department of Labor, Employers FAQs - Unemployment Insurance](https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance)
 - [Nebraska Department of Labor, 2026 Guide to Understanding Your Unemployment Insurance Tax Rate](https://dol.nebraska.gov/webdocs/Resources/Items/2026%20UI%20guide%20to%20understanding.pdf)
 - [New York State Department of Labor, Unemployment Insurance Rate Information](https://dol.ny.gov/unemployment-insurance-rate-information)
 - [Georgia Department of Revenue, Employer's Withholding Tax Guide 2026 (revised September 2026), p.14](https://dor.georgia.gov/document/document/2026-employers-tax-guide-updated-september-2026/download)
+- [Georgia Department of Revenue: Intangible Recording Tax](https://dor.georgia.gov/intangible-recording-tax)
+- [Georgia Department of Revenue: Local Government Services](https://dor.georgia.gov/local-government-services)
+- [Georgia Department of Revenue: Filing Property Tax in Georgia](https://dor.georgia.gov/local-government-services/filing-property-tax-georgia)
+- [Georgia Department of Revenue: Property Tax Homestead Exemptions](https://dor.georgia.gov/property-tax-homestead-exemptions)
+- [Georgia Department of Revenue: Property Tax Valuation](https://dor.georgia.gov/property-tax-valuation)
+- [Georgia Department of Revenue: Real Estate Transfer Tax](https://dor.georgia.gov/real-estate-transfer-tax)
+- [Georgia Department of Revenue: Corporate Income and Net Worth Tax](https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax)
 - [Missouri Department of Revenue, Form MO-1040ES 2026 Declaration of Estimated Tax for Individuals (Revised 12-2025), Form MO-1040ES Tax Rate Chart and line 5–6 instructions](https://dor.mo.gov/forms/MO-1040ES_2026.pdf)
 - [Missouri Department of Revenue, 2026 Missouri Withholding Tax Formula, 'Supplemental Pay Withholding'](https://dor.mo.gov/forms/Withholding%20Formula_2026.pdf)
 - [SCDOR SC Information Letter #26-23, Tax Legislative Update for 2026 (Oct. 1, 2026), House Bill 4216 (Act No. 110), Sections 1–3](https://dor.sc.gov/administrative-legislative-regulations-tax-legislation-update-2026)
+- [South Carolina Department of Revenue: Property](https://dor.sc.gov/property)
 - [SCDOR WH-1603F (2026) and WH-105 South Carolina Withholding Tax Information Guide](https://dor.sc.gov/sites/dor/files/forms/WH1603F_2026.pdf)
+- [South Dakota Department of Revenue: Business Taxes](https://dor.sd.gov/businesses/taxes/)
 - [South Dakota Department of Revenue, Individuals — Taxes (Income Tax)](https://dor.sd.gov/individuals/taxes/)
+- [South Dakota Department of Revenue: Property Tax](https://dor.sd.gov/individuals/taxes/property-tax/)
+- [Washington State Department of Revenue: Business tax structure in Washington State](https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state)
+- [Washington State Department of Revenue: Homeowner's Guide to Property Tax (June 2023)](https://dor.wa.gov/sites/default/files/2022-02/HomeOwn.pdf)
+- [Washington State Department of Revenue: Business & occupation tax classifications](https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications)
 - [Washington State Department of Revenue: Income tax](https://dor.wa.gov/taxes-rates/income-tax)
+- [Washington State Department of Revenue: High grossing business surcharge](https://dor.wa.gov/taxes-rates/other-taxes/high-grossing-business-surcharge)
+- [Washington State Department of Revenue: Real estate excise tax (Graduated REET structure effective Jan. 1, 2023)](https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax)
+- [Washington State Department of Revenue: Property tax](https://dor.wa.gov/taxes-rates/property-tax)
+- [Colorado Division of Property Taxation](https://dpt.colorado.gov/)
+- [Colorado Division of Property Taxation: Senior Property Tax Exemption](https://dpt.colorado.gov/senior-property-tax-exemption)
+- [Colorado Division of Property Taxation: Understanding Property Taxes in Colorado](https://dpt.colorado.gov/understanding-property-taxes-in-colorado)
 - [Wisconsin DWD Form UCT-43-E (R. 01/2026), Preliminary Report for 2026](https://dwd.wisconsin.gov/dwd/forms/ui/pdf/uct-43-e-2026.pdf)
 - [Arkansas Division of Workforce Services, Employer UI Information: Tax Rates 2026](https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/)
 - [Wyoming Department of Workforce Services, Unemployment Taxable Wage Base](https://dws.wyo.gov/dws-division/unemployment-insurance/wyui/unemployment-taxable-wage-base/)
@@ -1473,12 +1680,24 @@ Currency USD · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [Washington ESD, How we determine tax rates](https://esd.wa.gov/employer-requirements/unemployment-taxes/how-we-determine-tax-rates)
 - [DC Department of Employment Services, Employer Self-Service Portal notice for calendar year 2026; Form UC30 (rev 2/21)](https://essp.does.dc.gov/DOES%20ESSP%20Employer%20Landing%20Page.html)
 - [Colorado FAMLI Division: Premium and Benefits Calculator (2026 premiums)](https://famli.colorado.gov/individuals-and-families/how-famli-works/premium-and-benefits-calculator)
+- [IN.gov FAQs (Department of Local Government Finance): What is the Department of Local Government Finance and what does it do?](https://faqs.in.gov/hc/en-us/articles/115005067107-What-is-the-Department-of-Local-Government-Finance-and-what-does-it-do)
+- [IN.gov FAQs (Department of Local Government Finance): How are property taxes determined and calculated?](https://faqs.in.gov/hc/en-us/articles/115005239828-How-are-property-taxes-determined-and-calculated)
 - [Hawaii Revised Statutes Chapter 235, Income Tax Law (Department of Taxation unofficial compilation as of 12/31/2025) — §235-51 rates, §235-2.4 standard deduction, §235-54 exemptions](https://files.hawaii.gov/tax/legal/hrs/hrs_235.pdf)
 - [Hawaii Department of Taxation, Booklet A Employer's Tax Guide (Rev. 2025), Section 14(e) — supplemental wages](https://files.hawaii.gov/tax/news/pubs/25BkltA.pdf)
 - [Florida Department of Revenue, GT-800025 Tax Information for New Residents (R. 08/25, current edition), page 3](https://floridarevenue.com/Forms_library/current/brochure/gt800025.pdf)
+- [Florida Department of Revenue: Property Tax Oversight](https://floridarevenue.com/property/Pages/Home.aspx)
+- [Florida Department of Revenue: Property Tax - Taxpayers](https://floridarevenue.com/property/Pages/Taxpayers.aspx)
+- [Florida Department of Revenue: Property Tax - Exemptions](https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx)
+- [Florida Department of Revenue: Corporate Income Tax](https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx)
+- [Florida Department of Revenue: Documentary Stamp Tax](https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx)
 - [Florida Department of Revenue, Reemployment Tax Rate Information](https://floridarevenue.com/taxes/taxesfees/Pages/rt_rate.aspx)
+- [NH RSA 77-E:2, Imposition of Tax (Business Enterprise Tax)](https://gc.nh.gov/rsa/html/V/77-E/77-E-2.htm)
+- [Nevada Governor's Office of Economic Development: Doing Business In Nevada](https://goed.nv.gov/doing-business-nevada/)
 - [Georgia HB 463 (2026), The Georgia Economic Growth and Tax Relief Act of 2026, as passed and signed May 11, 2026](https://gov.georgia.gov/document/2026-signed-legislation/hb-463/download)
 - [Illinois IDES Form EA-50 (11/2025), 2026 State Experience Factor and Contribution Rates](https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/EA-50_2026.pdf)
+- [City of Keene, NH: Assessing, Tax Rate Information](https://keenenh.gov/assessing/tax-rate-information)
+- [Kansas Legislative Research Department: Mortgage Registration Tax and Statutory Fees for Recording Documents with County Registers of Deeds](https://klrd.gov/2023/11/22/mortgage-registration-tax-and-statutory-fees/)
+- [New Mexico Taxation and Revenue Department: 2025 CIT-1 Corporate Income and Franchise Tax Return instructions (TRD forms library file)](https://klvg4oyd4j.execute-api.us-west-2.amazonaws.com/prod/PublicFiles/34821a9573ca43e7b06dfad20f5183fd/ee3077c8-8b0b-457e-bd1a-b7c1e112d25c/2025cit-ins.pdf)
 - [Alaska Department of Labor and Workforce Development: 2026 Unemployment Insurance Tax Rates](https://labor.alaska.gov/estax/2026-experience-rates.html)
 - [Alaska Department of Labor and Workforce Development, 2026 Industry Rates](https://labor.alaska.gov/estax/2026-industry-rates.html)
 - [Delaware Department of Labor, Division of Unemployment Insurance, Employer Services: Delaware Merit Rate Table](https://labor.delaware.gov/divisions/unemployment-insurance/employer-services/)
@@ -1487,126 +1706,361 @@ Currency USD · current tax year 2026 · [tax tables on calcbloc.com](https://ca
 - [Missouri Division of Employment Security, Tax Rates](https://labor.mo.gov/des/employers/tax-rates)
 - [Vermont Department of Labor, Unemployment Tax Rates; press release on the 2026 taxable wage base](https://labor.vermont.gov/unemployment-insurance/ui-employers/unemployment-tax-rates)
 - [Delaware Department of Labor — Employers & Third Party Administrators Guide to Delaware Paid Leave (Contribution Rates & Calculations, pp. 35–37); Delaware Paid Leave Overview FAQ](https://laborfiles.delaware.gov/main/pfl/Employer_and_TPAs_Guide_to_DPL.pdf)
+- [Constitution of Virginia, Article X, Section 4 (Property segregated for local taxation)](https://law.lis.virginia.gov/constitution/article10/section4/)
+- [Code of Virginia § 58.1-1204 (Bank franchise tax, rate of tax)](https://law.lis.virginia.gov/vacode/title58.1/chapter12/section58.1-1204/)
+- [Code of Virginia § 58.1-400 (Imposition of tax)](https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-400/)
+- [Code of Virginia § 58.1-3201 (What real estate to be taxed; amount of assessment)](https://law.lis.virginia.gov/vacode/title58.1/chapter32/section58.1-3201/)
+- [Code of Virginia § 58.1-801 (Deeds generally)](https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-801/)
+- [Code of Virginia § 58.1-802.3 (Regional transportation improvement fee)](https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-802.3/)
+- [Code of Virginia § 58.1-802 (Additional tax paid by grantor)](https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-802/)
+- [Code of Virginia § 58.1-814 (City or county recordation tax)](https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-814/)
 - [Utah Legislature, S.B. 60 Income Tax Rate Amendments (2026 General Session), Enrolled Copy](https://le.utah.gov/Session/2026/bills/enrolled/SB0060.pdf)
+- [California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911)
+- [California Constitution, Article XIII A (Proposition 13), California Legislative Information](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=XIII%20A)
+- [Louisiana Legislature: bill digest on the homestead exemption (legis.la.gov document)](https://legis.la.gov/Legis/ViewDocument.aspx?d=1117928)
+- [Louisiana Legislature: Constitution Art. VII, Sec. 2.3 (Power to tax; limitation; sale or transfer of immovable property)](https://legis.la.gov/legis/LawPrint.aspx?d=765125)
+- [Maine Revised Statutes, Title 36, §5200: Imposition and rate of tax](https://legislature.maine.gov/statutes/36/title36sec5200.html)
+- [Louisiana Legislative Auditor: Governmental Audit Guide, Assessors & Millages](https://lla.la.gov/resources/local-government-reporting/louisiana-governmental-audit-guide/200-1030-assessors)
 - [Occupational License Tax Regulations of the Louisville/Jefferson County Metro Revenue Commission (adopted Dec. 16, 2025, effective Jan. 1, 2026), §1.02](https://louisvilleky.gov/sites/default/files/2026-01/Louisville%20Metro%20Revenue%20Commission%20Regulations%20(2026).1.pdf)
+- [Berkshire Middle District Registry of Deeds: Tax Stamps](https://massrods.com/berkshiremiddle/tax-stamps)
+- [Maryland Code, Tax-Property § 13-203 (Maryland General Assembly)](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=13-203&enactments=false)
+- [Maryland Code, Tax-Property § 2-201 (Maryland General Assembly)](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=2-201&enactments=false)
+- [Maryland Code, Tax-Property § 6-301 (Maryland General Assembly)](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-301&enactments=false)
+- [Maryland Code, Tax-Property § 6-302 (Maryland General Assembly)](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-302&enactments=false)
+- [Maryland Code, Tax-Property § 9-105 (Maryland General Assembly)](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=9-105&enactments=false)
 - [Minnesota Paid Leave (DEED), Small employer premium rate designation (2026 premiums)](https://mn.gov/deed/assets/paid-leave-small-employer-premium-rate-designation-acc_tcm1045-716947.pdf)
 - [City of Morgantown, Municipal Service Fee](https://morgantownwv.gov/735/Municipal-Service-Fee)
 - [Multnomah County Preschool For All Personal Income Tax, Withholding Requirements and Formula (2026 employer handbook); Metro SHS Employer Handbook 2026](https://multco.us/file/employer_handbook_pfa_2026/download)
+- [NCDOR Statistical Abstract: Table 51, Excise Stamp Tax on Conveyances (PDF)](https://ncdor.gov/documents/reports/table51-8/open)
+- [North Dakota Legislative Branch: Constitution of North Dakota, Article X (PDF)](https://ndlegis.gov/constit/a10.pdf)
+- [NJ Department of Community Affairs, Division of Local Government Services: Local Finance Notice 2025-19, CY 2026 Municipal Levy Cap Referendum Procedures](https://nj.gov/dca/dlgs/lfns/2025/2025-19.pdf)
+- [NJ Division of Taxation memorandum: Amendments to Graduated Percent Fee on Realty Transfers over $1 Million (July 2, 2025)](https://nj.gov/treasury/taxation/pdf/lpt/GraduatedPercentFeeNotice.pdf)
 - [Oklahoma Employment Security Commission, Employer Important Numbers 2026](https://oklahoma.gov/content/dam/ok/en/oesc/images/misc/Employer-Improtant-Numbers-2026.pdf)
+- [Oklahoma Tax Commission: Form DS-1, Monthly County Return of Documentary Stamp Sales (revised 11-2021)](https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/ad-valorem/current/DS-1.pdf)
+- [Oklahoma Tax Commission: Documentary Stamp Tax Quick Reference Guide (2021), quoting 68 O.S. 3201](https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2021AdValoremDocumentaryStampsQuickReferenceGuide.pdf)
+- [Oklahoma Tax Commission, Ad Valorem Tax Division: Ad Valorem Statistics 2024](https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/ad-valorem/2024StatBook.pdf)
 - [Oklahoma Administrative Code 710:90-1-6, Supplemental wages (OTC rules, 2026 edition)](https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/rules-and-policies/agency-rules/2026/Chapter90-Withholding-2026.pdf)
+- [Oklahoma Tax Commission: Ad Valorem](https://oklahoma.gov/tax/ad-valorem.html)
+- [Oklahoma Tax Commission: Other Taxes (Corporate Income Tax)](https://oklahoma.gov/tax/businesses/other-taxes.html)
+- [DC Office of Tax and Revenue: Real Property Assessment Process](https://otr.cfo.dc.gov/page/real-property-assessment-process-0)
+- [DC Office of Tax and Revenue: Real Property Tax Rates](https://otr.cfo.dc.gov/page/real-property-tax-rates)
+- [DC Office of Tax and Revenue: Real Property Tax Reliefs, Credits and Deductions](https://otr.cfo.dc.gov/page/real-property-tax-reliefs-credits-and-deductions)
 - [DC Office of Tax and Revenue — 2026 D-40ES Estimated Payment for Individual Income Tax (worksheet, PDF p. 10; Tax Rate Table, PDF p. 11)](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D40ES_Book_wLinks04012026.pdf)
 - [OTR Tax Notice 2022-08 (no supplemental wage rate published); 9 DCMR § 139 Supplemental Wage Payments (aggregate method)](https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/release_content/attachments/Important_Information_Regarding_the_District_of_Columbia_Withholding_for_Tax_Year_2022_updated_10_17_2022.pdf)
 - [U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026](https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf)
 - [U.S. Department of Labor, Potential 2026 Federal Unemployment Tax Act (FUTA) Credit Reductions](https://oui.doleta.gov/unemploy/docs/potential_credit_states_2026.xlsx)
 - [Washington ESD, Employer Wage Reporting and Premiums Toolkit v25.1 (June 2026) — Paid Leave premiums](https://paidleave.wa.gov/app/uploads/2021/12/Employer-Wage-Reporting-and-Premiums-Toolkit-v25.1-2026.06.26.pdf)
 - [City of Parkersburg Finance Department, Understanding City Fees](https://parkersburgwv.gov/departments/finance/fees.php)
+- [Connecticut DRS: Form OP-236, Connecticut Real Estate Conveyance Tax Return (Rev. 07/20)](https://portal.ct.gov/-/media/drs/forms/2020/real-estate/op236_2020_uf03_pr.pdf)
 - [CT DRS Informational Publication 2026(1), Connecticut Employer's Tax Guide, Circular CT — Supplemental Compensation (p. 12)](https://portal.ct.gov/-/media/drs/publications/pubsip/2026/ip-2026-1.pdf)
 - [CT DRS Informational Publication 2026(7), Is My Connecticut Withholding Correct? (effective January 1 – December 31, 2026) — 2026 Tax Calculation Schedule and Tables A–E](https://portal.ct.gov/-/media/drs/publications/pubsip/2026/ip-2026-7.pdf)
+- [Connecticut Office of Policy and Management: Mill Rates](https://portal.ct.gov/OPM/IGPP/Publications/Mill-Rates)
+- [Connecticut Department of Revenue Services: Corporation Business Tax Information](https://portal.ct.gov/drs/corporation-tax/tax-information)
+- [Connecticut DRS: Real Estate Conveyance Tax Changes (2019 legislative updates)](https://portal.ct.gov/drs/legislative-summaries/2019-legislative-updates/real-estate-conveyance-tax-change)
+- [Connecticut DRS: SN 2011(3), 2011 Legislative Changes Affecting the Real Estate Conveyance Tax](https://portal.ct.gov/drs/publications/special-notices/2011/sn-2011-3)
+- [Connecticut OPM: Statutes Governing Property Assessment and Taxation](https://portal.ct.gov/opm/igpp/services-and-forms/statutes-governing-property-assessment-and-taxation)
+- [Connecticut Office of Policy and Management: What is OPM's role in property taxes and refunds? (March 31, 2026)](https://portal.ct.gov/opm/knowledge-base/articles/general-services/what-is-opms-role-in-property-taxes-and-refunds)
+- [Utah State Tax Commission: Property Tax Division](https://propertytax.utah.gov/)
 - [New Mexico Taxation and Revenue, FYI-104 (Rev. 11/2025): New Mexico Withholding Tax, for wages paid on or after January 1, 2026](https://realfile.tax.newmexico.gov/FYI-104%202026.pdf)
+- [Delaware Division of Revenue: First-Time Home Buyer Tax Credit](https://revenue.delaware.gov/RTT/FHB_credit.shtml)
+- [Delaware Division of Revenue: Corporate Income Tax](https://revenue.delaware.gov/business-tax-forms/corporate-income-tax/)
 - [Delaware Division of Revenue — Employer's Guide, Section 14: Supplemental Wage Payments Including Tips](https://revenue.delaware.gov/employers-guide-withholding-regulations-employers-duties/)
+- [Iowa Department of Revenue: Iowa Tax/Fee Descriptions and Rates](https://revenue.iowa.gov/iowa-tax-fee-descriptions-and-rates)
+- [Iowa Department of Revenue: IDR Issues Order Related to Tax Year 2026 Corporate Income Tax Rates (2025-10-21)](https://revenue.iowa.gov/news/2025-10-21/idr-issues-order-related-tax-year-2026-corporate-income-tax-rates)
+- [Iowa Department of Revenue: Iowa Corporate Income Tax Rates](https://revenue.iowa.gov/taxes/tax-guidance/business-income-tax/iowa-corporate-income-tax-rates)
+- [Iowa Department of Revenue: Homestead Tax Credit and Exemption](https://revenue.iowa.gov/taxes/tax-guidance/property-tax/homestead-tax-credit-and-exemption)
+- [Iowa Department of Revenue: Iowa Property Tax Overview](https://revenue.iowa.gov/taxes/tax-guidance/property-tax/iowa-property-tax-overview)
 - [Iowa Department of Revenue, Iowa Withholding Tax Information](https://revenue.iowa.gov/taxes/tax-guidance/withholding-tax/iowa-withholding-tax-information)
+- [Kentucky Department of Revenue: Corporation Income and Limited Liability Entity Tax](https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx)
 - [Kentucky Department of Revenue, 42A003 (3-26) Withholding Kentucky Income Tax — Instructions for Employers (revised March 2026), sec. III](https://revenue.ky.gov/Forms/42A003-March%202026.pdf)
+- [Kentucky Department of Revenue: Interest & Tax Rate Table, 1989 through 2026](https://revenue.ky.gov/Property/Documents/2026%20Interest%20Tax%20Rate%20Table.pdf)
+- [Kentucky Department of Revenue: Property Tax Rates](https://revenue.ky.gov/Property/Pages/PropertyTaxRates.aspx)
+- [Kentucky Department of Revenue: Homestead Exemption](https://revenue.ky.gov/Property/Residential-Farm-Commercial-Property/Pages/Homestead-Exemption.aspx)
+- [Louisiana Department of Revenue: Corporate Income and Franchise Tax](https://revenue.louisiana.gov/businesses/widely-used-tax-types/corporate-income-franchise-tax/)
+- [Montana Department of Revenue: Property Assessment Division](https://revenue.mt.gov/about/property-assessment)
 - [Montana Department of Revenue, HB337: 2026–2027 Montana Individual Income Tax Changes (November 14, 2025)](https://revenue.mt.gov/news/recent-news/HB-337)
+- [Montana Department of Revenue: Certified Property Values and Mill Levies](https://revenue.mt.gov/property/appraisal/certified-property-values-and-mill-levies)
+- [Montana Department of Revenue: 2026 Property Tax Information](https://revenue.mt.gov/property/property-tax-changes/2026-property-tax-information)
+- [Montana Department of Revenue: Corporate Income Tax](https://revenue.mt.gov/taxes/corporate-income-tax)
+- [Nebraska Department of Revenue: Property Assessment Division, Purpose](https://revenue.nebraska.gov/PAD/about/purpose)
+- [Nebraska Department of Revenue: Documentary Stamp Tax](https://revenue.nebraska.gov/PAD/documentary-stamp-tax)
+- [Nebraska Department of Revenue: Documentary Stamp Tax Rate History](https://revenue.nebraska.gov/PAD/documentary-stamp-tax/documentary-stamp-tax-rate-history)
+- [Nebraska Department of Revenue: 2023 Nebraska Legislative Changes (LB 754, corporate rate change)](https://revenue.nebraska.gov/about/2023-nebraska-legislative-changes)
+- [Nebraska Department of Revenue: Nebraska Property Assessment FAQs](https://revenue.nebraska.gov/about/frequently-asked-questions/nebraska-property-assessment-faqs)
 - [2026 Circular EN Instructions — Bonuses, Supplemental Wages, and Taxable Awards (p.10)](https://revenue.nebraska.gov/sites/default/files/doc/business/Cir_En_2025/2026_instruct.pdf)
 - [Nebraska Department of Revenue, Nebraska Tax Rate Chronologies, Table 1 — Income Tax and Sales Tax Rates (Rev. 2-2026)](https://revenue.nebraska.gov/sites/default/files/doc/research/chronology/4-607table1.pdf)
+- [NH Department of Revenue Administration: Real Estate Transfer Tax](https://revenue.nh.gov/taxes-glance/real-estate-transfer-tax)
+- [Tennessee Department of Revenue: REC-1 Recordation Tax Overview](https://revenue.support.tn.gov/hc/en-us/articles/360057241552-REC-1-Recordation-Tax-Overview)
 - [Tennessee Department of Revenue, GEN-34 – Income Tax Withholding](https://revenue.support.tn.gov/hc/en-us/articles/360057595051-GEN-34-Income-Tax-Withholding)
+- [Wisconsin Department of Revenue: Corporation Franchise or Income Tax - General Information (FAQ)](https://revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx)
 - [Montana Department of Revenue, Montana Employer and Information Agent Guide (V4 November 2025) — Supplemental Wages](https://revenuefiles.mt.gov/files/Forms/Montana_Employer_and_Information_Agent_Guide_with_Tax_Tables.pdf)
+- [Rhode Island Code of Regulations: 280-RICR-20-75-1 Non-Owner Occupied Property Tax (active rule)](https://rules.sos.ri.gov/Regulations/part/280-20-75-1)
+- [South Dakota Codified Laws 10-43-4 (Time of liability for tax, rate of tax, minimum)](https://sdlegislature.gov/api/Statutes/10-43.html?all=true)
+- [South Dakota Codified Laws 43-4-21 (Imposition and amount of real estate transfer fee)](https://sdlegislature.gov/api/Statutes/43-4-21.html)
+- [Michigan Senate Fiscal Agency: State Notes, Spring 2016, Property Tax Millage Limits (PDF)](https://sfa.senate.michigan.gov/Publications/Notes/2016Notes/NotesSpr16lp.pdf)
+- [Michigan Senate Fiscal Agency: The Basics of School Funding (December 2023, PDF)](https://sfa.senate.michigan.gov/departments/datacharts/dck12_schoolfundingbasics.pdf)
+- [Kansas Register Vol. 42 No. 35 (Aug 31, 2023), Kansas Department of Revenue: Notice of Corporate Income Tax Normal Rate Reduction](https://sos.ks.gov/publications/Register/Volume-42/Issues/Issue-35/08-31-23-51443.html)
+- [Oregon Secretary of State, Oregon Blue Book: Finance and Taxes](https://sos.oregon.gov/blue-book/government/Pages/finance-taxes.aspx)
+- [Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table](https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f)
 - [Alaska Department of Revenue, Tax Division: Personal Income Tax](https://tax.alaska.gov/programs/programs/index.aspx?10001)
+- [Alaska Department of Revenue, Tax Division: Corporate Income Tax](https://tax.alaska.gov/programs/programs/index.aspx?60380)
+- [Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Description of Credits](https://tax.alaska.gov/programs/programs/reports/Credits.aspx?60018)
+- [Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Historical Overview](https://tax.alaska.gov/programs/programs/reports/Historical.aspx?60018)
+- [Colorado Department of Revenue: DR 0112EP 2026 Corporate Estimated Income Tax](https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf)
 - [Colorado Department of Revenue, Colorado Wage Withholding Tax Guide (Revised January 2026)](https://tax.colorado.gov/sites/tax/files/documents/Wage_Withholding_Tax_Guide_Jan_2026.pdf)
+- [Idaho State Tax Commission: Income Tax for Corporations](https://tax.idaho.gov/taxes/income-tax/business-income/guides-for-certain-businesses/income-tax-for-corporations/)
+- [Idaho State Tax Commission: Business Income Tax Basics (Business income tax rates)](https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/)
 - [Idaho State Tax Commission: Computing Withholding — Supplemental wages](https://tax.idaho.gov/taxes/income-tax/withholding/computing/)
+- [Idaho State Tax Commission: Property Tax](https://tax.idaho.gov/taxes/property/)
+- [Idaho State Tax Commission: Homeowner's Exemption](https://tax.idaho.gov/taxes/property/homeowners/exemption/)
 - [Idaho State Tax Commission, 2025 Individual Income Tax Instructions (EIN00046, 03-02-2026); Table for Percentage Computation Method of Withholding (EPB00744, 07-23-2026)](https://tax.idaho.gov/wp-content/uploads/forms/EIN00046/EIN00046_03-02-2026.pdf)
+- [Illinois Department of Revenue: Form PTAX-203 Illinois Real Property Transfer Declaration (R-10/24)](https://tax.illinois.gov/content/dam/soi/en/web/tax/localgovernments/property/documents/ptax-203.pdf)
+- [Illinois Department of Revenue: PIO-16 An Overview of Property Tax (R-10/23)](https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/documents/pios/pio-16.pdf)
 - [Illinois Department of Revenue Publication 130 (R-02/26), Who is Required to Withhold Illinois Income Tax](https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/pubs/documents/pub-130.pdf)
+- [Illinois Department of Revenue: Property Tax (Local Governments)](https://tax.illinois.gov/localgovernments/property.html)
+- [Illinois Department of Revenue: Property Tax Relief](https://tax.illinois.gov/localgovernments/property/taxrelief.html)
 - [Illinois Department of Revenue Informational Bulletin FY 2026-15, What's New for Illinois Income Taxes (December 2025)](https://tax.illinois.gov/research/publications/bulletins/fy-2026-15.html)
+- [Illinois Department of Revenue: PIO-62 An Overview of the Property Tax Extension Limitation Law](https://tax.illinois.gov/research/publications/pio-62.html)
+- [Illinois Department of Revenue: Income Tax Rates](https://tax.illinois.gov/research/taxrates/income.html)
 - [Nevada Department of Taxation: Income Tax in Nevada](https://tax.nv.gov/about-nevada-department-of-taxation/income-tax-in-nevada/)
+- [Nevada Department of Taxation: Commerce Tax](https://tax.nv.gov/tax-types/commerce-tax/)
+- [Nevada Department of Taxation: Property Tax](https://tax.nv.gov/tax-types/property-tax-on-interstate-and-inter-county-properties/)
+- [Nevada Department of Taxation: Real Property Transfer Tax](https://tax.nv.gov/tax-types/real-property-transfer-tax/)
+- [Nevada Department of Taxation: Nevada Property Tax: Elements and Application (2024)](https://tax.nv.gov/wp-content/uploads/2024/04/2024-Property-Tax-Elements-and-Applications.pdf)
+- [Nevada Department of Taxation: Property Tax Rates for Nevada Local Governments, FY 2026-2027 (certified June 25, 2026)](https://tax.nv.gov/wp-content/uploads/2026/06/FY-2026-2027-Tax-Levied-Revised-page-iii.pdf)
+- [NY Department of Taxation and Finance and Department of State: Publication 1000, The Property Tax Cap, Guidelines for Implementation (10/11)](https://tax.ny.gov/pdf/publications/orpts/capguidelines.pdf)
+- [Ohio Department of Taxation: Commercial Activity Tax (CAT) (September 3, 2025)](https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities)
 - [RI Division of Taxation ADV 2025-22 (November 3, 2025), Inflation-adjusted amounts set for Tax Year 2026](https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-11/ADV_2025_22_Inflation_Adjustments.pdf)
 - [2026 Rhode Island Employer's Income Tax Withholding Tables — Instructions §4 and §12 (Supplemental Wages)](https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-12/2026%20Withholding%20Tax%20Booklet.pdf)
 - [Utah State Tax Commission Publication 14 (Rev. 4/26), Withholding Tax Guide](https://tax.utah.gov/forms-pubs/pub-14/)
+- [Utah State Tax Commission: TC-20 Corporation Franchise and Income Tax Instructions](https://tax.utah.gov/forms/current/tc-20inst.pdf)
+- [Vermont Department of Taxes: Corporate Income Tax (Tax Rates)](https://tax.vermont.gov/business/corporate-income-tax)
+- [Vermont Department of Taxes: Municipal Officials](https://tax.vermont.gov/municipal-officials)
+- [Vermont Department of Taxes: Education Property Tax Rates](https://tax.vermont.gov/property/education-property-tax-rates)
+- [Vermont Department of Taxes: Property Transfer Tax](https://tax.vermont.gov/property/property-transfer-tax)
+- [Vermont Department of Taxes: Property Valuation & Review Annual Report](https://tax.vermont.gov/pvr-annual-report)
 - [Vermont Department of Taxes GB-1210-2026, 2026 Income Tax Withholding Instructions, Tables, and Charts (rates in the 2026 percentage-method tables)](https://tax.vermont.gov/sites/tax/files/documents/GB-1210-2026.pdf)
 - [Vermont Department of Taxes GB-1326, The Vermont Child Care Contribution (October 2024); GB-1210-2026 p. 4](https://tax.vermont.gov/sites/tax/files/documents/GB-1326.pdf)
+- [Vermont Department of Taxes: Form PTT-172 Instructions](https://tax.vermont.gov/sites/tax/files/documents/PTT-172%20Instr.pdf)
+- [West Virginia Tax Division: Ad Valorem Property Tax](https://tax.wv.gov/Business/PropertyTax/Pages/AdValoremPropertyTax.aspx)
+- [West Virginia Tax Division: Property Tax (Ad Valorem Property Tax)](https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTax.aspx)
+- [West Virginia Tax Division: Property Tax Exemptions](https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxExemptions.aspx)
+- [West Virginia Tax Division: Property Tax Rates](https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx)
+- [West Virginia Tax Division: 2025 Form CIT-120 Corporation Net Income Tax Instructions](https://tax.wv.gov/Documents/CIT/2025/cit120.instructions.2025.pdf)
 - [West Virginia Tax Division, Withholding Help and General Information — To Calculate Supplemental Withholding](https://tax.wv.gov/business/withholding/helpandgeneralinformation/Pages/WithholdingHelpAndGeneralInformation.aspx)
 - [Texas Constitution, Article 8, Sec. 24-a (Individual Income Tax Prohibited)](https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm)
+- [Texas Tax Code Section 23.23 (Limitation on appraised value of residence homestead), Texas Legislative Council](https://tcss.legis.texas.gov/resources/TX/htm/TX.23.htm)
 - [Ohio Department of Taxation, The Finder: Ohio Municipal Income Tax Rates (OHMuniRateTable.csv)](https://thefinder.tax.ohio.gov/?tab=fileDownloads)
 - [Kentucky Office of Unemployment Insurance, Employer Guide 2026](https://ui.ky.gov/Documents/KY-OUI_Employer%20Guide_2026.pdf)
 - [Montana Department of Labor & Industry, Unemployment Insurance Contributions Bureau, Rate Explanation (2026)](https://uid.dli.mt.gov/_docs/contributions-bureau/Rate-Explanation.pdf)
+- [Utah County Auditor: Tax Entities](https://utahcounty.gov/Dept/Auditor/TaxAdmin/Equalization/TaxingEntities.html)
+- [Washington County, Oregon: Assessment & Taxation, Transfer tax exemption](https://washingtoncountyor.gov/at/recording/transfer-tax-exemption)
+- [Rhode Island General Laws 44-25-1, Real estate conveyance tax](https://webserver.rilegislature.gov/Statutes/TITLE44/44-25/44-25-1.htm)
 - [Iowa Workforce Development, Unemployment Insurance Employer Handbook: Unemployment Insurance Taxes](https://workforce.iowa.gov/employers/unemployment-insurance/unemployment-insurance-employer-handbook/unemployment-insurance-taxes)
 - [Arkansas Act 2 of the 2026 First Extraordinary Session (SB 1), amending Ark. Code § 26-51-201(a)(4), approved May 6, 2026](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2026S1%2FPublic%2FACT2.pdf)
+- [Arizona Constitution, Article 9, Section 18 (Arizona Legislature)](https://www.azleg.gov/viewDocument/?docName=https://www.azleg.gov/const/9/18.htm)
+- [Arizona Constitution, Article 9, Section 24: Prohibition of new real property sale or transfer taxes](https://www.azleg.gov/viewDocument/?docName=https://www.azleg.gov/const/9/24.htm)
+- [Arizona Revised Statutes 42-13002: Relationship between department and county assessors](https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/42/13002.htm)
+- [Arizona Revised Statutes 42-17151: County, municipal, community college and school tax levy](https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/42/17151.htm)
+- [Arizona Revised Statutes 43-1111: Tax rates for corporations (Arizona Legislature)](https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/43/01111.htm)
+- [Barnstable County Registry of Deeds: Barnstable County Excise Tax Advisory](https://www.barnstabledeeds.org/?p=517)
 - [City of Birmingham, 'How to Become a Vendor for the Magic City Classic' — occupational tax calculation example (Tax & License Division)](https://www.birminghamal.gov/government/city-departments/parks-recreation/legion-field/magic-city-classic-2025/how-become-vendor-magic-city-classic)
+- [California State Board of Equalization: Homeowners' Exemption](https://www.boe.ca.gov/proptaxes/homeowners_exemption.htm)
+- [California State Board of Equalization: Property Tax](https://www.boe.ca.gov/proptaxes/proptax.htm)
+- [Hawaii State Legislature: Constitution of the State of Hawaii, Article VIII, Section 3](https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/05-CONST/CONST_0008-0003.htm)
+- [Hawaii State Legislature: HRS 235-71 Tax on corporations; rates](https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm)
+- [Hawaii State Legislature: HRS 241-4 Tax on financial institutions](https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0241/HRS_0241-0004.htm)
+- [Hawaii State Legislature: HRS 247-2 Basis and rate of tax (conveyance tax)](https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0247/HRS_0247-0002.htm)
 - [City of Charleston, City Service Fee Overview (Revised 12/2022)](https://www.charlestonwv.gov/sites/default/files/documents/2022-12/CITY%20SERVICE%20FEE%20OVERVIEW%2012.22%20%282%29.pdf)
 - [City of Flint, 2026 Employer's Withholding Tax Forms and Instructions](https://www.cityofflint.com/wp-content/uploads/2026/01/2025-City-of-Flint-Employers-Withholding-Forms-and-Instruction-Booklet.pdf)
 - [City of Huntington, City Service Fee](https://www.cityofhuntington.com/business/taxes-and-fees/city-service-fee/)
+- [Colorado Secretary of State: Constitution of the State of Colorado, Article X, Section 20](https://www.coloradosos.gov/pubs/info_center/laws/COConstitution/ArticleXSection20.html)
+- [Alaska DCCED: Office of the State Assessor](https://www.commerce.alaska.gov/web/dcra/OfficeoftheStateAssessor)
 - [Connecticut Paid Leave Authority — Contributions (2026) and Remit Contributions](https://www.ctpaidleave.org/how-ct-paid-leave-works/contributions)
 - [North Carolina DES, Tax Rate Information](https://www.des.nc.gov/employers/tax-rate-information)
+- [Arkansas DFA: Arkansas Assessment Coordination Division](https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/)
+- [Arkansas DFA, Assessment Coordination Division: Property Tax Relief](https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/real-property/property-tax-relief)
+- [Arkansas DFA: Real Property Transfer Tax](https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/)
+- [Arkansas Department of Finance and Administration: 2025 Corporation Income Tax Instructions (AR1100CT)](https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2025.pdf)
 - [Arkansas DFA, Withholding Tax Instructions for Employers (revised 4/27/26, posted 05/29/2026), Supplemental Wages](https://www.dfa.arkansas.gov/wp-content/uploads/Withholding-Tax-Instructions-for-Employers.pdf)
+- [Mississippi Department of Revenue: Business Tax Frequently Asked Questions (Corporate Income and Franchise Tax)](https://www.dor.ms.gov/business/business-tax-frequently-asked-questions)
+- [Mississippi Department of Revenue: Homestead Exemption](https://www.dor.ms.gov/county-services/homestead-exemption)
+- [Mississippi Department of Revenue: Local Property Appraisal](https://www.dor.ms.gov/county-services/local-property-appraisal)
+- [Mississippi Department of Revenue: Property Tax FAQs](https://www.dor.ms.gov/county-services/property-tax-frequently-asked-questions)
 - [Mississippi DOR Pub 89-700-25-1 (Rev. 07/25, revised file of Jan. 13, 2026), Withholding Income Tax Tables and Employer Instructions — Exemptions and Deductions Schedule; Income Tax Rates (Tax Year 2026)](https://www.dor.ms.gov/sites/default/files/tax-forms/business/89700251revised1.13.2026.pdf)
 - [California Franchise Tax Board, Tax News October 2026: 2026 Indexing (2026 California tax rate schedules)](https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/index.html)
+- [California Franchise Tax Board: Business tax rates (last updated 09/24/2025)](https://www.ftb.ca.gov/file/business/tax-rates.html)
+- [California Franchise Tax Board: Corporations](https://www.ftb.ca.gov/file/business/types/corporations/index.html)
 - [City of Glendale, Colorado: Occupational Privilege Tax](https://www.glendale.co.us/355/Occupational-Privilege-Tax)
 - [City of Grand Rapids Income Tax Department, Income Tax Guide for Withholders](https://www.grandrapidsmi.gov/departments/fiscal-services/income-tax/employers-and-withholders/income-tax-guide-for-withholders/)
 - [City of Greenwood Village: Occupational Privilege Tax (OPT)](https://www.greenwoodvillage.com/1220/Occupational-Privilege-Tax-OPT)
+- [Michigan House Fiscal Agency: State of Michigan Revenue, Source and Distribution (December 2024, PDF)](https://www.house.mi.gov/hfa/PDF/RevenueForecast/Source_and_Distribution_Dec2024.pdf)
+- [Minnesota House Research Department: Property Tax 101, Basic Terms (PDF)](https://www.house.mn.gov/hrd/pubs/ss/ssptterm.pdf)
+- [Indiana Department of Local Government Finance: Fact Sheet, Circuit Breaker Caps](https://www.in.gov/dlgf/files/user-guides/251113-Fact-Sheet-Circuit-Breaker-Caps.pdf)
+- [Indiana Department of Revenue: Indiana Tax Descriptions](https://www.in.gov/dor/about/news-publications/our-team/tax-types/)
 - [Indiana Department of Revenue Departmental Notice #1 (R47 / 10-26), How to Compute Withholding for State and County Income Tax, effective Oct. 1, 2026](https://www.in.gov/dor/files/dn01.pdf)
+- [Indiana Department of Revenue: General Tax Information Bulletin #200 (April 2025)](https://www.in.gov/dor/files/gb200.pdf)
 - [Indiana DWD, New Employer Premium Rate](https://www.in.gov/dwd/indiana-unemployment/employers/employer-guide/rate-computation/new-employer-premium-rate)
+- [IRS: Backup withholding (page last reviewed 10 Oct 2026)](https://www.irs.gov/businesses/small-businesses-self-employed/backup-withholding)
+- [IRS: Independent contractor (self-employed) or employee? (page last reviewed 19 May 2026)](https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee)
+- [IRS: Self-employment tax (Social Security and Medicare taxes) (page last reviewed 30 Oct 2026)](https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes)
+- [IRS: Sole proprietorships (page last reviewed 28 Jun 2026)](https://www.irs.gov/businesses/small-businesses-self-employed/sole-proprietorships)
+- [IRS: Understanding your Form 1099-K (page last reviewed 13 Nov 2026)](https://www.irs.gov/businesses/understanding-your-form-1099-k)
 - [IRS IR-2025-111 (Nov. 13, 2025): 401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500)
+- [IRS: Qualified business income deduction (page last reviewed 30 Oct 2026)](https://www.irs.gov/newsroom/qualified-business-income-deduction)
 - [Rev. Proc. 2025-19, section 2 (2026 HSA inflation-adjusted amounts)](https://www.irs.gov/pub/irs-drop/rp-25-19.pdf)
 - [Rev. Proc. 2025-32 (2026 inflation adjustments), sections 4.01 and 4.14; Publication 1040 (2026) Tax and Earned Income Credit Tables (early-release draft): 2026 Tax Table and 2026 Tax Computation Worksheet](https://www.irs.gov/pub/irs-drop/rp-25-32.pdf)
+- [IRS: Schedule SE (Form 1040) 2026, Self-Employment Tax, line 4a](https://www.irs.gov/pub/irs-pdf/f1040sse.pdf)
+- [IRS: Instructions for Forms 1099-MISC and 1099-NEC (Rev. December 2026)](https://www.irs.gov/pub/irs-pdf/i1099mec.pdf)
+- [IRS: Instructions for Form 1120 (2025), Schedule J, line 1a](https://www.irs.gov/pub/irs-pdf/i1120.pdf)
+- [IRS: Instructions for Form 1120-F (2025), Section III: Branch Profits Tax and Tax on Excess Interest](https://www.irs.gov/pub/irs-pdf/i1120f.pdf)
+- [IRS: Instructions for Form 4626, Alternative Minimum Tax - Corporations (2025); IRS: Corporate alternative minimum tax (page last reviewed 25 Oct 2026)](https://www.irs.gov/pub/irs-pdf/i4626.pdf)
 - [IRS Publication 15 (2026), (Circular E), section 9: Tax rates and the social security wage base limit; IRS Tax Topic 560, Additional Medicare Tax](https://www.irs.gov/pub/irs-pdf/p15.pdf)
+- [IRS: Publication 15-T (2026), Federal Income Tax Withholding Methods: Withholding Adjustment for Nonresident Alien Employees](https://www.irs.gov/pub/irs-pdf/p15t.pdf)
+- [IRS: Publication 505 (2026), Tax Withholding and Estimated Tax: What's New, State and local tax deduction increased](https://www.irs.gov/pub/irs-pdf/p505.pdf)
+- [IRS: Publication 515 (2026), Withholding of Tax on Nonresident Aliens and Foreign Entities: Pay for independent personal services](https://www.irs.gov/pub/irs-pdf/p515.pdf)
+- [IRS: Publication 519, U.S. Tax Guide for Aliens (for use in preparing 2025 returns), chapter 1: Substantial Presence Test](https://www.irs.gov/pub/irs-pdf/p519.pdf)
+- [IRS: Topic no. 503, Deductible taxes (page last reviewed 9 Nov 2026)](https://www.irs.gov/taxtopics/tc503)
+- [Jefferson County, Pennsylvania (county government): Property Tax](https://www.jeffersoncountypa.gov/departments/department-of-development/property-tax/)
 - [Job Service North Dakota, 2026 UI Tax Rate Schedules](https://www.jobsnd.com/sites/www/files/documents/jsnd-documents/uitaxrateschedules2026.pdf)
 - [City of Kansas City, Missouri Finance Department: Have You Paid Your KCMO Earnings Tax (E-Tax)?](https://www.kcmo.gov/city-hall/departments/finance/earnings-tax)
 - [Kansas Department of Revenue, Kansas 2026 Individual Estimated Tax (K-40ES) — Tax Computation Schedules and Standard Deduction Chart](https://www.ksrevenue.gov/pdf/k-40es26.pdf)
 - [KW-100 Withholding Tax Guide (Rev. 10-24), Supplemental Wages (p.8)](https://www.ksrevenue.gov/pdf/kw100.pdf)
+- [Kansas Office of Revisor of Statutes: K.S.A. 75-5105a Director of property valuation; powers and duties](https://www.ksrevisor.gov/statutes/chapters/ch75/075_051_0005a.html)
+- [Kansas Office of Revisor of Statutes: K.S.A. 76-6b01 (also 76-6b04 and 72-5142)](https://www.ksrevisor.gov/statutes/chapters/ch76/076_006b_0001.html)
+- [Kansas Office of Revisor of Statutes: K.S.A. 79-1107](https://www.ksrevisor.gov/statutes/chapters/ch79/079_011_0007.html)
+- [Kansas Office of Revisor of Statutes: K.S.A. 79-1439](https://www.ksrevisor.gov/statutes/chapters/ch79/079_014_0039.html)
+- [Kansas Office of Revisor of Statutes: K.S.A. 79-1801](https://www.ksrevisor.gov/statutes/chapters/ch79/079_018_0001.html)
+- [Kansas Office of Revisor of Statutes: K.S.A. 79-32,110 (c) Corporations](https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html)
 - [Idaho Department of Labor, 2026 Tax Rate Class Array](https://www.labor.idaho.gov/wp-content/uploads/2024/12/Tax-rate_Class-array_2026.pdf)
 - [Lexington-Fayette Urban County Government, Division of Revenue, 'Occupational license fee: rates and current forms'](https://www.lexingtonky.gov/working/business-licensing-taxes/occupational-license-fee-rates-current-forms)
 - [Maine Department of Labor — Paid Family and Medical Leave FAQs for Employers (July 2026); What Employers Need to Know: Premiums & Counting Employees](https://www.maine.gov/paidleave/docs/2026/employers/faq/employerFAQenglish.pdf)
 - [Maine Revenue Services — State of Maine 2026 Individual Income Tax Rates (revised May 20, 2026); Maine Tax Alert Vol. 36, Issue 10 (August 2026)](https://www.maine.gov/revenue/sites/maine.gov.revenue/files/2026-05/ind_tax_rate_sched_2026_rev.pdf)
 - [Maine Withholding Tables for Individual Income Tax (Revised August 2026), item 4 — Computing the Amount of Maine Taxes to Withhold](https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/26_wh_tab_instr_August2026.pdf)
+- [Maine Revenue Services: Property Tax Division](https://www.maine.gov/revenue/taxes/property-tax)
+- [Maine Revenue Services: Real Estate Transfer Tax](https://www.maine.gov/revenue/taxes/property-tax/transfer-tax)
+- [Maine Revenue Services: Property Tax Exemptions](https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/property-tax-relief-programs/property-tax-exemptions)
 - [Maine Department of Labor, 2026 Unemployment Insurance Tax Rates (rate array)](https://www.maine.gov/unemployment/docs/2026/employers/uitaxrates2026.pdf)
+- [Comptroller of Maryland: 2025 Maryland Corporation Income Tax Return Instructions (PDF)](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/corporate-booklet.pdf)
 - [Comptroller of Maryland, Maryland Employer Withholding Guide (effective January 2026), Local Tax Rates and 'Lump Sum Distribution of Annual Bonus' rates, p.9](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2026/withholding-guide.pdf)
 - [Comptroller of Maryland, Maryland Withholding Tax Facts, January 2026 – December 2026 (COM RAD 098, rev. 12/25), Tax Rate Schedules I and II](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/facts/withholding-tax-facts-2026.pdf)
+- [Comptroller of Maryland: Business and personal tax tip #30, A Brief Look at Maryland Taxes (PDF)](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/tips/misc/taxtip30.pdf)
+- [Mass.gov (Division of Local Services): Chapter 5, Setting the Tax Rate](https://www.mass.gov/doc/chapter-5-setting-the-tax-rate/download)
 - [Massachusetts Circular M (Rev. 12/25), section G — Percentage Methods for … Supplemental Wage Payments (e.g., Bonuses), paid January 1, 2026 and thereafter (p. 13)](https://www.mass.gov/doc/massachusetts-circular-m-income-tax-withholding-tables-at-50-effective-january-1-2026/download)
+- [Mass.gov: Massachusetts Municipal Property Taxes](https://www.mass.gov/guides/massachusetts-property-taxes)
+- [Mass.gov (Division of Local Services): FY2026 Tax Levies, Assessed Values and Tax Rates](https://www.mass.gov/info-details/fy2026-tax-levies-assessed-values-and-tax-rates)
 - [Massachusetts Department of Family and Medical Leave — Paid Family and Medical Leave employer contribution rates and calculator (2026)](https://www.mass.gov/info-details/paid-family-and-medical-leave-employer-contribution-rates-and-calculator)
 - [Massachusetts DOR — Tax Rates (personal income: 5.00%; tax year 2026 surtax of 4% on income exceeding $1,107,750); Personal Income Tax Exemptions](https://www.mass.gov/info-details/tax-rates)
 - [Michigan Department of Treasury, City Tax Administration Form 5469 (Rev. 05-25), 2026 City of Detroit Income Tax Withholding Guide](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/City-Withholding/TY2026/5469_ty2026.pdf)
 - [Michigan Department of Treasury Form 446 (Rev. 02-26), 2026 Michigan Income Tax Withholding Guide](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/SUW/TY2026/446_Withholding-Guide_2026.pdf)
+- [Michigan Department of Treasury: CIT Filing Requirements](https://www.michigan.gov/taxes/business-taxes/cit/detail/michigan-corporate-income-tax-cit/filing-requirements)
+- [Michigan Department of Treasury: State Real Estate Transfer Tax (SRETT)](https://www.michigan.gov/taxes/business-taxes/misc/state-real-estate-transfer-tax-srett)
+- [Michigan State Tax Commission: 2025 Annual Report (PDF)](https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/STC/2025/2025-Annual-Report.pdf)
 - [Michigan Department of Treasury taxpayer notice: 4.25% Income Tax Rate for Individuals and Fiduciaries in 2026 Tax Year (April 15, 2026)](https://www.michigan.gov/treasury/reference/taxpayer-notices/2026/04/15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year)
 - [NCDOR NC-30, 2026 Income Tax Withholding Tables and Instructions for Employers (Web 11-25), 'New for 2026'](https://www.ncdor.gov/income-tax-withholding-tables-and-instructions-employers/open)
+- [NCDOR: Corporate Income and Franchise Tax Rates](https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates)
+- [NCDOR: How To Calculate A Tax Bill](https://www.ncdor.gov/taxes-forms/property-tax/how-calculate-tax-bill)
+- [NCDOR: Property Tax Division](https://www.ncdor.gov/taxes-forms/property-tax/property-tax-division)
+- [NCDOR: Types of Property to be Taxed](https://www.ncdor.gov/taxes-forms/property-tax/types-property-be-taxed)
+- [New Castle County, Delaware: Property Reassessment and Tax Billing FAQ (updated 12/9/25)](https://www.newcastlede.gov/DocumentCenter/View/61692/Property-Reassessment-and-Tax-Billing-FAQ---111425)
 - [New Hampshire Employment Security, Tax Rate Chart (Quarterly Fund Balance Reductions) and New Employer Registration](https://www.nhes.nh.gov/employers/employer-claims-taxes/tax-rate-chart)
 - [NJ Department of Labor & Workforce Development, Division of Employer Accounts — Rate Information (2026 worker rates, effective January 1 – December 31, 2026) and Employer Taxes and Wage Reporting (definition of wages)](https://www.nj.gov/labor/ea/employer-services/rate-info/)
+- [NJ Division of Taxation: Corporate Transit Fee (last updated 06/02/25)](https://www.nj.gov/treasury/taxation/cbt/corporatetransitfee.shtml)
+- [NJ Division of Taxation: How My Property is Valued (last updated 08/12/25)](https://www.nj.gov/treasury/taxation/lpt/genlpt.shtml)
+- [NJ Division of Taxation: Local Property Administration](https://www.nj.gov/treasury/taxation/lpt/localtax.shtml)
+- [NJ Division of Taxation: 2025 CBT-100 General Instructions for New Jersey Corporation Business Tax Return](https://www.nj.gov/treasury/taxation/pdf/current/cbt/cbt100ins.pdf)
 - [NJ-WT (September 2025), p. 11 — Withholding on Supplemental Wage Payments](https://www.nj.gov/treasury/taxation/pdf/current/njwt.pdf)
+- [NJ Division of Taxation: Realty Transfer Fee (last updated 11/13/26)](https://www.nj.gov/treasury/taxation/realty.shtml)
 - [NJ Division of Taxation — NJ Income Tax Rates (page last updated 09/28/26) and its 'New Jersey Tax Rate Schedules — 2020 and After' (njtaxratesch.pdf, Tables A and B); 2025 NJ-1040 instructions, Exemptions (lines 6–12, pp. 6–7)](https://www.nj.gov/treasury/taxation/taxtables.shtml)
+- [New Mexico Department of Finance and Administration: Overview of Property Tax Certification Process, effective July 28, 2026](https://www.nmdfa.state.nm.us/wp-content/uploads/2026/08/Overview-of-Property-Tax-Certification-Process-effective-7-28-2026.pdf)
+- [New Mexico Legislative Finance Committee: Fiscal impact report, SB 160 (2008)](https://www.nmlegis.gov/Sessions/08%20Regular/firs/SB0160.html)
 - [New York Tax Law §601 (resident tax rate schedules, taxable years beginning in 2026: subsections (a)(1)(vii), (b)(1)(vii), (c)(1)(vii)); Tax Law §614 standard deduction; Tax Law §616 dependent exemption](https://www.nysenate.gov/legislation/laws/TAX/601)
 - [Oklahoma Legislature, Enrolled House Bill 2764 (2025), amending 68 O.S. Section 2355 (individual income tax rates for tax year 2026)](https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB2764%20ENR.PDF)
 - [City of Opelika Revenue Department, Occupation License](https://www.opelika-al.gov/338/Occupation-License)
 - [Oregon DCBS: Workers' Benefit Fund assessment; ORS 656.506(2)-(3)](https://www.oregon.gov/dcbs/wbf/pages/index.aspx)
 - [Oregon Department of Revenue, 2026 Publication OR-ESTIMATE (150-101-026, Rev. 10-07-25), Oregon Estimated Income Tax Instructions — rate charts for 2026](https://www.oregon.gov/dor/forms/FormsPubs/publication-or-estimate_101-026_2026.pdf)
 - [Oregon Department of Revenue Publication 150-206-436 (Rev. 12-31-25) — Alternative withholding method for supplemental wage payments](https://www.oregon.gov/dor/forms/FormsPubs/withholding-tax-formulas_206-436_2026.pdf)
+- [Oregon Department of Revenue: Corporation tax filing requirements, minimum tax and tax rates](https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx)
+- [Oregon Department of Revenue: Corporate Activity Tax](https://www.oregon.gov/dor/programs/businesses/pages/corporate-activity-tax.aspx)
 - [Oregon Department of Revenue: Statewide Transit Tax](https://www.oregon.gov/dor/programs/businesses/pages/statewide-transit-tax.aspx)
+- [Oregon Department of Revenue: County Assessment Function Funding Assistance (CAFFA)](https://www.oregon.gov/dor/programs/property/Pages/CAFFA.aspx)
 - [Oregon Employment Department press release (Nov. 18, 2025): Unemployment Insurance tax and Paid Leave Oregon contribution rates hold steady for 2026](https://www.oregon.gov/employ/NewsAndMedia/Documents/2025-11-18_Tax_Rate_2026_Press_Release.pdf)
 - [Oregon Employment Department, Current Tax Rate (2026)](https://www.oregon.gov/employ/businesses/pages/current-tax-rate.aspx)
+- [Oregon State Legislature: Oregon Constitution, Article IX, section 15](https://www.oregonlegislature.gov/bills_laws/Pages/OrConst.aspx)
 - [Metro Supportive Housing Services Personal Income Tax, Employer Handbook 2026](https://www.oregonmetro.gov/sites/default/files/2026-01/metro-employer-handbook-2026.pdf)
 - [PA Department of Labor & Industry — UC Tax Yearly Tax Highlights (2026)](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights)
+- [Pennsylvania Department of Revenue: Corporate Net Income Tax](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax)
 - [PA Department of Revenue — Personal Income Tax (rate statement)](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/personal-income-tax)
+- [Pennsylvania Department of Revenue: Realty Transfer Tax](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax)
+- [Pennsylvania Department of Revenue: Realty Transfer Tax, New Home Construction](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax/new-home-construction)
 - [Pennsylvania L&I Form UC-749 (Rev. 09-25), Contribution Rate Chart](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-25.pdf)
 - [REV-415 (SU) 01-23 Employer Withholding Information Guide — Calculation of Withholding (p. 12)](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/employerwithholding/documents/rev-415.pdf)
 - [City of Philadelphia Department of Revenue — Tax Rate History (Wage Tax / Earnings Tax); Wage Tax (employers) page](https://www.phila.gov/departments/department-of-revenue/forms-documents/regulations-rulings/tax-rate-history/)
+- [Alabama Department of Revenue FAQ: What is the corporate income tax rate?](https://www.revenue.alabama.gov/faqs/what-is-the-corporate-income-tax-rate)
+- [Alabama Department of Revenue: Property Tax](https://www.revenue.alabama.gov/property-tax/)
+- [Alabama Department of Revenue: Homestead Exemptions](https://www.revenue.alabama.gov/property-tax/homestead-exemptions/)
+- [Alabama Department of Revenue: Recordation Tax](https://www.revenue.alabama.gov/tax-types/recordation-tax/)
+- [Alabama Department of Revenue: Summary of Alabama Taxes and Tax Incentives (May 2025)](https://www.revenue.alabama.gov/wp-content/uploads/2025/05/summary.pdf)
 - [Alabama Department of Revenue, Withholding Tax Tables and Instructions for Employers and Withholding Agents (revised January 2026), Formula for Computing Alabama Withholding Tax, p.7](https://www.revenue.alabama.gov/wp-content/uploads/2026/01/whbooklet_0126.pdf)
+- [NH Department of Revenue Administration: What is the Business Profits Tax (BPT)?](https://www.revenue.nh.gov/faq/business-profits.htm)
 - [NH Department of Revenue Administration — Interest & Dividends Tax (taxes at a glance); TIR 2025-001, Interest and Dividends Tax Repealed Effective January 1, 2025](https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax)
 - [Minnesota Department of Revenue press release: Minnesota income tax brackets, standard deduction and dependent exemption amounts for tax year 2026 (Dec. 16, 2025)](https://www.revenue.state.mn.us/press-release/2025-12-16/minnesota-income-tax-brackets-standard-deduction-and-dependent-exemption)
 - [2026 Minnesota Income Tax Withholding Instruction Booklet, 'Overtime, Commissions, Bonuses, and Other Supplemental Payments' (p.7)](https://www.revenue.state.mn.us/sites/default/files/2025-12/wh-inst-26.pdf)
 - [Wisconsin Department of Revenue Publication W-166 (1/26), supplemental wages](https://www.revenue.wi.gov/DOR%20Publications/pb166.pdf)
+- [Wisconsin Department of Revenue: Property Tax Overview (2024)](https://www.revenue.wi.gov/DORReports/PropTaxOverview2024.pdf)
 - [Wisconsin Department of Revenue, 2026 Form 1-ES Instructions (2026 Tax Rate Schedules and Standard Deduction Schedules for Full-Year Residents)](https://www.revenue.wi.gov/TaxForms2026/2026-Form1-ES-Inst.pdf)
+- [Minnesota Statutes 270C.85: Property tax administration (Office of the Revisor of Statutes)](https://www.revisor.mn.gov/statutes/cite/270C.85)
+- [Minnesota Statutes 275.025: State general tax (Office of the Revisor of Statutes)](https://www.revisor.mn.gov/statutes/cite/275.025)
+- [Minnesota Statutes 287.21: Imposition of tax; determination of tax (Office of the Revisor of Statutes)](https://www.revisor.mn.gov/statutes/cite/287.21)
+- [Minnesota Statutes 290.06: Rates of tax; credits (Office of the Revisor of Statutes)](https://www.revisor.mn.gov/statutes/cite/290.06)
+- [Minnesota Statutes 290.0922: Minimum fee; corporations; partnerships (Office of the Revisor of Statutes)](https://www.revisor.mn.gov/statutes/cite/290.0922)
+- [Minnesota Statutes 383B.80: Hennepin County deed and mortgage tax (Office of the Revisor of Statutes)](https://www.revisor.mn.gov/statutes/cite/383B.80)
+- [RI.gov press release: Division of Municipal Finance makes FY18 Property Tax Cap available](https://www.ri.gov/press/view/32307)
+- [Oklahoma State Auditor & Inspector: Newsletter November/December 2020, Where Do My Property Taxes Go?](https://www.sai.ok.gov/newsletter/november-december-2020)
+- [South Carolina Code of Laws, Title 12 Chapter 6, Section 12-6-530 (Corporate income tax)](https://www.scstatehouse.gov/code/t12c006.php)
+- [South Carolina Code of Laws, Title 12 Chapter 11, Section 12-11-20 (Tax on income of banks; rate)](https://www.scstatehouse.gov/code/t12c011.php)
+- [South Carolina Code of Laws, Title 12 Chapter 20, Section 12-20-50 (License tax on corporations)](https://www.scstatehouse.gov/code/t12c020.php)
+- [South Carolina Code of Laws, Title 12 Chapter 24, Section 12-24-10 (Recording fee)](https://www.scstatehouse.gov/code/t12c024.php)
+- [South Carolina Code of Laws, Title 12 Chapter 37, Section 12-37-3140 (Determining fair market value)](https://www.scstatehouse.gov/code/t12c037.php)
+- [Missouri Secretary of State: Constitution of the State of Missouri (PDF), Article X](https://www.sos.mo.gov/CMSImages/Publications/CurrentMissouriConstitution.pdf)
+- [Rhode Island Department of State: Pay your business taxes](https://www.sos.ri.gov/divisions/business-services/ri-business/pay-your-business-taxes)
 - [City of St. Louis Collector of Revenue: Employer Withholding and Payroll Expense Tax Information](https://www.stlouis-mo.gov/government/departments/collector/earnings-tax/payroll-tax-info.cfm)
+- [North Dakota Office of State Tax Commissioner: Corporate Income Tax](https://www.tax.nd.gov/business/corporate-income-tax)
+- [North Dakota Office of State Tax Commissioner: State Board of Equalization](https://www.tax.nd.gov/local-government/state-board-equalization)
+- [North Dakota Office of State Tax Commissioner: Primary Residence Credit](https://www.tax.nd.gov/prc)
+- [North Dakota Office of State Tax Commissioner: Property Tax](https://www.tax.nd.gov/property-tax)
+- [North Dakota Office of State Tax Commissioner: Residential Property Tax](https://www.tax.nd.gov/residential-property-tax)
 - [North Dakota Office of State Tax Commissioner, 2026 Form ND-1ES — 2026 Forms ND-1 and ND-EZ Tax Rate Schedules](https://www.tax.nd.gov/sites/www/files/documents/forms/individual/2025-iit/28709-form-nd-1es-2026.pdf)
 - [Withholding Rates & Instructions for wages paid in 2026, Section 3 — Supplemental Wages (p.57)](https://www.tax.nd.gov/sites/www/files/documents/forms/individual/2026-iit/2026-income-tax-withholding-rates-booklet.pdf)
+- [New Mexico Taxation and Revenue Department: Corporate Income & Franchise Tax Overview](https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/)
+- [New Mexico Taxation and Revenue Department: Property Tax Overview](https://www.tax.newmexico.gov/businesses/property-tax-overview/)
 - [New Mexico Taxation and Revenue Department: Workers' Compensation Fee](https://www.tax.newmexico.gov/businesses/workers-compensation/)
+- [NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)](https://www.tax.ny.gov/bus/ct/def_art9a.htm)
+- [NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)](https://www.tax.ny.gov/bus/transfer/rptidx.htm)
+- [NY Department of Taxation and Finance: Tax facts, Corporate taxes](https://www.tax.ny.gov/data/stats/taxfacts/corporation-tax.htm)
+- [NY Department of Taxation and Finance: Tax facts, Property tax](https://www.tax.ny.gov/data/stats/taxfacts/property-tax.htm)
 - [NYS-50-T-NYC (1/26), New York City Withholding Tax Tables and Methods, effective January 1, 2026 (Method II, pp. 24–27)](https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_nyc.pdf)
 - [NYS-50-T-NYS (1/26), p. 3 — Supplemental wage payment withholding rates, effective January 1, 2026](https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_nys.pdf)
 - [NYS-50-T-Y (1/26), Yonkers Withholding Tax Tables and Methods, effective January 1, 2026 (Method II, pp. 14–19; Method III, p. 22)](https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_y.pdf)
+- [NY Department of Taxation and Finance: Learn about property taxes (updated July 26, 2024)](https://www.tax.ny.gov/pit/property/learn/proptax.htm)
+- [Virginia Tax: Assessment Sales Ratio Studies](https://www.tax.virginia.gov/assessment-sales-ratio-studies)
 - [Virginia Tax, 2025 Form 760 Resident Individual Income Tax Instructions (Tax Rate Schedule p.35; Line 11 standard deduction; exemptions)](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/2025-760-instructions.pdf)
 - [Virginia Tax, Income Tax Withholding Guide for Employers (Rev. 10/26), Supplemental Wage Payments, pp.19–20](https://www.tax.virginia.gov/sites/default/files/vatax-pdf/employer-withholding-instructions.pdf)
+- [Tennessee Department of Revenue: Franchise & Excise Tax](https://www.tn.gov/revenue/taxes/franchise---excise-tax.html)
+- [Tennessee Department of Revenue: Franchise & Excise Tax, Due Dates and Tax Rates](https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html)
+- [Tennessee Department of Revenue: Property Tax](https://www.tn.gov/revenue/taxes/local-taxes/property-tax.html)
+- [Tennessee Department of Revenue: Recordation Tax](https://www.tn.gov/revenue/taxes/local-taxes/recordation-taxes.html)
 - [Tennessee Department of Labor and Workforce Development, UI Tax Rates](https://www.tn.gov/workforce/employers/tax-and-insurance-redirect/unemployment-insurance-tax/ui-tax-rates.html)
 - [Unemployment Insurance Minnesota, New employer tax rates](https://www.uimn.org/employers/wages-taxes/tax-rates/new-employer-rates.jsp)
 - [Virginia Employment Commission, Employer FAQ: wage base](https://www.vec.virginia.gov/FAQs/employers/what-wage-base-each-employee-i-will-pay-taxes)
+- [Waukesha County Register of Deeds: Transfer Returns and Fees (revised 4/20/2018)](https://www.waukeshacounty.gov/media/soepzddd/transfer-returns-and-fees.pdf)
 - [NYS Workers' Compensation Board — Disability Benefits and Paid Family Leave Insurance (employers)](https://www.wcb.ny.gov/content/main/DisabilityBenefits/employer-disability-benefits.jsp)
 - [NYS Workers' Compensation Board — Employee Notice of Paid Family Leave Payroll Deduction for 2026 (PFL-PayDeduction-notice-2026)](https://www.wcb.ny.gov/content/main/forms/PFLDocs/pfl-pay-deduction-notice-2026.pdf)
 - [City of Wheeling, City Service Fee Overview (10/7/2019)](https://www.wheelingwv.gov/media/Finance/City%20Service%20Fee/City%20Service%20Fee%20-%20Overview.pdf)
 - [City of Wilmington Department of Finance — Earned Income Tax Regulations of the City of Wilmington (Revised 5/25/2023), Article I §104 A.19 and Article II §§201, 203 P; 2025 WCWT-5 Application for Refund of Wilmington City Wage Tax](https://www.wilmingtonde.gov/home/showpublisheddocument/462/638206223264700000)
+- [West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2](https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf)
 - [West Virginia Legislature: Enrolled Committee Substitute for Committee Substitute for Senate Bill 1053 (2026; passed 14 March 2026, effective 1 July 2026), W. Va. Code §21A-5-5 and new §21A-9-10](https://www.wvlegislature.gov/Bill_Text_HTML/2026_SESSIONS/RS/bills/sb1053%20sub2%20enr.htm)
 - [State of Wyoming – About Wyoming](https://www.wyo.gov/about-wyoming)
+- [Wyoming Department of Revenue, Property Tax Division: Residential](https://wyo-prop-div.wyo.gov/residential)
+- [Wyoming Legislative Service Office memorandum: Wyoming Property Tax Fiscal Estimates (November 14, 2025)](https://wyoleg.gov/InterimCommittee/2025/03-2025111811-08201-Revenue-Propertytaxfiscalimpacts11-14Final.pdf)
+- [Wyoming Business Council: Business Resources](https://wyomingbusiness.org/?p=1222)

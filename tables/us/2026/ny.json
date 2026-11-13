@@ -409,6 +409,185 @@
       },
       "verified": true,
       "note": "New York's new-employer rate is 4.025% UI plus the 0.075% Re-employment Services Fund."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "New York corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporation franchise tax rate on business income (most corporations)",
+          "value": 0.065,
+          "unit": "rate",
+          "note": "Article 9-A general business taxpayers with a business income base of $5 million or less. Rate table published for 2025 tax years; no 2026 change to the rates was found.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+            "url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporation franchise tax rate on business income over $5 million",
+          "value": 0.0725,
+          "unit": "rate",
+          "note": "Applies when the business income base exceeds $5,000,000 (rate table for 2025 tax years: 0.0725). The Department's current tax-facts page lists 7.25% as the top state rate.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Tax facts, Corporate taxes",
+            "url": "https://www.tax.ny.gov/data/stats/taxfacts/corporation-tax.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "MTA additional tax (Metropolitan Commuter Transportation District)",
+          "value": 0.3,
+          "unit": "rate",
+          "note": "The MTA surcharge is 30% of the state franchise tax apportioned to the 12-county MCTD (NYC, Nassau, Suffolk, Westchester, Rockland, Orange, Putnam, Dutchess); about 2.18% at the top rate.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Tax facts, Corporate taxes",
+            "url": "https://www.tax.ny.gov/data/stats/taxfacts/corporation-tax.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Business capital tax rate",
+          "value": 0.001875,
+          "unit": "rate",
+          "note": "Alternative base; tax on capital limited to $5 million. Zero for qualified manufacturers, emerging technology companies and small businesses. Published for 2025 tax years.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+            "url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Fixed dollar minimum tax",
+          "value": "$25 (NY receipts up to $100,000) to $200,000 (NY receipts over $1 billion)",
+          "unit": "text",
+          "note": "Corporations pay the highest of the business income, capital and fixed dollar minimum bases. Published for 2025 tax years.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+            "url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+        "url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "New York property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, cities, towns, villages, school districts and special districts",
+          "unit": "text",
+          "note": "The State does not collect or receive property tax; school districts levy the largest share.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Learn about property taxes (updated July 26, 2024)",
+            "url": "https://www.tax.ny.gov/pit/property/learn/proptax.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "NY Department of Taxation and Finance, Office of Real Property Tax Services (ORPTS)",
+          "unit": "text",
+          "note": "Supports more than 1,000 local governments that levy property tax.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Tax facts, Property tax",
+            "url": "https://www.tax.ny.gov/data/stats/taxfacts/property-tax.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Property tax levy cap",
+          "value": "Annual levy growth limited to 2% or the rate of inflation, whichever is less",
+          "unit": "text",
+          "note": "Applies to local governments and school districts outside the Big Five cities; can be overridden by a 60% vote. Guidance published 2011 (cap later made permanent).",
+          "source": {
+            "title": "NY Department of Taxation and Finance and Department of State: Publication 1000, The Property Tax Cap, Guidelines for Implementation (10/11)",
+            "url": "https://tax.ny.gov/pdf/publications/orpts/capguidelines.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NY Department of Taxation and Finance: Learn about property taxes (updated July 26, 2024)",
+        "url": "https://www.tax.ny.gov/pit/property/learn/proptax.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "New York real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State real estate transfer tax",
+          "value": "$2 per $500 of consideration (or fraction), when consideration exceeds $500",
+          "unit": "text",
+          "note": "Equivalent to 0.4%. Paid by the seller; if the seller does not pay or is exempt, the buyer must pay.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+            "url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Mansion tax (residences of $1 million or more)",
+          "value": 0.01,
+          "unit": "rate",
+          "note": "Additional 1% of the sale price on residences sold for $1 million or more; paid by the buyer.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+            "url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "New York City additional state taxes",
+          "value": "Additional base tax $1.25 per $500 (residential $3M+, other property $2M+); supplemental tax 0.25% to 2.9% on residential $2M+",
+          "unit": "text",
+          "note": "State taxes on NYC conveyances since July 1, 2019; supplemental tax rates are in Form TP-584-NYC-I. Separate from the City's own transfer tax.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+            "url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2019-07-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "Seller pays the base and additional base tax; buyer pays the mansion tax and supplemental tax",
+          "unit": "text",
+          "note": "If the responsible party does not pay or is exempt, the other party must pay.",
+          "source": {
+            "title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+            "url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+        "url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -481,6 +660,21 @@
       "title": "New York State Department of Labor, Unemployment Insurance Rate Information",
       "url": "https://dol.ny.gov/unemployment-insurance-rate-information",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+      "url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "NY Department of Taxation and Finance: Learn about property taxes (updated July 26, 2024)",
+      "url": "https://www.tax.ny.gov/pit/property/learn/proptax.htm",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+      "url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -1488,6 +1682,246 @@
       "rate": 0.09825,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "New York corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Article 9-A general business taxpayers with a business income base of $5 million or less. Rate table published for 2025 tax years; no 2026 change to the rates was found.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+      "source_url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporation franchise tax rate on business income (most corporations)",
+      "from": null,
+      "to": null,
+      "rate": 0.065,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "New York corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Applies when the business income base exceeds $5,000,000 (rate table for 2025 tax years: 0.0725). The Department's current tax-facts page lists 7.25% as the top state rate.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Tax facts, Corporate taxes",
+      "source_url": "https://www.tax.ny.gov/data/stats/taxfacts/corporation-tax.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporation franchise tax rate on business income over $5 million",
+      "from": null,
+      "to": null,
+      "rate": 0.0725,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "New York corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "The MTA surcharge is 30% of the state franchise tax apportioned to the 12-county MCTD (NYC, Nassau, Suffolk, Westchester, Rockland, Orange, Putnam, Dutchess); about 2.18% at the top rate.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Tax facts, Corporate taxes",
+      "source_url": "https://www.tax.ny.gov/data/stats/taxfacts/corporation-tax.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "MTA additional tax (Metropolitan Commuter Transportation District)",
+      "from": null,
+      "to": null,
+      "rate": 0.3,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "New York corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Alternative base; tax on capital limited to $5 million. Zero for qualified manufacturers, emerging technology companies and small businesses. Published for 2025 tax years.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+      "source_url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Business capital tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.001875,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "New York corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Corporations pay the highest of the business income, capital and fixed dollar minimum bases. Published for 2025 tax years.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Article 9-A definitions and rates (updated October 21, 2025; tax years beginning in 2025)",
+      "source_url": "https://www.tax.ny.gov/bus/ct/def_art9a.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Fixed dollar minimum tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$25 (NY receipts up to $100,000) to $200,000 (NY receipts over $1 billion)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "New York property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The State does not collect or receive property tax; school districts levy the largest share.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Learn about property taxes (updated July 26, 2024)",
+      "source_url": "https://www.tax.ny.gov/pit/property/learn/proptax.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, cities, towns, villages, school districts and special districts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "New York property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Supports more than 1,000 local governments that levy property tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Tax facts, Property tax",
+      "source_url": "https://www.tax.ny.gov/data/stats/taxfacts/property-tax.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "NY Department of Taxation and Finance, Office of Real Property Tax Services (ORPTS)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "New York property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to local governments and school districts outside the Big Five cities; can be overridden by a 60% vote. Guidance published 2011 (cap later made permanent).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance and Department of State: Publication 1000, The Property Tax Cap, Guidelines for Implementation (10/11)",
+      "source_url": "https://tax.ny.gov/pdf/publications/orpts/capguidelines.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Property tax levy cap",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Annual levy growth limited to 2% or the rate of inflation, whichever is less",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "New York real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Equivalent to 0.4%. Paid by the seller; if the seller does not pay or is exempt, the buyer must pay.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+      "source_url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State real estate transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$2 per $500 of consideration (or fraction), when consideration exceeds $500",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "New York real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Additional 1% of the sale price on residences sold for $1 million or more; paid by the buyer.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+      "source_url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Mansion tax (residences of $1 million or more)",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "New York real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "State taxes on NYC conveyances since July 1, 2019; supplemental tax rates are in Form TP-584-NYC-I. Separate from the City's own transfer tax.",
+      "tax_year": "2026",
+      "effective_from": "2019-07-01",
+      "effective_to": null,
+      "source_title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+      "source_url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "New York City additional state taxes",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Additional base tax $1.25 per $500 (residential $3M+, other property $2M+); supplemental tax 0.25% to 2.9% on residential $2M+",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "New York real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "If the responsible party does not pay or is exempt, the other party must pay.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NY Department of Taxation and Finance: Real estate transfer tax (updated June 1, 2026)",
+      "source_url": "https://www.tax.ny.gov/bus/transfer/rptidx.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Seller pays the base and additional base tax; buyer pays the mansion tax and supplemental tax",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/new-york",

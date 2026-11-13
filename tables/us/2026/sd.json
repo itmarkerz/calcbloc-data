@@ -69,6 +69,147 @@
       },
       "verified": true,
       "note": "South Dakota new employers pay 1.20% reemployment assistance tax plus a 0.55% investment fee (1.75%) in their first year on the first $15,000 (1.55% in years 2 and 3 with a positive balance; construction 6.00% + 0.55%)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "South Dakota corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax",
+          "value": "None: South Dakota has no corporate income tax",
+          "unit": "text",
+          "source": {
+            "title": "South Dakota Department of Revenue: Business Taxes",
+            "url": "https://dor.sd.gov/businesses/taxes/",
+            "retrievedAt": "2026-11-13"
+          },
+          "status": "not_applicable"
+        },
+        {
+          "label": "Bank franchise tax rate (net income up to $400 million)",
+          "value": 0.06,
+          "unit": "rate",
+          "note": "Applies to banks and financial institutions only. Rate steps down on higher income: 5%, 4%, 3%, 2%, 1%, 0.5%, then 0.25% above $1.2 billion.",
+          "source": {
+            "title": "South Dakota Codified Laws 10-43-4 (Time of liability for tax, rate of tax, minimum)",
+            "url": "https://sdlegislature.gov/api/Statutes/10-43.html?all=true",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Bank franchise tax rate on net income over $1.2 billion",
+          "value": 0.0025,
+          "unit": "rate",
+          "note": "Top step of the bank franchise tax schedule.",
+          "source": {
+            "title": "South Dakota Codified Laws 10-43-4 (Time of liability for tax, rate of tax, minimum)",
+            "url": "https://sdlegislature.gov/api/Statutes/10-43.html?all=true",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum bank franchise tax",
+          "value": 200,
+          "unit": "money",
+          "note": "Per return.",
+          "source": {
+            "title": "South Dakota Codified Laws 10-43-4 (Time of liability for tax, rate of tax, minimum)",
+            "url": "https://sdlegislature.gov/api/Statutes/10-43.html?all=true",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "South Dakota Department of Revenue: Business Taxes",
+        "url": "https://dor.sd.gov/businesses/taxes/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "South Dakota property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, cities, school districts and other local taxing districts",
+          "unit": "text",
+          "note": "The county treasurer collects for all local taxing districts.",
+          "source": {
+            "title": "South Dakota Department of Revenue: Property Tax",
+            "url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "South Dakota Department of Revenue, Property Tax Division",
+          "unit": "text",
+          "source": {
+            "title": "South Dakota Department of Revenue: Property Tax",
+            "url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Levy growth limit",
+          "value": "Taxes payable may grow by the consumer price index plus growth, unless voters opt out",
+          "unit": "text",
+          "note": "Set by the Property Tax Reduction Act; local entities can exceed it only by an opt-out.",
+          "source": {
+            "title": "South Dakota Department of Revenue: Property Tax",
+            "url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "South Dakota Department of Revenue: Property Tax",
+        "url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "South Dakota real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real estate transfer fee",
+          "value": "$0.50 per $500 of value",
+          "unit": "text",
+          "source": {
+            "title": "South Dakota Codified Laws 43-4-21 (Imposition and amount of real estate transfer fee)",
+            "url": "https://sdlegislature.gov/api/Statutes/43-4-21.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "Grantor (seller)",
+          "unit": "text",
+          "source": {
+            "title": "South Dakota Codified Laws 43-4-21 (Imposition and amount of real estate transfer fee)",
+            "url": "https://sdlegislature.gov/api/Statutes/43-4-21.html",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "South Dakota Codified Laws 43-4-21 (Imposition and amount of real estate transfer fee)",
+        "url": "https://sdlegislature.gov/api/Statutes/43-4-21.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -86,6 +227,21 @@
       "title": "South Dakota Department of Labor & Regulation, Reemployment Assistance for Businesses: 2026 Wage Base and Rate Information; New Employer Tax Rates",
       "url": "https://dlr.sd.gov/ra/businesses/default.aspx",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "South Dakota Department of Revenue: Business Taxes",
+      "url": "https://dor.sd.gov/businesses/taxes/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "South Dakota Department of Revenue: Property Tax",
+      "url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "South Dakota Codified Laws 43-4-21 (Imposition and amount of real estate transfer fee)",
+      "url": "https://sdlegislature.gov/api/Statutes/43-4-21.html",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -193,6 +349,186 @@
       "rate": 0.0852,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "South Dakota corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Business taxes set by the state. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Department of Revenue: Business Taxes",
+      "source_url": "https://dor.sd.gov/businesses/taxes/",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Corporate income tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None: South Dakota has no corporate income tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "South Dakota corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to banks and financial institutions only. Rate steps down on higher income: 5%, 4%, 3%, 2%, 1%, 0.5%, then 0.25% above $1.2 billion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Codified Laws 10-43-4 (Time of liability for tax, rate of tax, minimum)",
+      "source_url": "https://sdlegislature.gov/api/Statutes/10-43.html?all=true",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Bank franchise tax rate (net income up to $400 million)",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "South Dakota corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Top step of the bank franchise tax schedule.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Codified Laws 10-43-4 (Time of liability for tax, rate of tax, minimum)",
+      "source_url": "https://sdlegislature.gov/api/Statutes/10-43.html?all=true",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Bank franchise tax rate on net income over $1.2 billion",
+      "from": null,
+      "to": null,
+      "rate": 0.0025,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "South Dakota corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Per return.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Codified Laws 10-43-4 (Time of liability for tax, rate of tax, minimum)",
+      "source_url": "https://sdlegislature.gov/api/Statutes/10-43.html?all=true",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum bank franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 200,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "South Dakota property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The county treasurer collects for all local taxing districts.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Department of Revenue: Property Tax",
+      "source_url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, cities, school districts and other local taxing districts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "South Dakota property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Department of Revenue: Property Tax",
+      "source_url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "South Dakota Department of Revenue, Property Tax Division",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "South Dakota property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Set by the Property Tax Reduction Act; local entities can exceed it only by an opt-out.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Department of Revenue: Property Tax",
+      "source_url": "https://dor.sd.gov/individuals/taxes/property-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levy growth limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Taxes payable may grow by the consumer price index plus growth, unless voters opt out",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "South Dakota real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Codified Laws 43-4-21 (Imposition and amount of real estate transfer fee)",
+      "source_url": "https://sdlegislature.gov/api/Statutes/43-4-21.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Real estate transfer fee",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.50 per $500 of value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "South Dakota real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "South Dakota Codified Laws 43-4-21 (Imposition and amount of real estate transfer fee)",
+      "source_url": "https://sdlegislature.gov/api/Statutes/43-4-21.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Grantor (seller)",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/south-dakota",

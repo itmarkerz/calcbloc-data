@@ -159,6 +159,145 @@
       },
       "verified": true,
       "note": "Virginia's new-employer base rate is 2.5% plus add-ons set each year, which are not included here."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Virginia corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.06,
+          "unit": "rate",
+          "note": "Flat 6% on Virginia taxable income.",
+          "source": {
+            "title": "Code of Virginia § 58.1-400 (Imposition of tax)",
+            "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-400/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Bank franchise tax",
+          "value": "$1 per $100 of net capital",
+          "unit": "text",
+          "note": "Banks pay this instead of corporate income tax; total liability capped (statutory maximum of $18 million, rising under conditions in the statute).",
+          "source": {
+            "title": "Code of Virginia § 58.1-1204 (Bank franchise tax, rate of tax)",
+            "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter12/section58.1-1204/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Code of Virginia § 58.1-400 (Imposition of tax)",
+        "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-400/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Virginia property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties and cities only (real estate is reserved for local taxation)",
+          "unit": "text",
+          "source": {
+            "title": "Constitution of Virginia, Article X, Section 4 (Property segregated for local taxation)",
+            "url": "https://law.lis.virginia.gov/constitution/article10/section4/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Virginia Department of Taxation (annual assessment/sales ratio study)",
+          "unit": "text",
+          "source": {
+            "title": "Virginia Tax: Assessment Sales Ratio Studies",
+            "url": "https://www.tax.virginia.gov/assessment-sales-ratio-studies",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Assessment standard",
+          "value": "Real estate assessed at 100% of fair market value",
+          "unit": "text",
+          "source": {
+            "title": "Code of Virginia § 58.1-3201 (What real estate to be taxed; amount of assessment)",
+            "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter32/section58.1-3201/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Constitution of Virginia, Article X, Section 4 (Property segregated for local taxation)",
+        "url": "https://law.lis.virginia.gov/constitution/article10/section4/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Virginia real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State recordation tax on deeds",
+          "value": "$0.25 per $100 of consideration or value, whichever is greater",
+          "unit": "text",
+          "source": {
+            "title": "Code of Virginia § 58.1-801 (Deeds generally)",
+            "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-801/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Grantor tax",
+          "value": "$0.50 per $500 of consideration or value, paid by the grantor",
+          "unit": "text",
+          "note": "Excludes liens remaining on the property. Grantor and grantee may agree that the grantee pays.",
+          "source": {
+            "title": "Code of Virginia § 58.1-802 (Additional tax paid by grantor)",
+            "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-802/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "City or county recordation tax",
+          "value": "Up to one-third of the state recordation tax",
+          "unit": "text",
+          "source": {
+            "title": "Code of Virginia § 58.1-814 (City or county recordation tax)",
+            "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-814/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Northern Virginia regional WMATA capital fee",
+          "value": "$0.10 per $100 of consideration or value, paid by the grantor",
+          "unit": "text",
+          "note": "Applies in counties and cities that are members of the Northern Virginia Transportation Authority.",
+          "source": {
+            "title": "Code of Virginia § 58.1-802.3 (Regional transportation improvement fee)",
+            "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-802.3/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Code of Virginia § 58.1-801 (Deeds generally)",
+        "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-801/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -191,6 +330,21 @@
       "title": "Virginia Employment Commission, Employer FAQ: wage base",
       "url": "https://www.vec.virginia.gov/FAQs/employers/what-wage-base-each-employee-i-will-pay-taxes",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Code of Virginia § 58.1-400 (Imposition of tax)",
+      "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-400/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Constitution of Virginia, Article X, Section 4 (Property segregated for local taxation)",
+      "url": "https://law.lis.virginia.gov/constitution/article10/section4/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Code of Virginia § 58.1-801 (Deeds generally)",
+      "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-801/",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -538,6 +692,186 @@
       "rate": 0.062,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Virginia corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat 6% on Virginia taxable income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of Virginia § 58.1-400 (Imposition of tax)",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-400/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Virginia corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Banks pay this instead of corporate income tax; total liability capped (statutory maximum of $18 million, rising under conditions in the statute).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of Virginia § 58.1-1204 (Bank franchise tax, rate of tax)",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter12/section58.1-1204/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Bank franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$1 per $100 of net capital",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Constitution of Virginia, Article X, Section 4 (Property segregated for local taxation)",
+      "source_url": "https://law.lis.virginia.gov/constitution/article10/section4/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties and cities only (real estate is reserved for local taxation)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Virginia Tax: Assessment Sales Ratio Studies",
+      "source_url": "https://www.tax.virginia.gov/assessment-sales-ratio-studies",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Virginia Department of Taxation (annual assessment/sales ratio study)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of Virginia § 58.1-3201 (What real estate to be taxed; amount of assessment)",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter32/section58.1-3201/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Assessment standard",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Real estate assessed at 100% of fair market value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Virginia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of Virginia § 58.1-801 (Deeds generally)",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-801/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State recordation tax on deeds",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.25 per $100 of consideration or value, whichever is greater",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Virginia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Excludes liens remaining on the property. Grantor and grantee may agree that the grantee pays.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of Virginia § 58.1-802 (Additional tax paid by grantor)",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-802/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Grantor tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.50 per $500 of consideration or value, paid by the grantor",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Virginia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of Virginia § 58.1-814 (City or county recordation tax)",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-814/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "City or county recordation tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Up to one-third of the state recordation tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Virginia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Applies in counties and cities that are members of the Northern Virginia Transportation Authority.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of Virginia § 58.1-802.3 (Regional transportation improvement fee)",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter8/section58.1-802.3/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Northern Virginia regional WMATA capital fee",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.10 per $100 of consideration or value, paid by the grantor",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/virginia",

@@ -149,6 +149,152 @@
       },
       "verified": true,
       "note": "North Carolina's beginning employer rate is 1%."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "North Carolina corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.02,
+          "unit": "rate",
+          "note": "Flat rate for tax year 2026, down from 2.25% in 2025 under the scheduled phase-down.",
+          "source": {
+            "title": "NCDOR: Corporate Income and Franchise Tax Rates",
+            "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Franchise tax rate (C corporations)",
+          "value": "$1.50 per $1,000 of tax base, maximum $500 on the first $1,000,000 of tax base",
+          "unit": "text",
+          "note": "Franchise tax is reported on the corporate return alongside income tax.",
+          "source": {
+            "title": "NCDOR: Corporate Income and Franchise Tax Rates",
+            "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2025-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Minimum franchise tax",
+          "value": 200,
+          "unit": "money",
+          "note": "Applies to C corporations and S corporations.",
+          "source": {
+            "title": "NCDOR: Corporate Income and Franchise Tax Rates",
+            "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Franchise tax cap for holding companies",
+          "value": 150000,
+          "unit": "money",
+          "note": "Maximum franchise tax on the net worth base for a qualifying holding company (G.S. 105-120.2).",
+          "source": {
+            "title": "NCDOR: Corporate Income and Franchise Tax Rates",
+            "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NCDOR: Corporate Income and Franchise Tax Rates",
+        "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "North Carolina property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties and municipalities (plus special districts); collected locally",
+          "unit": "text",
+          "note": "The bill uses the combined county and municipal/district rate per $100 of appraised value.",
+          "source": {
+            "title": "NCDOR: How To Calculate A Tax Bill",
+            "url": "https://www.ncdor.gov/taxes-forms/property-tax/how-calculate-tax-bill",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "North Carolina Department of Revenue, Property Tax Division",
+          "unit": "text",
+          "note": "NCDOR does not send bills or collect property tax; counties do.",
+          "source": {
+            "title": "NCDOR: Property Tax Division",
+            "url": "https://www.ncdor.gov/taxes-forms/property-tax/property-tax-division",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Countywide reappraisal frequency",
+          "value": "At least every eight years (G.S. 105-286)",
+          "unit": "text",
+          "note": "Some counties reappraise on a four-year cycle.",
+          "source": {
+            "title": "NCDOR: Types of Property to be Taxed",
+            "url": "https://www.ncdor.gov/taxes-forms/property-tax/types-property-be-taxed",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NCDOR: How To Calculate A Tax Bill",
+        "url": "https://www.ncdor.gov/taxes-forms/property-tax/how-calculate-tax-bill",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "North Carolina real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Excise tax on real estate conveyances",
+          "value": "$1 per $500 (or fraction) of the consideration or value conveyed",
+          "unit": "text",
+          "note": "State excise (revenue stamp) tax under G.S. Chapter 105, Article 8E. Source is an NCDOR statistical abstract table (FY 2014-15 edition).",
+          "source": {
+            "title": "NCDOR Statistical Abstract: Table 51, Excise [Stamp] Tax on Conveyances (PDF)",
+            "url": "https://ncdor.gov/documents/reports/table51-8/open",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays the excise tax",
+          "value": "Transferor (seller), paid to the county register of deeds before recording",
+          "unit": "text",
+          "note": "Half of the proceeds stay with the county; the rest goes to the state.",
+          "source": {
+            "title": "NCDOR Statistical Abstract: Table 51, Excise [Stamp] Tax on Conveyances (PDF)",
+            "url": "https://ncdor.gov/documents/reports/table51-8/open",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NCDOR Statistical Abstract: Table 51, Excise [Stamp] Tax on Conveyances (PDF)",
+        "url": "https://ncdor.gov/documents/reports/table51-8/open",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -181,6 +327,21 @@
       "title": "North Carolina DES, Tax Rate Information",
       "url": "https://www.des.nc.gov/employers/tax-rate-information",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "NCDOR: Corporate Income and Franchise Tax Rates",
+      "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "NCDOR: How To Calculate A Tax Bill",
+      "url": "https://www.ncdor.gov/taxes-forms/property-tax/how-calculate-tax-bill",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "NCDOR Statistical Abstract: Table 51, Excise [Stamp] Tax on Conveyances (PDF)",
+      "url": "https://ncdor.gov/documents/reports/table51-8/open",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -488,6 +649,186 @@
       "rate": 0.0576,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "North Carolina corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat rate for tax year 2026, down from 2.25% in 2025 under the scheduled phase-down.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR: Corporate Income and Franchise Tax Rates",
+      "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "North Carolina corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Franchise tax is reported on the corporate return alongside income tax.",
+      "tax_year": "2026",
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source_title": "NCDOR: Corporate Income and Franchise Tax Rates",
+      "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax rate (C corporations)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$1.50 per $1,000 of tax base, maximum $500 on the first $1,000,000 of tax base",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "North Carolina corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to C corporations and S corporations.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR: Corporate Income and Franchise Tax Rates",
+      "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 200,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "North Carolina corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Maximum franchise tax on the net worth base for a qualifying holding company (G.S. 105-120.2).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR: Corporate Income and Franchise Tax Rates",
+      "source_url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/corporate-income-and-franchise-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax cap for holding companies",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 150000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "North Carolina property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The bill uses the combined county and municipal/district rate per $100 of appraised value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR: How To Calculate A Tax Bill",
+      "source_url": "https://www.ncdor.gov/taxes-forms/property-tax/how-calculate-tax-bill",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties and municipalities (plus special districts); collected locally",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "North Carolina property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "NCDOR does not send bills or collect property tax; counties do.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR: Property Tax Division",
+      "source_url": "https://www.ncdor.gov/taxes-forms/property-tax/property-tax-division",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "North Carolina Department of Revenue, Property Tax Division",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "North Carolina property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Some counties reappraise on a four-year cycle.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR: Types of Property to be Taxed",
+      "source_url": "https://www.ncdor.gov/taxes-forms/property-tax/types-property-be-taxed",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Countywide reappraisal frequency",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "At least every eight years (G.S. 105-286)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "North Carolina real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "State excise (revenue stamp) tax under G.S. Chapter 105, Article 8E. Source is an NCDOR statistical abstract table (FY 2014-15 edition).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR Statistical Abstract: Table 51, Excise [Stamp] Tax on Conveyances (PDF)",
+      "source_url": "https://ncdor.gov/documents/reports/table51-8/open",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Excise tax on real estate conveyances",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$1 per $500 (or fraction) of the consideration or value conveyed",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "North Carolina real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Half of the proceeds stay with the county; the rest goes to the state.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NCDOR Statistical Abstract: Table 51, Excise [Stamp] Tax on Conveyances (PDF)",
+      "source_url": "https://ncdor.gov/documents/reports/table51-8/open",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays the excise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Transferor (seller), paid to the county register of deeds before recording",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/north-carolina",

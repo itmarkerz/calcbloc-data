@@ -69,6 +69,163 @@
       },
       "verified": true,
       "note": "New Florida employers pay 2.7% for their first 10 quarters."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Florida corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.055,
+          "unit": "rate",
+          "note": "Rate on Florida net income for taxable years beginning on or after January 1, 2022 (temporarily lower in 2019-2021).",
+          "source": {
+            "title": "Florida Department of Revenue: Corporate Income Tax",
+            "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2022-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Exemption from Florida net income",
+          "value": 50000,
+          "unit": "money",
+          "note": "Subtracted before applying the rate.",
+          "source": {
+            "title": "Florida Department of Revenue: Corporate Income Tax",
+            "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Florida Department of Revenue: Corporate Income Tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2022-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Florida property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "County school boards and non-school authorities: counties, cities and special districts",
+          "unit": "text",
+          "note": "Local governments administer the tax; county property appraisers assess and tax collectors collect.",
+          "source": {
+            "title": "Florida Department of Revenue: Property Tax - Taxpayers",
+            "url": "https://floridarevenue.com/property/Pages/Taxpayers.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Florida Department of Revenue, Property Tax Oversight program",
+          "unit": "text",
+          "source": {
+            "title": "Florida Department of Revenue: Property Tax Oversight",
+            "url": "https://floridarevenue.com/property/Pages/Home.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead exemption (maximum)",
+          "value": 50000,
+          "unit": "money",
+          "note": "First $25,000 applies to all taxes; an additional $25,000 applies to non-school taxes.",
+          "source": {
+            "title": "Florida Department of Revenue: Property Tax - Exemptions",
+            "url": "https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Annual assessment increase cap",
+          "value": "Homestead: 3% or CPI change, whichever is less (Save Our Homes); non-homestead: 10%",
+          "unit": "text",
+          "source": {
+            "title": "Florida Department of Revenue: Property Tax - Taxpayers",
+            "url": "https://floridarevenue.com/property/Pages/Taxpayers.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Florida Department of Revenue: Property Tax - Taxpayers",
+        "url": "https://floridarevenue.com/property/Pages/Taxpayers.aspx",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Florida real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Documentary stamp tax on deeds",
+          "value": "$0.70 per $100 (or portion) of total consideration",
+          "unit": "text",
+          "note": "All counties except Miami-Dade. All parties to the document are liable, regardless of who agrees to pay (s. 201.02(1)(a), F.S.).",
+          "source": {
+            "title": "Florida Department of Revenue: Documentary Stamp Tax",
+            "url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Documentary stamp tax rate on deeds",
+          "value": 0.007,
+          "unit": "rate",
+          "note": "$0.70 per $100 equals 0.7%.",
+          "source": {
+            "title": "Florida Department of Revenue: Documentary Stamp Tax",
+            "url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Miami-Dade County deed rate and additional tax",
+          "value": "$0.60 per $100, plus $0.45 per $100 except on single-family dwelling transfers",
+          "unit": "text",
+          "note": "Miami-Dade's additional 45-cent surtax (s. 201.031, F.S.) does not apply to a deed transferring only a single-family dwelling.",
+          "source": {
+            "title": "Florida Department of Revenue: Documentary Stamp Tax",
+            "url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Documentary stamp tax on notes and mortgages",
+          "value": "$0.35 per $100 of the obligation",
+          "unit": "text",
+          "note": "Tax on a note or other written obligation to pay money is capped at $2,450; there is no cap on recorded mortgages.",
+          "source": {
+            "title": "Florida Department of Revenue: Documentary Stamp Tax",
+            "url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Florida Department of Revenue: Documentary Stamp Tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -96,6 +253,23 @@
       "title": "Florida Department of Revenue, Reemployment Tax Rate Information",
       "url": "https://floridarevenue.com/taxes/taxesfees/Pages/rt_rate.aspx",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Florida Department of Revenue: Corporate Income Tax",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2022-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Florida Department of Revenue: Property Tax - Taxpayers",
+      "url": "https://floridarevenue.com/property/Pages/Taxpayers.aspx",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Florida Department of Revenue: Documentary Stamp Tax",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -203,6 +377,206 @@
       "rate": 0.054,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Florida corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Rate on Florida net income for taxable years beginning on or after January 1, 2022 (temporarily lower in 2019-2021).",
+      "tax_year": "2026",
+      "effective_from": "2022-01-01",
+      "effective_to": null,
+      "source_title": "Florida Department of Revenue: Corporate Income Tax",
+      "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.055,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Florida corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Subtracted before applying the rate.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Corporate Income Tax",
+      "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Exemption from Florida net income",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 50000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Florida property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Local governments administer the tax; county property appraisers assess and tax collectors collect.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Property Tax - Taxpayers",
+      "source_url": "https://floridarevenue.com/property/Pages/Taxpayers.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "County school boards and non-school authorities: counties, cities and special districts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Florida property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Property Tax Oversight",
+      "source_url": "https://floridarevenue.com/property/Pages/Home.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Florida Department of Revenue, Property Tax Oversight program",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Florida property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "First $25,000 applies to all taxes; an additional $25,000 applies to non-school taxes.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Property Tax - Exemptions",
+      "source_url": "https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead exemption (maximum)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 50000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Florida property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Property Tax - Taxpayers",
+      "source_url": "https://floridarevenue.com/property/Pages/Taxpayers.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Annual assessment increase cap",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Homestead: 3% or CPI change, whichever is less (Save Our Homes); non-homestead: 10%",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Florida real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "All counties except Miami-Dade. All parties to the document are liable, regardless of who agrees to pay (s. 201.02(1)(a), F.S.).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Documentary Stamp Tax",
+      "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Documentary stamp tax on deeds",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.70 per $100 (or portion) of total consideration",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Florida real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "$0.70 per $100 equals 0.7%.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Documentary Stamp Tax",
+      "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Documentary stamp tax rate on deeds",
+      "from": null,
+      "to": null,
+      "rate": 0.007,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Florida real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Miami-Dade's additional 45-cent surtax (s. 201.031, F.S.) does not apply to a deed transferring only a single-family dwelling.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Documentary Stamp Tax",
+      "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Miami-Dade County deed rate and additional tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.60 per $100, plus $0.45 per $100 except on single-family dwelling transfers",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Florida real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Tax on a note or other written obligation to pay money is capped at $2,450; there is no cap on recorded mortgages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Florida Department of Revenue: Documentary Stamp Tax",
+      "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/doc_stamp.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Documentary stamp tax on notes and mortgages",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.35 per $100 of the obligation",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/florida",

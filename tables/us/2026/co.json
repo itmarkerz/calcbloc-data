@@ -12,8 +12,10 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "property-transfer-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -201,6 +203,153 @@
       },
       "verified": true,
       "note": "Colorado's 2026 introductory rate is 3.05%: 1.53% base, 0.17% support and 1.35% solvency surcharge (heavy construction 6.285%)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Colorado corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate (2026)",
+          "value": 0.044,
+          "unit": "rate",
+          "note": "Flat rate on Colorado taxable income. Temporary TABOR rate cuts have applied in some years (4.25% for 2024); 4.4% is the rate on the 2026 estimated tax worksheet.",
+          "source": {
+            "title": "Colorado Department of Revenue: DR 0112EP 2026 Corporate Estimated Income Tax",
+            "url": "https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Colorado Department of Revenue: DR 0112EP 2026 Corporate Estimated Income Tax",
+        "url": "https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Colorado property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, cities, school districts, special districts and other local taxing authorities",
+          "unit": "text",
+          "note": "All property tax revenue stays within the county; property taxes do not fund state services.",
+          "source": {
+            "title": "Colorado Division of Property Taxation: Understanding Property Taxes in Colorado",
+            "url": "https://dpt.colorado.gov/understanding-property-taxes-in-colorado",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Colorado Division of Property Taxation (Department of Local Affairs)",
+          "unit": "text",
+          "note": "Led by the property tax administrator, appointed by the State Board of Equalization.",
+          "source": {
+            "title": "Colorado Division of Property Taxation",
+            "url": "https://dpt.colorado.gov/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Residential assessment rate (2026)",
+          "value": "6.8% for local government levies; 7.05% for school district levies",
+          "unit": "text",
+          "note": "Assessed value = actual value x assessment rate; most non-residential property is assessed at 25% to 26% in 2026.",
+          "source": {
+            "title": "Colorado Division of Property Taxation: Understanding Property Taxes in Colorado",
+            "url": "https://dpt.colorado.gov/understanding-property-taxes-in-colorado",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Senior homestead exemption",
+          "value": "50% of the first $200,000 of actual value",
+          "unit": "text",
+          "note": "For owners aged 65+ who have owned and lived in the home for at least 10 consecutive years before January 1.",
+          "source": {
+            "title": "Colorado Division of Property Taxation: Senior Property Tax Exemption",
+            "url": "https://dpt.colorado.gov/senior-property-tax-exemption",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Colorado Division of Property Taxation: Understanding Property Taxes in Colorado",
+        "url": "https://dpt.colorado.gov/understanding-property-taxes-in-colorado",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Colorado real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State documentary fee",
+          "value": "$0.01 per $100 of consideration (when consideration exceeds $500)",
+          "unit": "text",
+          "note": "Collected by the county clerk and recorder on documents conveying title to real property (C.R.S. 39-13-102).",
+          "source": {
+            "title": "El Paso County Clerk and Recorder: Recording Fees",
+            "url": "https://clerkandrecorder.elpasoco.com/recording/recording-fees/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State documentary fee rate",
+          "value": 0.0001,
+          "unit": "rate",
+          "note": "$0.01 per $100 equals 0.01% of consideration.",
+          "source": {
+            "title": "El Paso County Clerk and Recorder: Recording Fees",
+            "url": "https://clerkandrecorder.elpasoco.com/recording/recording-fees/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "El Paso County Clerk and Recorder: Recording Fees",
+        "url": "https://clerkandrecorder.elpasoco.com/recording/recording-fees/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer-under-review",
+      "title": "Colorado real estate transfer tax: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "New or higher transfer tax rates",
+          "value": "Prohibited by the Colorado Constitution (TABOR, Article X, Section 20(8)(a))",
+          "unit": "text",
+          "source": {
+            "title": "Colorado Secretary of State: Constitution of the State of Colorado, Article X, Section 20",
+            "url": "https://www.coloradosos.gov/pubs/info_center/laws/COConstitution/ArticleXSection20.html",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Colorado Secretary of State: Constitution of the State of Colorado, Article X, Section 20",
+        "url": "https://www.coloradosos.gov/pubs/info_center/laws/COConstitution/ArticleXSection20.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -263,6 +412,26 @@
       "title": "Colorado CDLE, Introductory Rates (2026)",
       "url": "https://cdle.colorado.gov/employers/unemployment-insurance-premiums/introductory-rates",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Colorado Department of Revenue: DR 0112EP 2026 Corporate Estimated Income Tax",
+      "url": "https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Colorado Division of Property Taxation: Understanding Property Taxes in Colorado",
+      "url": "https://dpt.colorado.gov/understanding-property-taxes-in-colorado",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "El Paso County Clerk and Recorder: Recording Fees",
+      "url": "https://clerkandrecorder.elpasoco.com/recording/recording-fees/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Colorado Secretary of State: Constitution of the State of Colorado, Article X, Section 20",
+      "url": "https://www.coloradosos.gov/pubs/info_center/laws/COConstitution/ArticleXSection20.html",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -570,6 +739,166 @@
       "rate": 0.0734,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Colorado corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat rate on Colorado taxable income. Temporary TABOR rate cuts have applied in some years (4.25% for 2024); 4.4% is the rate on the 2026 estimated tax worksheet.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Colorado Department of Revenue: DR 0112EP 2026 Corporate Estimated Income Tax",
+      "source_url": "https://tax.colorado.gov/sites/tax/files/documents/DR0112EP_2026.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate (2026)",
+      "from": null,
+      "to": null,
+      "rate": 0.044,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Colorado property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "All property tax revenue stays within the county; property taxes do not fund state services.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Colorado Division of Property Taxation: Understanding Property Taxes in Colorado",
+      "source_url": "https://dpt.colorado.gov/understanding-property-taxes-in-colorado",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, cities, school districts, special districts and other local taxing authorities",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Colorado property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Led by the property tax administrator, appointed by the State Board of Equalization.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Colorado Division of Property Taxation",
+      "source_url": "https://dpt.colorado.gov/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Colorado Division of Property Taxation (Department of Local Affairs)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Colorado property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Assessed value = actual value x assessment rate; most non-residential property is assessed at 25% to 26% in 2026.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Colorado Division of Property Taxation: Understanding Property Taxes in Colorado",
+      "source_url": "https://dpt.colorado.gov/understanding-property-taxes-in-colorado",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Residential assessment rate (2026)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "6.8% for local government levies; 7.05% for school district levies",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Colorado property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "For owners aged 65+ who have owned and lived in the home for at least 10 consecutive years before January 1.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Colorado Division of Property Taxation: Senior Property Tax Exemption",
+      "source_url": "https://dpt.colorado.gov/senior-property-tax-exemption",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Senior homestead exemption",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "50% of the first $200,000 of actual value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Colorado real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Collected by the county clerk and recorder on documents conveying title to real property (C.R.S. 39-13-102).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "El Paso County Clerk and Recorder: Recording Fees",
+      "source_url": "https://clerkandrecorder.elpasoco.com/recording/recording-fees/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State documentary fee",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.01 per $100 of consideration (when consideration exceeds $500)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Colorado real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "$0.01 per $100 equals 0.01% of consideration.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "El Paso County Clerk and Recorder: Recording Fees",
+      "source_url": "https://clerkandrecorder.elpasoco.com/recording/recording-fees/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State documentary fee rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0001,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "Colorado real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Colorado Secretary of State: Constitution of the State of Colorado, Article X, Section 20",
+      "source_url": "https://www.coloradosos.gov/pubs/info_center/laws/COConstitution/ArticleXSection20.html",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "New or higher transfer tax rates",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Prohibited by the Colorado Constitution (TABOR, Article X, Section 20(8)(a))",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/colorado",

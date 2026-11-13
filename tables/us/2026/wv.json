@@ -12,8 +12,10 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "property-transfer-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -238,6 +240,152 @@
       },
       "verified": true,
       "note": "New employers pay 2.7% on the first $9,500. From 1 July 2026 every employer's rate is cut by 7% (2.7% becomes about 2.51%); 2.7% is used here. Check your rate notice."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "West Virginia corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporation net income tax rate",
+          "value": 0.065,
+          "unit": "rate",
+          "note": "Flat 6.5% (W. Va. Code 11-24-4), per the tax year 2025 instructions; 2026 bills to cut it (SB 397, SB 735) did not advance past committee.",
+          "source": {
+            "title": "West Virginia Tax Division: 2025 Form CIT-120 Corporation Net Income Tax Instructions",
+            "url": "https://tax.wv.gov/Documents/CIT/2025/cit120.instructions.2025.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "West Virginia Tax Division: 2025 Form CIT-120 Corporation Net Income Tax Instructions",
+        "url": "https://tax.wv.gov/Documents/CIT/2025/cit120.instructions.2025.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "West Virginia property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "County boards of education, county commissions, municipalities and the State",
+          "unit": "text",
+          "source": {
+            "title": "West Virginia Tax Division: Property Tax Rates",
+            "url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "West Virginia Tax Division (State Tax Commissioner)",
+          "unit": "text",
+          "note": "County assessors value most property; the Tax Commissioner values natural resource and industrial property.",
+          "source": {
+            "title": "West Virginia Tax Division: Property Tax (Ad Valorem Property Tax)",
+            "url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTax.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Assessment ratio",
+          "value": 0.6,
+          "unit": "rate",
+          "note": "Property is generally assessed at 60% of fair market value.",
+          "source": {
+            "title": "West Virginia Tax Division: Ad Valorem Property Tax",
+            "url": "https://tax.wv.gov/Business/PropertyTax/Pages/AdValoremPropertyTax.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead exemption (age 65+ or disabled)",
+          "value": 20000,
+          "unit": "money",
+          "note": "First $20,000 of assessed value of an owner-occupied home.",
+          "source": {
+            "title": "West Virginia Tax Division: Property Tax Exemptions",
+            "url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxExemptions.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State property tax levy",
+          "value": "Maximum 0.25 cents (Class I), 0.50 cents (Class II), 1.00 cent (Classes III and IV) per $100 of assessed value",
+          "unit": "text",
+          "note": "Class II is owner-occupied homes and farms. Counties, schools and cities levy much higher maximum rates.",
+          "source": {
+            "title": "West Virginia Tax Division: Property Tax Rates (Maximum Property Tax Regular Levy Rates)",
+            "url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "West Virginia Tax Division: Property Tax Rates",
+        "url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "West Virginia real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State real estate transfer excise tax",
+          "value": "$1.10 per $500 of value",
+          "unit": "text",
+          "note": "A share of the state tax is retained by the county where collected.",
+          "source": {
+            "title": "West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2",
+            "url": "https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2",
+        "url": "https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer-under-review",
+      "title": "West Virginia real estate transfer tax: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "County real estate transfer excise tax",
+          "value": "$0.55 per $500 of value; counties may raise it up to $1.65 per $500",
+          "unit": "text",
+          "source": {
+            "title": "West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2",
+            "url": "https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2",
+        "url": "https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -305,6 +453,21 @@
       "title": "West Virginia Legislature: Enrolled Committee Substitute for Committee Substitute for Senate Bill 1053 (2026; passed 14 March 2026, effective 1 July 2026), W. Va. Code §21A-5-5 and new §21A-9-10",
       "url": "https://www.wvlegislature.gov/Bill_Text_HTML/2026_SESSIONS/RS/bills/sb1053%20sub2%20enr.htm",
       "retrievedAt": "2026-11-09"
+    },
+    {
+      "title": "West Virginia Tax Division: 2025 Form CIT-120 Corporation Net Income Tax Instructions",
+      "url": "https://tax.wv.gov/Documents/CIT/2025/cit120.instructions.2025.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "West Virginia Tax Division: Property Tax Rates",
+      "url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2",
+      "url": "https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -732,6 +895,166 @@
       "rate": 0.027,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "West Virginia corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat 6.5% (W. Va. Code 11-24-4), per the tax year 2025 instructions; 2026 bills to cut it (SB 397, SB 735) did not advance past committee.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Tax Division: 2025 Form CIT-120 Corporation Net Income Tax Instructions",
+      "source_url": "https://tax.wv.gov/Documents/CIT/2025/cit120.instructions.2025.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporation net income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.065,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "West Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Tax Division: Property Tax Rates",
+      "source_url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "County boards of education, county commissions, municipalities and the State",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "West Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "County assessors value most property; the Tax Commissioner values natural resource and industrial property.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Tax Division: Property Tax (Ad Valorem Property Tax)",
+      "source_url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTax.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "West Virginia Tax Division (State Tax Commissioner)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "West Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property is generally assessed at 60% of fair market value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Tax Division: Ad Valorem Property Tax",
+      "source_url": "https://tax.wv.gov/Business/PropertyTax/Pages/AdValoremPropertyTax.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Assessment ratio",
+      "from": null,
+      "to": null,
+      "rate": 0.6,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "West Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "First $20,000 of assessed value of an owner-occupied home.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Tax Division: Property Tax Exemptions",
+      "source_url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxExemptions.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead exemption (age 65+ or disabled)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 20000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "West Virginia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Class II is owner-occupied homes and farms. Counties, schools and cities levy much higher maximum rates.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Tax Division: Property Tax Rates (Maximum Property Tax Regular Levy Rates)",
+      "source_url": "https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State property tax levy",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Maximum 0.25 cents (Class I), 0.50 cents (Class II), 1.00 cent (Classes III and IV) per $100 of assessed value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "West Virginia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "A share of the state tax is retained by the county where collected.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2",
+      "source_url": "https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State real estate transfer excise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$1.10 per $500 of value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "West Virginia real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "West Virginia Legislature: Enrolled Committee Substitute for SB 522 (2023), amending W. Va. Code 11-22-2",
+      "source_url": "https://www.wvlegislature.gov/Bill_Text_HTML/2023_SESSIONS/RS/bills/sb522%20sub2%20enr.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "County real estate transfer excise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.55 per $500 of value; counties may raise it up to $1.65 per $500",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/west-virginia",

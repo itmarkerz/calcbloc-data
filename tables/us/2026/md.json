@@ -605,6 +605,139 @@
       },
       "verified": true,
       "note": "Maryland new-employer rates range from 1.0% to 2.6%; 2.6% is used here. Check your rate notice."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Maryland corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.0825,
+          "unit": "rate",
+          "note": "Flat rate on Maryland taxable income (from the 2025 corporate instructions); no enacted change for 2026 was found.",
+          "source": {
+            "title": "Comptroller of Maryland: 2025 Maryland Corporation Income Tax Return Instructions (PDF)",
+            "url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/corporate-booklet.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Comptroller of Maryland: 2025 Maryland Corporation Income Tax Return Instructions (PDF)",
+        "url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/corporate-booklet.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Maryland property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties and Baltimore City (plus municipalities), with a small State property tax on top",
+          "unit": "text",
+          "note": "Each county and Baltimore City sets its own rate every year before June 20.",
+          "source": {
+            "title": "Maryland Code, Tax-Property § 6-302 (Maryland General Assembly)",
+            "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-302&enactments=false",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State property tax",
+          "value": "Yes: rate set each year by the Board of Public Works",
+          "unit": "text",
+          "note": "Maryland levies a State property tax in addition to county and city taxes.",
+          "source": {
+            "title": "Maryland Code, Tax-Property § 6-301 (Maryland General Assembly)",
+            "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-301&enactments=false",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Maryland State Department of Assessments and Taxation (SDAT)",
+          "unit": "text",
+          "note": "SDAT's director administers the Tax-Property Article. SDAT's own website (dat.maryland.gov) refused automated access, so the statute is cited.",
+          "source": {
+            "title": "Maryland Code, Tax-Property § 2-201 (Maryland General Assembly)",
+            "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=2-201&enactments=false",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead assessment-increase cap",
+          "value": "10% a year for the State tax; counties and cities set 0% to 10%",
+          "unit": "text",
+          "note": "Homestead tax credit: taxable assessment of an owner-occupied home is limited to 110% of the prior year for State tax; local percentage 100% to 110%.",
+          "source": {
+            "title": "Maryland Code, Tax-Property § 9-105 (Maryland General Assembly)",
+            "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=9-105&enactments=false",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Maryland Code, Tax-Property § 6-302 (Maryland General Assembly)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-302&enactments=false",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Maryland real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State transfer tax rate",
+          "value": 0.005,
+          "unit": "rate",
+          "note": "0.5% of the consideration, including any mortgage assumed by the buyer.",
+          "source": {
+            "title": "Maryland Code, Tax-Property § 13-203 (Maryland General Assembly)",
+            "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=13-203&enactments=false",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State transfer tax rate for first-time Maryland home buyers",
+          "value": 0.0025,
+          "unit": "rate",
+          "note": "0.25% on improved residential property bought as a principal residence by first-time Maryland buyers; paid entirely by the seller.",
+          "source": {
+            "title": "Maryland Code, Tax-Property § 13-203 (Maryland General Assembly)",
+            "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=13-203&enactments=false",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Local recordation and transfer taxes",
+          "value": "Counties levy their own recordation taxes and property transfer taxes, collected by the Clerk of the Circuit Court",
+          "unit": "text",
+          "note": "Rates vary by county and are added to the State transfer tax.",
+          "source": {
+            "title": "Comptroller of Maryland: Business and personal tax tip #30, A Brief Look at Maryland Taxes (PDF)",
+            "url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/tips/misc/taxtip30.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Maryland Code, Tax-Property § 13-203 (Maryland General Assembly)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=13-203&enactments=false",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -652,6 +785,21 @@
       "title": "Maryland Department of Labor, Tax Rates and Quarterly Reporting",
       "url": "https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Comptroller of Maryland: 2025 Maryland Corporation Income Tax Return Instructions (PDF)",
+      "url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/corporate-booklet.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Maryland Code, Tax-Property § 6-302 (Maryland General Assembly)",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-302&enactments=false",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Maryland Code, Tax-Property § 13-203 (Maryland General Assembly)",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=13-203&enactments=false",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -2019,6 +2167,166 @@
       "rate": 0.075,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Maryland corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat rate on Maryland taxable income (from the 2025 corporate instructions); no enacted change for 2026 was found.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Comptroller of Maryland: 2025 Maryland Corporation Income Tax Return Instructions (PDF)",
+      "source_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/2025/corporate-booklet.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0825,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Maryland property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Each county and Baltimore City sets its own rate every year before June 20.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Maryland Code, Tax-Property § 6-302 (Maryland General Assembly)",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-302&enactments=false",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties and Baltimore City (plus municipalities), with a small State property tax on top",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Maryland property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Maryland levies a State property tax in addition to county and city taxes.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Maryland Code, Tax-Property § 6-301 (Maryland General Assembly)",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=6-301&enactments=false",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State property tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Yes: rate set each year by the Board of Public Works",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Maryland property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "SDAT's director administers the Tax-Property Article. SDAT's own website (dat.maryland.gov) refused automated access, so the statute is cited.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Maryland Code, Tax-Property § 2-201 (Maryland General Assembly)",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=2-201&enactments=false",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Maryland State Department of Assessments and Taxation (SDAT)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Maryland property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Homestead tax credit: taxable assessment of an owner-occupied home is limited to 110% of the prior year for State tax; local percentage 100% to 110%.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Maryland Code, Tax-Property § 9-105 (Maryland General Assembly)",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=9-105&enactments=false",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead assessment-increase cap",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "10% a year for the State tax; counties and cities set 0% to 10%",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Maryland real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "0.5% of the consideration, including any mortgage assumed by the buyer.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Maryland Code, Tax-Property § 13-203 (Maryland General Assembly)",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=13-203&enactments=false",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State transfer tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Maryland real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "0.25% on improved residential property bought as a principal residence by first-time Maryland buyers; paid entirely by the seller.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Maryland Code, Tax-Property § 13-203 (Maryland General Assembly)",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=13-203&enactments=false",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State transfer tax rate for first-time Maryland home buyers",
+      "from": null,
+      "to": null,
+      "rate": 0.0025,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Maryland real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Rates vary by county and are added to the State transfer tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Comptroller of Maryland: Business and personal tax tip #30, A Brief Look at Maryland Taxes (PDF)",
+      "source_url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/tips/misc/taxtip30.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Local recordation and transfer taxes",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties levy their own recordation taxes and property transfer taxes, collected by the Clerk of the Circuit Court",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/maryland",

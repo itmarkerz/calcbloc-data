@@ -117,6 +117,181 @@
       },
       "verified": true,
       "note": "Vermont's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Vermont corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate tax rate on taxable income up to $10,000",
+          "value": 0.06,
+          "unit": "rate",
+          "note": "Bracket $0 - $10,000 of income allocable to Vermont. Brackets effective beginning tax year 2007.",
+          "source": {
+            "title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+            "url": "https://tax.vermont.gov/business/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate tax rate on taxable income over $10,000",
+          "value": 0.07,
+          "unit": "rate",
+          "note": "Bracket $10,001 - $25,000: $600 plus 7% of the amount over $10,000.",
+          "source": {
+            "title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+            "url": "https://tax.vermont.gov/business/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate tax rate on taxable income over $25,000",
+          "value": 0.085,
+          "unit": "rate",
+          "note": "$1,650 plus 8.5% of the amount over $25,000.",
+          "source": {
+            "title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+            "url": "https://tax.vermont.gov/business/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum annual corporate tax",
+          "value": "$100 to $100,000 depending on Vermont gross receipts",
+          "unit": "text",
+          "note": "Under $500K: $100; $500K-$1M: $500; $1M-$5M: $2,000; $5M-$300M: $6,000; over $300M: $100,000. Small farm corporations: $75.",
+          "source": {
+            "title": "Vermont Department of Taxes: Corporate Income Tax (Minimum Annual Tax)",
+            "url": "https://tax.vermont.gov/business/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+        "url": "https://tax.vermont.gov/business/corporate-income-tax",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Vermont property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Towns, school and fire districts and villages, plus the statewide education property tax",
+          "unit": "text",
+          "note": "Property tax is paid to the town where the property is located.",
+          "source": {
+            "title": "Vermont Department of Taxes: Property Valuation & Review Annual Report",
+            "url": "https://tax.vermont.gov/pvr-annual-report",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Vermont Department of Taxes, Division of Property Valuation and Review (PVR)",
+          "unit": "text",
+          "source": {
+            "title": "Vermont Department of Taxes: Municipal Officials",
+            "url": "https://tax.vermont.gov/municipal-officials",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State education property tax",
+          "value": "Statewide tax with a homestead rate and a nonhomestead rate set for each town every year",
+          "unit": "text",
+          "note": "FY2027 (2026-2027 property tax year) rates are published per town by the Department of Taxes.",
+          "source": {
+            "title": "Vermont Department of Taxes: Education Property Tax Rates",
+            "url": "https://tax.vermont.gov/property/education-property-tax-rates",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Vermont Department of Taxes: Property Valuation & Review Annual Report",
+        "url": "https://tax.vermont.gov/pvr-annual-report",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Vermont real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Property transfer tax, general rate",
+          "value": 0.0125,
+          "unit": "rate",
+          "note": "Plus the 0.22% clean water additional tax (total 1.47%). Applies to commercial property, land and long-term rentals.",
+          "source": {
+            "title": "Vermont Department of Taxes: Property Transfer Tax",
+            "url": "https://tax.vermont.gov/property/property-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Principal residence rate (first $200,000)",
+          "value": 0.005,
+          "unit": "rate",
+          "note": "First $200,000 taxed at 0.5% with no clean water additional tax; value above $200,000 at 1.25% + 0.22% (1.47%).",
+          "source": {
+            "title": "Vermont Department of Taxes: Property Transfer Tax",
+            "url": "https://tax.vermont.gov/property/property-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Non-principal residence rate",
+          "value": 0.034,
+          "unit": "rate",
+          "note": "For homes fit for year-round living that are not the buyer's principal residence or a long-term rental; 3.62% with the clean water additional tax.",
+          "source": {
+            "title": "Vermont Department of Taxes: Property Transfer Tax",
+            "url": "https://tax.vermont.gov/property/property-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Clean water additional tax",
+          "value": 0.0022,
+          "unit": "rate",
+          "note": "Added to the transfer tax (labelled Clean Water Surcharge by the state); not charged on the first $200,000 of a principal residence.",
+          "source": {
+            "title": "Vermont Department of Taxes: Property Transfer Tax",
+            "url": "https://tax.vermont.gov/property/property-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "Transferee (buyer)",
+          "unit": "text",
+          "source": {
+            "title": "Vermont Department of Taxes: Form PTT-172 Instructions",
+            "url": "https://tax.vermont.gov/sites/tax/files/documents/PTT-172%20Instr.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Vermont Department of Taxes: Property Transfer Tax",
+        "url": "https://tax.vermont.gov/property/property-transfer-tax",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -149,6 +324,21 @@
       "title": "Vermont Department of Labor, Unemployment Tax Rates; press release on the 2026 taxable wage base",
       "url": "https://labor.vermont.gov/unemployment-insurance/ui-employers/unemployment-tax-rates",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+      "url": "https://tax.vermont.gov/business/corporate-income-tax",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Vermont Department of Taxes: Property Valuation & Review Annual Report",
+      "url": "https://tax.vermont.gov/pvr-annual-report",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Vermont Department of Taxes: Property Transfer Tax",
+      "url": "https://tax.vermont.gov/property/property-transfer-tax",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -336,6 +526,246 @@
       "rate": 0.054,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Vermont corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $0 - $10,000 of income allocable to Vermont. Brackets effective beginning tax year 2007.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+      "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate tax rate on taxable income up to $10,000",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Vermont corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $10,001 - $25,000: $600 plus 7% of the amount over $10,000.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+      "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate tax rate on taxable income over $10,000",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Vermont corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "$1,650 plus 8.5% of the amount over $25,000.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Corporate Income Tax (Tax Rates)",
+      "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate tax rate on taxable income over $25,000",
+      "from": null,
+      "to": null,
+      "rate": 0.085,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Vermont corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Under $500K: $100; $500K-$1M: $500; $1M-$5M: $2,000; $5M-$300M: $6,000; over $300M: $100,000. Small farm corporations: $75.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Corporate Income Tax (Minimum Annual Tax)",
+      "source_url": "https://tax.vermont.gov/business/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum annual corporate tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$100 to $100,000 depending on Vermont gross receipts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Vermont property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is paid to the town where the property is located.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Property Valuation & Review Annual Report",
+      "source_url": "https://tax.vermont.gov/pvr-annual-report",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Towns, school and fire districts and villages, plus the statewide education property tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Vermont property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Municipal Officials",
+      "source_url": "https://tax.vermont.gov/municipal-officials",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Vermont Department of Taxes, Division of Property Valuation and Review (PVR)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Vermont property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "FY2027 (2026-2027 property tax year) rates are published per town by the Department of Taxes.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Education Property Tax Rates",
+      "source_url": "https://tax.vermont.gov/property/education-property-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State education property tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Statewide tax with a homestead rate and a nonhomestead rate set for each town every year",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Vermont real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Plus the 0.22% clean water additional tax (total 1.47%). Applies to commercial property, land and long-term rentals.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Property Transfer Tax",
+      "source_url": "https://tax.vermont.gov/property/property-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Property transfer tax, general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0125,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Vermont real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "First $200,000 taxed at 0.5% with no clean water additional tax; value above $200,000 at 1.25% + 0.22% (1.47%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Property Transfer Tax",
+      "source_url": "https://tax.vermont.gov/property/property-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Principal residence rate (first $200,000)",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Vermont real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "For homes fit for year-round living that are not the buyer's principal residence or a long-term rental; 3.62% with the clean water additional tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Property Transfer Tax",
+      "source_url": "https://tax.vermont.gov/property/property-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Non-principal residence rate",
+      "from": null,
+      "to": null,
+      "rate": 0.034,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Vermont real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Added to the transfer tax (labelled Clean Water Surcharge by the state); not charged on the first $200,000 of a principal residence.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Property Transfer Tax",
+      "source_url": "https://tax.vermont.gov/property/property-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Clean water additional tax",
+      "from": null,
+      "to": null,
+      "rate": 0.0022,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Vermont real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Vermont Department of Taxes: Form PTT-172 Instructions",
+      "source_url": "https://tax.vermont.gov/sites/tax/files/documents/PTT-172%20Instr.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Transferee (buyer)",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/vermont",

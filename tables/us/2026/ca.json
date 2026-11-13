@@ -379,6 +379,179 @@
       },
       "verified": true,
       "note": "Paid by the employer only; not deducted from wages."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "California corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporation franchise tax rate",
+          "value": 0.0884,
+          "unit": "rate",
+          "note": "Rate for corporations other than banks and financial corporations, measured by California net income.",
+          "source": {
+            "title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+            "url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Bank and financial corporation rate",
+          "value": 0.1084,
+          "unit": "rate",
+          "source": {
+            "title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+            "url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "S corporation rate",
+          "value": 0.015,
+          "unit": "rate",
+          "note": "S corporation bank and financial rate is 3.5%.",
+          "source": {
+            "title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+            "url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Alternative minimum tax rate",
+          "value": 0.0665,
+          "unit": "rate",
+          "source": {
+            "title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+            "url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum franchise tax",
+          "value": 800,
+          "unit": "money",
+          "source": {
+            "title": "California Franchise Tax Board: Corporations",
+            "url": "https://www.ftb.ca.gov/file/business/types/corporations/index.html",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+        "url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "California property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties collect the 1% general levy and apportion it to the local districts within the county",
+          "unit": "text",
+          "source": {
+            "title": "California Constitution, Article XIII A (Proposition 13), California Legislative Information",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=XIII%20A",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "California State Board of Equalization (BOE), Property Tax Department",
+          "unit": "text",
+          "note": "Oversees the 58 county assessors and assesses certain utility and railroad property directly.",
+          "source": {
+            "title": "California State Board of Equalization: Property Tax",
+            "url": "https://www.boe.ca.gov/proptaxes/proptax.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Maximum general property tax rate",
+          "value": 0.01,
+          "unit": "rate",
+          "note": "Proposition 13 cap: 1% of full cash value; the assessed base may rise by no more than 2% a year (inflation) until a change in ownership or new construction.",
+          "source": {
+            "title": "California Constitution, Article XIII A (Proposition 13), California Legislative Information",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=XIII%20A",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homeowners' exemption",
+          "value": 7000,
+          "unit": "money",
+          "note": "Reduction in taxable value for an owner-occupied principal residence (owner must live there on January 1).",
+          "source": {
+            "title": "California State Board of Equalization: Homeowners' Exemption",
+            "url": "https://www.boe.ca.gov/proptaxes/homeowners_exemption.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "California Constitution, Article XIII A (Proposition 13), California Legislative Information",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=XIII%20A",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "California real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "County documentary transfer tax",
+          "value": "$0.55 per $500 of consideration or value (or fraction), when over $100",
+          "unit": "text",
+          "note": "Counties may impose it by ordinance; value excludes liens or encumbrances remaining at the time of sale.",
+          "source": {
+            "title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "County documentary transfer tax rate",
+          "value": 0.0011,
+          "unit": "rate",
+          "note": "$0.55 per $500 equals 0.11%.",
+          "source": {
+            "title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "City documentary transfer tax",
+          "value": "Up to half the county rate ($0.275 per $500), credited against the county tax",
+          "unit": "text",
+          "note": "A city inside a county that levies the tax may add its own tax at one-half the county rate; the city tax is credited against the county tax.",
+          "source": {
+            "title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -418,6 +591,21 @@
       "title": "2026 Instructions for Form 540-ES (Behavioral Health Services Tax worksheet)",
       "url": "https://www.ftb.ca.gov/forms/2026/2026-540-es-instructions.html",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+      "url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "California Constitution, Article XIII A (Proposition 13), California Legislative Information",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=XIII%20A",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -1365,6 +1553,246 @@
       "rate": 0.001,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "California corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Rate for corporations other than banks and financial corporations, measured by California net income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+      "source_url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporation franchise tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0884,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "California corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Business taxes set by the state. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+      "source_url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Bank and financial corporation rate",
+      "from": null,
+      "to": null,
+      "rate": 0.1084,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "California corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "S corporation bank and financial rate is 3.5%.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+      "source_url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "S corporation rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "California corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Business taxes set by the state. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Franchise Tax Board: Business tax rates (last updated 09/24/2025)",
+      "source_url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Alternative minimum tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0665,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "California corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Business taxes set by the state. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Franchise Tax Board: Corporations",
+      "source_url": "https://www.ftb.ca.gov/file/business/types/corporations/index.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 800,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "California property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Constitution, Article XIII A (Proposition 13), California Legislative Information",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=XIII%20A",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties collect the 1% general levy and apportion it to the local districts within the county",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "California property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Oversees the 58 county assessors and assesses certain utility and railroad property directly.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California State Board of Equalization: Property Tax",
+      "source_url": "https://www.boe.ca.gov/proptaxes/proptax.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "California State Board of Equalization (BOE), Property Tax Department",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "California property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Proposition 13 cap: 1% of full cash value; the assessed base may rise by no more than 2% a year (inflation) until a change in ownership or new construction.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Constitution, Article XIII A (Proposition 13), California Legislative Information",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=XIII%20A",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Maximum general property tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "California property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Reduction in taxable value for an owner-occupied principal residence (owner must live there on January 1).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California State Board of Equalization: Homeowners' Exemption",
+      "source_url": "https://www.boe.ca.gov/proptaxes/homeowners_exemption.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homeowners' exemption",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 7000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "California real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Counties may impose it by ordinance; value excludes liens or encumbrances remaining at the time of sale.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "County documentary transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.55 per $500 of consideration or value (or fraction), when over $100",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "California real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "$0.55 per $500 equals 0.11%.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "County documentary transfer tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0011,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "California real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "A city inside a county that levies the tax may add its own tax at one-half the county rate; the city tax is credited against the county tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "California Revenue and Taxation Code Section 11911 (Documentary Transfer Tax Act)",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=11911",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "City documentary transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Up to half the county rate ($0.275 per $500), credited against the county tax",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/california",

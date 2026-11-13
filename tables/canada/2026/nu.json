@@ -12,9 +12,12 @@
   "currency": "CAD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
-  "dataVerified": true,
+  "status": "unverified",
+  "underReview": [
+    "property-tax",
+    "property-transfer"
+  ],
+  "dataVerified": false,
   "sections": [
     {
       "id": "provincial-income-tax",
@@ -112,6 +115,77 @@
         "retrievedAt": "2026-10-16"
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Nunavut corporate income tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Lower rate (small business income up to the business limit)",
+          "value": 0.03,
+          "unit": "rate"
+        },
+        {
+          "label": "Higher (general) rate",
+          "value": 0.12,
+          "unit": "rate"
+        },
+        {
+          "label": "Business limit",
+          "value": 500000,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+        "retrievedAt": "2026-11-06"
+      },
+      "verified": true,
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income."
+    },
+    {
+      "id": "property-tax",
+      "title": "Nunavut property tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Property tax (not confirmed)",
+          "value": "Municipal and territorial property taxes; rules not yet read on an official page",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Government of Nunavut legislation (not read)",
+        "url": "https://nunavutlegislation.ca/en/file-download/download/public/376",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": false
+    },
+    {
+      "id": "property-transfer",
+      "title": "Nunavut land titles fees",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Land transfer charges (not confirmed)",
+          "value": "Land titles registration fees set by the territory",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Government of Nunavut legislation (not read)",
+        "url": "https://nunavutlegislation.ca/en/file-download/download/public/376",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": false
     }
   ],
   "sources": [
@@ -124,6 +198,16 @@
       "title": "Payroll Tax Act, 1993 (Nunavut), consolidation",
       "url": "https://www.nunavutlegislation.ca/en/file-download/download/public/292",
       "retrievedAt": "2026-11-05"
+    },
+    {
+      "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Government of Nunavut legislation (not read)",
+      "url": "https://nunavutlegislation.ca/en/file-download/download/public/376",
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "CRA: GST/HST rates by province",
@@ -296,6 +380,106 @@
       "rate": 0.05,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Nunavut corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Lower rate (small business income up to the business limit)",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Nunavut corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Higher (general) rate",
+      "from": null,
+      "to": null,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Nunavut corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Nunavut property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Government of Nunavut legislation (not read)",
+      "source_url": "https://nunavutlegislation.ca/en/file-download/download/public/376",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Property tax (not confirmed)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Municipal and territorial property taxes; rules not yet read on an official page",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Nunavut land titles fees",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Government of Nunavut legislation (not read)",
+      "source_url": "https://nunavutlegislation.ca/en/file-download/download/public/376",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Land transfer charges (not confirmed)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Land titles registration fees set by the territory",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/canada/tax-tables/2026/nunavut",

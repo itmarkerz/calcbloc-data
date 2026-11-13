@@ -528,6 +528,175 @@
       },
       "verified": true,
       "note": "Ohio new employers pay 2.85% (construction 5.85%), including the 0.15% technology and customer service fee."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Ohio corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income (franchise) tax",
+          "value": "None: Ohio phased out its corporation franchise tax in favor of the Commercial Activity Tax",
+          "unit": "text",
+          "note": "Phased out over report years 2006-2010; the franchise tax now applies only to a small number of special corporations, and banks pay a separate Financial Institutions Tax.",
+          "source": {
+            "title": "Ohio Department of Taxation: Corporation Franchise Tax (publication)",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/corporation_franchise_tax.pdf",
+            "retrievedAt": "2026-11-13"
+          },
+          "status": "not_applicable"
+        },
+        {
+          "label": "Commercial Activity Tax (CAT) rate",
+          "value": 0.0026,
+          "unit": "rate",
+          "note": "Gross-receipts tax on Ohio taxable gross receipts above the annual exclusion; applies to all business forms, not just corporations.",
+          "source": {
+            "title": "Ohio Department of Taxation: Commercial Activity Tax (CAT) (September 3, 2025)",
+            "url": "https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "CAT annual exclusion",
+          "value": 6000000,
+          "unit": "money",
+          "note": "For tax years 2025 and later only receipts above $6 million are taxed and smaller businesses owe nothing ($3 million in 2024). The annual minimum tax ended in 2024.",
+          "source": {
+            "title": "Ohio Department of Taxation: Commercial Activity Tax (CAT) (September 3, 2025)",
+            "url": "https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2025-01-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Ohio Department of Taxation: Corporation Franchise Tax (publication)",
+        "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/corporation_franchise_tax.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Ohio property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "School districts, counties, municipalities, townships and special service districts",
+          "unit": "text",
+          "note": "Taxable (assessed) value is 35% of market value; county auditors appraise property.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Ohio Department of Taxation, Division of Tax Equalization",
+          "unit": "text",
+          "note": "Oversees county auditors' six-year reappraisals and three-year updates using sales-ratio studies.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Limit on unvoted property tax (10-mill limitation)",
+          "value": "Unvoted levies may not exceed 1% of true value (10 mills on taxable value, about 0.35% of market value)",
+          "unit": "text",
+          "note": "Constitutional limit on 'inside' millage; voter-approved levies are on top.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead exemption (seniors, disabled and certain survivors)",
+          "value": 29000,
+          "unit": "money",
+          "note": "Shields up to $29,000 of market value for qualifying owners (income limit $40,000 for tax year 2025); amount is indexed for inflation each year, so the 2026 figure may differ.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+        "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Ohio real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real property conveyance fee (state-mandated)",
+          "value": "1 mill ($1 per $1,000 of value transferred), in all 88 counties",
+          "unit": "text",
+          "note": "Mandatory fee set by state law; revenue goes to the county general fund.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Mandatory conveyance fee rate",
+          "value": 0.001,
+          "unit": "rate",
+          "note": "Same fee expressed as a rate.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "County permissive transfer fee",
+          "value": "Up to 3 additional mills ($3 per $1,000); every county levies 1 to 3 mills",
+          "unit": "text",
+          "note": "Counties may set a lower rate for homestead-exemption property. Total can reach 4 mills.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "The person transferring the property (seller)",
+          "unit": "text",
+          "note": "Paid at the time of transfer.",
+          "source": {
+            "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+        "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -615,6 +784,16 @@
       "title": "Ohio ODJFS, 2026 Contribution Rate Details",
       "url": "https://dam.assets.ohio.gov/image/upload/jfs.ohio.gov/ouio/uctax/2026RateDetails.pdf",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Ohio Department of Taxation: Corporation Franchise Tax (publication)",
+      "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/corporation_franchise_tax.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+      "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -1562,6 +1741,226 @@
       "rate": 0.101,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Ohio corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Phased out over report years 2006-2010; the franchise tax now applies only to a small number of special corporations, and banks pay a separate Financial Institutions Tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Corporation Franchise Tax (publication)",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/corporation_franchise_tax.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Corporate income (franchise) tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None: Ohio phased out its corporation franchise tax in favor of the Commercial Activity Tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Ohio corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Gross-receipts tax on Ohio taxable gross receipts above the annual exclusion; applies to all business forms, not just corporations.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Commercial Activity Tax (CAT) (September 3, 2025)",
+      "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Commercial Activity Tax (CAT) rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0026,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Ohio corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "For tax years 2025 and later only receipts above $6 million are taxed and smaller businesses owe nothing ($3 million in 2024). The annual minimum tax ended in 2024.",
+      "tax_year": "2026",
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source_title": "Ohio Department of Taxation: Commercial Activity Tax (CAT) (September 3, 2025)",
+      "source_url": "https://tax.ohio.gov/business/ohio-business-taxes/commercial-activities",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "CAT annual exclusion",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 6000000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Ohio property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Taxable (assessed) value is 35% of market value; county auditors appraise property.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "School districts, counties, municipalities, townships and special service districts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Ohio property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Oversees county auditors' six-year reappraisals and three-year updates using sales-ratio studies.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Ohio Department of Taxation, Division of Tax Equalization",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Ohio property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Constitutional limit on 'inside' millage; voter-approved levies are on top.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Limit on unvoted property tax (10-mill limitation)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Unvoted levies may not exceed 1% of true value (10 mills on taxable value, about 0.35% of market value)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Ohio property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Shields up to $29,000 of market value for qualifying owners (income limit $40,000 for tax year 2025); amount is indexed for inflation each year, so the 2026 figure may differ.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Property Tax - Real Property",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead exemption (seniors, disabled and certain survivors)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 29000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Ohio real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Mandatory fee set by state law; revenue goes to the county general fund.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Real property conveyance fee (state-mandated)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "1 mill ($1 per $1,000 of value transferred), in all 88 counties",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Ohio real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Same fee expressed as a rate.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Mandatory conveyance fee rate",
+      "from": null,
+      "to": null,
+      "rate": 0.001,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Ohio real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Counties may set a lower rate for homestead-exemption property. Total can reach 4 mills.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "County permissive transfer fee",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Up to 3 additional mills ($3 per $1,000); every county levies 1 to 3 mills",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Ohio real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Paid at the time of transfer.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ohio Department of Taxation: Fiscal Year 2025 Annual Report, Real Property Conveyance Fees",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/communications/publications/annual_reports/2025annualreport.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "The person transferring the property (seller)",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/ohio",

@@ -186,6 +186,150 @@
       },
       "verified": true,
       "note": "Montana assigns new employers a rate by industry, plus a 0.18% Administrative Fund Tax. Enter the total rate from your state rate notice."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Montana corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax rate",
+          "value": 0.0675,
+          "unit": "rate",
+          "note": "Standard rate on Montana net income (MCA 15-31-121).",
+          "source": {
+            "title": "Montana Department of Revenue: Corporate Income Tax",
+            "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Corporate income tax rate for water's-edge filers",
+          "value": 0.07,
+          "unit": "rate",
+          "note": "Applies to corporations making a water's-edge election.",
+          "source": {
+            "title": "Montana Department of Revenue: Corporate Income Tax",
+            "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Alternative tax on Montana gross sales",
+          "value": 0.005,
+          "unit": "rate",
+          "note": "Only for corporations whose Montana activity is sales only, with no Montana property and Montana gross sales of $100,000 or less.",
+          "source": {
+            "title": "Montana Department of Revenue: Corporate Income Tax",
+            "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum corporate tax",
+          "value": 50,
+          "unit": "money",
+          "source": {
+            "title": "Montana Department of Revenue: Corporate Income Tax",
+            "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Montana Department of Revenue: Corporate Income Tax",
+        "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Montana property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Local governments (counties, cities, school districts and other taxing jurisdictions) set mill levies on state-certified taxable values",
+          "unit": "text",
+          "note": "Total mills from all jurisdictions are applied to the property's taxable value.",
+          "source": {
+            "title": "Montana Department of Revenue: Certified Property Values and Mill Levies",
+            "url": "https://revenue.mt.gov/property/appraisal/certified-property-values-and-mill-levies",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Montana Department of Revenue, Property Assessment Division",
+          "unit": "text",
+          "note": "The State itself values taxable property statewide and certifies taxable values to local governments.",
+          "source": {
+            "title": "Montana Department of Revenue: Property Assessment Division",
+            "url": "https://revenue.mt.gov/about/property-assessment",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Local levy growth limit",
+          "value": "Property tax revenue may grow by one-half of the average inflation rate over the past three years (plus newly taxable property)",
+          "unit": "text",
+          "note": "Sets each jurisdiction's maximum mills under MCA 15-10-420.",
+          "source": {
+            "title": "Montana Department of Revenue: Certified Property Values and Mill Levies",
+            "url": "https://revenue.mt.gov/property/appraisal/certified-property-values-and-mill-levies",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Residential tax rates for primary homes and long-term rentals (2026)",
+          "value": "Tiered: 0.76% on the first $378,000 of market value, 0.90% to $756,000, 1.10% to $1,511,999, 1.90% above; flat 1.90% for other residential property",
+          "unit": "text",
+          "note": "New state rate structure from 2026 that favours primary residences and long-term rentals over second homes and short-term rentals.",
+          "source": {
+            "title": "Montana Department of Revenue: 2026 Property Tax Information",
+            "url": "https://revenue.mt.gov/property/property-tax-changes/2026-property-tax-information",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Montana Department of Revenue: Certified Property Values and Mill Levies",
+        "url": "https://revenue.mt.gov/property/appraisal/certified-property-values-and-mill-levies",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Montana real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real estate transfer tax",
+          "value": "None: the Montana Constitution prohibits the State and local governments from taxing the sale or transfer of real property",
+          "unit": "text",
+          "note": "Article VIII, Section 17, approved by voters on November 2, 2010 (Constitutional Initiative 105).",
+          "source": {
+            "title": "Montana Legislature: Montana Constitution, Article VIII, Section 17",
+            "url": "https://archive.legmt.gov/bills/mca/title_0000/article_0080/part_0010/section_0170/0000-0080-0010-0170.html",
+            "retrievedAt": "2026-11-13"
+          },
+          "status": "not_applicable"
+        }
+      ],
+      "source": {
+        "title": "Montana Legislature: Montana Constitution, Article VIII, Section 17",
+        "url": "https://archive.legmt.gov/bills/mca/title_0000/article_0080/part_0010/section_0170/0000-0080-0010-0170.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -213,6 +357,21 @@
       "title": "Montana Department of Labor & Industry, Unemployment Insurance Contributions Bureau, Rate Explanation (2026)",
       "url": "https://uid.dli.mt.gov/_docs/contributions-bureau/Rate-Explanation.pdf",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Montana Department of Revenue: Corporate Income Tax",
+      "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Montana Department of Revenue: Certified Property Values and Mill Levies",
+      "url": "https://revenue.mt.gov/property/appraisal/certified-property-values-and-mill-levies",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Montana Legislature: Montana Constitution, Article VIII, Section 17",
+      "url": "https://archive.legmt.gov/bills/mca/title_0000/article_0080/part_0010/section_0170/0000-0080-0010-0170.html",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -540,6 +699,186 @@
       "rate": 0.0612,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Montana corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Standard rate on Montana net income (MCA 15-31-121).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: Corporate Income Tax",
+      "source_url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0675,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Montana corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to corporations making a water's-edge election.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: Corporate Income Tax",
+      "source_url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate income tax rate for water's-edge filers",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Montana corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Only for corporations whose Montana activity is sales only, with no Montana property and Montana gross sales of $100,000 or less.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: Corporate Income Tax",
+      "source_url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Alternative tax on Montana gross sales",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Montana corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Business taxes set by the state. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: Corporate Income Tax",
+      "source_url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum corporate tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 50,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Montana property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Total mills from all jurisdictions are applied to the property's taxable value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: Certified Property Values and Mill Levies",
+      "source_url": "https://revenue.mt.gov/property/appraisal/certified-property-values-and-mill-levies",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Local governments (counties, cities, school districts and other taxing jurisdictions) set mill levies on state-certified taxable values",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Montana property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The State itself values taxable property statewide and certifies taxable values to local governments.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: Property Assessment Division",
+      "source_url": "https://revenue.mt.gov/about/property-assessment",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Montana Department of Revenue, Property Assessment Division",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Montana property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Sets each jurisdiction's maximum mills under MCA 15-10-420.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: Certified Property Values and Mill Levies",
+      "source_url": "https://revenue.mt.gov/property/appraisal/certified-property-values-and-mill-levies",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Local levy growth limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Property tax revenue may grow by one-half of the average inflation rate over the past three years (plus newly taxable property)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Montana property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "New state rate structure from 2026 that favours primary residences and long-term rentals over second homes and short-term rentals.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Department of Revenue: 2026 Property Tax Information",
+      "source_url": "https://revenue.mt.gov/property/property-tax-changes/2026-property-tax-information",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Residential tax rates for primary homes and long-term rentals (2026)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Tiered: 0.76% on the first $378,000 of market value, 0.90% to $756,000, 1.10% to $1,511,999, 1.90% above; flat 1.90% for other residential property",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Montana real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Article VIII, Section 17, approved by voters on November 2, 2010 (Constitutional Initiative 105).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Montana Legislature: Montana Constitution, Article VIII, Section 17",
+      "source_url": "https://archive.legmt.gov/bills/mca/title_0000/article_0080/part_0010/section_0170/0000-0080-0010-0170.html",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Real estate transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None: the Montana Constitution prohibits the State and local governments from taxing the sale or transfer of real property",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/montana",

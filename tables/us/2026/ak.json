@@ -12,8 +12,10 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "property-tax-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -98,6 +100,226 @@
       },
       "verified": true,
       "note": "Alaska's base new-employer rate from the U.S. Department of Labor's 2026 summary. State surcharges, if any, are not included."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Rate on taxable income up to $25,000",
+          "value": 0,
+          "unit": "rate",
+          "note": "Corporate net income tax: the first $25,000 of Alaska taxable income is taxed at 0%.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $25,000",
+          "value": 0.02,
+          "unit": "rate",
+          "note": "Bracket $25,000 to $49,000: tax is $0 plus 2% of the amount over $25,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $49,000",
+          "value": 0.03,
+          "unit": "rate",
+          "note": "Bracket $49,000 to $74,000: tax is $480 plus 3% of the amount over $49,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $74,000",
+          "value": 0.04,
+          "unit": "rate",
+          "note": "Bracket $74,000 to $99,000: tax is $1,230 plus 4% of the amount over $74,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $99,000",
+          "value": 0.05,
+          "unit": "rate",
+          "note": "Bracket $99,000 to $124,000: tax is $2,230 plus 5% of the amount over $99,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $124,000",
+          "value": 0.06,
+          "unit": "rate",
+          "note": "Bracket $124,000 to $148,000: tax is $3,480 plus 6% of the amount over $124,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $148,000",
+          "value": 0.07,
+          "unit": "rate",
+          "note": "Bracket $148,000 to $173,000: tax is $4,920 plus 7% of the amount over $148,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $173,000",
+          "value": 0.08,
+          "unit": "rate",
+          "note": "Bracket $173,000 to $198,000: tax is $6,670 plus 8% of the amount over $173,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $198,000",
+          "value": 0.09,
+          "unit": "rate",
+          "note": "Bracket $198,000 to $222,000: tax is $8,670 plus 9% of the amount over $198,000.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate on taxable income over $222,000",
+          "value": 0.094,
+          "unit": "rate",
+          "note": "Top bracket: tax is $10,830 plus 9.4% of the amount over $222,000. Graduated corporate net income tax.",
+          "source": {
+            "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+            "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2013-08-26",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Rate range (summary)",
+          "value": "0% to 9.4% (graduated, 10 brackets)",
+          "unit": "text",
+          "note": "Alaska taxes corporations on Alaska taxable income based on federal taxable income with Alaska adjustments.",
+          "source": {
+            "title": "Alaska Department of Revenue, Tax Division: Corporate Income Tax",
+            "url": "https://tax.alaska.gov/programs/programs/index.aspx?60380",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+        "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2013-08-26",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Alaska property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State oil and gas property tax rate",
+          "value": 0.02,
+          "unit": "rate",
+          "note": "State tax (AS 43.56) on oil and gas exploration, production and pipeline property only; municipal property tax paid on that property is credited against it.",
+          "source": {
+            "title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Historical Overview",
+            "url": "https://tax.alaska.gov/programs/programs/reports/Historical.aspx?60018",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Historical Overview",
+        "url": "https://tax.alaska.gov/programs/programs/reports/Historical.aspx?60018",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-tax-under-review",
+      "title": "Alaska property tax: state rules: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Municipalities (boroughs and cities that levy a property tax)",
+          "unit": "text",
+          "note": "Alaska has no statewide tax on general real estate; property tax is levied by municipalities.",
+          "source": {
+            "title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Description of Credits",
+            "url": "https://tax.alaska.gov/programs/programs/reports/Credits.aspx?60018",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Office of the State Assessor (Department of Commerce, Community, and Economic Development, Division of Community and Regional Affairs)",
+          "unit": "text",
+          "source": {
+            "title": "Alaska DCCED: Office of the State Assessor",
+            "url": "https://www.commerce.alaska.gov/web/dcra/OfficeoftheStateAssessor",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Description of Credits",
+        "url": "https://tax.alaska.gov/programs/programs/reports/Credits.aspx?60018",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -130,6 +352,23 @@
       "title": "Alaska Department of Labor and Workforce Development, 2026 Industry Rates",
       "url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2013-08-26",
+      "effectiveTo": null
+    },
+    {
+      "title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Historical Overview",
+      "url": "https://tax.alaska.gov/programs/programs/reports/Historical.aspx?60018",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Description of Credits",
+      "url": "https://tax.alaska.gov/programs/programs/reports/Credits.aspx?60018",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -297,6 +536,286 @@
       "rate": 0.054,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Corporate net income tax: the first $25,000 of Alaska taxable income is taxed at 0%.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income up to $25,000",
+      "from": null,
+      "to": null,
+      "rate": 0,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $25,000 to $49,000: tax is $0 plus 2% of the amount over $25,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $25,000",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $49,000 to $74,000: tax is $480 plus 3% of the amount over $49,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $49,000",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $74,000 to $99,000: tax is $1,230 plus 4% of the amount over $74,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $74,000",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $99,000 to $124,000: tax is $2,230 plus 5% of the amount over $99,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $99,000",
+      "from": null,
+      "to": null,
+      "rate": 0.05,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $124,000 to $148,000: tax is $3,480 plus 6% of the amount over $124,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $124,000",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $148,000 to $173,000: tax is $4,920 plus 7% of the amount over $148,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $148,000",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $173,000 to $198,000: tax is $6,670 plus 8% of the amount over $173,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $173,000",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Bracket $198,000 to $222,000: tax is $8,670 plus 9% of the amount over $198,000.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $198,000",
+      "from": null,
+      "to": null,
+      "rate": 0.09,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Top bracket: tax is $10,830 plus 9.4% of the amount over $222,000. Graduated corporate net income tax.",
+      "tax_year": "2026",
+      "effective_from": "2013-08-26",
+      "effective_to": null,
+      "source_title": "Alaska Department of Revenue: 2025 Alaska Corporation Net Income Tax Return Instructions (Form 6000i, Rev 1/1/26), Tax Rate Table",
+      "source_url": "https://tax.alaska.gov/programs/documentviewer/viewer.aspx?7531f",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate on taxable income over $222,000",
+      "from": null,
+      "to": null,
+      "rate": 0.094,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Alaska corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Alaska taxes corporations on Alaska taxable income based on federal taxable income with Alaska adjustments.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Revenue, Tax Division: Corporate Income Tax",
+      "source_url": "https://tax.alaska.gov/programs/programs/index.aspx?60380",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate range (summary)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "0% to 9.4% (graduated, 10 brackets)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Alaska property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "State tax (AS 43.56) on oil and gas exploration, production and pipeline property only; municipal property tax paid on that property is credited against it.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Historical Overview",
+      "source_url": "https://tax.alaska.gov/programs/programs/reports/Historical.aspx?60018",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oil and gas property tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Alaska property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Alaska has no statewide tax on general real estate; property tax is levied by municipalities.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska Department of Revenue, Tax Division: Oil and Gas Property Tax, Description of Credits",
+      "source_url": "https://tax.alaska.gov/programs/programs/reports/Credits.aspx?60018",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Municipalities (boroughs and cities that levy a property tax)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Alaska property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alaska DCCED: Office of the State Assessor",
+      "source_url": "https://www.commerce.alaska.gov/web/dcra/OfficeoftheStateAssessor",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Office of the State Assessor (Department of Commerce, Community, and Economic Development, Division of Community and Regional Affairs)",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/alaska",

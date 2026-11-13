@@ -3,7 +3,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below and credit \"Data by CalcBloc (calcbloc.com/data)\"."
 type: dataset
 title: "CalcBloc Tax Tables: 2026 income tax and social security data for 41 countries"
-abstract: "Income tax brackets, allowances and social security contribution rates for 41 countries (246 national and regional tables, 10243 rows) for the 2026 and 2026-27 tax years, compiled from official government sources. Every row carries its official source URL, retrieval date and review status."
+abstract: "Income tax brackets, allowances and social security contribution rates for 41 countries (246 national and regional tables, 11570 rows) for the 2026 and 2026-27 tax years, compiled from official government sources. Every row carries its official source URL, retrieval date and review status."
 authors:
   - name: "itmarkerz technologies"
     website: "https://itmarkerz.co.in"

@@ -344,6 +344,145 @@
       },
       "verified": true,
       "note": "Pennsylvania new non-construction employers pay 3.822% (construction 10.5924%). Employees also pay 0.07% of all wages, which is withheld and not an employer cost."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Pennsylvania corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate net income tax rate",
+          "value": 0.0749,
+          "unit": "rate",
+          "note": "2026 step of the phase-down from 9.99% (2022): 7.99% in 2025, 7.49% in 2026, then 0.5 point lower each year to 4.99% from 2031.",
+          "source": {
+            "title": "Pennsylvania Department of Revenue: Corporate Net Income Tax",
+            "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Corporate net income tax rate for 2027",
+          "value": 0.0699,
+          "unit": "rate",
+          "note": "Next scheduled step of the phase-down, for tax years beginning in 2027.",
+          "source": {
+            "title": "Pennsylvania Department of Revenue: Corporate Net Income Tax",
+            "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2027-01-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Pennsylvania Department of Revenue: Corporate Net Income Tax",
+        "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Pennsylvania property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, school districts and municipalities",
+          "unit": "text",
+          "note": "There is no state property tax in Pennsylvania; bills combine county, municipal and school millage.",
+          "source": {
+            "title": "Jefferson County, Pennsylvania (county government): Property Tax",
+            "url": "https://www.jeffersoncountypa.gov/departments/department-of-development/property-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "State Tax Equalization Board (STEB) / Tax Equalization Division, Department of Community and Economic Development",
+          "unit": "text",
+          "note": "Certifies school district market values and each county's common level ratio; assessment itself is done by counties.",
+          "source": {
+            "title": "Pennsylvania DCED: State Tax Equalization Board (STEB)/Tax Equalization Division (TED)",
+            "url": "https://dced.pa.gov/local-government/tax-equalization-division/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Jefferson County, Pennsylvania (county government): Property Tax",
+        "url": "https://www.jeffersoncountypa.gov/departments/department-of-development/property-tax/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Pennsylvania real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State realty transfer tax rate",
+          "value": 0.01,
+          "unit": "rate",
+          "note": "1% of the value of real estate transferred by deed, instrument, long-term lease or other writing; 15% of collections go to the Keystone Recreation, Park and Conservation Fund.",
+          "source": {
+            "title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+            "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "Seller (grantor) and buyer (grantee) are jointly and severally liable",
+          "unit": "text",
+          "note": "In practice the split is set in the sale contract.",
+          "source": {
+            "title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+            "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Local realty transfer tax",
+          "value": "Usually 1% (more in some localities), often shared between the municipality and school district",
+          "unit": "text",
+          "note": "Collected with the state tax by the county Recorder of Deeds.",
+          "source": {
+            "title": "Pennsylvania Department of Revenue: Realty Transfer Tax, New Home Construction",
+            "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax/new-home-construction",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Main exemptions",
+          "value": "Certain transfers among family members, to government units, between religious organizations, to shareholders or partners, inheritances, burial sites and certain farm transfers",
+          "unit": "text",
+          "note": "Abbreviated list from the Department of Revenue; full rules are in the realty transfer tax law.",
+          "source": {
+            "title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+            "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+        "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -411,6 +550,23 @@
       "title": "Pennsylvania L&I Form UC-749 (Rev. 09-25), Contribution Rate Chart",
       "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-25.pdf",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Pennsylvania Department of Revenue: Corporate Net Income Tax",
+      "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Jefferson County, Pennsylvania (county government): Property Tax",
+      "url": "https://www.jeffersoncountypa.gov/departments/department-of-development/property-tax/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+      "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -978,6 +1134,166 @@
       "rate": 0.0895,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Pennsylvania corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "2026 step of the phase-down from 9.99% (2022): 7.99% in 2025, 7.49% in 2026, then 0.5 point lower each year to 4.99% from 2031.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Pennsylvania Department of Revenue: Corporate Net Income Tax",
+      "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate net income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0749,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Pennsylvania corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Next scheduled step of the phase-down, for tax years beginning in 2027.",
+      "tax_year": "2026",
+      "effective_from": "2027-01-01",
+      "effective_to": null,
+      "source_title": "Pennsylvania Department of Revenue: Corporate Net Income Tax",
+      "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate net income tax rate for 2027",
+      "from": null,
+      "to": null,
+      "rate": 0.0699,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Pennsylvania property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "There is no state property tax in Pennsylvania; bills combine county, municipal and school millage.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Jefferson County, Pennsylvania (county government): Property Tax",
+      "source_url": "https://www.jeffersoncountypa.gov/departments/department-of-development/property-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, school districts and municipalities",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Pennsylvania property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Certifies school district market values and each county's common level ratio; assessment itself is done by counties.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Pennsylvania DCED: State Tax Equalization Board (STEB)/Tax Equalization Division (TED)",
+      "source_url": "https://dced.pa.gov/local-government/tax-equalization-division/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "State Tax Equalization Board (STEB) / Tax Equalization Division, Department of Community and Economic Development",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Pennsylvania real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "1% of the value of real estate transferred by deed, instrument, long-term lease or other writing; 15% of collections go to the Keystone Recreation, Park and Conservation Fund.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+      "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State realty transfer tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Pennsylvania real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "In practice the split is set in the sale contract.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+      "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Seller (grantor) and buyer (grantee) are jointly and severally liable",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Pennsylvania real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Collected with the state tax by the county Recorder of Deeds.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Pennsylvania Department of Revenue: Realty Transfer Tax, New Home Construction",
+      "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax/new-home-construction",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Local realty transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Usually 1% (more in some localities), often shared between the municipality and school district",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Pennsylvania real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Abbreviated list from the Department of Revenue; full rules are in the realty transfer tax law.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Pennsylvania Department of Revenue: Realty Transfer Tax",
+      "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main exemptions",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Certain transfers among family members, to government units, between religious organizations, to shareholders or partners, inheritances, burial sites and certain farm transfers",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/pennsylvania",

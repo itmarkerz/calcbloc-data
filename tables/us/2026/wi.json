@@ -12,8 +12,11 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "corporate-tax-under-review",
+    "property-tax-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -282,6 +285,103 @@
       },
       "verified": true,
       "note": "Wisconsin new employers pay 3.05% (construction 2.50%)."
+    },
+    {
+      "id": "corporate-tax-under-review",
+      "title": "Wisconsin corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate franchise and income tax rate",
+          "value": 0.079,
+          "unit": "rate",
+          "note": "Flat 7.9% on Wisconsin net income (Wis. Stat. 71.27 / 71.23); unchanged since 1981 per the Department of Revenue.",
+          "source": {
+            "title": "Wisconsin Department of Revenue: Corporation Franchise or Income Tax - General Information (FAQ)",
+            "url": "https://revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Wisconsin Department of Revenue: Corporation Franchise or Income Tax - General Information (FAQ)",
+        "url": "https://revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
+    },
+    {
+      "id": "property-tax-under-review",
+      "title": "Wisconsin property tax: state rules: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Municipalities, counties, school districts, technical college districts and special purpose districts",
+          "unit": "text",
+          "source": {
+            "title": "Wisconsin Department of Revenue: Property Tax Overview (2024)",
+            "url": "https://www.revenue.wi.gov/DORReports/PropTaxOverview2024.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Wisconsin Department of Revenue (equalized values used to apportion levies)",
+          "unit": "text",
+          "source": {
+            "title": "Wisconsin Department of Revenue: Property Tax Overview (2024)",
+            "url": "https://www.revenue.wi.gov/DORReports/PropTaxOverview2024.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Wisconsin Department of Revenue: Property Tax Overview (2024)",
+        "url": "https://www.revenue.wi.gov/DORReports/PropTaxOverview2024.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Wisconsin real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real estate transfer fee",
+          "value": "$0.30 per $100 of value ($3.00 per $1,000)",
+          "unit": "text",
+          "note": "Value is rounded up to the nearest $100. Rate in effect since September 1, 1981.",
+          "source": {
+            "title": "Waukesha County Register of Deeds: Transfer Returns and Fees (revised 4/20/2018)",
+            "url": "https://www.waukeshacounty.gov/media/soepzddd/transfer-returns-and-fees.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Real estate transfer fee rate",
+          "value": 0.003,
+          "unit": "rate",
+          "source": {
+            "title": "Waukesha County Register of Deeds: Transfer Returns and Fees (revised 4/20/2018)",
+            "url": "https://www.waukeshacounty.gov/media/soepzddd/transfer-returns-and-fees.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Waukesha County Register of Deeds: Transfer Returns and Fees (revised 4/20/2018)",
+        "url": "https://www.waukeshacounty.gov/media/soepzddd/transfer-returns-and-fees.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -304,6 +404,21 @@
       "title": "Wisconsin DWD Form UCT-43-E (R. 01/2026), Preliminary Report for 2026",
       "url": "https://dwd.wisconsin.gov/dwd/forms/ui/pdf/uct-43-e-2026.pdf",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Wisconsin Department of Revenue: Corporation Franchise or Income Tax - General Information (FAQ)",
+      "url": "https://revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Wisconsin Department of Revenue: Property Tax Overview (2024)",
+      "url": "https://www.revenue.wi.gov/DORReports/PropTaxOverview2024.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Waukesha County Register of Deeds: Transfer Returns and Fees (revised 4/20/2018)",
+      "url": "https://www.waukeshacounty.gov/media/soepzddd/transfer-returns-and-fees.pdf",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -949,6 +1064,106 @@
       "from": null,
       "to": null,
       "rate": 0.107,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "Wisconsin corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Flat 7.9% on Wisconsin net income (Wis. Stat. 71.27 / 71.23); unchanged since 1981 per the Department of Revenue.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Wisconsin Department of Revenue: Corporation Franchise or Income Tax - General Information (FAQ)",
+      "source_url": "https://revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Corporate franchise and income tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.079,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Wisconsin property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Wisconsin Department of Revenue: Property Tax Overview (2024)",
+      "source_url": "https://www.revenue.wi.gov/DORReports/PropTaxOverview2024.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Municipalities, counties, school districts, technical college districts and special purpose districts",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax-under-review",
+      "section": "Wisconsin property tax: state rules: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Wisconsin Department of Revenue: Property Tax Overview (2024)",
+      "source_url": "https://www.revenue.wi.gov/DORReports/PropTaxOverview2024.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Wisconsin Department of Revenue (equalized values used to apportion levies)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Wisconsin real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Value is rounded up to the nearest $100. Rate in effect since September 1, 1981.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Waukesha County Register of Deeds: Transfer Returns and Fees (revised 4/20/2018)",
+      "source_url": "https://www.waukeshacounty.gov/media/soepzddd/transfer-returns-and-fees.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Real estate transfer fee",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.30 per $100 of value ($3.00 per $1,000)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Wisconsin real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Waukesha County Register of Deeds: Transfer Returns and Fees (revised 4/20/2018)",
+      "source_url": "https://www.waukeshacounty.gov/media/soepzddd/transfer-returns-and-fees.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Real estate transfer fee rate",
+      "from": null,
+      "to": null,
+      "rate": 0.003,
       "value": null,
       "unit": "rate"
     }

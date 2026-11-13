@@ -287,6 +287,139 @@
       },
       "verified": true,
       "note": "Minnesota assigns new employers their industry's average rate, plus a 0.40% base tax and a 14% additional assessment on the tax. Enter the total rate from your rate notice."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Minnesota corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate franchise tax rate",
+          "value": 0.098,
+          "unit": "rate",
+          "note": "Flat rate on Minnesota taxable income (Minn. Stat. 290.06, subd. 1).",
+          "source": {
+            "title": "Minnesota Statutes 290.06: Rates of tax; credits (Office of the Revisor of Statutes)",
+            "url": "https://www.revisor.mn.gov/statutes/cite/290.06",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum fee",
+          "value": "Graduated by Minnesota property, payroll and sales: $0 below $1,020,000 up to $10,210 at $40,820,000 or more (2019 base amounts, adjusted each year for inflation)",
+          "unit": "text",
+          "note": "Added to the franchise tax for C corporations. The Department of Revenue publishes the inflation-adjusted amounts each year; its site refused automated access.",
+          "source": {
+            "title": "Minnesota Statutes 290.0922: Minimum fee; corporations; partnerships (Office of the Revisor of Statutes)",
+            "url": "https://www.revisor.mn.gov/statutes/cite/290.0922",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Minnesota Statutes 290.06: Rates of tax; credits (Office of the Revisor of Statutes)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/290.06",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Minnesota property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, school districts, cities, towns and special taxing districts (watershed districts, housing and redevelopment authorities, regional bodies)",
+          "unit": "text",
+          "note": "Each jurisdiction certifies a levy; a property's total rate is the sum of all jurisdictions it lies in.",
+          "source": {
+            "title": "Minnesota House Research Department: Property Tax 101, Basic Terms (PDF)",
+            "url": "https://www.house.mn.gov/hrd/pubs/ss/ssptterm.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Minnesota Department of Revenue (Commissioner of Revenue), Property Tax Division",
+          "unit": "text",
+          "note": "Statute cited because revenue.state.mn.us served a bot-check page to automated requests.",
+          "source": {
+            "title": "Minnesota Statutes 270C.85: Property tax administration (Office of the Revisor of Statutes)",
+            "url": "https://www.revisor.mn.gov/statutes/cite/270C.85",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State general property tax",
+          "value": "State levy on commercial-industrial property ($716,990,000) and seasonal recreational property ($41,690,000)",
+          "unit": "text",
+          "note": "Homes are not subject to the state general levy; it applies a uniform statewide rate to the two property classes.",
+          "source": {
+            "title": "Minnesota Statutes 275.025: State general tax (Office of the Revisor of Statutes)",
+            "url": "https://www.revisor.mn.gov/statutes/cite/275.025",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Minnesota House Research Department: Property Tax 101, Basic Terms (PDF)",
+        "url": "https://www.house.mn.gov/hrd/pubs/ss/ssptterm.pdf",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Minnesota real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State deed tax rate",
+          "value": 0.0033,
+          "unit": "rate",
+          "note": "0.33% of net consideration when it exceeds $3,000; $1.65 when consideration is $3,000 or less.",
+          "source": {
+            "title": "Minnesota Statutes 287.21: Imposition of tax; determination of tax (Office of the Revisor of Statutes)",
+            "url": "https://www.revisor.mn.gov/statutes/cite/287.21",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum deed tax",
+          "value": 1.65,
+          "unit": "money",
+          "note": "Applies when there is no consideration or it is $3,000 or less, and to mergers and designated transfers.",
+          "source": {
+            "title": "Minnesota Statutes 287.21: Imposition of tax; determination of tax (Office of the Revisor of Statutes)",
+            "url": "https://www.revisor.mn.gov/statutes/cite/287.21",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Local deed tax (Hennepin County)",
+          "value": "Additional 0.01% (.0001) deed tax authorised for Hennepin County",
+          "unit": "text",
+          "note": "Revenue goes to the county's environmental response fund; authority expires January 1, 2036.",
+          "source": {
+            "title": "Minnesota Statutes 383B.80: Hennepin County deed and mortgage tax (Office of the Revisor of Statutes)",
+            "url": "https://www.revisor.mn.gov/statutes/cite/383B.80",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Minnesota Statutes 287.21: Imposition of tax; determination of tax (Office of the Revisor of Statutes)",
+        "url": "https://www.revisor.mn.gov/statutes/cite/287.21",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -334,6 +467,21 @@
       "title": "Unemployment Insurance Minnesota, New employer tax rates",
       "url": "https://www.uimn.org/employers/wages-taxes/tax-rates/new-employer-rates.jsp",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Minnesota Statutes 290.06: Rates of tax; credits (Office of the Revisor of Statutes)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/290.06",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Minnesota House Research Department: Property Tax 101, Basic Terms (PDF)",
+      "url": "https://www.house.mn.gov/hrd/pubs/ss/ssptterm.pdf",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Minnesota Statutes 287.21: Imposition of tax; determination of tax (Office of the Revisor of Statutes)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/287.21",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -961,6 +1109,166 @@
       "rate": 0.093,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Minnesota corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Flat rate on Minnesota taxable income (Minn. Stat. 290.06, subd. 1).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota Statutes 290.06: Rates of tax; credits (Office of the Revisor of Statutes)",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/290.06",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate franchise tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.098,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Minnesota corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Added to the franchise tax for C corporations. The Department of Revenue publishes the inflation-adjusted amounts each year; its site refused automated access.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota Statutes 290.0922: Minimum fee; corporations; partnerships (Office of the Revisor of Statutes)",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/290.0922",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum fee",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Graduated by Minnesota property, payroll and sales: $0 below $1,020,000 up to $10,210 at $40,820,000 or more (2019 base amounts, adjusted each year for inflation)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Minnesota property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Each jurisdiction certifies a levy; a property's total rate is the sum of all jurisdictions it lies in.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota House Research Department: Property Tax 101, Basic Terms (PDF)",
+      "source_url": "https://www.house.mn.gov/hrd/pubs/ss/ssptterm.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, school districts, cities, towns and special taxing districts (watershed districts, housing and redevelopment authorities, regional bodies)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Minnesota property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Statute cited because revenue.state.mn.us served a bot-check page to automated requests.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota Statutes 270C.85: Property tax administration (Office of the Revisor of Statutes)",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/270C.85",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Minnesota Department of Revenue (Commissioner of Revenue), Property Tax Division",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Minnesota property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Homes are not subject to the state general levy; it applies a uniform statewide rate to the two property classes.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota Statutes 275.025: State general tax (Office of the Revisor of Statutes)",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/275.025",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State general property tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "State levy on commercial-industrial property ($716,990,000) and seasonal recreational property ($41,690,000)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Minnesota real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "0.33% of net consideration when it exceeds $3,000; $1.65 when consideration is $3,000 or less.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota Statutes 287.21: Imposition of tax; determination of tax (Office of the Revisor of Statutes)",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/287.21",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State deed tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0033,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Minnesota real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Applies when there is no consideration or it is $3,000 or less, and to mergers and designated transfers.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota Statutes 287.21: Imposition of tax; determination of tax (Office of the Revisor of Statutes)",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/287.21",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum deed tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 1.65,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Minnesota real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Revenue goes to the county's environmental response fund; authority expires January 1, 2036.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Minnesota Statutes 383B.80: Hennepin County deed and mortgage tax (Office of the Revisor of Statutes)",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/383B.80",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Local deed tax (Hennepin County)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Additional 0.01% (.0001) deed tax authorised for Hennepin County",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/minnesota",

@@ -69,6 +69,148 @@
       },
       "verified": true,
       "note": "Tennessee new employers pay 2.7%."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Tennessee corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Excise tax rate (on net earnings)",
+          "value": 0.065,
+          "unit": "rate",
+          "note": "Tennessee's tax on business income, paid by corporations, LLCs, limited partnerships and business trusts.",
+          "source": {
+            "title": "Tennessee Department of Revenue: Franchise & Excise Tax, Due Dates and Tax Rates",
+            "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Franchise tax rate (on net worth)",
+          "value": 0.0025,
+          "unit": "rate",
+          "note": "Based on net worth (total assets less total liabilities).",
+          "source": {
+            "title": "Tennessee Department of Revenue: Franchise & Excise Tax, Due Dates and Tax Rates",
+            "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Minimum franchise tax",
+          "value": 100,
+          "unit": "money",
+          "note": "Payable by registered entities whether active or inactive.",
+          "source": {
+            "title": "Tennessee Department of Revenue: Franchise & Excise Tax",
+            "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Tennessee Department of Revenue: Franchise & Excise Tax, Due Dates and Tax Rates",
+        "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Tennessee property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties and cities (rates set by the county commission and city governing bodies)",
+          "unit": "text",
+          "note": "Collected by county trustees and city collecting officials.",
+          "source": {
+            "title": "Tennessee Department of Revenue: Property Tax",
+            "url": "https://www.tn.gov/revenue/taxes/local-taxes/property-tax.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Tennessee Comptroller of the Treasury, Division of Property Assessments (with the State Board of Equalization)",
+          "unit": "text",
+          "source": {
+            "title": "Tennessee Department of Revenue: Property Tax",
+            "url": "https://www.tn.gov/revenue/taxes/local-taxes/property-tax.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Residential assessment ratio",
+          "value": 0.25,
+          "unit": "rate",
+          "note": "Residential and farm property are assessed at 25% of appraised value; commercial and industrial at 40%.",
+          "source": {
+            "title": "Tennessee Comptroller of the Treasury: How to Calculate Your Tax Bill",
+            "url": "https://comptroller.tn.gov/office-functions/pa/property-taxes/how-to-figure-your-tax-bill.html",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Tennessee Department of Revenue: Property Tax",
+        "url": "https://www.tn.gov/revenue/taxes/local-taxes/property-tax.html",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Tennessee real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Realty transfer tax",
+          "value": "$0.37 per $100 of consideration or value",
+          "unit": "text",
+          "note": "Based on the greater of consideration paid or the value of the property.",
+          "source": {
+            "title": "Tennessee Department of Revenue: REC-1 Recordation Tax Overview",
+            "url": "https://revenue.support.tn.gov/hc/en-us/articles/360057241552-REC-1-Recordation-Tax-Overview",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "Grantee (buyer)",
+          "unit": "text",
+          "source": {
+            "title": "Tennessee Department of Revenue: Recordation Tax",
+            "url": "https://www.tn.gov/revenue/taxes/local-taxes/recordation-taxes.html",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Mortgage (indebtedness) tax",
+          "value": "$0.115 per $100 of indebtedness, minus the first $2,000",
+          "unit": "text",
+          "note": "Charged when a mortgage or deed of trust is recorded; paid by the debtor.",
+          "source": {
+            "title": "Tennessee Department of Revenue: REC-1 Recordation Tax Overview",
+            "url": "https://revenue.support.tn.gov/hc/en-us/articles/360057241552-REC-1-Recordation-Tax-Overview",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Tennessee Department of Revenue: REC-1 Recordation Tax Overview",
+        "url": "https://revenue.support.tn.gov/hc/en-us/articles/360057241552-REC-1-Recordation-Tax-Overview",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -96,6 +238,21 @@
       "title": "Tennessee Department of Labor and Workforce Development, UI Tax Rates",
       "url": "https://www.tn.gov/workforce/employers/tax-and-insurance-redirect/unemployment-insurance-tax/ui-tax-rates.html",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Tennessee Department of Revenue: Franchise & Excise Tax, Due Dates and Tax Rates",
+      "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Tennessee Department of Revenue: Property Tax",
+      "url": "https://www.tn.gov/revenue/taxes/local-taxes/property-tax.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Tennessee Department of Revenue: REC-1 Recordation Tax Overview",
+      "url": "https://revenue.support.tn.gov/hc/en-us/articles/360057241552-REC-1-Recordation-Tax-Overview",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -203,6 +360,186 @@
       "rate": 0.1,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Tennessee corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Tennessee's tax on business income, paid by corporations, LLCs, limited partnerships and business trusts.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: Franchise & Excise Tax, Due Dates and Tax Rates",
+      "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Excise tax rate (on net earnings)",
+      "from": null,
+      "to": null,
+      "rate": 0.065,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Tennessee corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Based on net worth (total assets less total liabilities).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: Franchise & Excise Tax, Due Dates and Tax Rates",
+      "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax rate (on net worth)",
+      "from": null,
+      "to": null,
+      "rate": 0.0025,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Tennessee corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Payable by registered entities whether active or inactive.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: Franchise & Excise Tax",
+      "source_url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 100,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Tennessee property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Collected by county trustees and city collecting officials.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: Property Tax",
+      "source_url": "https://www.tn.gov/revenue/taxes/local-taxes/property-tax.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties and cities (rates set by the county commission and city governing bodies)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Tennessee property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: Property Tax",
+      "source_url": "https://www.tn.gov/revenue/taxes/local-taxes/property-tax.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Tennessee Comptroller of the Treasury, Division of Property Assessments (with the State Board of Equalization)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Tennessee property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Residential and farm property are assessed at 25% of appraised value; commercial and industrial at 40%.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Comptroller of the Treasury: How to Calculate Your Tax Bill",
+      "source_url": "https://comptroller.tn.gov/office-functions/pa/property-taxes/how-to-figure-your-tax-bill.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Residential assessment ratio",
+      "from": null,
+      "to": null,
+      "rate": 0.25,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Tennessee real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Based on the greater of consideration paid or the value of the property.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: REC-1 Recordation Tax Overview",
+      "source_url": "https://revenue.support.tn.gov/hc/en-us/articles/360057241552-REC-1-Recordation-Tax-Overview",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Realty transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.37 per $100 of consideration or value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Tennessee real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: Recordation Tax",
+      "source_url": "https://www.tn.gov/revenue/taxes/local-taxes/recordation-taxes.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Grantee (buyer)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Tennessee real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Charged when a mortgage or deed of trust is recorded; paid by the debtor.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Tennessee Department of Revenue: REC-1 Recordation Tax Overview",
+      "source_url": "https://revenue.support.tn.gov/hc/en-us/articles/360057241552-REC-1-Recordation-Tax-Overview",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Mortgage (indebtedness) tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.115 per $100 of indebtedness, minus the first $2,000",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/tennessee",

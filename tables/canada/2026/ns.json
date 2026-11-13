@@ -12,9 +12,11 @@
   "currency": "CAD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
-  "dataVerified": true,
+  "status": "unverified",
+  "underReview": [
+    "property-tax"
+  ],
+  "dataVerified": false,
   "sections": [
     {
       "id": "provincial-income-tax",
@@ -98,6 +100,98 @@
         "retrievedAt": "2026-10-16"
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Nova Scotia corporate income tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Lower rate (small business income up to the business limit)",
+          "value": 0.015,
+          "unit": "rate"
+        },
+        {
+          "label": "Higher (general) rate",
+          "value": 0.14,
+          "unit": "rate"
+        },
+        {
+          "label": "Business limit",
+          "value": 700000,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+        "retrievedAt": "2026-11-06"
+      },
+      "verified": true,
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income."
+    },
+    {
+      "id": "property-tax",
+      "title": "Nova Scotia property tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Property tax (not confirmed)",
+          "value": "Levied by municipalities on assessed value; rules not yet read on an official page",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Service Nova Scotia: Municipal deed transfer and property tax",
+        "url": "https://novascotia.ca/sns/access/land/deed-transfer-property-tax.asp",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": false
+    },
+    {
+      "id": "property-transfer",
+      "title": "Nova Scotia deed transfer taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Municipal deed transfer tax: lowest municipal rate",
+          "value": 0.01,
+          "unit": "rate"
+        },
+        {
+          "label": "Municipal deed transfer tax: highest municipal rate",
+          "value": 0.015,
+          "unit": "rate"
+        },
+        {
+          "label": "Municipal deed transfer tax: Halifax Regional Municipality",
+          "value": 0.015,
+          "unit": "rate"
+        },
+        {
+          "label": "Non-resident provincial deed transfer tax (residential, 3 units or less)",
+          "value": 0.1,
+          "unit": "rate",
+          "note": "Since 1 April 2025; on the higher of the price and the assessed value",
+          "source": {
+            "title": "Nova Scotia: Non-resident Provincial Deed Transfer Tax",
+            "url": "https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Service Nova Scotia: Municipal Deed Transfer Tax Rates (July 2026); Municipal deed transfer and property tax; Non-resident Provincial Deed Transfer Tax",
+        "url": "https://novascotia.ca/sns/pdf/ans-property-dtt-rates.pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -105,6 +199,21 @@
       "title": "T4127 Payroll Deductions Formulas – 122nd Edition (January 1, 2026)",
       "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pub/t4127-jan/t4127-01-26e.pdf",
       "retrievedAt": "2026-10-25"
+    },
+    {
+      "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Service Nova Scotia: Municipal deed transfer and property tax",
+      "url": "https://novascotia.ca/sns/access/land/deed-transfer-property-tax.asp",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Service Nova Scotia: Municipal Deed Transfer Tax Rates (July 2026); Municipal deed transfer and property tax; Non-resident Provincial Deed Transfer Tax",
+      "url": "https://novascotia.ca/sns/pdf/ans-property-dtt-rates.pdf",
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "CRA: GST/HST rates by province",
@@ -275,6 +384,166 @@
       "from": null,
       "to": null,
       "rate": 0.14,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Nova Scotia corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Lower rate (small business income up to the business limit)",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Nova Scotia corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Higher (general) rate",
+      "from": null,
+      "to": null,
+      "rate": 0.14,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Nova Scotia corporate income tax",
+      "group": "other",
+      "basis": "Taxable income allocated to the province or territory",
+      "note": "Collected by the CRA with the federal tax. Federal tax is added: 15% general, 9% on small business income.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 700000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Nova Scotia property tax",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Service Nova Scotia: Municipal deed transfer and property tax",
+      "source_url": "https://novascotia.ca/sns/access/land/deed-transfer-property-tax.asp",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Property tax (not confirmed)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Levied by municipalities on assessed value; rules not yet read on an official page",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Nova Scotia deed transfer taxes",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Service Nova Scotia: Municipal Deed Transfer Tax Rates (July 2026); Municipal deed transfer and property tax; Non-resident Provincial Deed Transfer Tax",
+      "source_url": "https://novascotia.ca/sns/pdf/ans-property-dtt-rates.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Municipal deed transfer tax: lowest municipal rate",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Nova Scotia deed transfer taxes",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Service Nova Scotia: Municipal Deed Transfer Tax Rates (July 2026); Municipal deed transfer and property tax; Non-resident Provincial Deed Transfer Tax",
+      "source_url": "https://novascotia.ca/sns/pdf/ans-property-dtt-rates.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Municipal deed transfer tax: highest municipal rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Nova Scotia deed transfer taxes",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Service Nova Scotia: Municipal Deed Transfer Tax Rates (July 2026); Municipal deed transfer and property tax; Non-resident Provincial Deed Transfer Tax",
+      "source_url": "https://novascotia.ca/sns/pdf/ans-property-dtt-rates.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Municipal deed transfer tax: Halifax Regional Municipality",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Nova Scotia deed transfer taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Since 1 April 2025; on the higher of the price and the assessed value",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Nova Scotia: Non-resident Provincial Deed Transfer Tax",
+      "source_url": "https://www.novascotia.ca/non-resident-provincial-deed-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Non-resident provincial deed transfer tax (residential, 3 units or less)",
+      "from": null,
+      "to": null,
+      "rate": 0.1,
       "value": null,
       "unit": "rate"
     }

@@ -12,8 +12,11 @@
   "currency": "USD",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
+  "status": "unverified",
+  "underReview": [
+    "corporate-tax-under-review",
+    "property-transfer-under-review"
+  ],
   "dataVerified": true,
   "sections": [
     {
@@ -88,6 +91,117 @@
       },
       "verified": true,
       "note": "New Hampshire new employers are assigned 2.7% less the 1.0% Trust Fund Reduction that applied in the first half of 2026 (1.7%) on the first $14,000. The reduction is set quarterly; check your rate notice for later quarters."
+    },
+    {
+      "id": "corporate-tax-under-review",
+      "title": "New Hampshire corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Business Profits Tax rate",
+          "value": 0.075,
+          "unit": "rate",
+          "note": "Tax on business profits, for taxable periods ending on or after December 31, 2023. Official page blocked; value from a search snippet of the DRA FAQ.",
+          "source": {
+            "title": "NH Department of Revenue Administration: What is the Business Profits Tax (BPT)?",
+            "url": "https://www.revenue.nh.gov/faq/business-profits.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Business Enterprise Tax rate",
+          "value": 0.0055,
+          "unit": "rate",
+          "note": "Tax on the enterprise value tax base (compensation, interest and dividends), for taxable periods ending on or after December 31, 2022. Search snippet only.",
+          "source": {
+            "title": "NH RSA 77-E:2, Imposition of Tax (Business Enterprise Tax)",
+            "url": "https://gc.nh.gov/rsa/html/V/77-E/77-E-2.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NH Department of Revenue Administration: What is the Business Profits Tax (BPT)?",
+        "url": "https://www.revenue.nh.gov/faq/business-profits.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
+    },
+    {
+      "id": "property-tax",
+      "title": "New Hampshire property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Cities and towns, local school districts and counties, plus the State education property tax",
+          "unit": "text",
+          "note": "A tax bill combines city/town, local school, state school and county rates.",
+          "source": {
+            "title": "City of Keene, NH: Assessing, Tax Rate Information",
+            "url": "https://keenenh.gov/assessing/tax-rate-information",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "NH Department of Revenue Administration, Municipal and Property Division",
+          "unit": "text",
+          "note": "The DRA reviews local budgets and certifies each municipality's tax rate. The DRA's own pages were blocked (HTTP 403), so the quote comes from a city page.",
+          "source": {
+            "title": "City of Keene, NH: Assessing, Tax Rate Information",
+            "url": "https://keenenh.gov/assessing/tax-rate-information",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "City of Keene, NH: Assessing, Tax Rate Information",
+        "url": "https://keenenh.gov/assessing/tax-rate-information",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer-under-review",
+      "title": "New Hampshire real estate transfer tax: figures under review",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real estate transfer tax",
+          "value": "$0.75 per $100 of price, charged to both buyer and seller ($1.50 per $100 in total)",
+          "unit": "text",
+          "note": "Minimum $20 per party. Official page blocked; values from search snippets.",
+          "source": {
+            "title": "NH Department of Revenue Administration: Real Estate Transfer Tax",
+            "url": "https://revenue.nh.gov/taxes-glance/real-estate-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Transfer tax rate per party",
+          "value": 0.0075,
+          "unit": "rate",
+          "note": "0.75% paid by each of buyer and seller (1.5% combined). Search snippet only.",
+          "source": {
+            "title": "NH Department of Revenue Administration: Real Estate Transfer Tax",
+            "url": "https://revenue.nh.gov/taxes-glance/real-estate-transfer-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "NH Department of Revenue Administration: Real Estate Transfer Tax",
+        "url": "https://revenue.nh.gov/taxes-glance/real-estate-transfer-tax",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": false,
+      "note": "Seen only in a search copy of the official page, or the official site blocked automated access: awaiting a manual check."
     }
   ],
   "sources": [
@@ -110,6 +224,21 @@
       "title": "New Hampshire Employment Security, Tax Rate Chart (Quarterly Fund Balance Reductions) and New Employer Registration",
       "url": "https://www.nhes.nh.gov/employers/employer-claims-taxes/tax-rate-chart",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "NH Department of Revenue Administration: What is the Business Profits Tax (BPT)?",
+      "url": "https://www.revenue.nh.gov/faq/business-profits.htm",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "City of Keene, NH: Assessing, Tax Rate Information",
+      "url": "https://keenenh.gov/assessing/tax-rate-information",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "NH Department of Revenue Administration: Real Estate Transfer Tax",
+      "url": "https://revenue.nh.gov/taxes-glance/real-estate-transfer-tax",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -235,6 +364,126 @@
       "from": null,
       "to": null,
       "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "New Hampshire corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Tax on business profits, for taxable periods ending on or after December 31, 2023. Official page blocked; value from a search snippet of the DRA FAQ.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NH Department of Revenue Administration: What is the Business Profits Tax (BPT)?",
+      "source_url": "https://www.revenue.nh.gov/faq/business-profits.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Business Profits Tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax-under-review",
+      "section": "New Hampshire corporate income and franchise taxes: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Tax on the enterprise value tax base (compensation, interest and dividends), for taxable periods ending on or after December 31, 2022. Search snippet only.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NH RSA 77-E:2, Imposition of Tax (Business Enterprise Tax)",
+      "source_url": "https://gc.nh.gov/rsa/html/V/77-E/77-E-2.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Business Enterprise Tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0055,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "New Hampshire property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "A tax bill combines city/town, local school, state school and county rates.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "City of Keene, NH: Assessing, Tax Rate Information",
+      "source_url": "https://keenenh.gov/assessing/tax-rate-information",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Cities and towns, local school districts and counties, plus the State education property tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "New Hampshire property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "The DRA reviews local budgets and certifies each municipality's tax rate. The DRA's own pages were blocked (HTTP 403), so the quote comes from a city page.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "City of Keene, NH: Assessing, Tax Rate Information",
+      "source_url": "https://keenenh.gov/assessing/tax-rate-information",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "NH Department of Revenue Administration, Municipal and Property Division",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "New Hampshire real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "Minimum $20 per party. Official page blocked; values from search snippets.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NH Department of Revenue Administration: Real Estate Transfer Tax",
+      "source_url": "https://revenue.nh.gov/taxes-glance/real-estate-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Real estate transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$0.75 per $100 of price, charged to both buyer and seller ($1.50 per $100 in total)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-under-review",
+      "section": "New Hampshire real estate transfer tax: figures under review",
+      "group": "other",
+      "basis": "",
+      "note": "0.75% paid by each of buyer and seller (1.5% combined). Search snippet only.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "NH Department of Revenue Administration: Real Estate Transfer Tax",
+      "source_url": "https://revenue.nh.gov/taxes-glance/real-estate-transfer-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "under_review",
+      "label": "Transfer tax rate per party",
+      "from": null,
+      "to": null,
+      "rate": 0.0075,
       "value": null,
       "unit": "rate"
     }

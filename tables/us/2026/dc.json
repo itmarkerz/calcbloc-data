@@ -198,6 +198,189 @@
       },
       "verified": true,
       "note": "Paid by the employer only; not deducted from wages."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "District of Columbia corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporation franchise tax rate",
+          "value": 0.0825,
+          "unit": "rate",
+          "note": "Franchise tax measured by taxable income, for taxable years beginning after December 31, 2017.",
+          "source": {
+            "title": "Code of the District of Columbia § 47-1807.02 (corporation franchise tax rate), D.C. Law Library",
+            "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2018-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Minimum franchise tax",
+          "value": 250,
+          "unit": "money",
+          "note": "$1,000 minimum if District gross receipts exceed $1 million.",
+          "source": {
+            "title": "Code of the District of Columbia § 47-1807.02 (corporation franchise tax rate), D.C. Law Library",
+            "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Unincorporated business franchise tax rate",
+          "value": 0.0825,
+          "unit": "rate",
+          "note": "Same rate applies to unincorporated businesses (D.C. Code § 47-1808.03).",
+          "source": {
+            "title": "Code of the District of Columbia § 47-1808.03, D.C. Law Library",
+            "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2018-01-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Code of the District of Columbia § 47-1807.02 (corporation franchise tax rate), D.C. Law Library",
+        "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2018-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "District of Columbia property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "District of Columbia government (rates set by the Council of the District of Columbia)",
+          "unit": "text",
+          "source": {
+            "title": "DC Office of Tax and Revenue: Real Property Tax Rates",
+            "url": "https://otr.cfo.dc.gov/page/real-property-tax-rates",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "DC Office of Tax and Revenue, Real Property Tax Administration",
+          "unit": "text",
+          "source": {
+            "title": "DC Office of Tax and Revenue: Real Property Assessment Process",
+            "url": "https://otr.cfo.dc.gov/page/real-property-assessment-process-0",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Residential tax rate (Class 1A)",
+          "value": 0.0085,
+          "unit": "rate",
+          "note": "$0.85 per $100. Class 1B (up to two units) pays $1.00 per $100 above $2.558 million; commercial Class 2 pays $1.65 to $1.89 per $100.",
+          "source": {
+            "title": "DC Office of Tax and Revenue: Real Property Tax Rates",
+            "url": "https://otr.cfo.dc.gov/page/real-property-tax-rates",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead deduction (tax year 2027)",
+          "value": 95100,
+          "unit": "money",
+          "note": "Reduces assessed value of an owner-occupied principal residence.",
+          "source": {
+            "title": "DC Office of Tax and Revenue: Real Property Tax Reliefs, Credits and Deductions",
+            "url": "https://otr.cfo.dc.gov/page/real-property-tax-reliefs-credits-and-deductions",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Assessment cap for homesteads",
+          "value": 0.1,
+          "unit": "rate",
+          "note": "Taxable assessment of a homestead may rise no more than 10% a year (2% for qualifying seniors and disabled owners), applied as a credit.",
+          "source": {
+            "title": "DC Office of Tax and Revenue: Real Property Tax Reliefs, Credits and Deductions",
+            "url": "https://otr.cfo.dc.gov/page/real-property-tax-reliefs-credits-and-deductions",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "DC Office of Tax and Revenue: Real Property Tax Rates",
+        "url": "https://otr.cfo.dc.gov/page/real-property-tax-rates",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "District of Columbia real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Deed recordation tax",
+          "value": 0.011,
+          "unit": "rate",
+          "note": "1.1% of consideration on recording a deed; 1.45% in total with the additional 0.35% that applies except to residential sales under $400,000.",
+          "source": {
+            "title": "Code of the District of Columbia § 42-1103 (deed recordation tax), D.C. Law Library",
+            "url": "https://code.dccouncil.gov/us/dc/council/code/sections/42-1103",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Deed transfer tax (paid by the seller)",
+          "value": 0.011,
+          "unit": "rate",
+          "note": "Imposed on the transferor; 1.45% in total with the additional 0.35% that applies except to residential sales under $400,000.",
+          "source": {
+            "title": "Code of the District of Columbia § 47-903 (deed transfer tax), D.C. Law Library",
+            "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-903",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Additional recordation and transfer tax ($400,000+ residential and all non-residential)",
+          "value": 0.0035,
+          "unit": "rate",
+          "note": "Added to each of the recordation and transfer taxes, except residential property sold for less than $400,000.",
+          "source": {
+            "title": "Code of the District of Columbia § 47-903 (deed transfer tax), D.C. Law Library",
+            "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-903",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "First-time homebuyer recordation tax rate",
+          "value": 0.00725,
+          "unit": "rate",
+          "note": "Reduced recordation rate for eligible first-time DC homebuyers (eligibility and income rules apply); benefit goes to the buyer.",
+          "source": {
+            "title": "Code of the District of Columbia § 42-1103 (deed recordation tax), D.C. Law Library",
+            "url": "https://code.dccouncil.gov/us/dc/council/code/sections/42-1103",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2017-10-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Code of the District of Columbia § 42-1103 (deed recordation tax), D.C. Law Library",
+        "url": "https://code.dccouncil.gov/us/dc/council/code/sections/42-1103",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -282,6 +465,23 @@
       "retrievedAt": "2026-11-09",
       "effectiveFrom": "2024-07-01",
       "effectiveTo": null
+    },
+    {
+      "title": "Code of the District of Columbia § 47-1807.02 (corporation franchise tax rate), D.C. Law Library",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2018-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "DC Office of Tax and Revenue: Real Property Tax Rates",
+      "url": "https://otr.cfo.dc.gov/page/real-property-tax-rates",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Code of the District of Columbia § 42-1103 (deed recordation tax), D.C. Law Library",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/42-1103",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -687,6 +887,246 @@
       "from": null,
       "to": null,
       "rate": 0.0075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "District of Columbia corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Franchise tax measured by taxable income, for taxable years beginning after December 31, 2017.",
+      "tax_year": "2026",
+      "effective_from": "2018-01-01",
+      "effective_to": null,
+      "source_title": "Code of the District of Columbia § 47-1807.02 (corporation franchise tax rate), D.C. Law Library",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporation franchise tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0825,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "District of Columbia corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "$1,000 minimum if District gross receipts exceed $1 million.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of the District of Columbia § 47-1807.02 (corporation franchise tax rate), D.C. Law Library",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1807.02",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Minimum franchise tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 250,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "District of Columbia corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Same rate applies to unincorporated businesses (D.C. Code § 47-1808.03).",
+      "tax_year": "2026",
+      "effective_from": "2018-01-01",
+      "effective_to": null,
+      "source_title": "Code of the District of Columbia § 47-1808.03, D.C. Law Library",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Unincorporated business franchise tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0825,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "District of Columbia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "DC Office of Tax and Revenue: Real Property Tax Rates",
+      "source_url": "https://otr.cfo.dc.gov/page/real-property-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "District of Columbia government (rates set by the Council of the District of Columbia)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "District of Columbia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "DC Office of Tax and Revenue: Real Property Assessment Process",
+      "source_url": "https://otr.cfo.dc.gov/page/real-property-assessment-process-0",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "DC Office of Tax and Revenue, Real Property Tax Administration",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "District of Columbia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "$0.85 per $100. Class 1B (up to two units) pays $1.00 per $100 above $2.558 million; commercial Class 2 pays $1.65 to $1.89 per $100.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "DC Office of Tax and Revenue: Real Property Tax Rates",
+      "source_url": "https://otr.cfo.dc.gov/page/real-property-tax-rates",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Residential tax rate (Class 1A)",
+      "from": null,
+      "to": null,
+      "rate": 0.0085,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "District of Columbia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Reduces assessed value of an owner-occupied principal residence.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "DC Office of Tax and Revenue: Real Property Tax Reliefs, Credits and Deductions",
+      "source_url": "https://otr.cfo.dc.gov/page/real-property-tax-reliefs-credits-and-deductions",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead deduction (tax year 2027)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 95100,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "District of Columbia property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Taxable assessment of a homestead may rise no more than 10% a year (2% for qualifying seniors and disabled owners), applied as a credit.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "DC Office of Tax and Revenue: Real Property Tax Reliefs, Credits and Deductions",
+      "source_url": "https://otr.cfo.dc.gov/page/real-property-tax-reliefs-credits-and-deductions",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Assessment cap for homesteads",
+      "from": null,
+      "to": null,
+      "rate": 0.1,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "District of Columbia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "1.1% of consideration on recording a deed; 1.45% in total with the additional 0.35% that applies except to residential sales under $400,000.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of the District of Columbia § 42-1103 (deed recordation tax), D.C. Law Library",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/42-1103",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Deed recordation tax",
+      "from": null,
+      "to": null,
+      "rate": 0.011,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "District of Columbia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Imposed on the transferor; 1.45% in total with the additional 0.35% that applies except to residential sales under $400,000.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of the District of Columbia § 47-903 (deed transfer tax), D.C. Law Library",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-903",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Deed transfer tax (paid by the seller)",
+      "from": null,
+      "to": null,
+      "rate": 0.011,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "District of Columbia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Added to each of the recordation and transfer taxes, except residential property sold for less than $400,000.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Code of the District of Columbia § 47-903 (deed transfer tax), D.C. Law Library",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-903",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Additional recordation and transfer tax ($400,000+ residential and all non-residential)",
+      "from": null,
+      "to": null,
+      "rate": 0.0035,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "District of Columbia real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Reduced recordation rate for eligible first-time DC homebuyers (eligibility and income rules apply); benefit goes to the buyer.",
+      "tax_year": "2026",
+      "effective_from": "2017-10-01",
+      "effective_to": null,
+      "source_title": "Code of the District of Columbia § 42-1103 (deed recordation tax), D.C. Law Library",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/42-1103",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "First-time homebuyer recordation tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.00725,
       "value": null,
       "unit": "rate"
     }

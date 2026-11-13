@@ -200,6 +200,142 @@
       },
       "verified": true,
       "note": "Arkansas lists a 2.0% new-employer tax rate for 2026 on the first $7,000 of each employee's wages."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Arkansas corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Top corporate income tax rate (over $11,000)",
+          "value": 0.043,
+          "unit": "rate",
+          "note": "Graduated corporate income tax; 4.3% applies to net income over $11,000 (set by Act 4 of the 2024 Second Extraordinary Session). Lower brackets are in the DFA tax table.",
+          "source": {
+            "title": "Arkansas Department of Finance and Administration: 2025 Corporation Income Tax Instructions (AR1100CT)",
+            "url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2025.pdf",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2024-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Tax on the first $11,000 of net income",
+          "value": 240,
+          "unit": "money",
+          "note": "Net income up to $11,000 is taxed at lower graduated rates (tax table); above that, $240 plus 4.3% of the excess.",
+          "source": {
+            "title": "Arkansas Department of Finance and Administration: 2025 Corporation Income Tax Instructions (AR1100CT)",
+            "url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2025.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Arkansas Department of Finance and Administration: 2025 Corporation Income Tax Instructions (AR1100CT)",
+        "url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2025.pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2024-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Arkansas property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Counties, cities and school districts (millage formally levied by the county quorum court)",
+          "unit": "text",
+          "source": {
+            "title": "Arkansas DFA: Arkansas Assessment Coordination Division",
+            "url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Arkansas Assessment Coordination Division (Department of Finance and Administration)",
+          "unit": "text",
+          "note": "Supervises valuation, assessment and equalization in all 75 counties (utility property excepted).",
+          "source": {
+            "title": "Arkansas DFA: Arkansas Assessment Coordination Division",
+            "url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Assessment increase cap after reappraisal",
+          "value": "Homestead: 5% per year; other real property: 10% per year (Amendment 79)",
+          "unit": "text",
+          "note": "Caps do not apply to newly discovered property, new construction or substantial improvements.",
+          "source": {
+            "title": "Arkansas DFA, Assessment Coordination Division: Property Tax Relief",
+            "url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/real-property/property-tax-relief",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead property tax credit (2026 tax bills)",
+          "value": 600,
+          "unit": "money",
+          "note": "Credit was up to $500 per year; raised to up to $600 beginning with 2026 tax bills. Apply with the county assessor.",
+          "source": {
+            "title": "Arkansas DFA, Assessment Coordination Division: Property Tax Relief",
+            "url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/real-property/property-tax-relief",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Arkansas DFA: Arkansas Assessment Coordination Division",
+        "url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Arkansas real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real property transfer tax",
+          "value": "$3.30 per $1,000 of actual consideration (transactions over $100)",
+          "unit": "text",
+          "note": "Levied on deeds conveying realty sold, including transfers of mineral rights (Ark. Code Ann. 26-60-101 et seq.).",
+          "source": {
+            "title": "Arkansas DFA: Real Property Transfer Tax",
+            "url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Real property transfer tax rate",
+          "value": 0.0033,
+          "unit": "rate",
+          "note": "$3.30 per $1,000 equals 0.33% of the consideration.",
+          "source": {
+            "title": "Arkansas DFA: Real Property Transfer Tax",
+            "url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Arkansas DFA: Real Property Transfer Tax",
+        "url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -252,6 +388,23 @@
       "title": "Arkansas Division of Workforce Services, Employer UI Information: Tax Rates 2026",
       "url": "https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Arkansas Department of Finance and Administration: 2025 Corporation Income Tax Instructions (AR1100CT)",
+      "url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2025.pdf",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Arkansas DFA: Arkansas Assessment Coordination Division",
+      "url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Arkansas DFA: Real Property Transfer Tax",
+      "url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -697,6 +850,166 @@
       "from": null,
       "to": null,
       "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Arkansas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Graduated corporate income tax; 4.3% applies to net income over $11,000 (set by Act 4 of the 2024 Second Extraordinary Session). Lower brackets are in the DFA tax table.",
+      "tax_year": "2026",
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "source_title": "Arkansas Department of Finance and Administration: 2025 Corporation Income Tax Instructions (AR1100CT)",
+      "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2025.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Top corporate income tax rate (over $11,000)",
+      "from": null,
+      "to": null,
+      "rate": 0.043,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Arkansas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Net income up to $11,000 is taxed at lower graduated rates (tax table); above that, $240 plus 4.3% of the excess.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Arkansas Department of Finance and Administration: 2025 Corporation Income Tax Instructions (AR1100CT)",
+      "source_url": "https://www.dfa.arkansas.gov/wp-content/uploads/CorporationIncomeTaxInstructions_2025.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Tax on the first $11,000 of net income",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 240,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Arkansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Arkansas DFA: Arkansas Assessment Coordination Division",
+      "source_url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Counties, cities and school districts (millage formally levied by the county quorum court)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Arkansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Supervises valuation, assessment and equalization in all 75 counties (utility property excepted).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Arkansas DFA: Arkansas Assessment Coordination Division",
+      "source_url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Arkansas Assessment Coordination Division (Department of Finance and Administration)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Arkansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Caps do not apply to newly discovered property, new construction or substantial improvements.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Arkansas DFA, Assessment Coordination Division: Property Tax Relief",
+      "source_url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/real-property/property-tax-relief",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Assessment increase cap after reappraisal",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Homestead: 5% per year; other real property: 10% per year (Amendment 79)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Arkansas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Credit was up to $500 per year; raised to up to $600 beginning with 2026 tax bills. Apply with the county assessor.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Arkansas DFA, Assessment Coordination Division: Property Tax Relief",
+      "source_url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/real-property/property-tax-relief",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead property tax credit (2026 tax bills)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 600,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Arkansas real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Levied on deeds conveying realty sold, including transfers of mineral rights (Ark. Code Ann. 26-60-101 et seq.).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Arkansas DFA: Real Property Transfer Tax",
+      "source_url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Real property transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "$3.30 per $1,000 of actual consideration (transactions over $100)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Arkansas real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "$3.30 per $1,000 equals 0.33% of the consideration.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Arkansas DFA: Real Property Transfer Tax",
+      "source_url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/miscellaneous-tax/arkansas-miscellaneous-tax-laws/real-property-transfer/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Real property transfer tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0033,
       "value": null,
       "unit": "rate"
     }

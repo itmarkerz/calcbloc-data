@@ -729,6 +729,1137 @@
         "retrievedAt": "2026-10-16"
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Basic federal rate (Part I)",
+          "value": 0.38,
+          "unit": "rate"
+        },
+        {
+          "label": "Federal rate after the 10-point provincial abatement",
+          "value": 0.28,
+          "unit": "rate"
+        },
+        {
+          "label": "Net federal rate after the general tax reduction",
+          "value": 0.15,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Net federal rate for Canadian-controlled private corporations on income eligible for the small business deduction",
+          "value": 0.09,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Federal business limit (shared by associated corporations)",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Qualifying zero-emission technology manufacturers: general rate",
+          "value": 0.075,
+          "unit": "rate"
+        },
+        {
+          "label": "Qualifying zero-emission technology manufacturers: small business rate",
+          "value": 0.045,
+          "unit": "rate"
+        },
+        {
+          "label": "Additional tax on banks and life insurers",
+          "value": 0.015,
+          "unit": "rate",
+          "note": "On taxable income above a $100,000,000 exemption shared by the group"
+        },
+        {
+          "label": "Global minimum tax: minimum effective rate for qualifying multinational groups (income inclusion rule and domestic minimum top-up tax)",
+          "value": 0.15,
+          "unit": "rate",
+          "source": {
+            "title": "Canada.ca: Global minimum tax, About the tax (page details 2025-09-12)",
+            "url": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2023-12-31",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Ontario: lower rate",
+          "value": 0.022,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Ontario: higher rate",
+          "value": 0.115,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Ontario: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Quebec: lower rate",
+          "value": 0.032,
+          "unit": "rate",
+          "source": {
+            "title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+            "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Quebec: higher rate",
+          "value": 0.115,
+          "unit": "rate",
+          "source": {
+            "title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+            "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Quebec: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+            "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "British Columbia: lower rate",
+          "value": 0.02,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "British Columbia: higher rate",
+          "value": 0.12,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "British Columbia: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Alberta: lower rate",
+          "value": 0.02,
+          "unit": "rate",
+          "source": {
+            "title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+            "url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Alberta: higher rate",
+          "value": 0.08,
+          "unit": "rate",
+          "source": {
+            "title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+            "url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Alberta: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+            "url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Manitoba: lower rate",
+          "value": 0,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Manitoba: higher rate",
+          "value": 0.12,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Manitoba: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "New Brunswick: lower rate",
+          "value": 0.025,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "New Brunswick: higher rate",
+          "value": 0.14,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "New Brunswick: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Newfoundland and Labrador: lower rate",
+          "value": 0.02,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Newfoundland and Labrador: higher rate",
+          "value": 0.15,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Newfoundland and Labrador: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Nova Scotia: lower rate",
+          "value": 0.015,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Nova Scotia: higher rate",
+          "value": 0.14,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Nova Scotia: business limit",
+          "value": 700000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Prince Edward Island: lower rate",
+          "value": 0.01,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Prince Edward Island: higher rate",
+          "value": 0.15,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Prince Edward Island: business limit",
+          "value": 600000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Saskatchewan: lower rate",
+          "value": 0.01,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Saskatchewan: higher rate",
+          "value": 0.12,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Saskatchewan: business limit",
+          "value": 600000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Northwest Territories: lower rate",
+          "value": 0.02,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Northwest Territories: higher rate",
+          "value": 0.115,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Northwest Territories: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Nunavut: lower rate",
+          "value": 0.03,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Nunavut: higher rate",
+          "value": 0.12,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Nunavut: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Yukon: lower rate",
+          "value": 0,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Yukon: higher rate",
+          "value": 0.12,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Yukon: business limit",
+          "value": 500000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        }
+      ],
+      "source": {
+        "title": "CRA: Corporation tax rates (page details 2026-10-21)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023."
+    },
+    {
+      "id": "branch-profits-tax",
+      "title": "Branch profits tax (Part XIV branch tax)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Branch tax on a non-resident corporation's after-tax Canadian profits not reinvested in Canada",
+          "value": 0.25,
+          "unit": "rate"
+        },
+        {
+          "label": "Treaty relief",
+          "value": "Where a tax treaty caps the dividend rate for a parent company, that capped rate replaces the 25% (Income Tax Act s. 219.2)",
+          "unit": "text"
+        },
+        {
+          "label": "Base",
+          "value": "Taxable income earned in Canada, less federal and provincial income tax and an allowance for investment in property in Canada (s. 219(1))",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Income Tax Act, Part XIV, s. 219 and s. 219.2 (current to 2026-10-19)",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "The branch tax stands in for the dividend withholding tax a Canadian subsidiary would pay to its foreign parent."
+    },
+    {
+      "id": "self-employed-contributions",
+      "title": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "CPP and QPP basic exemption",
+          "value": 3500,
+          "unit": "money",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "Maximum pensionable earnings (YMPE)",
+          "value": 74600,
+          "unit": "money",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "Additional maximum pensionable earnings (YAMPE)",
+          "value": 85000,
+          "unit": "money",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "CPP: rate of each share; the self-employed pay the employee and the employer share",
+          "value": 0.0595,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "CPP: maximum self-employed contribution",
+          "value": 8460.9,
+          "unit": "money",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "CPP2: rate of each share on earnings between the YMPE and the YAMPE (both shares paid)",
+          "value": 0.04,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "CPP2: maximum self-employed contribution",
+          "value": 832,
+          "unit": "money",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "QPP (Quebec): self-employed base plan rate",
+          "value": 0.106,
+          "unit": "rate",
+          "source": {
+            "title": "Retraite Québec: Québec Pension Plan figures, basic information for 2026",
+            "url": "https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "QPP: self-employed first additional plan rate",
+          "value": 0.02,
+          "unit": "rate",
+          "source": {
+            "title": "Retraite Québec: Québec Pension Plan figures, basic information for 2026",
+            "url": "https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "QPP: self-employed second additional plan rate (earnings between the two maximums)",
+          "value": 0.08,
+          "unit": "rate",
+          "source": {
+            "title": "Retraite Québec: Québec Pension Plan figures, basic information for 2026",
+            "url": "https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "QPP: maximum self-employed contribution (base and first additional)",
+          "value": 8958.6,
+          "unit": "money",
+          "source": {
+            "title": "Revenu Québec TP-1015.F-V (2026-01), Principal changes (QPP contributions) and section 3.1; Retraite Québec 'Québec Pension Plan Figures'",
+            "url": "https://www.revenuquebec.ca/documents/en/formulaires/tp/TP-1015.F-V%282026-01%29.pdf",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "QPP: maximum self-employed second additional contribution",
+          "value": 832,
+          "unit": "money",
+          "source": {
+            "title": "Revenu Québec TP-1015.F-V (2026-01), Principal changes (QPP contributions) and section 3.1; Retraite Québec 'Québec Pension Plan Figures'",
+            "url": "https://www.revenuquebec.ca/documents/en/formulaires/tp/TP-1015.F-V%282026-01%29.pdf",
+            "retrievedAt": "2026-10-16"
+          }
+        },
+        {
+          "label": "QPIP (Quebec parental insurance): self-employed rate",
+          "value": 0.00764,
+          "unit": "rate",
+          "source": {
+            "title": "Québec.ca: Taux de cotisation au Régime québécois d'assurance parentale (dernière mise à jour 19 mars 2026)",
+            "url": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/administrer-gerer/embauche-gestion-personnel/assurance-parentale/taux-cotisations",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "QPIP: maximum self-employed premium",
+          "value": 786.92,
+          "unit": "money",
+          "source": {
+            "title": "Québec.ca: Taux de cotisation au Régime québécois d'assurance parentale (dernière mise à jour 19 mars 2026)",
+            "url": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/administrer-gerer/embauche-gestion-personnel/assurance-parentale/taux-cotisations",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "EI special benefits (optional agreement): premium rate",
+          "value": 0.0163,
+          "unit": "rate",
+          "source": {
+            "title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+            "url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "EI special benefits: maximum premium",
+          "value": 1123.07,
+          "unit": "money",
+          "source": {
+            "title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+            "url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "EI special benefits in Quebec: premium rate",
+          "value": 0.013,
+          "unit": "rate",
+          "source": {
+            "title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+            "url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "EI special benefits in Quebec: maximum premium",
+          "value": 895.7,
+          "unit": "money",
+          "source": {
+            "title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+            "url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "EI special benefits: minimum net self-employed earnings in 2025 to claim in 2026",
+          "value": 9254,
+          "unit": "money",
+          "source": {
+            "title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+            "url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "Income tax treatment",
+          "value": "Half of the base CPP or QPP contribution is deductible and the other half gives a credit; the enhanced (first and second additional) contributions are deductible (Income Tax Act s. 60(e), 118.7)",
+          "unit": "text",
+          "source": {
+            "title": "Income Tax Act ss. 60(e), 60(g) and 118.7 (current to 2026-10-19); Canada Pension Plan s. 10 (current to 2026-10-19); CRA CPP and CPP2 rates and maximums pages (modified 2026-10-30)",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-60.html",
+            "retrievedAt": "2026-11-06"
+          }
+        }
+      ],
+      "source": {
+        "title": "CRA: CPP contribution rates, maximums and exemptions (page details 2026-11-09); Second additional CPP contribution (CPP2) rates and maximums (page details 2026-11-09)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits."
+    },
+    {
+      "id": "contractor-rules",
+      "title": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Official test (outside Quebec)",
+          "value": "CRA RC4110: is the worker in business on their own account? Intention of the parties, then control, tools and equipment, subcontracting, financial risk, investment and management, and opportunity for profit",
+          "unit": "text"
+        },
+        {
+          "label": "Official test (Quebec)",
+          "value": "CRA RC4110: three steps under the Civil Code of Québec (carrying out the work, remuneration, relationship of subordination)",
+          "unit": "text"
+        },
+        {
+          "label": "Which test applies",
+          "value": "Usually the province or territory where the contract was formed",
+          "unit": "text"
+        },
+        {
+          "label": "Personal services business",
+          "value": "A corporation whose shareholder would reasonably be regarded as the client's employee, unless it employs more than 5 full-time employees or is paid by an associated corporation (Income Tax Act s. 125(7))",
+          "unit": "text",
+          "source": {
+            "title": "Income Tax Act s. 125(7) 'personal services business' and s. 123.5 (current to 2026-10-19); CRA fact sheet 'Personal services businesses' (psb-fs-en.pdf)",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Personal services business: additional federal corporate tax",
+          "value": 0.05,
+          "unit": "rate",
+          "note": "No small business deduction and no general rate reduction; expense deductions limited (s. 18(1)(p))",
+          "source": {
+            "title": "Income Tax Act s. 125(7) 'personal services business' and s. 123.5 (current to 2026-10-19); CRA fact sheet 'Personal services businesses' (psb-fs-en.pdf)",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Fees for services: report payments to other businesses above this amount a year (T4A box 048)",
+          "value": 500,
+          "unit": "money",
+          "source": {
+            "title": "CRA: Fact sheet, Reporting fees for service requirement (last update 2026-04-14)",
+            "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-fees-for-service/fact-sheet-reporting-fees-services.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Payments to resident contractors",
+          "value": "Reported on the T4A slip by the end of February; trucking businesses face penalties for not reporting from the 2025 tax year",
+          "unit": "text",
+          "source": {
+            "title": "CRA: Fact sheet, Reporting fees for service requirement (last update 2026-04-14)",
+            "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-fees-for-service/fact-sheet-reporting-fees-services.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Non-resident contractors: withholding on fees for services rendered in Canada (Regulation 105)",
+          "value": 0.15,
+          "unit": "rate",
+          "note": "Reported on a T4A-NR slip whatever the amount; a waiver can be requested on Form R105",
+          "source": {
+            "title": "CRA: Tax treatment of non-residents who perform services in Canada (page details 2025-05-20); Income Tax Regulations s. 105 (current to 2026-10-19)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rendering-services-canada/tax-treatment-non-residents-who-perform-services-canada.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "CRA: RC4110 Employee or Self-Employed? (page details 2023-10-06)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Self-employed contractors pay their own income tax by instalments and both CPP or QPP shares (see self-employed contributions)."
+    },
+    {
+      "id": "simplified-regime",
+      "title": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Eligibility: worldwide taxable supplies, GST/HST included, of the business and its associates, not more than",
+          "value": 400000,
+          "unit": "money"
+        },
+        {
+          "label": "Services, permanent establishment in a GST-only province: remittance rate on GST-included sales",
+          "value": 0.036,
+          "unit": "rate"
+        },
+        {
+          "label": "Services, Ontario (13% HST): remittance rate",
+          "value": 0.088,
+          "unit": "rate"
+        },
+        {
+          "label": "Services, Nova Scotia (14% HST): remittance rate",
+          "value": 0.094,
+          "unit": "rate"
+        },
+        {
+          "label": "Services, New Brunswick, Newfoundland and Labrador, Prince Edward Island (15% HST): remittance rate",
+          "value": 0.1,
+          "unit": "rate"
+        },
+        {
+          "label": "Goods for resale, GST-only province: remittance rate",
+          "value": 0.018,
+          "unit": "rate"
+        },
+        {
+          "label": "Goods for resale, 13% HST: remittance rate",
+          "value": 0.044,
+          "unit": "rate"
+        },
+        {
+          "label": "Goods for resale, 14% HST: remittance rate",
+          "value": 0.047,
+          "unit": "rate"
+        },
+        {
+          "label": "Goods for resale, 15% HST: remittance rate",
+          "value": 0.05,
+          "unit": "rate"
+        },
+        {
+          "label": "Credit on the first eligible supplies of the fiscal year",
+          "value": 0.01,
+          "unit": "rate"
+        },
+        {
+          "label": "Credit base: first eligible supplies (GST/HST included)",
+          "value": 30000,
+          "unit": "money"
+        },
+        {
+          "label": "Small supplier: no GST/HST registration needed up to taxable supplies over four quarters of",
+          "value": 30000,
+          "unit": "money"
+        }
+      ],
+      "source": {
+        "title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted."
+    },
+    {
+      "id": "non-resident",
+      "title": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "What is taxed",
+          "value": "Income from employment duties performed in Canada (Income Tax Act s. 115(1)(a)(i))",
+          "unit": "text"
+        },
+        {
+          "label": "Deemed resident after this many days in Canada in a year (sojourning)",
+          "value": 183,
+          "unit": "number"
+        },
+        {
+          "label": "Payroll withholding",
+          "value": "Same withholding, remitting and reporting as for residents (Regulation 102); no personal tax credits are allowed in the withholding for an employee who is not resident when paid",
+          "unit": "text"
+        },
+        {
+          "label": "Federal surtax on income not earned in a province (instead of provincial tax)",
+          "value": 0.48,
+          "unit": "rate"
+        },
+        {
+          "label": "Treaty relief",
+          "value": "Waiver of withholding on Form R102-R, filed 30 days before the work or the first payment; no withholding needed for a certified non-resident employer's treaty-exempt employees",
+          "unit": "text"
+        },
+        {
+          "label": "Non-resident contractors (not employees): withholding on fees for services in Canada (Regulation 105)",
+          "value": 0.15,
+          "unit": "rate",
+          "source": {
+            "title": "CRA: Tax treatment of non-residents who perform services in Canada (page details 2025-05-20); Income Tax Regulations s. 105 (current to 2026-10-19)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rendering-services-canada/tax-treatment-non-residents-who-perform-services-canada.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Part XIII tax on passive income paid to non-residents (dividends, interest, rents, royalties) before treaty reductions",
+          "value": 0.25,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion."
+    },
+    {
+      "id": "property-tax",
+      "title": "Property tax: who levies it",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Legal basis",
+          "value": "Provinces legislate on direct taxation within the province and on municipal institutions (Constitution Act, 1867, s. 92(2) and (8)); municipal and school property taxes rest on provincial law and are listed on each province's page",
+          "unit": "text"
+        },
+        {
+          "label": "Federal Underused Housing Tax",
+          "value": "None for 2025 and later years: no tax and no return (Underused Housing Tax Act s. 1.1, 6.1); the annual 1% tax still applies to 2022 to 2024",
+          "unit": "text",
+          "status": "not_applicable",
+          "source": {
+            "title": "Underused Housing Tax Act, s. 1.1 and s. 6.1 (current to 2026-10-19, last amended 2026-03-26); CRA: Underused Housing Tax (page details 2025-04-04)",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/U-0.5/FullText.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2025-01-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Constitution Act, 1867, s. 92 (Justice Laws Website)",
+        "url": "https://laws-lois.justice.gc.ca/eng/Const/page-3.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Property taxes are set locally on assessed value. British Columbia also has a provincial speculation and vacancy tax; see the provincial pages."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Property transfer: federal ban on foreign buyers",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Prohibition on the purchase of residential property by non-Canadians",
+          "value": "In force: non-Canadians may not buy residential property, directly or indirectly (Act s. 4(1))",
+          "unit": "text"
+        },
+        {
+          "label": "End date",
+          "value": "Extended to 2027-01-01 (Finance Canada, February 2024); Budget 2026 proposes extending it to 2029-01-01 for existing homes, exempting new homes (not yet law)",
+          "unit": "text"
+        },
+        {
+          "label": "Provincial transfer taxes",
+          "value": "Land transfer taxes, foreign-buyer surcharges and registration fees are set by each province or territory and by some cities (e.g. Toronto); see the provincial pages",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Prohibition on the Purchase of Residential Property by Non-Canadians Act, s. 4(1) (current to 2026-10-19); Department of Finance news release, 4 February 2024; Budget 2026, Chapter 3",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2023-01-01",
+        "effectiveTo": "2027-01-01"
+      },
+      "verified": true
+    },
+    {
+      "id": "tax-inventory",
+      "title": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax (federal and provincial) [national and provincial]",
+          "value": "Federal 15% general, 9% small business up to $500,000; provinces add 0%–3.2% (lower) and 8%–15% (higher); 15% global minimum tax. Paid by corporations. Income Tax Act s. 123, 123.4, 124, 125; Global Minimum Tax Act",
+          "unit": "text",
+          "source": {
+            "title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+            "retrievedAt": "2026-11-06"
+          }
+        },
+        {
+          "label": "Branch profits tax (Part XIV) [national]",
+          "value": "25%, reduced by treaty. Paid by non-resident corporations with a Canadian branch. Income Tax Act s. 219, 219.2",
+          "unit": "text",
+          "source": {
+            "title": "Income Tax Act, Part XIV, s. 219 and s. 219.2 (current to 2026-10-19)",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Self-employed contributions (CPP or QPP, QPIP, optional EI) [national (QPP and QPIP: Quebec)]",
+          "value": "CPP 11.9% from $3,500 up to $74,600, maximum $8,460.9; QPP 12.6%. Paid by self-employed individuals. Canada Pension Plan s. 10; Act respecting the Québec Pension Plan; Employment Insurance Act",
+          "unit": "text",
+          "source": {
+            "title": "CRA: CPP contribution rates, maximums and exemptions (page details 2026-11-09); Second additional CPP contribution (CPP2) rates and maximums (page details 2026-11-09)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "Contractor rules (employee or self-employed test, personal services business, T4A reporting) [national]",
+          "value": "No withholding on resident contractors; 5% extra corporate tax on personal services business income; 15% withheld from non-resident contractors. Paid by payers and contractors. CRA RC4110; Income Tax Act s. 123.5, 125(7); Income Tax Regulations s. 105",
+          "unit": "text",
+          "source": {
+            "title": "Income Tax Act s. 125(7) 'personal services business' and s. 123.5 (current to 2026-10-19); CRA fact sheet 'Personal services businesses' (psb-fs-en.pdf)",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Simplified quick method of accounting for small businesses [national]",
+          "value": "GST/HST remittance rates from 1.8% to 10% of GST/HST-included sales, up to $400,000 of sales. Paid by small GST/HST registrants who elect it. Excise Tax Act; CRA RC4058",
+          "unit": "text",
+          "source": {
+            "title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Non-resident tax on employment income [national and provincial]",
+          "value": "Normal federal rates plus provincial tax where earned in a province, or a 48% federal surtax; payroll withholding under Regulation 102. Paid by non-resident employees (withheld by employers). Income Tax Act s. 2(3), 115, 120; Income Tax Regulations s. 102",
+          "unit": "text",
+          "source": {
+            "title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+            "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Property tax (municipal and school taxes) [provincial and municipal]",
+          "value": "Rates set locally on assessed value; no federal property tax (Underused Housing Tax nil from 2025). Paid by property owners. Constitution Act, 1867, s. 92; provincial municipal and education statutes",
+          "unit": "text",
+          "source": {
+            "title": "Constitution Act, 1867, s. 92 (Justice Laws Website)",
+            "url": "https://laws-lois.justice.gc.ca/eng/Const/page-3.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Property transfer tax (provincial land transfer taxes and fees) [provincial and municipal]",
+          "value": "Rates set by each province (e.g. Ontario, British Columbia, Quebec, Manitoba, Nova Scotia) and some cities; federal ban on non-Canadian buyers of homes. Paid by buyers of real property. Provincial land transfer statutes; Prohibition on the Purchase of Residential Property by Non-Canadians Act",
+          "unit": "text",
+          "source": {
+            "title": "Prohibition on the Purchase of Residential Property by Non-Canadians Act, s. 4(1) (current to 2026-10-19); Department of Finance news release, 4 February 2024; Budget 2026, Chapter 3",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2023-01-01",
+            "effectiveTo": "2027-01-01"
+          }
+        }
+      ],
+      "source": {
+        "title": "Canada: pass A tax list (each row cites its own official source)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages."
     }
   ],
   "sources": [
@@ -745,7 +1876,7 @@
     {
       "title": "CPP contribution rates, maximums and exemptions",
       "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
-      "retrievedAt": "2026-10-16"
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "Second additional CPP contribution (CPP2) rates and maximums",
@@ -770,9 +1901,9 @@
       "retrievedAt": "2026-10-16"
     },
     {
-      "title": "Québec Pension Plan Figures",
+      "title": "Québec Pension Plan figures",
       "url": "https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures",
-      "retrievedAt": "2026-10-25"
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "Employer Health Tax (EHT)",
@@ -853,6 +1984,131 @@
       "title": "Basic rules for applying the GST/HST and QST",
       "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/gsthst-and-qst/basic-rules-for-applying-the-gsthst-and-qst/",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Income Tax Act, section 60 (other deductions)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-60.html",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Income Tax Act, section 118.7 (credit for EI, QPIP and CPP contributions)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.7.html",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Canada Pension Plan, section 10 (self-employed contributions)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-8/section-10.html",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Corporation tax rates",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Income Tax Act, section 125 (personal services business)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Income Tax Act, section 82 (taxable dividends received)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-82.html",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Income Tax Act, section 121 (deduction for taxable dividends)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-121.html",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Tax, levy and prescribed interest rates",
+      "url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Information Bulletin 2026-3: Increase in the small business deduction rate",
+      "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Ontario dividend tax credit",
+      "url": "https://www.ontario.ca/page/ontario-dividend-tax-credit",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Form ON428 Ontario Tax (2025) and Worksheet ON428",
+      "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5006-c/5006-c-25e.pdf",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Taux de cotisation au Régime québécois d'assurance parentale",
+      "url": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/administrer-gerer/embauche-gestion-personnel/assurance-parentale/taux-cotisations",
+      "retrievedAt": "2026-11-06"
+    },
+    {
+      "title": "Global minimum tax: About the tax",
+      "url": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Income Tax Act, section 219 (branch tax)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "EI special benefits for self-employed people: Premiums",
+      "url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "RC4110 Employee or Self-Employed?",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Fact sheet: Reporting fees for service requirement",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-fees-for-service/fact-sheet-reporting-fees-services.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Tax treatment of non-residents who perform services in Canada",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rendering-services-canada/tax-treatment-non-residents-who-perform-services-canada.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Income Tax Regulations, section 102",
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Treaty based waivers involving Regulation 102 withholding",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rendering-services-canada/treaty-based-waivers-involving-regulation-102-withholding.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "RC4058 Quick Method of Accounting for GST/HST",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Constitution Act, 1867, section 92",
+      "url": "https://laws-lois.justice.gc.ca/eng/Const/page-3.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Underused Housing Tax Act",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/U-0.5/FullText.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Prohibition on the Purchase of Residential Property by Non-Canadians Act",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Government announces two-year extension to ban on foreign ownership of Canadian housing",
+      "url": "https://www.canada.ca/en/department-finance/news/2024/02/government-announces-two-year-extension-to-ban-on-foreign-ownership-of-canadian-housing.html",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -2759,6 +4015,2226 @@
       "to": null,
       "rate": null,
       "value": "GST only",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Basic federal rate (Part I)",
+      "from": null,
+      "to": null,
+      "rate": 0.38,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Federal rate after the 10-point provincial abatement",
+      "from": null,
+      "to": null,
+      "rate": 0.28,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Net federal rate after the general tax reduction",
+      "from": null,
+      "to": null,
+      "rate": 0.15,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Net federal rate for Canadian-controlled private corporations on income eligible for the small business deduction",
+      "from": null,
+      "to": null,
+      "rate": 0.09,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Federal business limit (shared by associated corporations)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Qualifying zero-emission technology manufacturers: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Qualifying zero-emission technology manufacturers: small business rate",
+      "from": null,
+      "to": null,
+      "rate": 0.045,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "On taxable income above a $100,000,000 exemption shared by the group",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Additional tax on banks and life insurers",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2023-12-31",
+      "effective_to": null,
+      "source_title": "Canada.ca: Global minimum tax, About the tax (page details 2025-09-12)",
+      "source_url": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Global minimum tax: minimum effective rate for qualifying multinational groups (income inclusion rule and domestic minimum top-up tax)",
+      "from": null,
+      "to": null,
+      "rate": 0.15,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Ontario: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.022,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Ontario: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.115,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Ontario: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Quebec: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.032,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Quebec: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.115,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Ministère des Finances du Québec, Information Bulletin 2026-3, Increase in the small business deduction rate (April 29, 2026)",
+      "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Bulletins/EN/BULEN_2026-3.pdf",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Quebec: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "British Columbia: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "British Columbia: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "British Columbia: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+      "source_url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Alberta: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+      "source_url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Alberta: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Alberta.ca: Tax, levy and prescribed interest rates (corporate income tax, current, effective July 1, 2020)",
+      "source_url": "https://www.alberta.ca/about-tax-levy-rates-prescribed-interest-rates",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Alberta: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Manitoba: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Manitoba: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Manitoba: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "New Brunswick: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.025,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "New Brunswick: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.14,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "New Brunswick: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Newfoundland and Labrador: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Newfoundland and Labrador: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.15,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Newfoundland and Labrador: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Nova Scotia: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Nova Scotia: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.14,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Nova Scotia: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 700000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Prince Edward Island: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Prince Edward Island: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.15,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Prince Edward Island: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 600000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Saskatchewan: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Saskatchewan: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Saskatchewan: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 600000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Northwest Territories: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Northwest Territories: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.115,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Northwest Territories: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Nunavut: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Nunavut: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Nunavut: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Yukon: lower rate",
+      "from": null,
+      "to": null,
+      "rate": 0,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Yukon: higher rate",
+      "from": null,
+      "to": null,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (federal and provincial)",
+      "group": "other",
+      "basis": "Taxable income of the corporation",
+      "note": "Provinces and territories add their own corporate tax: a lower rate on income eligible for the small business deduction and a higher rate on other income. The CRA collects it for all of them except Quebec and Alberta. Personal services businesses get neither the small business deduction nor the general reduction (see contractor rules). The global minimum tax applies to fiscal years that begin on or after December 31, 2023.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates, Provincial and territorial tax rates (except Quebec and Alberta) (page details 2026-10-21)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Yukon: business limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500000,
+      "unit": "money"
+    },
+    {
+      "section_id": "branch-profits-tax",
+      "section": "Branch profits tax (Part XIV branch tax)",
+      "group": "other",
+      "basis": "",
+      "note": "The branch tax stands in for the dividend withholding tax a Canadian subsidiary would pay to its foreign parent.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Act, Part XIV, s. 219 and s. 219.2 (current to 2026-10-19)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Branch tax on a non-resident corporation's after-tax Canadian profits not reinvested in Canada",
+      "from": null,
+      "to": null,
+      "rate": 0.25,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "branch-profits-tax",
+      "section": "Branch profits tax (Part XIV branch tax)",
+      "group": "other",
+      "basis": "",
+      "note": "The branch tax stands in for the dividend withholding tax a Canadian subsidiary would pay to its foreign parent.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Act, Part XIV, s. 219 and s. 219.2 (current to 2026-10-19)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Treaty relief",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Where a tax treaty caps the dividend rate for a parent company, that capped rate replaces the 25% (Income Tax Act s. 219.2)",
+      "unit": "text"
+    },
+    {
+      "section_id": "branch-profits-tax",
+      "section": "Branch profits tax (Part XIV branch tax)",
+      "group": "other",
+      "basis": "",
+      "note": "The branch tax stands in for the dividend withholding tax a Canadian subsidiary would pay to its foreign parent.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Act, Part XIV, s. 219 and s. 219.2 (current to 2026-10-19)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Base",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Taxable income earned in Canada, less federal and provincial income tax and an allowance for investment in property in Canada (s. 219(1))",
+      "unit": "text"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "CPP and QPP basic exemption",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 3500,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Maximum pensionable earnings (YMPE)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 74600,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "Additional maximum pensionable earnings (YAMPE)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 85000,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "CPP: rate of each share; the self-employed pay the employee and the employer share",
+      "from": null,
+      "to": null,
+      "rate": 0.0595,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "CPP: maximum self-employed contribution",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 8460.9,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "CPP2: rate of each share on earnings between the YMPE and the YAMPE (both shares paid)",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions; Second additional CPP contribution (CPP2) rates and maximums; T4127 (122nd Edition) Tables 8.3–8.6 and Chapter 6",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "CPP2: maximum self-employed contribution",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 832,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Retraite Québec: Québec Pension Plan figures, basic information for 2026",
+      "source_url": "https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "QPP (Quebec): self-employed base plan rate",
+      "from": null,
+      "to": null,
+      "rate": 0.106,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Retraite Québec: Québec Pension Plan figures, basic information for 2026",
+      "source_url": "https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "QPP: self-employed first additional plan rate",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Retraite Québec: Québec Pension Plan figures, basic information for 2026",
+      "source_url": "https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan/quebec-pension-plan-figures",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "QPP: self-employed second additional plan rate (earnings between the two maximums)",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Revenu Québec TP-1015.F-V (2026-01), Principal changes (QPP contributions) and section 3.1; Retraite Québec 'Québec Pension Plan Figures'",
+      "source_url": "https://www.revenuquebec.ca/documents/en/formulaires/tp/TP-1015.F-V%282026-01%29.pdf",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "QPP: maximum self-employed contribution (base and first additional)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 8958.6,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Revenu Québec TP-1015.F-V (2026-01), Principal changes (QPP contributions) and section 3.1; Retraite Québec 'Québec Pension Plan Figures'",
+      "source_url": "https://www.revenuquebec.ca/documents/en/formulaires/tp/TP-1015.F-V%282026-01%29.pdf",
+      "retrieved_at": "2026-10-16",
+      "status": "verified",
+      "label": "QPP: maximum self-employed second additional contribution",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 832,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Québec.ca: Taux de cotisation au Régime québécois d'assurance parentale (dernière mise à jour 19 mars 2026)",
+      "source_url": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/administrer-gerer/embauche-gestion-personnel/assurance-parentale/taux-cotisations",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "QPIP (Quebec parental insurance): self-employed rate",
+      "from": null,
+      "to": null,
+      "rate": 0.00764,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Québec.ca: Taux de cotisation au Régime québécois d'assurance parentale (dernière mise à jour 19 mars 2026)",
+      "source_url": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/administrer-gerer/embauche-gestion-personnel/assurance-parentale/taux-cotisations",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "QPIP: maximum self-employed premium",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 786.92,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+      "source_url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "EI special benefits (optional agreement): premium rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0163,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+      "source_url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "EI special benefits: maximum premium",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 1123.07,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+      "source_url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "EI special benefits in Quebec: premium rate",
+      "from": null,
+      "to": null,
+      "rate": 0.013,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+      "source_url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "EI special benefits in Quebec: maximum premium",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 895.7,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Canada.ca: EI special benefits for self-employed people, Premiums and Who can qualify (page details 2025-12-31)",
+      "source_url": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "EI special benefits: minimum net self-employed earnings in 2025 to claim in 2026",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 9254,
+      "unit": "money"
+    },
+    {
+      "section_id": "self-employed-contributions",
+      "section": "Self-employed contributions: CPP, QPP, QPIP and optional EI",
+      "group": "other",
+      "basis": "Net self-employment earnings, 2026",
+      "note": "Self-employed people are not covered by EI unless they sign an agreement for special benefits (maternity, parental, sickness, caregiving); once they have received benefits they cannot leave the program. In Quebec, QPP replaces CPP and QPIP replaces EI maternity and parental benefits.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Income Tax Act ss. 60(e), 60(g) and 118.7 (current to 2026-10-19); Canada Pension Plan s. 10 (current to 2026-10-19); CRA CPP and CPP2 rates and maximums pages (modified 2026-10-30)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-60.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Income tax treatment",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Half of the base CPP or QPP contribution is deductible and the other half gives a credit; the enhanced (first and second additional) contributions are deductible (Income Tax Act s. 60(e), 118.7)",
+      "unit": "text"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "Self-employed contractors pay their own income tax by instalments and both CPP or QPP shares (see self-employed contributions).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4110 Employee or Self-Employed? (page details 2023-10-06)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Official test (outside Quebec)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "CRA RC4110: is the worker in business on their own account? Intention of the parties, then control, tools and equipment, subcontracting, financial risk, investment and management, and opportunity for profit",
+      "unit": "text"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "Self-employed contractors pay their own income tax by instalments and both CPP or QPP shares (see self-employed contributions).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4110 Employee or Self-Employed? (page details 2023-10-06)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Official test (Quebec)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "CRA RC4110: three steps under the Civil Code of Québec (carrying out the work, remuneration, relationship of subordination)",
+      "unit": "text"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "Self-employed contractors pay their own income tax by instalments and both CPP or QPP shares (see self-employed contributions).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4110 Employee or Self-Employed? (page details 2023-10-06)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Which test applies",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Usually the province or territory where the contract was formed",
+      "unit": "text"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "Self-employed contractors pay their own income tax by instalments and both CPP or QPP shares (see self-employed contributions).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Act s. 125(7) 'personal services business' and s. 123.5 (current to 2026-10-19); CRA fact sheet 'Personal services businesses' (psb-fs-en.pdf)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Personal services business",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "A corporation whose shareholder would reasonably be regarded as the client's employee, unless it employs more than 5 full-time employees or is paid by an associated corporation (Income Tax Act s. 125(7))",
+      "unit": "text"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "No small business deduction and no general rate reduction; expense deductions limited (s. 18(1)(p))",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Act s. 125(7) 'personal services business' and s. 123.5 (current to 2026-10-19); CRA fact sheet 'Personal services businesses' (psb-fs-en.pdf)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Personal services business: additional federal corporate tax",
+      "from": null,
+      "to": null,
+      "rate": 0.05,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "Self-employed contractors pay their own income tax by instalments and both CPP or QPP shares (see self-employed contributions).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Fact sheet, Reporting fees for service requirement (last update 2026-04-14)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-fees-for-service/fact-sheet-reporting-fees-services.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Fees for services: report payments to other businesses above this amount a year (T4A box 048)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 500,
+      "unit": "money"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "Self-employed contractors pay their own income tax by instalments and both CPP or QPP shares (see self-employed contributions).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Fact sheet, Reporting fees for service requirement (last update 2026-04-14)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-fees-for-service/fact-sheet-reporting-fees-services.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Payments to resident contractors",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Reported on the T4A slip by the end of February; trucking businesses face penalties for not reporting from the 2025 tax year",
+      "unit": "text"
+    },
+    {
+      "section_id": "contractor-rules",
+      "section": "Contractor rules: employee or self-employed, personal services businesses, reporting",
+      "group": "other",
+      "basis": "",
+      "note": "Reported on a T4A-NR slip whatever the amount; a waiver can be requested on Form R105",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Tax treatment of non-residents who perform services in Canada (page details 2025-05-20); Income Tax Regulations s. 105 (current to 2026-10-19)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rendering-services-canada/tax-treatment-non-residents-who-perform-services-canada.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Non-resident contractors: withholding on fees for services rendered in Canada (Regulation 105)",
+      "from": null,
+      "to": null,
+      "rate": 0.15,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Eligibility: worldwide taxable supplies, GST/HST included, of the business and its associates, not more than",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 400000,
+      "unit": "money"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Services, permanent establishment in a GST-only province: remittance rate on GST-included sales",
+      "from": null,
+      "to": null,
+      "rate": 0.036,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Services, Ontario (13% HST): remittance rate",
+      "from": null,
+      "to": null,
+      "rate": 0.088,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Services, Nova Scotia (14% HST): remittance rate",
+      "from": null,
+      "to": null,
+      "rate": 0.094,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Services, New Brunswick, Newfoundland and Labrador, Prince Edward Island (15% HST): remittance rate",
+      "from": null,
+      "to": null,
+      "rate": 0.1,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Goods for resale, GST-only province: remittance rate",
+      "from": null,
+      "to": null,
+      "rate": 0.018,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Goods for resale, 13% HST: remittance rate",
+      "from": null,
+      "to": null,
+      "rate": 0.044,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Goods for resale, 14% HST: remittance rate",
+      "from": null,
+      "to": null,
+      "rate": 0.047,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Goods for resale, 15% HST: remittance rate",
+      "from": null,
+      "to": null,
+      "rate": 0.05,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Credit on the first eligible supplies of the fiscal year",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Credit base: first eligible supplies (GST/HST included)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 30000,
+      "unit": "money"
+    },
+    {
+      "section_id": "simplified-regime",
+      "section": "Simplified regime: the GST/HST quick method",
+      "group": "other",
+      "basis": "",
+      "note": "The quick method lets small businesses remit a fixed share of their GST/HST-included sales instead of claiming input tax credits on most purchases. It changes only the GST/HST remitted.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Small supplier: no GST/HST registration needed up to taxable supplies over four quarters of",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 30000,
+      "unit": "money"
+    },
+    {
+      "section_id": "non-resident",
+      "section": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "basis": "",
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "What is taxed",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Income from employment duties performed in Canada (Income Tax Act s. 115(1)(a)(i))",
+      "unit": "text"
+    },
+    {
+      "section_id": "non-resident",
+      "section": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "basis": "",
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Deemed resident after this many days in Canada in a year (sojourning)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 183,
+      "unit": "number"
+    },
+    {
+      "section_id": "non-resident",
+      "section": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "basis": "",
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Payroll withholding",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Same withholding, remitting and reporting as for residents (Regulation 102); no personal tax credits are allowed in the withholding for an employee who is not resident when paid",
+      "unit": "text"
+    },
+    {
+      "section_id": "non-resident",
+      "section": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "basis": "",
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Federal surtax on income not earned in a province (instead of provincial tax)",
+      "from": null,
+      "to": null,
+      "rate": 0.48,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "non-resident",
+      "section": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "basis": "",
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Treaty relief",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Waiver of withholding on Form R102-R, filed 30 days before the work or the first payment; no withholding needed for a certified non-resident employer's treaty-exempt employees",
+      "unit": "text"
+    },
+    {
+      "section_id": "non-resident",
+      "section": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "basis": "",
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: Tax treatment of non-residents who perform services in Canada (page details 2025-05-20); Income Tax Regulations s. 105 (current to 2026-10-19)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rendering-services-canada/tax-treatment-non-residents-who-perform-services-canada.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Non-resident contractors (not employees): withholding on fees for services in Canada (Regulation 105)",
+      "from": null,
+      "to": null,
+      "rate": 0.15,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "non-resident",
+      "section": "Non-residents working in Canada: employment income",
+      "group": "other",
+      "basis": "",
+      "note": "Residence is decided on all the facts (residential ties, length and purpose of the stay); Form NR74 asks the CRA for an opinion.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Part XIII tax on passive income paid to non-residents (dividends, interest, rents, royalties) before treaty reductions",
+      "from": null,
+      "to": null,
+      "rate": 0.25,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: who levies it",
+      "group": "other",
+      "basis": "",
+      "note": "Property taxes are set locally on assessed value. British Columbia also has a provincial speculation and vacancy tax; see the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Constitution Act, 1867, s. 92 (Justice Laws Website)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/Const/page-3.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Legal basis",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Provinces legislate on direct taxation within the province and on municipal institutions (Constitution Act, 1867, s. 92(2) and (8)); municipal and school property taxes rest on provincial law and are listed on each province's page",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: who levies it",
+      "group": "other",
+      "basis": "",
+      "note": "Property taxes are set locally on assessed value. British Columbia also has a provincial speculation and vacancy tax; see the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source_title": "Underused Housing Tax Act, s. 1.1 and s. 6.1 (current to 2026-10-19, last amended 2026-03-26); CRA: Underused Housing Tax (page details 2025-04-04)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/U-0.5/FullText.html",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Federal Underused Housing Tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None for 2025 and later years: no tax and no return (Underused Housing Tax Act s. 1.1, 6.1); the annual 1% tax still applies to 2022 to 2024",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer: federal ban on foreign buyers",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2023-01-01",
+      "effective_to": "2027-01-01",
+      "source_title": "Prohibition on the Purchase of Residential Property by Non-Canadians Act, s. 4(1) (current to 2026-10-19); Department of Finance news release, 4 February 2024; Budget 2026, Chapter 3",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Prohibition on the purchase of residential property by non-Canadians",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "In force: non-Canadians may not buy residential property, directly or indirectly (Act s. 4(1))",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer: federal ban on foreign buyers",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2023-01-01",
+      "effective_to": "2027-01-01",
+      "source_title": "Prohibition on the Purchase of Residential Property by Non-Canadians Act, s. 4(1) (current to 2026-10-19); Department of Finance news release, 4 February 2024; Budget 2026, Chapter 3",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "End date",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Extended to 2027-01-01 (Finance Canada, February 2024); Budget 2026 proposes extending it to 2029-01-01 for existing homes, exempting new homes (not yet law)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer: federal ban on foreign buyers",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2023-01-01",
+      "effective_to": "2027-01-01",
+      "source_title": "Prohibition on the Purchase of Residential Property by Non-Canadians Act, s. 4(1) (current to 2026-10-19); Department of Finance news release, 4 February 2024; Budget 2026, Chapter 3",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Provincial transfer taxes",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Land transfer taxes, foreign-buyer surcharges and registration fees are set by each province or territory and by some cities (e.g. Toronto); see the provincial pages",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: Corporation tax rates (page details 2026-10-21); Income Tax Act s. 125(1.1) and 125(2) (current to 2026-10-19)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+      "retrieved_at": "2026-11-06",
+      "status": "verified",
+      "label": "Corporate income tax (federal and provincial) [national and provincial]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Federal 15% general, 9% small business up to $500,000; provinces add 0%–3.2% (lower) and 8%–15% (higher); 15% global minimum tax. Paid by corporations. Income Tax Act s. 123, 123.4, 124, 125; Global Minimum Tax Act",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Act, Part XIV, s. 219 and s. 219.2 (current to 2026-10-19)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-219.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Branch profits tax (Part XIV) [national]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "25%, reduced by treaty. Paid by non-resident corporations with a Canadian branch. Income Tax Act s. 219, 219.2",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "CRA: CPP contribution rates, maximums and exemptions (page details 2026-11-09); Second additional CPP contribution (CPP2) rates and maximums (page details 2026-11-09)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Self-employed contributions (CPP or QPP, QPIP, optional EI) [national (QPP and QPIP: Quebec)]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "CPP 11.9% from $3,500 up to $74,600, maximum $8,460.9; QPP 12.6%. Paid by self-employed individuals. Canada Pension Plan s. 10; Act respecting the Québec Pension Plan; Employment Insurance Act",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Act s. 125(7) 'personal services business' and s. 123.5 (current to 2026-10-19); CRA fact sheet 'Personal services businesses' (psb-fs-en.pdf)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-125.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Contractor rules (employee or self-employed test, personal services business, T4A reporting) [national]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "No withholding on resident contractors; 5% extra corporate tax on personal services business income; 15% withheld from non-resident contractors. Paid by payers and contractors. CRA RC4110; Income Tax Act s. 123.5, 125(7); Income Tax Regulations s. 105",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "CRA: RC4058 Quick Method of Accounting for GST/HST (page details 2025-07-21); CRA: When to register for and start charging the GST/HST (page details 2026-06-16)",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Simplified quick method of accounting for small businesses [national]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "GST/HST remittance rates from 1.8% to 10% of GST/HST-included sales, up to $400,000 of sales. Paid by small GST/HST registrants who elect it. Excise Tax Act; CRA RC4058",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Income Tax Regulations s. 102; Income Tax Act ss. 115(1), 120(1), 212(1), 250(1) (current to 2026-10-19); CRA: Treaty based waivers involving Regulation 102 withholding (page details 2020-06-25); CRA: Determining your residency status (page details 2026-01-20)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-102.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Non-resident tax on employment income [national and provincial]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Normal federal rates plus provincial tax where earned in a province, or a 48% federal surtax; payroll withholding under Regulation 102. Paid by non-resident employees (withheld by employers). Income Tax Act s. 2(3), 115, 120; Income Tax Regulations s. 102",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Constitution Act, 1867, s. 92 (Justice Laws Website)",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/Const/page-3.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Property tax (municipal and school taxes) [provincial and municipal]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Rates set locally on assessed value; no federal property tax (Underused Housing Tax nil from 2025). Paid by property owners. Constitution Act, 1867, s. 92; provincial municipal and education statutes",
+      "unit": "text"
+    },
+    {
+      "section_id": "tax-inventory",
+      "section": "Tax inventory: corporate, self-employed, non-resident and property taxes",
+      "group": "other",
+      "basis": "",
+      "note": "One row per item, each with its own official source; details in the sections above and on the provincial pages.",
+      "tax_year": "2026",
+      "effective_from": "2023-01-01",
+      "effective_to": "2027-01-01",
+      "source_title": "Prohibition on the Purchase of Residential Property by Non-Canadians Act, s. 4(1) (current to 2026-10-19); Department of Finance news release, 4 February 2024; Budget 2026, Chapter 3",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/P-25.2/FullText.html",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Property transfer tax (provincial land transfer taxes and fees) [provincial and municipal]",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Rates set by each province (e.g. Ontario, British Columbia, Quebec, Manitoba, Nova Scotia) and some cities; federal ban on non-Canadian buyers of homes. Paid by buyers of real property. Provincial land transfer statutes; Prohibition on the Purchase of Residential Property by Non-Canadians Act",
       "unit": "text"
     }
   ],

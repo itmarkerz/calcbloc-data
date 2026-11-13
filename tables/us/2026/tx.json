@@ -69,13 +69,157 @@
       },
       "verified": true,
       "note": "New Texas employers pay 2.7% or their industry's average rate, whichever is higher."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Texas corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Franchise tax rate (most businesses)",
+          "value": 0.0075,
+          "unit": "rate",
+          "note": "Rate on taxable margin for 2026 and 2027 reports, for entities other than retailers and wholesalers.",
+          "source": {
+            "title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+            "url": "https://comptroller.texas.gov/taxes/franchise/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Franchise tax rate (retail or wholesale)",
+          "value": 0.00375,
+          "unit": "rate",
+          "note": "Rate on taxable margin for 2026 and 2027 reports.",
+          "source": {
+            "title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+            "url": "https://comptroller.texas.gov/taxes/franchise/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Franchise tax no-tax-due threshold",
+          "value": 2650000,
+          "unit": "money",
+          "note": "For 2026 and 2027 reports (was $2,470,000 for 2024-2025). Entities at or below it owe no tax but still file an information report.",
+          "source": {
+            "title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+            "url": "https://comptroller.texas.gov/taxes/franchise/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Franchise tax EZ computation rate",
+          "value": 0.00331,
+          "unit": "rate",
+          "note": "Optional simplified computation for entities with total revenue up to $20 million (2026 and 2027 reports).",
+          "source": {
+            "title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+            "url": "https://comptroller.texas.gov/taxes/franchise/",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Texas property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Local taxing units (school districts, counties, cities and special districts); no state property tax",
+          "unit": "text",
+          "source": {
+            "title": "Texas Comptroller of Public Accounts: Property Tax Assistance",
+            "url": "https://comptroller.texas.gov/taxes/property-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Texas Comptroller of Public Accounts, Property Tax Assistance Division",
+          "unit": "text",
+          "note": "Appraisal is done by county appraisal districts.",
+          "source": {
+            "title": "Texas Comptroller of Public Accounts: Property Tax Assistance",
+            "url": "https://comptroller.texas.gov/taxes/property-tax/",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "School district homestead exemption",
+          "value": 140000,
+          "unit": "money",
+          "note": "Mandatory for school district taxes. Owners 65+ or disabled get an additional $60,000 school exemption.",
+          "source": {
+            "title": "Texas Comptroller of Public Accounts: Property Tax Exemptions",
+            "url": "https://comptroller.texas.gov/taxes/property-tax/exemptions/index.php",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Homestead appraisal increase cap",
+          "value": 0.1,
+          "unit": "rate",
+          "note": "Appraised value of a residence homestead may rise at most 10% a year (plus new improvements).",
+          "source": {
+            "title": "Texas Tax Code Section 23.23 (Limitation on appraised value of residence homestead), Texas Legislative Council",
+            "url": "https://tcss.legis.texas.gov/resources/TX/htm/TX.23.htm",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Texas Comptroller of Public Accounts: Property Tax Assistance",
+        "url": "https://comptroller.texas.gov/taxes/property-tax/",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Texas real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Real estate transfer tax",
+          "value": "None: the Texas Constitution prohibits a transfer tax on conveying fee simple title to real property",
+          "unit": "text",
+          "note": "Prohibition applies to laws enacted after January 1, 2016.",
+          "source": {
+            "title": "Texas Constitution, Article 8, Section 29 (Texas Legislative Council)",
+            "url": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
+            "retrievedAt": "2026-11-13"
+          },
+          "status": "not_applicable"
+        }
+      ],
+      "source": {
+        "title": "Texas Constitution, Article 8, Section 29 (Texas Legislative Council)",
+        "url": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
     {
-      "title": "Texas Constitution, Article 8 (Taxation and Revenue), Sec. 24-a and 24-b",
+      "title": "Texas Constitution, Article 8, Section 29 (Texas Legislative Council)",
       "url": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
-      "retrievedAt": "2026-10-20"
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "Fiscal Notes: Texas is open for small business (2025)",
@@ -88,9 +232,9 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Property Tax",
+      "title": "Texas Comptroller of Public Accounts: Property Tax Assistance",
       "url": "https://comptroller.texas.gov/taxes/property-tax/",
-      "retrievedAt": "2026-10-20"
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "Texas Labor Code, Chapter 207, Sec. 207.073 (Prohibited Deduction from Wages)",
@@ -101,6 +245,11 @@
       "title": "U.S. Department of Labor, Significant Provisions of State Unemployment Insurance Laws, Effective July 2026",
       "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/July2026.pdf",
       "retrievedAt": "2026-10-16"
+    },
+    {
+      "title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+      "url": "https://comptroller.texas.gov/taxes/franchise/",
+      "retrievedAt": "2026-11-13"
     }
   ],
   "requested_year": "2026",
@@ -208,6 +357,186 @@
       "rate": 0.06,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Texas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Rate on taxable margin for 2026 and 2027 reports, for entities other than retailers and wholesalers.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+      "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax rate (most businesses)",
+      "from": null,
+      "to": null,
+      "rate": 0.0075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Texas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Rate on taxable margin for 2026 and 2027 reports.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+      "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax rate (retail or wholesale)",
+      "from": null,
+      "to": null,
+      "rate": 0.00375,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Texas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "For 2026 and 2027 reports (was $2,470,000 for 2024-2025). Entities at or below it owe no tax but still file an information report.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+      "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax no-tax-due threshold",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 2650000,
+      "unit": "money"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Texas corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Optional simplified computation for entities with total revenue up to $20 million (2026 and 2027 reports).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Comptroller of Public Accounts: Franchise Tax (Tax Rates, Thresholds and Deduction Limits, 2026 and 2027)",
+      "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Franchise tax EZ computation rate",
+      "from": null,
+      "to": null,
+      "rate": 0.00331,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Texas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Comptroller of Public Accounts: Property Tax Assistance",
+      "source_url": "https://comptroller.texas.gov/taxes/property-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Local taxing units (school districts, counties, cities and special districts); no state property tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Texas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Appraisal is done by county appraisal districts.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Comptroller of Public Accounts: Property Tax Assistance",
+      "source_url": "https://comptroller.texas.gov/taxes/property-tax/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Texas Comptroller of Public Accounts, Property Tax Assistance Division",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Texas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Mandatory for school district taxes. Owners 65+ or disabled get an additional $60,000 school exemption.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Comptroller of Public Accounts: Property Tax Exemptions",
+      "source_url": "https://comptroller.texas.gov/taxes/property-tax/exemptions/index.php",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "School district homestead exemption",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 140000,
+      "unit": "money"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Texas property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Appraised value of a residence homestead may rise at most 10% a year (plus new improvements).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Tax Code Section 23.23 (Limitation on appraised value of residence homestead), Texas Legislative Council",
+      "source_url": "https://tcss.legis.texas.gov/resources/TX/htm/TX.23.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homestead appraisal increase cap",
+      "from": null,
+      "to": null,
+      "rate": 0.1,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Texas real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Prohibition applies to laws enacted after January 1, 2016.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Texas Constitution, Article 8, Section 29 (Texas Legislative Council)",
+      "source_url": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Real estate transfer tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None: the Texas Constitution prohibits a transfer tax on conveying fee simple title to real property",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/texas",

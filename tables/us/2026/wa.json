@@ -117,6 +117,210 @@
       },
       "verified": true,
       "note": "Washington sets new-employer rates by industry (115% of the industry average for 2026, at least 1%). Enter the rate from your ESD rate notice."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Washington corporate income and franchise taxes",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate income tax",
+          "value": "None: Washington has no corporate income tax (it levies the business and occupation tax on gross receipts)",
+          "unit": "text",
+          "source": {
+            "title": "Washington State Department of Revenue: Business tax structure in Washington State",
+            "url": "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+            "retrievedAt": "2026-11-13"
+          },
+          "status": "not_applicable"
+        },
+        {
+          "label": "B&O tax rate: retailing",
+          "value": 0.00471,
+          "unit": "rate",
+          "note": "Business and occupation tax is a gross receipts tax; no deduction for costs.",
+          "source": {
+            "title": "Washington State Department of Revenue: Business & occupation tax classifications",
+            "url": "https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "B&O tax rate: manufacturing and wholesaling",
+          "value": 0.00484,
+          "unit": "rate",
+          "note": "Rate in effect for 2026.",
+          "source": {
+            "title": "Washington State Department of Revenue: Business & occupation tax classifications",
+            "url": "https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "B&O tax rate: service and other activities",
+          "value": "1.5% (prior-year gross income under $1M); 1.75% ($1M to $4,999,999); 2.1% ($5M or more)",
+          "unit": "text",
+          "note": "Tiered by the business's gross income in the prior year.",
+          "source": {
+            "title": "Washington State Department of Revenue: Business & occupation tax classifications",
+            "url": "https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Additional B&O tax on taxable income over $250 million",
+          "value": 0.005,
+          "unit": "rate",
+          "note": "New from January 1, 2026 (the state calls it the high grossing business surcharge); applies to certain Washington taxable income over $250M a year; expires Dec. 31, 2029.",
+          "source": {
+            "title": "Washington State Department of Revenue: High grossing business surcharge",
+            "url": "https://dor.wa.gov/taxes-rates/other-taxes/high-grossing-business-surcharge",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Washington State Department of Revenue: Business tax structure in Washington State",
+        "url": "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Business taxes set by the state. Each row has its own official source."
+    },
+    {
+      "id": "property-tax",
+      "title": "Washington property tax: state rules",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Levied by",
+          "value": "Local taxing districts (and the state school levy); assessed and collected by county assessors and treasurers",
+          "unit": "text",
+          "source": {
+            "title": "Washington State Department of Revenue: Property tax",
+            "url": "https://dor.wa.gov/taxes-rates/property-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "State oversight",
+          "value": "Washington State Department of Revenue",
+          "unit": "text",
+          "source": {
+            "title": "Washington State Department of Revenue: Property tax",
+            "url": "https://dor.wa.gov/taxes-rates/property-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Constitutional rate limit",
+          "value": "Regular (non-voted) combined rate limited to 1% of market value ($10 per $1,000)",
+          "unit": "text",
+          "note": "Voter-approved special levies are on top of this limit.",
+          "source": {
+            "title": "Washington State Department of Revenue: Homeowner's Guide to Property Tax (June 2023)",
+            "url": "https://dor.wa.gov/sites/default/files/2022-02/HomeOwn.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Levy growth limit",
+          "value": "1% a year increase in each taxing district's regular levy (excluding new construction)",
+          "unit": "text",
+          "note": "Applies to the district's total levy, not to individual property values.",
+          "source": {
+            "title": "Washington State Department of Revenue: Homeowner's Guide to Property Tax (June 2023)",
+            "url": "https://dor.wa.gov/sites/default/files/2022-02/HomeOwn.pdf",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Washington State Department of Revenue: Property tax",
+        "url": "https://dor.wa.gov/taxes-rates/property-tax",
+        "retrievedAt": "2026-11-13"
+      },
+      "verified": true,
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Washington real estate transfer tax",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "State real estate excise tax (REET) up to $525,000",
+          "value": 0.011,
+          "unit": "rate",
+          "note": "Graduated state rates for 2026: 1.1% up to $525,000; 1.28% to $1,525,000; 2.75% to $3,025,000; 3% above. Thresholds rise on Jan. 1, 2027.",
+          "source": {
+            "title": "Washington State Department of Revenue: Real estate excise tax (Graduated REET structure effective Jan. 1, 2023)",
+            "url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2023-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "State REET rate on the portion over $3,025,000",
+          "value": 0.03,
+          "unit": "rate",
+          "note": "Top tier for 2026. From Jan. 1, 2027 the top tier starts above $3,051,000 (rate stays 3%).",
+          "source": {
+            "title": "Washington State Department of Revenue: Real estate excise tax",
+            "url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2023-01-01",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Agricultural land and timberland REET rate",
+          "value": 0.0128,
+          "unit": "rate",
+          "note": "Flat state rate instead of the graduated tiers.",
+          "source": {
+            "title": "Washington State Department of Revenue: Real estate excise tax",
+            "url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Who pays",
+          "value": "Usually the seller; the buyer is responsible if the seller does not pay",
+          "unit": "text",
+          "source": {
+            "title": "Washington State Department of Revenue: Real estate excise tax",
+            "url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        },
+        {
+          "label": "Local REET",
+          "value": "Local REET rates vary by jurisdiction and are added to the state rate",
+          "unit": "text",
+          "note": "The Department of Revenue publishes local rate tables (latest: rates May 1, 2026 and after).",
+          "source": {
+            "title": "Washington State Department of Revenue: Real estate excise tax",
+            "url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+            "retrievedAt": "2026-11-13"
+          }
+        }
+      ],
+      "source": {
+        "title": "Washington State Department of Revenue: Real estate excise tax (Graduated REET structure effective Jan. 1, 2023)",
+        "url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2023-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "Taxes on the transfer of real estate. Each row has its own official source."
     }
   ],
   "sources": [
@@ -144,6 +348,23 @@
       "title": "Washington ESD, How we determine tax rates",
       "url": "https://esd.wa.gov/employer-requirements/unemployment-taxes/how-we-determine-tax-rates",
       "retrievedAt": "2026-10-20"
+    },
+    {
+      "title": "Washington State Department of Revenue: Business tax structure in Washington State",
+      "url": "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Washington State Department of Revenue: Property tax",
+      "url": "https://dor.wa.gov/taxes-rates/property-tax",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Washington State Department of Revenue: Real estate excise tax (Graduated REET structure effective Jan. 1, 2023)",
+      "url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2023-01-01",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -331,6 +552,286 @@
       "rate": 0.054,
       "value": null,
       "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Washington corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Business taxes set by the state. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Business tax structure in Washington State",
+      "source_url": "https://dor.wa.gov/education/industry-guides/mortgage-brokers/business-tax-structure-washington-state",
+      "retrieved_at": "2026-11-13",
+      "status": "not_applicable",
+      "label": "Corporate income tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None: Washington has no corporate income tax (it levies the business and occupation tax on gross receipts)",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Washington corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Business and occupation tax is a gross receipts tax; no deduction for costs.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Business & occupation tax classifications",
+      "source_url": "https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "B&O tax rate: retailing",
+      "from": null,
+      "to": null,
+      "rate": 0.00471,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Washington corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Rate in effect for 2026.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Business & occupation tax classifications",
+      "source_url": "https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "B&O tax rate: manufacturing and wholesaling",
+      "from": null,
+      "to": null,
+      "rate": 0.00484,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Washington corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "Tiered by the business's gross income in the prior year.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Business & occupation tax classifications",
+      "source_url": "https://dor.wa.gov/taxes-rates/business-occupation-tax/business-occupation-tax-classifications",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "B&O tax rate: service and other activities",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "1.5% (prior-year gross income under $1M); 1.75% ($1M to $4,999,999); 2.1% ($5M or more)",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Washington corporate income and franchise taxes",
+      "group": "other",
+      "basis": "",
+      "note": "New from January 1, 2026 (the state calls it the high grossing business surcharge); applies to certain Washington taxable income over $250M a year; expires Dec. 31, 2029.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Washington State Department of Revenue: High grossing business surcharge",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/high-grossing-business-surcharge",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Additional B&O tax on taxable income over $250 million",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Washington property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Property tax",
+      "source_url": "https://dor.wa.gov/taxes-rates/property-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levied by",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Local taxing districts (and the state school levy); assessed and collected by county assessors and treasurers",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Washington property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Property tax is levied locally; these are the rules the state sets. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Property tax",
+      "source_url": "https://dor.wa.gov/taxes-rates/property-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State oversight",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Washington State Department of Revenue",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Washington property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Voter-approved special levies are on top of this limit.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Homeowner's Guide to Property Tax (June 2023)",
+      "source_url": "https://dor.wa.gov/sites/default/files/2022-02/HomeOwn.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Constitutional rate limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Regular (non-voted) combined rate limited to 1% of market value ($10 per $1,000)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Washington property tax: state rules",
+      "group": "other",
+      "basis": "",
+      "note": "Applies to the district's total levy, not to individual property values.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Homeowner's Guide to Property Tax (June 2023)",
+      "source_url": "https://dor.wa.gov/sites/default/files/2022-02/HomeOwn.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Levy growth limit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "1% a year increase in each taxing district's regular levy (excluding new construction)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Washington real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Graduated state rates for 2026: 1.1% up to $525,000; 1.28% to $1,525,000; 2.75% to $3,025,000; 3% above. Thresholds rise on Jan. 1, 2027.",
+      "tax_year": "2026",
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "source_title": "Washington State Department of Revenue: Real estate excise tax (Graduated REET structure effective Jan. 1, 2023)",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State real estate excise tax (REET) up to $525,000",
+      "from": null,
+      "to": null,
+      "rate": 0.011,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Washington real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Top tier for 2026. From Jan. 1, 2027 the top tier starts above $3,051,000 (rate stays 3%).",
+      "tax_year": "2026",
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "source_title": "Washington State Department of Revenue: Real estate excise tax",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "State REET rate on the portion over $3,025,000",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Washington real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Flat state rate instead of the graduated tiers.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Real estate excise tax",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Agricultural land and timberland REET rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0128,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Washington real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "Taxes on the transfer of real estate. Each row has its own official source.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Real estate excise tax",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Usually the seller; the buyer is responsible if the seller does not pay",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Washington real estate transfer tax",
+      "group": "other",
+      "basis": "",
+      "note": "The Department of Revenue publishes local rate tables (latest: rates May 1, 2026 and after).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Washington State Department of Revenue: Real estate excise tax",
+      "source_url": "https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Local REET",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Local REET rates vary by jurisdiction and are added to the state rate",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/us/tax-tables/2026/washington",
