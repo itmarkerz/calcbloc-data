@@ -274,6 +274,116 @@
       },
       "verified": true,
       "note": "Total income tax = simple tax × (cantonal + communal + church multiplier); church tax only for members. The communal and church figures are those of the cantonal capital, Bellinzona; other communes in Ticino set their own multipliers. Multiples as listed by the ESTV (1.19 = 119%)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Corporate profit tax 2026 (Ticino)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Profit tax rate, companies and cooperatives",
+          "value": 0.055,
+          "unit": "rate"
+        },
+        {
+          "label": "Cantonal multiplier 2026 (profit tax)",
+          "value": "no multiple",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Communal multiplier 2026: Bellinzona (cantonal capital; other communes differ)",
+          "value": "0.93",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Church tax on legal entities 2026: Bellinzona",
+          "value": "none",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        }
+      ],
+      "source": {
+        "title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), persone giuridiche: calcolo dell'imposta, Art. 76 LT",
+        "url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax."
+    },
+    {
+      "id": "property-tax",
+      "title": "Property tax: Liegenschaftssteuer (Ticino)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Who levies it",
+          "value": "The canton on real estate of legal entities, and every municipality on all real estate",
+          "unit": "text"
+        },
+        {
+          "label": "Cantonal rate, associations, foundations and other legal entities (1 per mille plus 0.5 per mille supplement, 2025 to 2027)",
+          "value": 0.0015,
+          "unit": "rate"
+        },
+        {
+          "label": "Cantonal rate, companies, cooperatives and collective investment schemes (2 per mille plus 1 per mille supplement, 2025 to 2027)",
+          "value": 0.003,
+          "unit": "rate"
+        },
+        {
+          "label": "Communal property tax (natural and legal persons)",
+          "value": 0.001,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), imposta immobiliare, art. 95-99 and 314c LT; ESTV Steuermäppchen Liegenschaftssteuer (tax period 2025) for the communal tax",
+        "url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2025-01-01",
+        "effectiveTo": "2027-12-31"
+      },
+      "verified": true,
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%)."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Property transfer tax: Handänderungssteuer (Ticino)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Property transfer tax (Handänderungssteuer)",
+          "value": "None as such: only land registry or transfer fees are charged (amounts not stored)",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "ESTV/SSK Dossier Steuerinformationen: Geltende Steuern (Stand der Gesetzgebung: 1. Januar 2026, June 2026)",
+        "url": "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain."
     }
   ],
   "sources": [
@@ -285,10 +395,16 @@
       "effectiveTo": "2026-12-31"
     },
     {
-      "title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), imposta sul reddito: calcolo dell'imposta, art. 35 LT",
+      "title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), persone giuridiche: calcolo dell'imposta, Art. 76 LT",
       "url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
-      "retrievedAt": "2026-11-09",
-      "effectiveFrom": "2025-01-01",
+      "retrievedAt": "2026-11-14",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": "2026-12-31"
+    },
+    {
+      "title": "ESTV/SSK Dossier Steuerinformationen: Geltende Steuern (Stand der Gesetzgebung: 1. Januar 2026, June 2026)",
+      "url": "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf",
+      "retrievedAt": "2026-11-14",
       "effectiveTo": null
     }
   ],
@@ -1056,6 +1172,186 @@
       "to": null,
       "rate": null,
       "value": "None listed (ESTV: –)",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), persone giuridiche: calcolo dell'imposta, Art. 76 LT",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Profit tax rate, companies and cooperatives",
+      "from": null,
+      "to": null,
+      "rate": 0.055,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal multiplier 2026 (profit tax)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "no multiple",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Communal multiplier 2026: Bellinzona (cantonal capital; other communes differ)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "0.93",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Church tax on legal entities 2026: Bellinzona",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "none",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2025-01-01",
+      "effective_to": "2027-12-31",
+      "source_title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), imposta immobiliare, art. 95-99 and 314c LT; ESTV Steuermäppchen Liegenschaftssteuer (tax period 2025) for the communal tax",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Who levies it",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "The canton on real estate of legal entities, and every municipality on all real estate",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2025-01-01",
+      "effective_to": "2027-12-31",
+      "source_title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), imposta immobiliare, art. 95-99 and 314c LT; ESTV Steuermäppchen Liegenschaftssteuer (tax period 2025) for the communal tax",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal rate, associations, foundations and other legal entities (1 per mille plus 0.5 per mille supplement, 2025 to 2027)",
+      "from": null,
+      "to": null,
+      "rate": 0.0015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2025-01-01",
+      "effective_to": "2027-12-31",
+      "source_title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), imposta immobiliare, art. 95-99 and 314c LT; ESTV Steuermäppchen Liegenschaftssteuer (tax period 2025) for the communal tax",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal rate, companies, cooperatives and collective investment schemes (2 per mille plus 1 per mille supplement, 2025 to 2027)",
+      "from": null,
+      "to": null,
+      "rate": 0.003,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2025-01-01",
+      "effective_to": "2027-12-31",
+      "source_title": "AFC/ESTV Foglio cantonale Ticino (Stato febbraio 2026), imposta immobiliare, art. 95-99 and 314c LT; ESTV Steuermäppchen Liegenschaftssteuer (tax period 2025) for the communal tax",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ti-it.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Communal property tax (natural and legal persons)",
+      "from": null,
+      "to": null,
+      "rate": 0.001,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Ticino)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV/SSK Dossier Steuerinformationen: Geltende Steuern (Stand der Gesetzgebung: 1. Januar 2026, June 2026)",
+      "source_url": "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Property transfer tax (Handänderungssteuer)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "None as such: only land registry or transfer fees are charged (amounts not stored)",
       "unit": "text"
     }
   ],

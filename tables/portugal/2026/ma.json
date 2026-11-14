@@ -169,6 +169,230 @@
         "effectiveTo": null
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Corporate income tax (IRC), Madeira, 2026",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "General rate (DLR n.º 2/2001/M, art. 2.º)",
+          "value": 0.133,
+          "unit": "rate"
+        },
+        {
+          "label": "SMEs and small mid caps: rate on the first €50,000 of taxable income",
+          "value": 0.105,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Governo Regional da Madeira: Decreto Legislativo Regional n.º 8/2025/M, de 30 de dezembro (Orçamento da Região Autónoma da Madeira para 2026; DR 1.ª série n.º 250), artigo 19.º amending artigo 2.º do DLR n.º 2/2001/M",
+        "url": "https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/Decreto%20Legislativo%20Regional%20n.%C2%BA%208_2025_M%2C%20de%2030%20de%20dezembro.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "basis": "Taxable income attributable to Madeira, per tax period",
+      "note": "Set by the Madeira budget for 2026 (DLR n.º 8/2025/M), keeping the 30% maximum reduction on the national rates; 14% and 11.2% applied in 2025. The Madeira Free Trade Zone has its own regime (not stored)."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Property transfer tax (IMT), Madeira",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Regional brackets",
+          "value": "Madeira and the Azores use IMT brackets 25% higher than the mainland's (Lei n.º 21/90); the rates are the same",
+          "unit": "text"
+        },
+        {
+          "label": "Rustic property (national rate)",
+          "value": 0.05,
+          "unit": "rate"
+        },
+        {
+          "label": "Other urban property and other purchases (national rate)",
+          "value": 0.065,
+          "unit": "rate"
+        },
+        {
+          "label": "Non-resident buyers of homes (national rule)",
+          "value": 0.075,
+          "unit": "rate",
+          "source": {
+            "title": "Portal das Finanças (AT): Código do IMT, artigo 17.º n.os 10 to 12 (aditados pelo Decreto-Lei n.º 97/2026, de 20 de maio); Ofício Circulado n.º 40131/2026, de 2026-09-04",
+            "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/CIMT/Pages/cimt17.aspx",
+            "retrievedAt": "2026-11-14",
+            "effectiveTo": null
+          }
+        },
+        {
+          "label": "Stamp duty on purchases (national)",
+          "value": 0.008,
+          "unit": "rate",
+          "source": {
+            "title": "Portal das Finanças (AT): Tabela Geral do Imposto do Selo, verba 1.1",
+            "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/selo/Pages/ccod-selo-tabgiselo.aspx",
+            "retrievedAt": "2026-11-14",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+        "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "IMI and AIMI follow the national rules (see the national page)."
+    },
+    {
+      "id": "property-transfer-own-home",
+      "title": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Up to €132,933",
+          "value": 0,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €132,933 up to €181,838 (marginal rate, less €2,658.66)",
+          "value": 0.02,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €181,838 up to €247,934 (marginal rate, less €8,113.8)",
+          "value": 0.05,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €247,934 up to €413,174 (marginal rate, less €13,072.48)",
+          "value": 0.07,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €413,174 up to €826,228 (marginal rate, less €17,204.22)",
+          "value": 0.08,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €826,228 up to €1,438,566 (single rate on the whole value)",
+          "value": 0.06,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €1,438,566 (single rate on the whole value)",
+          "value": 0.075,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+        "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value."
+    },
+    {
+      "id": "property-transfer-young",
+      "title": "IMT Jovem: own permanent home, buyer aged 35 or under, Madeira (Tabela V)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Up to €413,174",
+          "value": 0,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €413,174 up to €826,228 (marginal rate, less €33,053.92)",
+          "value": 0.08,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €826,228 up to €1,438,566 (single rate on the whole value)",
+          "value": 0.06,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €1,438,566 (single rate on the whole value)",
+          "value": 0.075,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+        "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "basis": "Value of the home"
+    },
+    {
+      "id": "property-transfer-other-homes",
+      "title": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Up to €132,933",
+          "value": 0.01,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €132,933 up to €181,838 (marginal rate, less €1,329.33)",
+          "value": 0.02,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €181,838 up to €247,934 (marginal rate, less €6,784.47)",
+          "value": 0.05,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €247,934 up to €413,174 (marginal rate, less €11,743.15)",
+          "value": 0.07,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €413,174 up to €792,414 (marginal rate, less €15,874.89)",
+          "value": 0.08,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €792,414 up to €1,438,566 (single rate on the whole value)",
+          "value": 0.06,
+          "unit": "rate"
+        },
+        {
+          "label": "Over €1,438,566 (single rate on the whole value)",
+          "value": 0.075,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+        "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "basis": "Value of the home"
     }
   ],
   "sources": [
@@ -176,6 +400,56 @@
       "title": "Ofício Circulado n.º 25045/2024 – IVA, taxas aplicáveis às Regiões Autónomas",
       "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_25045_2024.pdf",
       "retrievedAt": "2026-11-09"
+    },
+    {
+      "title": "Portal das Finanças: Código do IRC (artigos 3.º, 14.º, 86.º-A, 86.º-B, 87.º, 87.º-A, 94.º)",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/CIRC_2R/Pages/irc87.aspx",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Ofício Circulado n.º 20293/2026 – taxas de derrama municipal (período de 2025)",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio-circulado-20293-2026.pdf",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Lei n.º 41/2024 – Regime do Imposto Mínimo Global",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/Lei_41_2024.pdf",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Portal das Finanças: Código do IRS (artigos 16.º, 71.º, 101.º, 101.º-B, 115.º)",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs71.aspx",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Código do Trabalho (Lei n.º 7/2009), artigo 12.º; Lei n.º 13/2023, artigo 12.º-A",
+      "url": "https://files.diariodarepublica.pt/1s/2023/04/06600/0000200085.pdf",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Guia Prático – Entidades Contratantes (12 January 2026)",
+      "url": "https://www.seg-social.pt/ptss/pssd/documento/cmc1ygvnw00f4kl2yl22z68po",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Portal das Finanças: Código do IMI (artigos 112.º, 135.º-A, 135.º-C, 135.º-F)",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/CIMI/Pages/cimi112.aspx",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Ofício Circulado n.º 40129/2026 – IMT, tabelas práticas 2026",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Portal das Finanças: Código do IMT (artigos 9.º and 17.º); Tabela Geral do Imposto do Selo",
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/CIMT/Pages/cimt17.aspx",
+      "retrievedAt": "2026-11-14"
+    },
+    {
+      "title": "Decreto Legislativo Regional n.º 8/2025/M – Orçamento da Região Autónoma da Madeira para 2026",
+      "url": "https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/Decreto%20Legislativo%20Regional%20n.%C2%BA%208_2025_M%2C%20de%2030%20de%20dezembro.pdf",
+      "retrievedAt": "2026-11-14"
     },
     {
       "title": "Decreto Legislativo Regional n.º 17/2026/M, de 5 de novembro (DR n.º 215/2026, Série I): taxas do IRS aplicáveis aos residentes na Região Autónoma da Madeira (AT legislation sheet)",
@@ -522,6 +796,506 @@
       "from": null,
       "to": null,
       "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (IRC), Madeira, 2026",
+      "group": "other",
+      "basis": "Taxable income attributable to Madeira, per tax period",
+      "note": "Set by the Madeira budget for 2026 (DLR n.º 8/2025/M), keeping the 30% maximum reduction on the national rates; 14% and 11.2% applied in 2025. The Madeira Free Trade Zone has its own regime (not stored).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Governo Regional da Madeira: Decreto Legislativo Regional n.º 8/2025/M, de 30 de dezembro (Orçamento da Região Autónoma da Madeira para 2026; DR 1.ª série n.º 250), artigo 19.º amending artigo 2.º do DLR n.º 2/2001/M",
+      "source_url": "https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/Decreto%20Legislativo%20Regional%20n.%C2%BA%208_2025_M%2C%20de%2030%20de%20dezembro.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "General rate (DLR n.º 2/2001/M, art. 2.º)",
+      "from": null,
+      "to": null,
+      "rate": 0.133,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate income tax (IRC), Madeira, 2026",
+      "group": "other",
+      "basis": "Taxable income attributable to Madeira, per tax period",
+      "note": "Set by the Madeira budget for 2026 (DLR n.º 8/2025/M), keeping the 30% maximum reduction on the national rates; 14% and 11.2% applied in 2025. The Madeira Free Trade Zone has its own regime (not stored).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "Governo Regional da Madeira: Decreto Legislativo Regional n.º 8/2025/M, de 30 de dezembro (Orçamento da Região Autónoma da Madeira para 2026; DR 1.ª série n.º 250), artigo 19.º amending artigo 2.º do DLR n.º 2/2001/M",
+      "source_url": "https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/Decreto%20Legislativo%20Regional%20n.%C2%BA%208_2025_M%2C%20de%2030%20de%20dezembro.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "SMEs and small mid caps: rate on the first €50,000 of taxable income",
+      "from": null,
+      "to": null,
+      "rate": 0.105,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax (IMT), Madeira",
+      "group": "other",
+      "basis": "",
+      "note": "IMI and AIMI follow the national rules (see the national page).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Regional brackets",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Madeira and the Azores use IMT brackets 25% higher than the mainland's (Lei n.º 21/90); the rates are the same",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax (IMT), Madeira",
+      "group": "other",
+      "basis": "",
+      "note": "IMI and AIMI follow the national rules (see the national page).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Rustic property (national rate)",
+      "from": null,
+      "to": null,
+      "rate": 0.05,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax (IMT), Madeira",
+      "group": "other",
+      "basis": "",
+      "note": "IMI and AIMI follow the national rules (see the national page).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Other urban property and other purchases (national rate)",
+      "from": null,
+      "to": null,
+      "rate": 0.065,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax (IMT), Madeira",
+      "group": "other",
+      "basis": "",
+      "note": "IMI and AIMI follow the national rules (see the national page).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Portal das Finanças (AT): Código do IMT, artigo 17.º n.os 10 to 12 (aditados pelo Decreto-Lei n.º 97/2026, de 20 de maio); Ofício Circulado n.º 40131/2026, de 2026-09-04",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/CIMT/Pages/cimt17.aspx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Non-resident buyers of homes (national rule)",
+      "from": null,
+      "to": null,
+      "rate": 0.075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax (IMT), Madeira",
+      "group": "other",
+      "basis": "",
+      "note": "IMI and AIMI follow the national rules (see the national page).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Portal das Finanças (AT): Tabela Geral do Imposto do Selo, verba 1.1",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/selo/Pages/ccod-selo-tabgiselo.aspx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Stamp duty on purchases (national)",
+      "from": null,
+      "to": null,
+      "rate": 0.008,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-own-home",
+      "section": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Up to €132,933",
+      "from": null,
+      "to": null,
+      "rate": 0,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-own-home",
+      "section": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €132,933 up to €181,838 (marginal rate, less €2,658.66)",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-own-home",
+      "section": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €181,838 up to €247,934 (marginal rate, less €8,113.8)",
+      "from": null,
+      "to": null,
+      "rate": 0.05,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-own-home",
+      "section": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €247,934 up to €413,174 (marginal rate, less €13,072.48)",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-own-home",
+      "section": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €413,174 up to €826,228 (marginal rate, less €17,204.22)",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-own-home",
+      "section": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €826,228 up to €1,438,566 (single rate on the whole value)",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-own-home",
+      "section": "IMT on an own permanent home, Madeira (Tabela IV)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "Exempt up to the first bracket. IMT = value × marginal rate − the amount shown; the top two bands are a single rate on the whole value.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €1,438,566 (single rate on the whole value)",
+      "from": null,
+      "to": null,
+      "rate": 0.075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-young",
+      "section": "IMT Jovem: own permanent home, buyer aged 35 or under, Madeira (Tabela V)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Up to €413,174",
+      "from": null,
+      "to": null,
+      "rate": 0,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-young",
+      "section": "IMT Jovem: own permanent home, buyer aged 35 or under, Madeira (Tabela V)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €413,174 up to €826,228 (marginal rate, less €33,053.92)",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-young",
+      "section": "IMT Jovem: own permanent home, buyer aged 35 or under, Madeira (Tabela V)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €826,228 up to €1,438,566 (single rate on the whole value)",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-young",
+      "section": "IMT Jovem: own permanent home, buyer aged 35 or under, Madeira (Tabela V)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €1,438,566 (single rate on the whole value)",
+      "from": null,
+      "to": null,
+      "rate": 0.075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-other-homes",
+      "section": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Up to €132,933",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-other-homes",
+      "section": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €132,933 up to €181,838 (marginal rate, less €1,329.33)",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-other-homes",
+      "section": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €181,838 up to €247,934 (marginal rate, less €6,784.47)",
+      "from": null,
+      "to": null,
+      "rate": 0.05,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-other-homes",
+      "section": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €247,934 up to €413,174 (marginal rate, less €11,743.15)",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-other-homes",
+      "section": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €413,174 up to €792,414 (marginal rate, less €15,874.89)",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-other-homes",
+      "section": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €792,414 up to €1,438,566 (single rate on the whole value)",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-other-homes",
+      "section": "IMT on other homes, Madeira (Tabela VI)",
+      "group": "other",
+      "basis": "Value of the home",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "AT: Ofício Circulado n.º 40129/2026, de 2026-01-06 – IMT, tabelas práticas em vigor a partir de 01 de janeiro de 2026, Tables IV to VI (Regiões Autónomas dos Açores e da Madeira, Lei n.º 21/90, de 4 de agosto)",
+      "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio_circulado_40129_2026.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Over €1,438,566 (single rate on the whole value)",
+      "from": null,
+      "to": null,
+      "rate": 0.075,
       "value": null,
       "unit": "rate"
     }

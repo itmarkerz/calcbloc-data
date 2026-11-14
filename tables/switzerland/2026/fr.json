@@ -159,6 +159,111 @@
       },
       "verified": true,
       "note": "Total income tax = simple tax × (cantonal + communal + church multiplier); church tax only for members. The communal and church figures are those of the cantonal capital, Fribourg; other communes in Fribourg set their own multipliers. Multiples as listed by the ESTV (1.19 = 119%)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Corporate profit tax 2026 (Fribourg)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Profit tax rate, companies and cooperatives",
+          "value": 0.04,
+          "unit": "rate"
+        },
+        {
+          "label": "Cantonal multiplier 2026 (profit tax)",
+          "value": "1",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Communal multiplier 2026: Fribourg (cantonal capital; other communes differ)",
+          "value": "0.8",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Church tax on legal entities 2026: Fribourg",
+          "value": "0.1",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        }
+      ],
+      "source": {
+        "title": "AFC/ESTV Feuille cantonale Fribourg (Etat février 2026), personnes morales: calcul de l'impôt, Art. 110 LICD",
+        "url": "https://www.estv2.admin.ch/stp/kb/fr-fr.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax."
+    },
+    {
+      "id": "property-tax",
+      "title": "Property tax: Liegenschaftssteuer (Fribourg)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Who levies it",
+          "value": "Municipalities, optionally, on the tax value of real estate of natural and legal persons",
+          "unit": "text"
+        },
+        {
+          "label": "Maximum rate",
+          "value": 0.003,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+        "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%)."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Property transfer tax: Handänderungssteuer (Fribourg)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Cantonal transfer duty (droits de mutation)",
+          "value": 0.015,
+          "unit": "rate"
+        },
+        {
+          "label": "Communal additional duty",
+          "value": "Municipalities may add centimes additionnels of up to 100% of the cantonal duty",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Fribourg Loi sur les droits de mutation et les droits sur les gages immobiliers (LDMG, RSF 635.1.1), version in force since 01.03.2024",
+        "url": "https://bdlf.fr.ch/app/fr/texts_of_law/635.1.1",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2024-03-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain."
     }
   ],
   "sources": [
@@ -170,9 +275,23 @@
       "effectiveTo": "2026-12-31"
     },
     {
-      "title": "AFC/ESTV Feuille cantonale Fribourg (Etat: février 2026), impôt sur le revenu: calcul de l'impôt, art. 37 LICD",
+      "title": "AFC/ESTV Feuille cantonale Fribourg (Etat février 2026), personnes morales: calcul de l'impôt, Art. 110 LICD",
       "url": "https://www.estv2.admin.ch/stp/kb/fr-fr.pdf",
-      "retrievedAt": "2026-11-09",
+      "retrievedAt": "2026-11-14",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": "2026-12-31"
+    },
+    {
+      "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrievedAt": "2026-11-14",
+      "effectiveTo": null
+    },
+    {
+      "title": "Fribourg Loi sur les droits de mutation et les droits sur les gages immobiliers (LDMG, RSF 635.1.1), version in force since 01.03.2024",
+      "url": "https://bdlf.fr.ch/app/fr/texts_of_law/635.1.1",
+      "retrievedAt": "2026-11-14",
+      "effectiveFrom": "2024-03-01",
       "effectiveTo": null
     }
   ],
@@ -561,6 +680,166 @@
       "rate": null,
       "value": 0.06,
       "unit": "number"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Feuille cantonale Fribourg (Etat février 2026), personnes morales: calcul de l'impôt, Art. 110 LICD",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/fr-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Profit tax rate, companies and cooperatives",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal multiplier 2026 (profit tax)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "1",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Communal multiplier 2026: Fribourg (cantonal capital; other communes differ)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "0.8",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Church tax on legal entities 2026: Fribourg",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "0.1",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Who levies it",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Municipalities, optionally, on the tax value of real estate of natural and legal persons",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Maximum rate",
+      "from": null,
+      "to": null,
+      "rate": 0.003,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2024-03-01",
+      "effective_to": null,
+      "source_title": "Fribourg Loi sur les droits de mutation et les droits sur les gages immobiliers (LDMG, RSF 635.1.1), version in force since 01.03.2024",
+      "source_url": "https://bdlf.fr.ch/app/fr/texts_of_law/635.1.1",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal transfer duty (droits de mutation)",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Fribourg)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2024-03-01",
+      "effective_to": null,
+      "source_title": "Fribourg Loi sur les droits de mutation et les droits sur les gages immobiliers (LDMG, RSF 635.1.1), version in force since 01.03.2024",
+      "source_url": "https://bdlf.fr.ch/app/fr/texts_of_law/635.1.1",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Communal additional duty",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Municipalities may add centimes additionnels of up to 100% of the cantonal duty",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/switzerland/tax-tables/2026/fribourg",

@@ -12,9 +12,11 @@
   "currency": "CHF",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
-  "dataVerified": true,
+  "status": "unverified",
+  "underReview": [
+    "property-transfer"
+  ],
+  "dataVerified": false,
   "sections": [
     {
       "id": "cantonal-tariff",
@@ -189,6 +191,125 @@
       },
       "verified": true,
       "note": "Total income tax = simple tax × (cantonal + communal + church multiplier); church tax only for members. The communal and church figures are those of the cantonal capital, Delémont; other communes in Jura set their own multipliers. Multiples as listed by the ESTV (1.19 = 119%)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Unit profit tax rate for tax period 2026",
+          "value": 0.02062,
+          "unit": "rate"
+        },
+        {
+          "label": "Unit rate for 2027",
+          "value": 0.02005,
+          "unit": "rate"
+        },
+        {
+          "label": "Unit rate for 2028",
+          "value": 0.01949,
+          "unit": "rate"
+        },
+        {
+          "label": "Unit rate for 2029",
+          "value": 0.01893,
+          "unit": "rate"
+        },
+        {
+          "label": "Long-term unit rate (art. 77 LI)",
+          "value": 0.01837,
+          "unit": "rate"
+        },
+        {
+          "label": "Cantonal multiplier 2026 (profit tax)",
+          "value": "2.85",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Communal multiplier 2026: Delémont (cantonal capital; other communes differ)",
+          "value": "1.9",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Church tax on legal entities 2026: Delémont",
+          "value": "8.01% of the cantonal tax",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        }
+      ],
+      "source": {
+        "title": "AFC/ESTV Feuille cantonale Jura (Etat février 2026), personnes morales: calcul de l'impôt, Art. 77 and 218c LI",
+        "url": "https://www.estv2.admin.ch/stp/kb/ju-fr.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax."
+    },
+    {
+      "id": "property-tax",
+      "title": "Property tax: Liegenschaftssteuer (Jura)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Who levies it",
+          "value": "Every municipality (taxe immobilière), on the official value of real estate of natural and legal persons",
+          "unit": "text"
+        },
+        {
+          "label": "Rate range",
+          "value": "0.5 to 1.8 per mille of the official value",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+        "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%)."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Property transfer tax: Handänderungssteuer (Jura)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer duty rate",
+          "value": "Not confirmed for 2026: the ESTV gives 2.1% (legislation as of 1 January 2022); a 2023 government bill (Plan équilibre 22-26) proposed 2.5% up to CHF 1 million and 2.9% above and the end of the reduced rate for a first home; the law in force was not read",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "République et Canton du Jura: Plan équilibre 22-26, révision partielle de la loi réglant les droits de mutation (LDMG), press release of 03.07.2023; ESTV Dossier Handänderungssteuer (legislation as of 1 January 2022)",
+        "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2023/Plan-equilibre-22-26-revision-partielle-de-la-loi-reglant-les-droits-de-mutation-et-les-droits-percus-pour-la-constitution-de-g.html",
+        "retrievedAt": "2026-11-14",
+        "effectiveTo": null
+      },
+      "verified": false,
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain."
     }
   ],
   "sources": [
@@ -200,11 +321,23 @@
       "effectiveTo": "2026-12-31"
     },
     {
-      "title": "AFC/ESTV Feuille cantonale Jura (Etat: février 2026), impôt sur le revenu: calcul de l'impôt, art. 35 LI and art. 1 ADLI 2026",
+      "title": "AFC/ESTV Feuille cantonale Jura (Etat février 2026), personnes morales: calcul de l'impôt, Art. 77 and 218c LI",
       "url": "https://www.estv2.admin.ch/stp/kb/ju-fr.pdf",
-      "retrievedAt": "2026-11-09",
+      "retrievedAt": "2026-11-14",
       "effectiveFrom": "2026-01-01",
       "effectiveTo": "2026-12-31"
+    },
+    {
+      "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrievedAt": "2026-11-14",
+      "effectiveTo": null
+    },
+    {
+      "title": "République et Canton du Jura: Plan équilibre 22-26, révision partielle de la loi réglant les droits de mutation (LDMG), press release of 03.07.2023; ESTV Dossier Handänderungssteuer (legislation as of 1 January 2022)",
+      "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2023/Plan-equilibre-22-26-revision-partielle-de-la-loi-reglant-les-droits-de-mutation-et-les-droits-percus-pour-la-constitution-de-g.html",
+      "retrievedAt": "2026-11-14",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -631,6 +764,226 @@
       "to": null,
       "rate": null,
       "value": "6.4% of the cantonal tax (ESTV note 6)",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Feuille cantonale Jura (Etat février 2026), personnes morales: calcul de l'impôt, Art. 77 and 218c LI",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ju-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Unit profit tax rate for tax period 2026",
+      "from": null,
+      "to": null,
+      "rate": 0.02062,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Feuille cantonale Jura (Etat février 2026), personnes morales: calcul de l'impôt, Art. 77 and 218c LI",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ju-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Unit rate for 2027",
+      "from": null,
+      "to": null,
+      "rate": 0.02005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Feuille cantonale Jura (Etat février 2026), personnes morales: calcul de l'impôt, Art. 77 and 218c LI",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ju-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Unit rate for 2028",
+      "from": null,
+      "to": null,
+      "rate": 0.01949,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Feuille cantonale Jura (Etat février 2026), personnes morales: calcul de l'impôt, Art. 77 and 218c LI",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ju-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Unit rate for 2029",
+      "from": null,
+      "to": null,
+      "rate": 0.01893,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Feuille cantonale Jura (Etat février 2026), personnes morales: calcul de l'impôt, Art. 77 and 218c LI",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ju-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Long-term unit rate (art. 77 LI)",
+      "from": null,
+      "to": null,
+      "rate": 0.01837,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal multiplier 2026 (profit tax)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "2.85",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Communal multiplier 2026: Delémont (cantonal capital; other communes differ)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "1.9",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Church tax on legal entities 2026: Delémont",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "8.01% of the cantonal tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Who levies it",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Every municipality (taxe immobilière), on the official value of real estate of natural and legal persons",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Rate range",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "0.5 to 1.8 per mille of the official value",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Jura)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "République et Canton du Jura: Plan équilibre 22-26, révision partielle de la loi réglant les droits de mutation (LDMG), press release of 03.07.2023; ESTV Dossier Handänderungssteuer (legislation as of 1 January 2022)",
+      "source_url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2023/Plan-equilibre-22-26-revision-partielle-de-la-loi-reglant-les-droits-de-mutation-et-les-droits-percus-pour-la-constitution-de-g.html",
+      "retrieved_at": "2026-11-14",
+      "status": "under_review",
+      "label": "Transfer duty rate",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Not confirmed for 2026: the ESTV gives 2.1% (legislation as of 1 January 2022); a 2023 government bill (Plan équilibre 22-26) proposed 2.5% up to CHF 1 million and 2.9% above and the end of the reduced rate for a first home; the law in force was not read",
       "unit": "text"
     }
   ],

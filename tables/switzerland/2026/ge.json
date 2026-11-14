@@ -12,9 +12,11 @@
   "currency": "CHF",
   "effectiveFrom": "2026-01-01",
   "effectiveTo": "2026-12-31",
-  "status": "verified",
-  "underReview": [],
-  "dataVerified": true,
+  "status": "unverified",
+  "underReview": [
+    "property-transfer"
+  ],
+  "dataVerified": false,
   "sections": [
     {
       "id": "cantonal-tariff",
@@ -201,6 +203,131 @@
       },
       "verified": true,
       "note": "Total income tax = simple tax × (cantonal + communal + church multiplier); church tax only for members. The communal and church figures are those of the cantonal capital, Genève; other communes in Geneva set their own multipliers. Multiples as listed by the ESTV (1.19 = 119%)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Corporate profit tax 2026 (Geneva)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Profit tax rate (base rate)",
+          "value": 0.0333,
+          "unit": "rate"
+        },
+        {
+          "label": "Cantonal multiplier 2026 (profit tax)",
+          "value": "188.5% (plus intercommunal equalisation of 43.5% on 20% of the simple tax)",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Communal multiplier 2026: Genève (cantonal capital; other communes differ)",
+          "value": "45.49% on 80% of the simple tax",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Church tax on legal entities 2026: Genève",
+          "value": "none",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        }
+      ],
+      "source": {
+        "title": "AFC/ESTV Feuille cantonale Genève (Etat février 2026), personnes morales: calcul de l'impôt, Art. 20 LIPM",
+        "url": "https://www.estv2.admin.ch/stp/kb/ge-fr.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax."
+    },
+    {
+      "id": "property-tax",
+      "title": "Property tax: Liegenschaftssteuer (Geneva)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Who levies it",
+          "value": "The canton only (no communal property tax)",
+          "unit": "text"
+        },
+        {
+          "label": "Property tax rate on all real estate in the canton",
+          "value": 0.001,
+          "unit": "rate"
+        },
+        {
+          "label": "Reduced rate: real estate of natural persons used as their main residence",
+          "value": 0.0002,
+          "unit": "rate"
+        },
+        {
+          "label": "Reduced rate: purely agricultural property of small owners, and unproductive land of general interest",
+          "value": 0.0005,
+          "unit": "rate"
+        },
+        {
+          "label": "Complementary tax, legal entities with a profit aim and purely real-estate companies",
+          "value": 0.002,
+          "unit": "rate"
+        },
+        {
+          "label": "Complementary tax, non-profit legal entities",
+          "value": 0.0015,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+        "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%)."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Property transfer tax: Handänderungssteuer (Geneva)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Registration duty on transfers of real estate: normal rate",
+          "value": 0.03,
+          "unit": "rate",
+          "note": "ESTV, legislation as of 1 January 2022"
+        },
+        {
+          "label": "Main residence relief",
+          "value": "A fixed reduction of the duty for a buyer's main residence up to a value cap, indexed each year by regulation (2022 figures in the ESTV source: first CHF 18,877 not levied for homes up to CHF 1,258,454); the 2026 amounts were not read",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "ESTV/SSK Dossier Steuerinformationen: Handänderungssteuer (Stand der Gesetzgebung: 1. Januar 2022, November 2022)",
+        "url": "https://www.estv2.admin.ch/stp/ds/d-handaenderungssteuer-de.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveTo": null
+      },
+      "verified": false,
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain."
     }
   ],
   "sources": [
@@ -212,11 +339,23 @@
       "effectiveTo": "2026-12-31"
     },
     {
-      "title": "AFC/ESTV Feuille cantonale Genève (Etat: février 2026), impôt sur le revenu: calcul de l'impôt, art. 41 LIPP and art. 17 RCEPF (barème indexé 2026)",
+      "title": "AFC/ESTV Feuille cantonale Genève (Etat février 2026), personnes morales: calcul de l'impôt, Art. 20 LIPM",
       "url": "https://www.estv2.admin.ch/stp/kb/ge-fr.pdf",
-      "retrievedAt": "2026-11-09",
+      "retrievedAt": "2026-11-14",
       "effectiveFrom": "2026-01-01",
       "effectiveTo": "2026-12-31"
+    },
+    {
+      "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrievedAt": "2026-11-14",
+      "effectiveTo": null
+    },
+    {
+      "title": "ESTV/SSK Dossier Steuerinformationen: Handänderungssteuer (Stand der Gesetzgebung: 1. Januar 2022, November 2022)",
+      "url": "https://www.estv2.admin.ch/stp/ds/d-handaenderungssteuer-de.pdf",
+      "retrievedAt": "2026-11-14",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -764,6 +903,246 @@
       "rate": null,
       "value": 0.16,
       "unit": "number"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "AFC/ESTV Feuille cantonale Genève (Etat février 2026), personnes morales: calcul de l'impôt, Art. 20 LIPM",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/ge-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Profit tax rate (base rate)",
+      "from": null,
+      "to": null,
+      "rate": 0.0333,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal multiplier 2026 (profit tax)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "188.5% (plus intercommunal equalisation of 43.5% on 20% of the simple tax)",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Communal multiplier 2026: Genève (cantonal capital; other communes differ)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "45.49% on 80% of the simple tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Church tax on legal entities 2026: Genève",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "none",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Who levies it",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "The canton only (no communal property tax)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Property tax rate on all real estate in the canton",
+      "from": null,
+      "to": null,
+      "rate": 0.001,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Reduced rate: real estate of natural persons used as their main residence",
+      "from": null,
+      "to": null,
+      "rate": 0.0002,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Reduced rate: purely agricultural property of small owners, and unproductive land of general interest",
+      "from": null,
+      "to": null,
+      "rate": 0.0005,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Complementary tax, legal entities with a profit aim and purely real-estate companies",
+      "from": null,
+      "to": null,
+      "rate": 0.002,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Complementary tax, non-profit legal entities",
+      "from": null,
+      "to": null,
+      "rate": 0.0015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "ESTV, legislation as of 1 January 2022",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV/SSK Dossier Steuerinformationen: Handänderungssteuer (Stand der Gesetzgebung: 1. Januar 2022, November 2022)",
+      "source_url": "https://www.estv2.admin.ch/stp/ds/d-handaenderungssteuer-de.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "under_review",
+      "label": "Registration duty on transfers of real estate: normal rate",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Geneva)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV/SSK Dossier Steuerinformationen: Handänderungssteuer (Stand der Gesetzgebung: 1. Januar 2022, November 2022)",
+      "source_url": "https://www.estv2.admin.ch/stp/ds/d-handaenderungssteuer-de.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "under_review",
+      "label": "Main residence relief",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "A fixed reduction of the duty for a buyer's main residence up to a value cap, indexed each year by regulation (2022 figures in the ESTV source: first CHF 18,877 not levied for homes up to CHF 1,258,454); the 2026 amounts were not read",
+      "unit": "text"
     }
   ],
   "pageUrl": "https://calcbloc.com/switzerland/tax-tables/2026/geneva",

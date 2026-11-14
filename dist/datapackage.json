@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "name": "calcbloc-tax-tables",
   "title": "CalcBloc Tax Tables: 2026 income tax and social security data for 41 countries",
-  "description": "Income tax brackets, allowances and social security contribution rates for 41 countries (246 tables, 12450 rows), from official government sources. Every row carries its source URL, retrieval date and review status. Rates are decimal fractions (0.2 = 20%).",
+  "description": "Income tax brackets, allowances and social security contribution rates for 41 countries (246 tables, 13330 rows), from official government sources. Every row carries its source URL, retrieval date and review status. Rates are decimal fractions (0.2 = 20%).",
   "version": "2026.11.14",
   "created": "2026-11-14",
   "homepage": "https://calcbloc.com/data",

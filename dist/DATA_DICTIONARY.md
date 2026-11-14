@@ -1,6 +1,6 @@
 # Data dictionary: CalcBloc Tax Tables
 
-Version 2026.11.14 · 41 countries · 246 tables · 12,450 rows · CC BY 4.0 · Data by CalcBloc (calcbloc.com/data)
+Version 2026.11.14 · 41 countries · 246 tables · 13,330 rows · CC BY 4.0 · Data by CalcBloc (calcbloc.com/data)
 
 This file describes the columns of every CSV and JSON file in `dist/`. It is generated from the same column list as `datapackage.json`.
 

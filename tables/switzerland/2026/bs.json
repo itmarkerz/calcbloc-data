@@ -154,6 +154,131 @@
       },
       "verified": true,
       "note": "Total income tax = simple tax × (cantonal + communal + church multiplier); church tax only for members. The communal and church figures are those of the cantonal capital, Basel; other communes in Basel-Stadt set their own multipliers. Multiples as listed by the ESTV (1.19 = 119%)."
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Corporate profit tax 2026 (Basel-Stadt)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Profit tax rate on the first CHF 50 million of taxable profit (from tax period 2026)",
+          "value": 0.065,
+          "unit": "rate"
+        },
+        {
+          "label": "Profit tax rate on taxable profit above CHF 50 million (from tax period 2026)",
+          "value": 0.085,
+          "unit": "rate"
+        },
+        {
+          "label": "Cantonal multiplier 2026 (profit tax)",
+          "value": "no multiple",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Communal multiplier 2026: Basel (cantonal capital; other communes differ)",
+          "value": "no communal tax on legal entities",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        },
+        {
+          "label": "Church tax on legal entities 2026: Basel",
+          "value": "none",
+          "unit": "text",
+          "source": {
+            "title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+            "url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+            "retrievedAt": "2026-11-14"
+          }
+        }
+      ],
+      "source": {
+        "title": "ESTV Kantonsblatt Basel-Stadt (Stand Februar 2026), Juristische Personen: Steuerberechnung, §§ 76 and 242c StG",
+        "url": "https://www.estv2.admin.ch/stp/kb/bs-de.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax."
+    },
+    {
+      "id": "property-tax",
+      "title": "Property tax: Liegenschaftssteuer (Basel-Stadt)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Who levies it",
+          "value": "The canton, on real estate of legal entities (Grundstücksteuer)",
+          "unit": "text"
+        },
+        {
+          "label": "Rate (share of the taxable property value)",
+          "value": 0.002,
+          "unit": "rate"
+        },
+        {
+          "label": "Credit",
+          "value": "Credited against the profit and capital taxes of the same tax period, so it works as a minimum tax",
+          "unit": "text"
+        },
+        {
+          "label": "Exempt",
+          "value": "Among others, property mainly used for the owner's own business",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+        "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+        "retrievedAt": "2026-11-14",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%)."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Property transfer tax: Handänderungssteuer (Basel-Stadt)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax rate",
+          "value": 0.03,
+          "unit": "rate"
+        },
+        {
+          "label": "Reduced rate for owner-occupied homes (acquisition of a home occupied for at least 6 years, or reinvestment in a replacement home in the canton)",
+          "value": 0.015,
+          "unit": "rate"
+        },
+        {
+          "label": "Who pays",
+          "value": "The acquirer, unless the law says otherwise",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Basel-Stadt Gesetz über die Handänderungssteuer (SG 650.100), Stand 1. Juli 2014",
+        "url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/650.100",
+        "retrievedAt": "2026-11-14",
+        "effectiveFrom": "2014-07-01",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain."
     }
   ],
   "sources": [
@@ -165,10 +290,23 @@
       "effectiveTo": "2026-12-31"
     },
     {
-      "title": "ESTV Kantonsblatt Basel-Stadt (Stand: Februar 2026), Einkommenssteuer: Steuerberechnung, § 36 StG and Anhang 1 StG",
+      "title": "ESTV Kantonsblatt Basel-Stadt (Stand Februar 2026), Juristische Personen: Steuerberechnung, §§ 76 and 242c StG",
       "url": "https://www.estv2.admin.ch/stp/kb/bs-de.pdf",
-      "retrievedAt": "2026-11-09",
-      "effectiveFrom": "2025-01-01",
+      "retrievedAt": "2026-11-14",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": "2026-12-31"
+    },
+    {
+      "title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrievedAt": "2026-11-14",
+      "effectiveTo": null
+    },
+    {
+      "title": "Basel-Stadt Gesetz über die Handänderungssteuer (SG 650.100), Stand 1. Juli 2014",
+      "url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/650.100",
+      "retrievedAt": "2026-11-14",
+      "effectiveFrom": "2014-07-01",
       "effectiveTo": null
     }
   ],
@@ -456,6 +594,246 @@
       "to": null,
       "rate": null,
       "value": "8% of the cantonal tax two years earlier (ESTV note 5)",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV Kantonsblatt Basel-Stadt (Stand Februar 2026), Juristische Personen: Steuerberechnung, §§ 76 and 242c StG",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/bs-de.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Profit tax rate on the first CHF 50 million of taxable profit (from tax period 2026)",
+      "from": null,
+      "to": null,
+      "rate": 0.065,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV Kantonsblatt Basel-Stadt (Stand Februar 2026), Juristische Personen: Steuerberechnung, §§ 76 and 242c StG",
+      "source_url": "https://www.estv2.admin.ch/stp/kb/bs-de.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Profit tax rate on taxable profit above CHF 50 million (from tax period 2026)",
+      "from": null,
+      "to": null,
+      "rate": 0.085,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Cantonal multiplier 2026 (profit tax)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "no multiple",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Communal multiplier 2026: Basel (cantonal capital; other communes differ)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "no communal tax on legal entities",
+      "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Corporate profit tax 2026 (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "The federal profit tax of 8.5% comes on top (national page). Simple rates are multiplied by the cantonal and communal multipliers where a canton uses them; each canton may raise the rate for companies in international groups where a foreign state requires a minimum tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "ESTV: Steuerfüsse der Kantonshauptorte 1995 - 2026 der juristischen Personen (XLSX, sheet JP 2026)",
+      "source_url": "https://www.estv.admin.ch/dam/de/sd-web/4oSgyA16UbBY/steuerfuesse-jp-1995-2026.xlsx",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Church tax on legal entities 2026: Basel",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "none",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Who levies it",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "The canton, on real estate of legal entities (Grundstücksteuer)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Rate (share of the taxable property value)",
+      "from": null,
+      "to": null,
+      "rate": 0.002,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Credit",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Credited against the profit and capital taxes of the same tax period, so it works as a minimum tax",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax: Liegenschaftssteuer (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "An annual tax on the gross value of real estate (no debt deduction), separate from the wealth tax. Rates in per mille are shown as percentages (1.5 per mille = 0.15%).",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "ESTV Steuermäppchen Liegenschaftssteuer: Besteuerung der Liegenschaften (tax period 2025, document dated 26.11.2025)",
+      "source_url": "https://www.estv2.admin.ch/stp/sm/liegenschaftssteuern-de-fr.pdf",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Exempt",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Among others, property mainly used for the owner's own business",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2014-07-01",
+      "effective_to": null,
+      "source_title": "Basel-Stadt Gesetz über die Handänderungssteuer (SG 650.100), Stand 1. Juli 2014",
+      "source_url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/650.100",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Transfer tax rate",
+      "from": null,
+      "to": null,
+      "rate": 0.03,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2014-07-01",
+      "effective_to": null,
+      "source_title": "Basel-Stadt Gesetz über die Handänderungssteuer (SG 650.100), Stand 1. Juli 2014",
+      "source_url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/650.100",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Reduced rate for owner-occupied homes (acquisition of a home occupied for at least 6 years, or reinvestment in a replacement home in the canton)",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Property transfer tax: Handänderungssteuer (Basel-Stadt)",
+      "group": "other",
+      "basis": "",
+      "note": "A tax on the transfer of ownership of real estate, separate from the property gains tax (Grundstückgewinnsteuer) on the seller's gain.",
+      "tax_year": "2026",
+      "effective_from": "2014-07-01",
+      "effective_to": null,
+      "source_title": "Basel-Stadt Gesetz über die Handänderungssteuer (SG 650.100), Stand 1. Juli 2014",
+      "source_url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/650.100",
+      "retrieved_at": "2026-11-14",
+      "status": "verified",
+      "label": "Who pays",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "The acquirer, unless the law says otherwise",
       "unit": "text"
     }
   ],
