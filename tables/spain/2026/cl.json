@@ -77,6 +77,41 @@
       },
       "verified": true,
       "note": "Re-checked against the community's law by 2027-04."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Castilla y León: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate (base up to €250,000)",
+          "value": 0.08,
+          "unit": "rate"
+        },
+        {
+          "label": "Part of the base above €250,000",
+          "value": 0.1,
+          "unit": "rate"
+        },
+        {
+          "label": "Main home: large families, disability of 65% or more, buyers under 36, protected housing",
+          "value": 0.04,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.015,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 1/2013, de 12 de septiembre, texto refundido de las disposiciones legales de la Comunidad de Castilla y León en materia de tributos propios y cedidos, artículos 24 y 25 (BOE, texto consolidado, última actualización publicada el 14/05/2024)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOCL-h-2013-90254",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -101,10 +136,9 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Decreto Legislativo 1/2013, de 12 de septiembre, texto refundido de tributos propios y cedidos de Castilla y León (texto consolidado, última actualización publicada el 14/05/2024), art. 1 bis 'Mínimo personal y familiar' (added by Ley 10/2014, in force 01/01/2015)",
+      "title": "Decreto Legislativo 1/2013, de 12 de septiembre, texto refundido de las disposiciones legales de la Comunidad de Castilla y León en materia de tributos propios y cedidos, artículos 24 y 25 (BOE, texto consolidado, última actualización publicada el 14/05/2024)",
       "url": "https://www.boe.es/buscar/act.php?id=BOCL-h-2013-90254",
-      "retrievedAt": "2026-11-09",
-      "effectiveFrom": "2015-01-01",
+      "retrievedAt": "2026-11-13",
       "effectiveTo": null
     }
   ],
@@ -233,6 +267,86 @@
       "rate": null,
       "value": "The state amounts apply",
       "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Castilla y León: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2013, de 12 de septiembre, texto refundido de las disposiciones legales de la Comunidad de Castilla y León en materia de tributos propios y cedidos, artículos 24 y 25 (BOE, texto consolidado, última actualización publicada el 14/05/2024)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCL-h-2013-90254",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate (base up to €250,000)",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Castilla y León: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2013, de 12 de septiembre, texto refundido de las disposiciones legales de la Comunidad de Castilla y León en materia de tributos propios y cedidos, artículos 24 y 25 (BOE, texto consolidado, última actualización publicada el 14/05/2024)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCL-h-2013-90254",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Part of the base above €250,000",
+      "from": null,
+      "to": null,
+      "rate": 0.1,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Castilla y León: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2013, de 12 de septiembre, texto refundido de las disposiciones legales de la Comunidad de Castilla y León en materia de tributos propios y cedidos, artículos 24 y 25 (BOE, texto consolidado, última actualización publicada el 14/05/2024)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCL-h-2013-90254",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main home: large families, disability of 65% or more, buyers under 36, protected housing",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Castilla y León: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2013, de 12 de septiembre, texto refundido de las disposiciones legales de la Comunidad de Castilla y León en materia de tributos propios y cedidos, artículos 24 y 25 (BOE, texto consolidado, última actualización publicada el 14/05/2024)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCL-h-2013-90254",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/castilla-y-leon",

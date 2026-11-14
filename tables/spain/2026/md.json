@@ -109,6 +109,42 @@
         "retrievedAt": "2026-10-20"
       },
       "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Madrid: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.06,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.0075,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on deeds of homes bought by individuals, value up to €120,000",
+          "value": 0.004,
+          "unit": "rate"
+        },
+        {
+          "label": "Same, value €120,000 to €180,000",
+          "value": 0.005,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 1/2010, de 21 de octubre, texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, artículos 28, 32 y 36 (BOE, texto consolidado, última actualización publicada el 10/07/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOCM-m-2010-90068",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2014-01-01",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -133,9 +169,11 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Decreto Legislativo 1/2010 (Madrid), arts. 1 and 2–2 quater, as amended by Ley 13/2023",
+      "title": "Decreto Legislativo 1/2010, de 21 de octubre, texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, artículos 28, 32 y 36 (BOE, texto consolidado, última actualización publicada el 10/07/2026)",
       "url": "https://www.boe.es/buscar/act.php?id=BOCM-m-2010-90068",
-      "retrievedAt": "2026-10-20"
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2014-01-01",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -403,6 +441,86 @@
       "rate": null,
       "value": 3005.16,
       "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Madrid: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2010, de 21 de octubre, texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, artículos 28, 32 y 36 (BOE, texto consolidado, última actualización publicada el 10/07/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCM-m-2010-90068",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Madrid: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2010, de 21 de octubre, texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, artículos 28, 32 y 36 (BOE, texto consolidado, última actualización publicada el 10/07/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCM-m-2010-90068",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0075,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Madrid: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2010, de 21 de octubre, texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, artículos 28, 32 y 36 (BOE, texto consolidado, última actualización publicada el 10/07/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCM-m-2010-90068",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on deeds of homes bought by individuals, value up to €120,000",
+      "from": null,
+      "to": null,
+      "rate": 0.004,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Madrid: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2010, de 21 de octubre, texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, artículos 28, 32 y 36 (BOE, texto consolidado, última actualización publicada el 10/07/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCM-m-2010-90068",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Same, value €120,000 to €180,000",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/madrid",

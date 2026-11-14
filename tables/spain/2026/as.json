@@ -124,6 +124,41 @@
         "retrievedAt": "2026-10-25"
       },
       "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Asturias: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property worth up to €300,000 (rate on the whole base)",
+          "value": 0.08,
+          "unit": "rate"
+        },
+        {
+          "label": "Transfer tax on property worth €300,000.01 to €500,000",
+          "value": 0.09,
+          "unit": "rate"
+        },
+        {
+          "label": "Transfer tax on property worth more than €500,000",
+          "value": 0.1,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.012,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 2/2014, de 22 de octubre, texto refundido de las disposiciones legales del Principado de Asturias en materia de tributos cedidos por el Estado, artículos 26 y 34 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-945",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -148,9 +183,10 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Decreto Legislativo 2/2014 (Asturias), art. 2 (scale) and arts. 2 bis–2 quinquies (minimums), as amended by Ley 3/2025",
+      "title": "Decreto Legislativo 2/2014, de 22 de octubre, texto refundido de las disposiciones legales del Principado de Asturias en materia de tributos cedidos por el Estado, artículos 26 y 34 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-945",
-      "retrievedAt": "2026-10-25"
+      "retrievedAt": "2026-11-13",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -478,6 +514,86 @@
       "rate": null,
       "value": 3080,
       "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Asturias: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 2/2014, de 22 de octubre, texto refundido de las disposiciones legales del Principado de Asturias en materia de tributos cedidos por el Estado, artículos 26 y 34 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-945",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property worth up to €300,000 (rate on the whole base)",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Asturias: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 2/2014, de 22 de octubre, texto refundido de las disposiciones legales del Principado de Asturias en materia de tributos cedidos por el Estado, artículos 26 y 34 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-945",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property worth €300,000.01 to €500,000",
+      "from": null,
+      "to": null,
+      "rate": 0.09,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Asturias: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 2/2014, de 22 de octubre, texto refundido de las disposiciones legales del Principado de Asturias en materia de tributos cedidos por el Estado, artículos 26 y 34 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-945",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property worth more than €500,000",
+      "from": null,
+      "to": null,
+      "rate": 0.1,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Asturias: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 2/2014, de 22 de octubre, texto refundido de las disposiciones legales del Principado de Asturias en materia de tributos cedidos por el Estado, artículos 26 y 34 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-945",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.012,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/asturias",

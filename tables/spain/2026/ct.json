@@ -92,6 +92,79 @@
       },
       "verified": true,
       "note": "Re-checked against the community's law by 2027-04."
+    },
+    {
+      "id": "property-transfer-scale",
+      "title": "Cataluña: property transfer tax scale",
+      "group": "other",
+      "kind": "bands",
+      "rows": [
+        {
+          "from": 0,
+          "to": 600000,
+          "rate": 0.1
+        },
+        {
+          "from": 600000,
+          "to": 900000,
+          "rate": 0.11
+        },
+        {
+          "from": 900000,
+          "to": 1500000,
+          "rate": 0.12
+        },
+        {
+          "from": 1500000,
+          "to": null,
+          "rate": 0.13
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (tributos cedidos), artículos 641-1 y 642-1 (BOE, texto consolidado, última actualización publicada el 22/05/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2025-06-27",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base"
+    },
+    {
+      "id": "property-transfer",
+      "title": "Cataluña: other transfer rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Officially protected housing",
+          "value": 0.07,
+          "unit": "rate"
+        },
+        {
+          "label": "Homes bought by a large holder (gran tenedor)",
+          "value": 0.2,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.015,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on deeds waiving the VAT exemption",
+          "value": 0.035,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 1/2024 (Catalunya), artículos 641-1, 641-2 to 641-5 bis and 642-1 (BOE, texto consolidado)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2025-06-27",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -116,10 +189,10 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (texto consolidado, última actualización publicada el 22/05/2026), art. 611-2",
+      "title": "Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (tributos cedidos), artículos 641-1 y 642-1 (BOE, texto consolidado, última actualización publicada el 22/05/2026)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
-      "retrievedAt": "2026-11-09",
-      "effectiveFrom": "2026-01-01",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2025-06-27",
       "effectiveTo": null
     }
   ],
@@ -308,6 +381,166 @@
       "rate": null,
       "value": "The state amounts apply",
       "unit": "text"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Cataluña: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (tributos cedidos), artículos 641-1 y 642-1 (BOE, texto consolidado, última actualización publicada el 22/05/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 0,
+      "to": 600000,
+      "rate": 0.1,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Cataluña: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (tributos cedidos), artículos 641-1 y 642-1 (BOE, texto consolidado, última actualización publicada el 22/05/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 600000,
+      "to": 900000,
+      "rate": 0.11,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Cataluña: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (tributos cedidos), artículos 641-1 y 642-1 (BOE, texto consolidado, última actualización publicada el 22/05/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 900000,
+      "to": 1500000,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Cataluña: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (tributos cedidos), artículos 641-1 y 642-1 (BOE, texto consolidado, última actualización publicada el 22/05/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 1500000,
+      "to": null,
+      "rate": 0.13,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cataluña: other transfer rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024 (Catalunya), artículos 641-1, 641-2 to 641-5 bis and 642-1 (BOE, texto consolidado)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Officially protected housing",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cataluña: other transfer rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024 (Catalunya), artículos 641-1, 641-2 to 641-5 bis and 642-1 (BOE, texto consolidado)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homes bought by a large holder (gran tenedor)",
+      "from": null,
+      "to": null,
+      "rate": 0.2,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cataluña: other transfer rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024 (Catalunya), artículos 641-1, 641-2 to 641-5 bis and 642-1 (BOE, texto consolidado)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cataluña: other transfer rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2025-06-27",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2024 (Catalunya), artículos 641-1, 641-2 to 641-5 bis and 642-1 (BOE, texto consolidado)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on deeds waiving the VAT exemption",
+      "from": null,
+      "to": null,
+      "rate": 0.035,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/cataluna",

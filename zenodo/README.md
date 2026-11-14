@@ -5,13 +5,13 @@
 The Zenodo GitHub integration reads [`.zenodo.json`](../.zenodo.json) when a GitHub release is published; its `description` is the HTML version of the text below. Use this file to review the wording, or paste it if the record is created by hand.
 
 **Title:** CalcBloc Tax Tables: 2026 income tax and social security data for 41 countries
-**Upload type:** Dataset · **Licence:** Creative Commons Attribution 4.0 International · **Version:** 2026.11.13 · **Creator:** itmarkerz technologies
+**Upload type:** Dataset · **Licence:** Creative Commons Attribution 4.0 International · **Version:** 2026.11.14 · **Creator:** itmarkerz technologies
 
 ## Description
 
 Free, machine-readable income tax tables and social security contribution rates for 41 countries, compiled by CalcBloc (calcbloc.com) from official government sources. Each table covers one country and tax year (the 2026 and 2026-27 tax years) and lists the tax brackets, personal allowances and credits, employee and employer social security contributions with their ceilings, and other payroll figures. Regional tables cover states, provinces, cantons and other regions that set their own rates.
 
-This version contains 246 tables (42 national, 204 regional) with 11,570 rows drawn from 1,407 official sources; the latest figure was verified on 2026-11-13. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.
+This version contains 246 tables (42 national, 204 regional) with 12,450 rows drawn from 1,560 official sources; the latest figure was verified on 2026-11-14. Every row states its official source URL, the date it was retrieved and a review status (verified, under_review or not_applicable). Rates are decimal fractions (0.2 = 20%); money is in the country's currency.
 
 Countries: Australia, Austria, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, India, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Arab Emirates, United Kingdom and United States. Pending (not included until complete): Belgium.
 
@@ -75,4 +75,4 @@ income tax, tax brackets, tax tables, tax rates, social security contributions, 
 
 ## How to cite
 
-itmarkerz technologies (2026). CalcBloc Tax Tables: 2026 income tax and social security data for 41 countries (Version 2026.11.13) [Data set]. https://doi.org/10.5281/zenodo.24153625
+itmarkerz technologies (2026). CalcBloc Tax Tables: 2026 income tax and social security data for 41 countries (Version 2026.11.14) [Data set]. https://doi.org/10.5281/zenodo.24153625

@@ -20,4 +20,4 @@ tax-tables income-tax tax-brackets tax-rates social-security payroll payroll-tax
 
 **Social preview image:** a 1280×640 card with "CalcBloc Tax Tables — 41 countries, 2026" (Settings → General → Social preview).
 
-**Releases:** tag `v2026.11.13` (CalVer from the export date in `tables/manifest.json`); release title "CalcBloc Tax Tables 2026.11.13"; body: countries, tables and rows from the README "At a glance" line. Each release is archived by Zenodo once the integration is on.
+**Releases:** tag `v2026.11.14` (CalVer from the export date in `tables/manifest.json`); release title "CalcBloc Tax Tables 2026.11.14"; body: countries, tables and rows from the README "At a glance" line. Each release is archived by Zenodo once the integration is on.

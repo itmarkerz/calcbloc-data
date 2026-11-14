@@ -274,6 +274,72 @@
         "effectiveTo": null
       },
       "verified": false
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Navarra: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate tax: general rate",
+          "value": 0.28,
+          "unit": "rate"
+        },
+        {
+          "label": "General rate for companies meeting the employment and equality conditions",
+          "value": 0.25,
+          "unit": "rate"
+        },
+        {
+          "label": "Small companies (turnover under €20 million)",
+          "value": 0.23,
+          "unit": "rate"
+        },
+        {
+          "label": "Microenterprises (turnover up to €1 million)",
+          "value": 0.19,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Ley Foral 26/2016, de 28 de diciembre, del Impuesto sobre Sociedades (Navarra), artículos 12 y 51 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-2356",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": null
+      },
+      "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Navarra: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.06,
+          "unit": "rate"
+        },
+        {
+          "label": "Main home of families with two or more children (on up to €180,304 of the base)",
+          "value": 0.05,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD)",
+          "value": 0.005,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Foral Legislativo 129/1999, de 26 de abril, texto refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Navarra), artículos 8 y 22 (BOE, texto consolidado, última actualización publicada el 20/04/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BON-n-1999-90001",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -307,6 +373,19 @@
       "url": "https://www.boe.es/buscar/act.php?id=BON-n-2008-90013",
       "retrievedAt": "2026-11-09",
       "effectiveFrom": "2026-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Ley Foral 26/2016, de 28 de diciembre, del Impuesto sobre Sociedades (Navarra), artículos 12 y 51 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-2356",
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null
+    },
+    {
+      "title": "Decreto Foral Legislativo 129/1999, de 26 de abril, texto refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Navarra), artículos 8 y 22 (BOE, texto consolidado, última actualización publicada el 20/04/2026)",
+      "url": "https://www.boe.es/buscar/act.php?id=BON-n-1999-90001",
+      "retrievedAt": "2026-11-13",
       "effectiveTo": null
     }
   ],
@@ -1015,6 +1094,146 @@
       "rate": null,
       "value": "Reglamento del IRPF de Navarra (Decreto Foral 174/1999, de 24 de mayo), art. 71.Uno 'Tabla de porcentajes de retención con carácter general', as worded by Decreto Foral 148/2025, de 23 de diciembre, artículo único apartado Veinte (BON nº 260, extraordinario, 31/12/2025; https://bon.navarra.es/es/anuncio/-/texto/2025/260/4), effective 2026-01-01",
       "unit": "text"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Navarra: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley Foral 26/2016, de 28 de diciembre, del Impuesto sobre Sociedades (Navarra), artículos 12 y 51 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-2356",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate tax: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.28,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Navarra: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley Foral 26/2016, de 28 de diciembre, del Impuesto sobre Sociedades (Navarra), artículos 12 y 51 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-2356",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "General rate for companies meeting the employment and equality conditions",
+      "from": null,
+      "to": null,
+      "rate": 0.25,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Navarra: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley Foral 26/2016, de 28 de diciembre, del Impuesto sobre Sociedades (Navarra), artículos 12 y 51 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-2356",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Small companies (turnover under €20 million)",
+      "from": null,
+      "to": null,
+      "rate": 0.23,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Navarra: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley Foral 26/2016, de 28 de diciembre, del Impuesto sobre Sociedades (Navarra), artículos 12 y 51 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-2356",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Microenterprises (turnover up to €1 million)",
+      "from": null,
+      "to": null,
+      "rate": 0.19,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Navarra: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Foral Legislativo 129/1999, de 26 de abril, texto refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Navarra), artículos 8 y 22 (BOE, texto consolidado, última actualización publicada el 20/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BON-n-1999-90001",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Navarra: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Foral Legislativo 129/1999, de 26 de abril, texto refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Navarra), artículos 8 y 22 (BOE, texto consolidado, última actualización publicada el 20/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BON-n-1999-90001",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main home of families with two or more children (on up to €180,304 of the base)",
+      "from": null,
+      "to": null,
+      "rate": 0.05,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Navarra: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Foral Legislativo 129/1999, de 26 de abril, texto refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Navarra), artículos 8 y 22 (BOE, texto consolidado, última actualización publicada el 20/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BON-n-1999-90001",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD)",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/navarra",

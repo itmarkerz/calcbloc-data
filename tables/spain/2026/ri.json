@@ -92,6 +92,36 @@
       },
       "verified": true,
       "note": "Re-checked against the community's law by 2027-04."
+    },
+    {
+      "id": "property-transfer",
+      "title": "La Rioja: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.07,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.01,
+          "unit": "rate"
+        },
+        {
+          "label": "Reduced rates for main homes",
+          "value": "Set in article 45 of Ley 10/2017 (not stored)",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "Ley 10/2017, de 27 de octubre, por la que se consolidan las disposiciones legales de la Comunidad Autónoma de La Rioja en materia de impuestos propios y tributos cedidos, artículos 44 y 48 (BOE, texto consolidado, última actualización publicada el 29/10/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-13750",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -116,10 +146,9 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Ley 10/2017, de 27 de octubre, disposiciones legales de La Rioja en materia de impuestos propios y tributos cedidos (texto consolidado, última actualización publicada el 29/10/2026), art. 31 bis (added by Ley 2/2018, from 01/01/2018) and art. 31 ter (added by Ley 9/2025, in force 01/01/2026)",
+      "title": "Ley 10/2017, de 27 de octubre, por la que se consolidan las disposiciones legales de la Comunidad Autónoma de La Rioja en materia de impuestos propios y tributos cedidos, artículos 44 y 48 (BOE, texto consolidado, última actualización publicada el 29/10/2026)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-13750",
-      "retrievedAt": "2026-11-09",
-      "effectiveFrom": "2018-01-01",
+      "retrievedAt": "2026-11-13",
       "effectiveTo": null
     }
   ],
@@ -307,6 +336,66 @@
       "to": null,
       "rate": null,
       "value": "Own amounts (see source)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "La Rioja: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley 10/2017, de 27 de octubre, por la que se consolidan las disposiciones legales de la Comunidad Autónoma de La Rioja en materia de impuestos propios y tributos cedidos, artículos 44 y 48 (BOE, texto consolidado, última actualización publicada el 29/10/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-13750",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "La Rioja: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley 10/2017, de 27 de octubre, por la que se consolidan las disposiciones legales de la Comunidad Autónoma de La Rioja en materia de impuestos propios y tributos cedidos, artículos 44 y 48 (BOE, texto consolidado, última actualización publicada el 29/10/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-13750",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "La Rioja: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley 10/2017, de 27 de octubre, por la que se consolidan las disposiciones legales de la Comunidad Autónoma de La Rioja en materia de impuestos propios y tributos cedidos, artículos 44 y 48 (BOE, texto consolidado, última actualización publicada el 29/10/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-13750",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Reduced rates for main homes",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Set in article 45 of Ley 10/2017 (not stored)",
       "unit": "text"
     }
   ],

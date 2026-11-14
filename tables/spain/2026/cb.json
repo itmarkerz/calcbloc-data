@@ -82,6 +82,47 @@
       },
       "verified": true,
       "note": "Re-checked against the community's law by 2027-04."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Cantabria: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.09,
+          "unit": "rate"
+        },
+        {
+          "label": "Main home: value up to €300,000",
+          "value": 0.07,
+          "unit": "rate",
+          "note": "the part above €300,000 at 9%"
+        },
+        {
+          "label": "Main home of large or single-parent families and other listed groups",
+          "value": 0.04,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.015,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on deeds for the purchase of a main home",
+          "value": 0.01,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de la Ley de Medidas Fiscales en materia de Tributos cedidos por el Estado (Cantabria), artículos 9 y 13 (BOE, texto consolidado, última actualización publicada el 30/04/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOCT-c-2008-90028",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -106,10 +147,9 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de tributos cedidos de Cantabria (texto consolidado, última actualización publicada el 30/04/2026; includes Ley 5/2026, de 28 de abril)",
+      "title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de la Ley de Medidas Fiscales en materia de Tributos cedidos por el Estado (Cantabria), artículos 9 y 13 (BOE, texto consolidado, última actualización publicada el 30/04/2026)",
       "url": "https://www.boe.es/buscar/act.php?id=BOCT-c-2008-90028",
-      "retrievedAt": "2026-11-09",
-      "effectiveFrom": "2026-01-01",
+      "retrievedAt": "2026-11-13",
       "effectiveTo": null
     }
   ],
@@ -258,6 +298,106 @@
       "rate": null,
       "value": "The state amounts apply",
       "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cantabria: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de la Ley de Medidas Fiscales en materia de Tributos cedidos por el Estado (Cantabria), artículos 9 y 13 (BOE, texto consolidado, última actualización publicada el 30/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCT-c-2008-90028",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.09,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cantabria: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "the part above €300,000 at 9%",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de la Ley de Medidas Fiscales en materia de Tributos cedidos por el Estado (Cantabria), artículos 9 y 13 (BOE, texto consolidado, última actualización publicada el 30/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCT-c-2008-90028",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main home: value up to €300,000",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cantabria: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de la Ley de Medidas Fiscales en materia de Tributos cedidos por el Estado (Cantabria), artículos 9 y 13 (BOE, texto consolidado, última actualización publicada el 30/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCT-c-2008-90028",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main home of large or single-parent families and other listed groups",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cantabria: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de la Ley de Medidas Fiscales en materia de Tributos cedidos por el Estado (Cantabria), artículos 9 y 13 (BOE, texto consolidado, última actualización publicada el 30/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCT-c-2008-90028",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Cantabria: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 62/2008, de 19 de junio, texto refundido de la Ley de Medidas Fiscales en materia de Tributos cedidos por el Estado (Cantabria), artículos 9 y 13 (BOE, texto consolidado, última actualización publicada el 30/04/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOCT-c-2008-90028",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on deeds for the purchase of a main home",
+      "from": null,
+      "to": null,
+      "rate": 0.01,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/cantabria",

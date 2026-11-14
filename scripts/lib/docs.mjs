@@ -326,7 +326,7 @@ ${colTable(ROW_COLUMNS)}
 
 ### How rates are expressed
 
-All rates are decimal fractions: \`0.2\` = 20%, \`0.0765\` = 7.65%, \`0.00125\` = 0.125%. Multiply by 100 for a percentage. Almost every rate is between 0 and 1. The exceptions are rows that state a multiple of another amount, and their labels name that amount: Liechtenstein's municipal surcharges (\`1.5\` = 150% of the national income tax) and Ukraine's higher social benefit (\`1.5\` times the basic benefit). Rates are never written as percentages, per-mille values or text, except inside a \`text\` row that describes a rule in words.
+All rates are decimal fractions: \`0.2\` = 20%, \`0.0765\` = 7.65%, \`0.00125\` = 0.125%. Multiply by 100 for a percentage. Almost every rate is between 0 and 1. The exceptions are rows that state a multiple of another amount, and their labels name that amount: Liechtenstein's municipal surcharges (\`1.5\` = 150% of the national income tax), Ukraine's higher social benefit (\`1.5\` times the basic benefit) and German municipal multipliers (Hebesatz, \`2.8\` = 280% of the base amount). Rates are never written as percentages, per-mille values or text, except inside a \`text\` row that describes a rule in words.
 
 ### Units
 

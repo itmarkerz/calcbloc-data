@@ -109,6 +109,42 @@
         "retrievedAt": "2026-10-20"
       },
       "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Andalucía: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.07,
+          "unit": "rate"
+        },
+        {
+          "label": "Main home worth up to €150,000",
+          "value": 0.06,
+          "unit": "rate"
+        },
+        {
+          "label": "Main home worth up to €150,000, buyer under 35",
+          "value": 0.035,
+          "unit": "rate",
+          "note": "also for buyers with a disability or large families, homes worth up to €250,000"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.012,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Ley 5/2021, de 20 de octubre, de Tributos Cedidos de la Comunidad Autónoma de Andalucía, artículos 41, 43 y 49 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17915",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -133,9 +169,10 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Ley 5/2021 (Andalucía), arts. 23 and 23 bis, as amended by Decreto-ley 7/2022",
+      "title": "Ley 5/2021, de 20 de octubre, de Tributos Cedidos de la Comunidad Autónoma de Andalucía, artículos 41, 43 y 49 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17915",
-      "retrievedAt": "2026-10-20"
+      "retrievedAt": "2026-11-13",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -403,6 +440,86 @@
       "rate": null,
       "value": 2920,
       "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Andalucía: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley 5/2021, de 20 de octubre, de Tributos Cedidos de la Comunidad Autónoma de Andalucía, artículos 41, 43 y 49 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17915",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Andalucía: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley 5/2021, de 20 de octubre, de Tributos Cedidos de la Comunidad Autónoma de Andalucía, artículos 41, 43 y 49 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17915",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main home worth up to €150,000",
+      "from": null,
+      "to": null,
+      "rate": 0.06,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Andalucía: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "also for buyers with a disability or large families, homes worth up to €250,000",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley 5/2021, de 20 de octubre, de Tributos Cedidos de la Comunidad Autónoma de Andalucía, artículos 41, 43 y 49 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17915",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main home worth up to €150,000, buyer under 35",
+      "from": null,
+      "to": null,
+      "rate": 0.035,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Andalucía: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Ley 5/2021, de 20 de octubre, de Tributos Cedidos de la Comunidad Autónoma de Andalucía, artículos 41, 43 y 49 (BOE, texto consolidado, última actualización publicada el 31/12/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17915",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.012,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/andalucia",

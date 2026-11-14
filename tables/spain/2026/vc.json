@@ -139,6 +139,47 @@
         "retrievedAt": "2026-10-20"
       },
       "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Comunitat Valenciana: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate (from 1 June 2026)",
+          "value": 0.09,
+          "unit": "rate"
+        },
+        {
+          "label": "Property worth more than €1 million",
+          "value": 0.11,
+          "unit": "rate"
+        },
+        {
+          "label": "Protected housing and first main homes of buyers under 35 (value above €180,000)",
+          "value": 0.08,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate (from 1 June 2026)",
+          "value": 0.014,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on deeds of main-home purchases",
+          "value": 0.001,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Ley 13/1997, de 23 de diciembre, por la que se regula el tramo autonómico del IRPF y restantes tributos cedidos (Comunitat Valenciana), artículos 13 y 14 (BOE, texto consolidado, última actualización publicada el 10/08/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -163,9 +204,11 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Ley 13/1997 (Comunitat Valenciana), art. 2 as amended by art. 18 of Ley 5/2026 (BOE-A-2026-19331), and art. 2 bis",
+      "title": "Ley 13/1997, de 23 de diciembre, por la que se regula el tramo autonómico del IRPF y restantes tributos cedidos (Comunitat Valenciana), artículos 13 y 14 (BOE, texto consolidado, última actualización publicada el 10/08/2026)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
-      "retrievedAt": "2026-10-20"
+      "retrievedAt": "2026-11-13",
+      "effectiveFrom": "2026-06-01",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -553,6 +596,106 @@
       "rate": null,
       "value": 3080,
       "unit": "money"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Comunitat Valenciana: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-06-01",
+      "effective_to": null,
+      "source_title": "Ley 13/1997, de 23 de diciembre, por la que se regula el tramo autonómico del IRPF y restantes tributos cedidos (Comunitat Valenciana), artículos 13 y 14 (BOE, texto consolidado, última actualización publicada el 10/08/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate (from 1 June 2026)",
+      "from": null,
+      "to": null,
+      "rate": 0.09,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Comunitat Valenciana: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-06-01",
+      "effective_to": null,
+      "source_title": "Ley 13/1997, de 23 de diciembre, por la que se regula el tramo autonómico del IRPF y restantes tributos cedidos (Comunitat Valenciana), artículos 13 y 14 (BOE, texto consolidado, última actualización publicada el 10/08/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Property worth more than €1 million",
+      "from": null,
+      "to": null,
+      "rate": 0.11,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Comunitat Valenciana: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-06-01",
+      "effective_to": null,
+      "source_title": "Ley 13/1997, de 23 de diciembre, por la que se regula el tramo autonómico del IRPF y restantes tributos cedidos (Comunitat Valenciana), artículos 13 y 14 (BOE, texto consolidado, última actualización publicada el 10/08/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Protected housing and first main homes of buyers under 35 (value above €180,000)",
+      "from": null,
+      "to": null,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Comunitat Valenciana: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-06-01",
+      "effective_to": null,
+      "source_title": "Ley 13/1997, de 23 de diciembre, por la que se regula el tramo autonómico del IRPF y restantes tributos cedidos (Comunitat Valenciana), artículos 13 y 14 (BOE, texto consolidado, última actualización publicada el 10/08/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate (from 1 June 2026)",
+      "from": null,
+      "to": null,
+      "rate": 0.014,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Comunitat Valenciana: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-06-01",
+      "effective_to": null,
+      "source_title": "Ley 13/1997, de 23 de diciembre, por la que se regula el tramo autonómico del IRPF y restantes tributos cedidos (Comunitat Valenciana), artículos 13 y 14 (BOE, texto consolidado, última actualización publicada el 10/08/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on deeds of main-home purchases",
+      "from": null,
+      "to": null,
+      "rate": 0.001,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/comunitat-valenciana",

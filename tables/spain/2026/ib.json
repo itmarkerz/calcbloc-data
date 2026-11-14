@@ -129,6 +129,77 @@
         "retrievedAt": "2026-10-25"
       },
       "verified": true
+    },
+    {
+      "id": "property-transfer-scale",
+      "title": "Illes Balears: property transfer tax scale",
+      "group": "other",
+      "kind": "bands",
+      "rows": [
+        {
+          "from": 0,
+          "to": 400000,
+          "rate": 0.08
+        },
+        {
+          "from": 400000,
+          "to": 600000,
+          "rate": 0.09
+        },
+        {
+          "from": 600000,
+          "to": 1000000,
+          "rate": 0.1
+        },
+        {
+          "from": 1000000,
+          "to": 2000000,
+          "rate": 0.12
+        },
+        {
+          "from": 2000000,
+          "to": null,
+          "rate": 0.13
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 1/2014, de 6 de junio, texto refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado, artículos 10 y 15 (BOE, texto consolidado, última actualización publicada el 13/06/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base"
+    },
+    {
+      "id": "property-transfer",
+      "title": "Illes Balears: main-home rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Main home worth up to €270,151.20 (buyer owns no other home)",
+          "value": 0.04,
+          "unit": "rate"
+        },
+        {
+          "label": "Same, buyer under 36 buying a first home (or other listed cases)",
+          "value": 0.02,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.015,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 1/2014 (Illes Balears), artículos 10.c, 10.d y 15 (BOE, texto consolidado)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -153,9 +224,10 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Decreto Legislativo 1/2014 (Illes Balears), art. 1 (scale) and art. 2 (minimums), as amended by Ley 12/2023 and Ley 11/2023",
+      "title": "Decreto Legislativo 1/2014, de 6 de junio, texto refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado, artículos 10 y 15 (BOE, texto consolidado, última actualización publicada el 13/06/2026)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
-      "retrievedAt": "2026-10-25"
+      "retrievedAt": "2026-11-13",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -503,6 +575,166 @@
       "rate": null,
       "value": 2800,
       "unit": "money"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Illes Balears: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014, de 6 de junio, texto refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado, artículos 10 y 15 (BOE, texto consolidado, última actualización publicada el 13/06/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 0,
+      "to": 400000,
+      "rate": 0.08,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Illes Balears: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014, de 6 de junio, texto refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado, artículos 10 y 15 (BOE, texto consolidado, última actualización publicada el 13/06/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 400000,
+      "to": 600000,
+      "rate": 0.09,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Illes Balears: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014, de 6 de junio, texto refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado, artículos 10 y 15 (BOE, texto consolidado, última actualización publicada el 13/06/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 600000,
+      "to": 1000000,
+      "rate": 0.1,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Illes Balears: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014, de 6 de junio, texto refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado, artículos 10 y 15 (BOE, texto consolidado, última actualización publicada el 13/06/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 1000000,
+      "to": 2000000,
+      "rate": 0.12,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer-scale",
+      "section": "Illes Balears: property transfer tax scale",
+      "group": "other",
+      "basis": "Total value of the property; the scale gives an average rate that is applied to the taxable base",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014, de 6 de junio, texto refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado, artículos 10 y 15 (BOE, texto consolidado, última actualización publicada el 13/06/2026)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "",
+      "from": 2000000,
+      "to": null,
+      "rate": 0.13,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Illes Balears: main-home rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014 (Illes Balears), artículos 10.c, 10.d y 15 (BOE, texto consolidado)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Main home worth up to €270,151.20 (buyer owns no other home)",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Illes Balears: main-home rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014 (Illes Balears), artículos 10.c, 10.d y 15 (BOE, texto consolidado)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Same, buyer under 36 buying a first home (or other listed cases)",
+      "from": null,
+      "to": null,
+      "rate": 0.02,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Illes Balears: main-home rates and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2014 (Illes Balears), artículos 10.c, 10.d y 15 (BOE, texto consolidado)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-6925",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/illes-balears",

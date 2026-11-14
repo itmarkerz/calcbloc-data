@@ -406,6 +406,72 @@
         "retrievedAt": "2026-10-25"
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Álava: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate tax: general rate",
+          "value": 0.24,
+          "unit": "rate"
+        },
+        {
+          "label": "Micro and small companies (as defined in article 13)",
+          "value": 0.2,
+          "unit": "rate"
+        },
+        {
+          "label": "Credit institutions",
+          "value": 0.28,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Norma Foral 37/2013, de 13 de diciembre, del Impuesto sobre Sociedades (Álava), artículo 56 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 3/2026, de 21 de abril)",
+        "url": "https://web.araba.eus/documents/d/araba/norma-foral-del-impuesto-sobre-sociedades_cas-3-pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Álava: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.07,
+          "unit": "rate"
+        },
+        {
+          "label": "Homes (with up to two garage spaces and two annexes)",
+          "value": 0.04,
+          "unit": "rate",
+          "note": "6% if the buyer owns more than five homes"
+        },
+        {
+          "label": "Homes with a built area up to 120 m², or bought by large families",
+          "value": 0.025,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD)",
+          "value": 0.005,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Norma Foral 11/2003, de 31 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Álava), artículo 43 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 2/2026, de 14 de abril)",
+        "url": "https://web.araba.eus/documents/d/araba/indice_norma-foral-itp-ajd-cas-2-pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -433,6 +499,18 @@
       "title": "Norma Foral 6/2025, Presupuestos Generales de Gipuzkoa 2026 (BOG 31-12-2025)",
       "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/12/31/c2508886.pdf",
       "retrievedAt": "2026-10-25"
+    },
+    {
+      "title": "Norma Foral 37/2013, de 13 de diciembre, del Impuesto sobre Sociedades (Álava), artículo 56 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 3/2026, de 21 de abril)",
+      "url": "https://web.araba.eus/documents/d/araba/norma-foral-del-impuesto-sobre-sociedades_cas-3-pdf",
+      "retrievedAt": "2026-11-13",
+      "effectiveTo": null
+    },
+    {
+      "title": "Norma Foral 11/2003, de 31 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Álava), artículo 43 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 2/2026, de 14 de abril)",
+      "url": "https://web.araba.eus/documents/d/araba/indice_norma-foral-itp-ajd-cas-2-pdf",
+      "retrievedAt": "2026-11-13",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -1640,6 +1718,146 @@
       "rate": null,
       "value": 2,
       "unit": "number"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Álava: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 37/2013, de 13 de diciembre, del Impuesto sobre Sociedades (Álava), artículo 56 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 3/2026, de 21 de abril)",
+      "source_url": "https://web.araba.eus/documents/d/araba/norma-foral-del-impuesto-sobre-sociedades_cas-3-pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate tax: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.24,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Álava: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 37/2013, de 13 de diciembre, del Impuesto sobre Sociedades (Álava), artículo 56 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 3/2026, de 21 de abril)",
+      "source_url": "https://web.araba.eus/documents/d/araba/norma-foral-del-impuesto-sobre-sociedades_cas-3-pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Micro and small companies (as defined in article 13)",
+      "from": null,
+      "to": null,
+      "rate": 0.2,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Álava: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 37/2013, de 13 de diciembre, del Impuesto sobre Sociedades (Álava), artículo 56 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 3/2026, de 21 de abril)",
+      "source_url": "https://web.araba.eus/documents/d/araba/norma-foral-del-impuesto-sobre-sociedades_cas-3-pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Credit institutions",
+      "from": null,
+      "to": null,
+      "rate": 0.28,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Álava: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 11/2003, de 31 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Álava), artículo 43 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 2/2026, de 14 de abril)",
+      "source_url": "https://web.araba.eus/documents/d/araba/indice_norma-foral-itp-ajd-cas-2-pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Álava: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "6% if the buyer owns more than five homes",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 11/2003, de 31 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Álava), artículo 43 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 2/2026, de 14 de abril)",
+      "source_url": "https://web.araba.eus/documents/d/araba/indice_norma-foral-itp-ajd-cas-2-pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homes (with up to two garage spaces and two annexes)",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Álava: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 11/2003, de 31 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Álava), artículo 43 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 2/2026, de 14 de abril)",
+      "source_url": "https://web.araba.eus/documents/d/araba/indice_norma-foral-itp-ajd-cas-2-pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homes with a built area up to 120 m², or bought by large families",
+      "from": null,
+      "to": null,
+      "rate": 0.025,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Álava: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 11/2003, de 31 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Álava), artículo 43 (texto actualizado por la Diputación Foral de Álava; últimas modificaciones citadas: Decreto Normativo de Urgencia Fiscal 2/2026, de 14 de abril)",
+      "source_url": "https://web.araba.eus/documents/d/araba/indice_norma-foral-itp-ajd-cas-2-pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD)",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/alava",

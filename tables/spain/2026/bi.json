@@ -401,6 +401,67 @@
         "retrievedAt": "2026-10-25"
       },
       "verified": true
+    },
+    {
+      "id": "corporate-tax",
+      "title": "Bizkaia: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Corporate tax: general rate",
+          "value": 0.24,
+          "unit": "rate"
+        },
+        {
+          "label": "Micro and small companies (assets or turnover up to €10 million, under 50 employees)",
+          "value": 0.2,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Norma Foral 11/2013, de 5 de diciembre, del Impuesto sobre Sociedades (Bizkaia), artículos 13 y 56 (texto actualizado a 01/01/2026, Diputación Foral de Bizkaia)",
+        "url": "https://www.bizkaia.eus/documents/880307/15187815/ca_11_2013.pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
+    },
+    {
+      "id": "property-transfer",
+      "title": "Bizkaia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.07,
+          "unit": "rate"
+        },
+        {
+          "label": "Homes (with up to two garage spaces and annexes)",
+          "value": 0.04,
+          "unit": "rate",
+          "note": "6% if the buyer owns more than five homes"
+        },
+        {
+          "label": "Homes with a built area up to 120 m², or bought by large families",
+          "value": 0.025,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD)",
+          "value": 0.005,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Norma Foral 1/2011, de 24 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Bizkaia), artículos 13 y 44 (última modificación normativa 20/04/2026, Diputación Foral de Bizkaia)",
+        "url": "https://www.bizkaia.eus/documents/880307/15187815/ca_1_2011.pdf",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -428,6 +489,18 @@
       "title": "Norma Foral 6/2025, Presupuestos Generales de Gipuzkoa 2026 (BOG 31-12-2025)",
       "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/12/31/c2508886.pdf",
       "retrievedAt": "2026-10-25"
+    },
+    {
+      "title": "Norma Foral 11/2013, de 5 de diciembre, del Impuesto sobre Sociedades (Bizkaia), artículos 13 y 56 (texto actualizado a 01/01/2026, Diputación Foral de Bizkaia)",
+      "url": "https://www.bizkaia.eus/documents/880307/15187815/ca_11_2013.pdf",
+      "retrievedAt": "2026-11-13",
+      "effectiveTo": null
+    },
+    {
+      "title": "Norma Foral 1/2011, de 24 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Bizkaia), artículos 13 y 44 (última modificación normativa 20/04/2026, Diputación Foral de Bizkaia)",
+      "url": "https://www.bizkaia.eus/documents/880307/15187815/ca_1_2011.pdf",
+      "retrievedAt": "2026-11-13",
+      "effectiveTo": null
     }
   ],
   "requested_year": "2026",
@@ -1615,6 +1688,126 @@
       "rate": null,
       "value": 2,
       "unit": "number"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Bizkaia: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 11/2013, de 5 de diciembre, del Impuesto sobre Sociedades (Bizkaia), artículos 13 y 56 (texto actualizado a 01/01/2026, Diputación Foral de Bizkaia)",
+      "source_url": "https://www.bizkaia.eus/documents/880307/15187815/ca_11_2013.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Corporate tax: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.24,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "corporate-tax",
+      "section": "Bizkaia: foral corporate tax (Impuesto sobre Sociedades)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 11/2013, de 5 de diciembre, del Impuesto sobre Sociedades (Bizkaia), artículos 13 y 56 (texto actualizado a 01/01/2026, Diputación Foral de Bizkaia)",
+      "source_url": "https://www.bizkaia.eus/documents/880307/15187815/ca_11_2013.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Micro and small companies (assets or turnover up to €10 million, under 50 employees)",
+      "from": null,
+      "to": null,
+      "rate": 0.2,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Bizkaia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 1/2011, de 24 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Bizkaia), artículos 13 y 44 (última modificación normativa 20/04/2026, Diputación Foral de Bizkaia)",
+      "source_url": "https://www.bizkaia.eus/documents/880307/15187815/ca_1_2011.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.07,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Bizkaia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "6% if the buyer owns more than five homes",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 1/2011, de 24 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Bizkaia), artículos 13 y 44 (última modificación normativa 20/04/2026, Diputación Foral de Bizkaia)",
+      "source_url": "https://www.bizkaia.eus/documents/880307/15187815/ca_1_2011.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homes (with up to two garage spaces and annexes)",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Bizkaia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 1/2011, de 24 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Bizkaia), artículos 13 y 44 (última modificación normativa 20/04/2026, Diputación Foral de Bizkaia)",
+      "source_url": "https://www.bizkaia.eus/documents/880307/15187815/ca_1_2011.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Homes with a built area up to 120 m², or bought by large families",
+      "from": null,
+      "to": null,
+      "rate": 0.025,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Bizkaia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Norma Foral 1/2011, de 24 de marzo, del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados (Bizkaia), artículos 13 y 44 (última modificación normativa 20/04/2026, Diputación Foral de Bizkaia)",
+      "source_url": "https://www.bizkaia.eus/documents/880307/15187815/ca_1_2011.pdf",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD)",
+      "from": null,
+      "to": null,
+      "rate": 0.005,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/bizkaia",

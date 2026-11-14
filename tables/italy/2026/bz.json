@@ -111,6 +111,94 @@
       },
       "verified": true,
       "note": "Each comune sets its own municipal surcharge (addizionale comunale); other comuni in the region may differ."
+    },
+    {
+      "id": "irap",
+      "title": "IRAP rate 2026 (Autonomous Province of Bolzano)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "IRAP rate under code 001",
+          "value": 0.039,
+          "unit": "rate",
+          "note": "Standard rate (aliquota ordinaria)"
+        },
+        {
+          "label": "Code 001 as listed by MEF (aliquota)",
+          "value": "Aliquota ordinaria",
+          "unit": "text"
+        },
+        {
+          "label": "National standard rate, for comparison",
+          "value": 0.039,
+          "unit": "rate",
+          "note": "regions may raise it by up to 0.92 percentage points or cut it, down to zero; health-deficit plans can add more",
+          "source": {
+            "title": "MEF Dipartimento delle Finanze: IRAP, Disciplina del tributo (aliquote 2026); D.Lgs. 446/1997 art. 16; L. 199/2025 art. 1(74); D.L. 21/2026 art. 3",
+            "url": "https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/IRAP/disciplina-del-tributo/",
+            "retrievedAt": "2026-11-13",
+            "effectiveFrom": "2026-01-01",
+            "effectiveTo": "2026-12-31"
+          }
+        },
+        {
+          "label": "Rate codes listed by MEF for 2026 (sectors, reliefs and surcharges)",
+          "value": 15,
+          "unit": "number"
+        },
+        {
+          "label": "MEF publication used",
+          "value": "No. 2501 of 12 October 2026",
+          "unit": "text"
+        }
+      ],
+      "source": {
+        "title": "MEF Dipartimento delle Finanze: IRAP, aliquote applicabili 2026, Autonomous Province of Bolzano (publication 2501 of 12.10.2026)",
+        "url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/aliquoteirap/dettaglio_irap.php?id=2501&reg=03&anno=2026",
+        "retrievedAt": "2026-11-13",
+        "effectiveFrom": "2026-01-01",
+        "effectiveTo": "2026-12-31"
+      },
+      "verified": true,
+      "note": "IRAP is the regional tax on the net value of production of companies, partnerships and public bodies. Many businesses pay a different code (banks, insurers, energy, reliefs); the MEF page lists them all."
+    },
+    {
+      "id": "property-tax",
+      "title": "Property tax (Autonomous Province of Bolzano)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Local property tax",
+          "value": "Imposta municipale immobiliare (IMI), instead of IMU",
+          "unit": "text"
+        },
+        {
+          "label": "Legal basis",
+          "value": "Legge provinciale 23 aprile 2014, n. 3; L. 160/2019 art. 1(739)",
+          "unit": "text"
+        },
+        {
+          "label": "Rates",
+          "value": "Each comune's rate resolutions are published by the MEF Department of Finance (search by comune; rates not stored here)",
+          "unit": "text",
+          "source": {
+            "title": "MEF Dipartimento delle Finanze: IMU, Regolamenti e aliquote: ricerca",
+            "url": "https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/Regolamenti-e-aliquote-ricerca/",
+            "retrievedAt": "2026-11-13",
+            "effectiveTo": null
+          }
+        }
+      ],
+      "source": {
+        "title": "Normattiva: Legge 27 dicembre 2019, n. 160, art. 1, comma 739 (text in force on 14 November 2026)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160!vig=2026-11-14",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true,
+      "note": "The national IMU rules on the national page do not apply here; the provincial or regional law sets the tax."
     }
   ],
   "sources": [
@@ -123,6 +211,16 @@
       "title": "MEF Dipartimento delle Finanze: Addizionale comunale all'IRPEF, ricerca per singolo comune",
       "url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/nuova_addcomirpef/sceltaregione.htm",
       "retrievedAt": "2026-11-09"
+    },
+    {
+      "title": "MEF Dipartimento delle Finanze: IRAP, aliquote applicabili 2026, Autonomous Province of Bolzano (publication 2501 of 12.10.2026)",
+      "url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/aliquoteirap/dettaglio_irap.php?id=2501&reg=03&anno=2026",
+      "retrievedAt": "2026-11-13"
+    },
+    {
+      "title": "Normattiva: Legge 27 dicembre 2019, n. 160, art. 1, comma 739 (text in force on 14 November 2026)",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160!vig=2026-11-14",
+      "retrievedAt": "2026-11-13"
     },
     {
       "title": "MEF Dipartimento delle Finanze: Addizionale regionale all'IRPEF, aliquote applicabili 2026, PROVINCIA AUTONOMA DI BOLZANO (published 2026-01-29)",
@@ -323,6 +421,166 @@
       "to": null,
       "rate": null,
       "value": "Resolution 100 of 27-10-2016, published 20-12-2025 (non applica)",
+      "unit": "text"
+    },
+    {
+      "section_id": "irap",
+      "section": "IRAP rate 2026 (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "Standard rate (aliquota ordinaria)",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "MEF Dipartimento delle Finanze: IRAP, aliquote applicabili 2026, Autonomous Province of Bolzano (publication 2501 of 12.10.2026)",
+      "source_url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/aliquoteirap/dettaglio_irap.php?id=2501&reg=03&anno=2026",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "IRAP rate under code 001",
+      "from": null,
+      "to": null,
+      "rate": 0.039,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "irap",
+      "section": "IRAP rate 2026 (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "IRAP is the regional tax on the net value of production of companies, partnerships and public bodies. Many businesses pay a different code (banks, insurers, energy, reliefs); the MEF page lists them all.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "MEF Dipartimento delle Finanze: IRAP, aliquote applicabili 2026, Autonomous Province of Bolzano (publication 2501 of 12.10.2026)",
+      "source_url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/aliquoteirap/dettaglio_irap.php?id=2501&reg=03&anno=2026",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Code 001 as listed by MEF (aliquota)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Aliquota ordinaria",
+      "unit": "text"
+    },
+    {
+      "section_id": "irap",
+      "section": "IRAP rate 2026 (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "regions may raise it by up to 0.92 percentage points or cut it, down to zero; health-deficit plans can add more",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "MEF Dipartimento delle Finanze: IRAP, Disciplina del tributo (aliquote 2026); D.Lgs. 446/1997 art. 16; L. 199/2025 art. 1(74); D.L. 21/2026 art. 3",
+      "source_url": "https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/IRAP/disciplina-del-tributo/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "National standard rate, for comparison",
+      "from": null,
+      "to": null,
+      "rate": 0.039,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "irap",
+      "section": "IRAP rate 2026 (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "IRAP is the regional tax on the net value of production of companies, partnerships and public bodies. Many businesses pay a different code (banks, insurers, energy, reliefs); the MEF page lists them all.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "MEF Dipartimento delle Finanze: IRAP, aliquote applicabili 2026, Autonomous Province of Bolzano (publication 2501 of 12.10.2026)",
+      "source_url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/aliquoteirap/dettaglio_irap.php?id=2501&reg=03&anno=2026",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rate codes listed by MEF for 2026 (sectors, reliefs and surcharges)",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": 15,
+      "unit": "number"
+    },
+    {
+      "section_id": "irap",
+      "section": "IRAP rate 2026 (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "IRAP is the regional tax on the net value of production of companies, partnerships and public bodies. Many businesses pay a different code (banks, insurers, energy, reliefs); the MEF page lists them all.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source_title": "MEF Dipartimento delle Finanze: IRAP, aliquote applicabili 2026, Autonomous Province of Bolzano (publication 2501 of 12.10.2026)",
+      "source_url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/aliquoteirap/dettaglio_irap.php?id=2501&reg=03&anno=2026",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "MEF publication used",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "No. 2501 of 12 October 2026",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "The national IMU rules on the national page do not apply here; the provincial or regional law sets the tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Normattiva: Legge 27 dicembre 2019, n. 160, art. 1, comma 739 (text in force on 14 November 2026)",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160!vig=2026-11-14",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Local property tax",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Imposta municipale immobiliare (IMI), instead of IMU",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "The national IMU rules on the national page do not apply here; the provincial or regional law sets the tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Normattiva: Legge 27 dicembre 2019, n. 160, art. 1, comma 739 (text in force on 14 November 2026)",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160!vig=2026-11-14",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Legal basis",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Legge provinciale 23 aprile 2014, n. 3; L. 160/2019 art. 1(739)",
+      "unit": "text"
+    },
+    {
+      "section_id": "property-tax",
+      "section": "Property tax (Autonomous Province of Bolzano)",
+      "group": "other",
+      "basis": "",
+      "note": "The national IMU rules on the national page do not apply here; the provincial or regional law sets the tax.",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "MEF Dipartimento delle Finanze: IMU, Regolamenti e aliquote: ricerca",
+      "source_url": "https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/Regolamenti-e-aliquote-ricerca/",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Rates",
+      "from": null,
+      "to": null,
+      "rate": null,
+      "value": "Each comune's rate resolutions are published by the MEF Department of Finance (search by comune; rates not stored here)",
       "unit": "text"
     }
   ],

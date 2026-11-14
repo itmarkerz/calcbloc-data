@@ -74,10 +74,10 @@ test("every row in tables/ has an official source_url, retrieved_at and a known 
       assert.match(r.effective_from, /^\d{4}-\d{2}-\d{2}$/, `${where}: effective_from`);
       assert.ok(["verified", "under_review", "not_applicable"].includes(r.status), `${where}: status ${r.status}`);
       assert.ok(["rate", "money", "number", "text"].includes(r.unit), `${where}: unit ${r.unit}`);
-      // A rate above 1 is allowed only for a multiple of another amount (a surcharge on a tax, a share of a benefit),
+      // A rate above 1 is allowed only for a multiple of another amount (a surcharge on a tax, a share of a benefit, a municipal multiplier such as the German Hebesatz),
       // so a percentage written by mistake (15 for 0.15) is still caught.
       if (r.rate !== null) {
-        const multiple = /surcharge|share of/i.test(r.label);
+        const multiple = /surcharge|share of|multiplier/i.test(r.label);
         assert.ok(r.rate >= 0 && r.rate <= (multiple ? 5 : 1), `${where}: rate ${r.rate} is not a decimal fraction`);
       }
       n++;

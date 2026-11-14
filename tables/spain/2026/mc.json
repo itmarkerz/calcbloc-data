@@ -77,6 +77,36 @@
       },
       "verified": true,
       "note": "Re-checked against the community's law by 2027-04."
+    },
+    {
+      "id": "property-transfer",
+      "title": "Región de Murcia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "kind": "values",
+      "rows": [
+        {
+          "label": "Transfer tax on property: general rate",
+          "value": 0.0775,
+          "unit": "rate"
+        },
+        {
+          "label": "Officially protected housing (special regime)",
+          "value": 0.04,
+          "unit": "rate"
+        },
+        {
+          "label": "Stamp duty on notarial deeds (AJD): general rate",
+          "value": 0.015,
+          "unit": "rate"
+        }
+      ],
+      "source": {
+        "title": "Decreto Legislativo 1/2010, de 5 de noviembre, texto refundido de las disposiciones legales vigentes en la Región de Murcia en materia de tributos cedidos, artículos 6 y 7 (BOE, texto consolidado, última actualización publicada el 24/07/2025)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-10542",
+        "retrievedAt": "2026-11-13",
+        "effectiveTo": null
+      },
+      "verified": true
     }
   ],
   "sources": [
@@ -101,10 +131,9 @@
       "retrievedAt": "2026-10-20"
     },
     {
-      "title": "Decreto Legislativo 1/2010, de 5 de noviembre, texto refundido de tributos cedidos de la Región de Murcia (texto consolidado, última actualización publicada el 24/07/2025; latest amendment Ley 3/2025 de Presupuestos 2025)",
+      "title": "Decreto Legislativo 1/2010, de 5 de noviembre, texto refundido de las disposiciones legales vigentes en la Región de Murcia en materia de tributos cedidos, artículos 6 y 7 (BOE, texto consolidado, última actualización publicada el 24/07/2025)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-10542",
-      "retrievedAt": "2026-11-09",
-      "effectiveFrom": "2026-01-01",
+      "retrievedAt": "2026-11-13",
       "effectiveTo": null
     }
   ],
@@ -233,6 +262,66 @@
       "rate": null,
       "value": "The state amounts apply",
       "unit": "text"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Región de Murcia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2010, de 5 de noviembre, texto refundido de las disposiciones legales vigentes en la Región de Murcia en materia de tributos cedidos, artículos 6 y 7 (BOE, texto consolidado, última actualización publicada el 24/07/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-10542",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Transfer tax on property: general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.0775,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Región de Murcia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2010, de 5 de noviembre, texto refundido de las disposiciones legales vigentes en la Región de Murcia en materia de tributos cedidos, artículos 6 y 7 (BOE, texto consolidado, última actualización publicada el 24/07/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-10542",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Officially protected housing (special regime)",
+      "from": null,
+      "to": null,
+      "rate": 0.04,
+      "value": null,
+      "unit": "rate"
+    },
+    {
+      "section_id": "property-transfer",
+      "section": "Región de Murcia: property transfer tax (ITP) and stamp duty on deeds (AJD)",
+      "group": "other",
+      "basis": "",
+      "note": "",
+      "tax_year": "2026",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source_title": "Decreto Legislativo 1/2010, de 5 de noviembre, texto refundido de las disposiciones legales vigentes en la Región de Murcia en materia de tributos cedidos, artículos 6 y 7 (BOE, texto consolidado, última actualización publicada el 24/07/2025)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-10542",
+      "retrieved_at": "2026-11-13",
+      "status": "verified",
+      "label": "Stamp duty on notarial deeds (AJD): general rate",
+      "from": null,
+      "to": null,
+      "rate": 0.015,
+      "value": null,
+      "unit": "rate"
     }
   ],
   "pageUrl": "https://calcbloc.com/spain/tax-tables/2026/murcia",
